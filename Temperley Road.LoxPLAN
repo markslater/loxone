@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ControlList Version="66" NextObj="-1" NextConst="1" NextNote="1" NextMem="1">
-	<Control V="63" UUID="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" Type="Document" PaperFormat="0" Font="Arial" AutoSave="0" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="23/02/2014 17:57:54" DateS="162410274" Town="SW12 8QH" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater"/>
+<ControlList Version="66" NextObj="2" NextConst="1" NextNote="1" NextMem="1">
+	<Control V="63" UUID="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" Type="Document" PaperFormat="0" Font="Arial" AutoSave="0" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="23/02/2014 19:08:40" DateS="162414520" Town="SW12 8QH" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater"/>
 	<Control V="63" UUID="c332d2d0-9cad-11e3-9b00fb030ef95e86" Title="Status symbols" Type="IconCaptionState"/>
 	<Control V="63" UUID="c34178d1-9cad-11e3-9b0afb030ef95e86" Title="Not assigned" Type="IconState" User="false" Ix="0"/>
 	<Control V="63" UUID="c3419fe0-9cad-11e3-9b0afb030ef95e86" Title="Fatal error" Type="IconState" User="false" Ix="1"/>
@@ -155,42 +155,25 @@
 	<Control V="63" UUID="c33a73f1-9cad-11e3-9b08fb030ef95e86" Title="Bathroom" Type="Place" Icon="84070000-d7a1-11e1-bd978d56cfab0bf4" First="false"/>
 	<Control V="63" UUID="c33a9b01-9cad-11e3-9b08fb030ef95e86" Title="Master Bedroom" Type="Place" Icon="84080000-d7a1-11e1-bd978d56cfab0bf4" First="false"/>
 	<Control V="63" UUID="c33ac211-9cad-11e3-9b08fb030ef95e86" Title="Nursery" Type="Place" Icon="84090000-d7a1-11e1-bd978d56cfab0bf4" First="false"/>
-	<Control V="63" UUID="c33b1030-9cad-11e3-9b08fb030ef95e86" Title="Toilet" Type="Place" Icon="840a0000-d7a1-11e1-bd978d56cfab0bf4" First="false"/>
-	<Control V="63" UUID="c33b3740-9cad-11e3-9b08fb030ef95e86" Title="Dressing room" Type="Place" Icon="840b0000-d7a1-11e1-bd978d56cfab0bf4" First="false"/>
-	<Control V="63" UUID="c33b3740-9cad-11e3-9b09fb030ef95e86" Title="Garage" Type="Place" Icon="840c0000-d7a1-11e1-bd978d56cfab0bf4" First="false"/>
 	<Control V="63" UUID="c33b5e51-9cad-11e3-9b09fb030ef95e86" Title="Porch" Type="Place" Icon="840d0000-d7a1-11e1-bd978d56cfab0bf4" First="false"/>
 	<Control V="63" UUID="c33b8561-9cad-11e3-9b09fb030ef95e86" Title="Stairs" Type="Place" Icon="840e0000-d7a1-11e1-bd978d56cfab0bf4" First="false"/>
-	<Control V="63" UUID="c33bd380-9cad-11e3-9b09fb030ef95e86" Title="Sauna" Type="Place" Icon="840f0000-d7a1-11e1-bd978d56cfab0bf4" First="false"/>
-	<Control V="63" UUID="c33bd380-9cad-11e3-9b0afb030ef95e86" Title="Conservatory" Type="Place" Icon="84100000-d7a1-11e1-bd978d56cfab0bf4" First="false"/>
-	<Control V="63" UUID="c33c21a0-9cad-11e3-9b0afb030ef95e86" Title="Study" Type="Place" Icon="84110000-d7a1-11e1-bd978d56cfab0bf4" First="false"/>
-	<Control V="63" UUID="c33c48b0-9cad-11e3-9b0afb030ef95e86" Title="Playroom" Type="Place" Icon="84120000-d7a1-11e1-bd978d56cfab0bf4" First="false"/>
-	<Control V="63" UUID="c33c6fc0-9cad-11e3-9b0afb030ef95e86" Title="Utility room" Type="Place" Icon="84130000-d7a1-11e1-bd978d56cfab0bf4" First="false"/>
-	<Control V="63" UUID="c33c96d0-9cad-11e3-9b0afb030ef95e86" Title="Ironing room" Type="Place" Icon="84140000-d7a1-11e1-bd978d56cfab0bf4" First="false"/>
-	<Control V="63" UUID="c33cbde0-9cad-11e3-9b0afb030ef95e86" Title="Gym" Type="Place" Icon="84150000-d7a1-11e1-bd978d56cfab0bf4" First="false"/>
 	<Control V="63" UUID="c33ce4f0-9cad-11e3-9b0afb030ef95e86" Title="Patio" Type="Place" Icon="84160000-d7a1-11e1-bd978d56cfab0bf4" First="false"/>
 	<Control V="63" UUID="c33d0c00-9cad-11e3-9b0afb030ef95e86" Title="Garden" Type="Place" Icon="84170000-d7a1-11e1-bd978d56cfab0bf4" First="false"/>
 	<Control V="63" UUID="c33d3310-9cad-11e3-9b0afb030ef95e86" Title="Dining room" Type="Place" Icon="84180000-d7a1-11e1-bd978d56cfab0bf4" First="false" Rating="5"/>
-	<Control V="63" UUID="c33d5a20-9cad-11e3-9b0afb030ef95e86" Title="Attic" Type="Place" Icon="84190000-d7a1-11e1-bd978d56cfab0bf4" First="false"/>
-	<Control V="63" UUID="c33d8130-9cad-11e3-9b0afb030ef95e86" Title="Storage cellar" Type="Place" Icon="841a0000-d7a1-11e1-bd978d56cfab0bf4" First="false"/>
-	<Control V="63" UUID="c33da840-9cad-11e3-9b0afb030ef95e86" Title="Bar" Type="Place" Icon="841b0000-d7a1-11e1-bd978d56cfab0bf4" First="false"/>
-	<Control V="63" UUID="c33eb9b1-9cad-11e3-9b0afb030ef95e86" Title="Washing area" Type="Place" Icon="84230000-d7a1-11e1-bd978d56cfab0bf4" First="false"/>
-	<Control V="63" UUID="c33f2ee0-9cad-11e3-9b0afb030ef95e86" Title="Conference room" Type="Place" Icon="84260000-d7a1-11e1-bd978d56cfab0bf4" First="false"/>
-	<Control V="63" UUID="c33ff230-9cad-11e3-9b0afb030ef95e86" Title="Pool" Type="Place" Icon="842b0000-d7a1-11e1-bd978d56cfab0bf4" First="false"/>
-	<Control V="63" UUID="c3404050-9cad-11e3-9b0afb030ef95e86" Title="Hall 2" Type="Place" Icon="842c0000-d7a1-11e1-bd978d56cfab0bf4" First="false"/>
 	<Control V="63" UUID="c3406760-9cad-11e3-9b0afb030ef95e86" Title="Outside" Type="Place" Icon="842d0000-d7a1-11e1-bd978d56cfab0bf4" First="false"/>
-	<Control V="63" UUID="c340b580-9cad-11e3-9b0afb030ef95e86" Title="Plant room" Type="Place" Icon="842e0000-d7a1-11e1-bd978d56cfab0bf4" First="false"/>
 	<Control V="63" UUID="c3412ab0-9cad-11e3-9b0afb030ef95e86" Title="Global" Type="Place" Icon="84310000-d7a1-11e1-bd978d56cfab0bf4" First="false"/>
-	<Control V="63" UUID="c34151c0-9cad-11e3-9b0afb030ef95e86" Title="Server room" Type="Place" Icon="84320000-d7a1-11e1-bd978d56cfab0bf4" First="false"/>
 	<Control V="63" UUID="c333bd30-9cad-11e3-9b02fb030ef95e86" Title="User" Type="UserCaption"/>
 	<Control V="63" UUID="c34410e0-9cad-11e3-9b27fb030ef95e86" Title="admin" Type="User" Pwd="C13266B3679E3A4C9930F9A30464D70C" Pwd2="" Main="true" VisuSort="false"/>
-	<Control V="63" UUID="c34410e1-9cad-11e3-9b27fb030ef95e86" Title="user" Type="User" Pwd="7CC59978F16D499F5B091942028F7D41" Pwd2="" VisuSort="false"/>
+	<Control V="63" UUID="d4f98f41-9cb7-11e3-b888fb030ef95e86" Title="Mark" Type="User" Pwd="6BDE8321B9DAA604337129A17521584E" Pwd2="" VisuSort="false"/>
+	<Control V="63" UUID="fa260231-9cb7-11e3-babffb030ef95e86" Title="Laura" Type="User" Pwd="6D982F86FB9BC0A294D914AC6FC27B83" Pwd2="" VisuSort="false"/>
 	<Control V="63" UUID="c333e440-9cad-11e3-9b02fb030ef95e86" Title="User groups" Type="UserGroupCaption"/>
 	<Control V="63" UUID="c34437f0-9cad-11e3-9b27fb030ef95e86" Title="Administrators" Type="UserGroup" Rights="-1" UgType="1" UserModes="0" N="0" Modes="93d98c54-fdd2-4259-a11b084bc87a14e6,1c1ee766-6e31-4ed1-b151dd1b21e4eeab,9b0c50ca-9810-4938-b47f8d9fe3305aa0,ec9bca78-f10c-4d1c-ab728086fa5f258c,80f6a462-94c5-46f1-abb4b782fb9bb0d5,e1f3f320-efb5-4359-9cbac5d878ded1f2,46001ffc-495b-4f6c-a0eb81e4761dba98"/>
+	<Control V="63" UUID="70190410-9cb8-11e3-bfadfb030ef95e86" Title="Mark" Type="RefUser" Color="0,0,0" Ref="d4f98f41-9cb7-11e3-b888fb030ef95e86"/>
 	<Control V="63" UUID="c34437f1-9cad-11e3-9b27fb030ef95e86" Title="admin" Type="RefUser" Color="0,0,0" Ref="c34410e0-9cad-11e3-9b27fb030ef95e86"/>
 	<Control V="63" UUID="c34437f0-9cad-11e3-9b28fb030ef95e86" Title="User" Type="UserGroup" Rights="1" UgType="0" UserModes="0" N="0" Modes="93d98c54-fdd2-4259-a11b084bc87a14e6,1c1ee766-6e31-4ed1-b151dd1b21e4eeab,9b0c50ca-9810-4938-b47f8d9fe3305aa0,ec9bca78-f10c-4d1c-ab728086fa5f258c,80f6a462-94c5-46f1-abb4b782fb9bb0d5,e1f3f320-efb5-4359-9cbac5d878ded1f2,46001ffc-495b-4f6c-a0eb81e4761dba98"/>
-	<Control V="63" UUID="c34437f1-9cad-11e3-9b28fb030ef95e86" Title="user" Type="RefUser" Color="0,0,0" Ref="c34410e1-9cad-11e3-9b27fb030ef95e86"/>
 	<Control V="63" UUID="c34437f0-9cad-11e3-9b29fb030ef95e86" Title="All" Type="UserGroup" Rights="1" UgType="2" UserModes="0" N="0" Modes="93d98c54-fdd2-4259-a11b084bc87a14e6,1c1ee766-6e31-4ed1-b151dd1b21e4eeab,9b0c50ca-9810-4938-b47f8d9fe3305aa0,ec9bca78-f10c-4d1c-ab728086fa5f258c,80f6a462-94c5-46f1-abb4b782fb9bb0d5,e1f3f320-efb5-4359-9cbac5d878ded1f2,46001ffc-495b-4f6c-a0eb81e4761dba98"/>
-	<Control V="63" UUID="c34437f0-9cad-11e3-9b2afb030ef95e86" Title="user" Type="RefUser" Color="0,0,0" Ref="c34410e1-9cad-11e3-9b27fb030ef95e86"/>
+	<Control V="63" UUID="fa260230-9cb7-11e3-bac0fb030ef95e86" Title="Laura" Type="RefUser" Color="0,0,0" Ref="fa260231-9cb7-11e3-babffb030ef95e86"/>
+	<Control V="63" UUID="d4f98f40-9cb7-11e3-b889fb030ef95e86" Title="Mark" Type="RefUser" Color="0,0,0" Ref="d4f98f41-9cb7-11e3-b888fb030ef95e86"/>
 	<Control V="63" UUID="c34437f1-9cad-11e3-9b29fb030ef95e86" Title="admin" Type="RefUser" Color="0,0,0" Ref="c34410e0-9cad-11e3-9b27fb030ef95e86"/>
 	<Control V="63" UUID="c34437f1-9cad-11e3-9b2afb030ef95e86" Title="Nobody" Type="UserGroup" Rights="0" UgType="3" UserModes="0" N="0" Modes="93d98c54-fdd2-4259-a11b084bc87a14e6,1c1ee766-6e31-4ed1-b151dd1b21e4eeab,9b0c50ca-9810-4938-b47f8d9fe3305aa0,ec9bca78-f10c-4d1c-ab728086fa5f258c,80f6a462-94c5-46f1-abb4b782fb9bb0d5,e1f3f320-efb5-4359-9cbac5d878ded1f2,46001ffc-495b-4f6c-a0eb81e4761dba98"/>
 	<Control V="63" UUID="c332f9e0-9cad-11e3-9b02fb030ef95e86" Title="Constants" Type="ConstantCaption"/>
@@ -352,15 +335,15 @@
 	<Control V="63" UUID="c3339620-9cad-11e3-9b02fb030ef95e86" Title="Remote controls" Type="RemoteControls"/>
 	<Control V="63" UUID="c346d001-9cad-11e3-9b8efb030ef95e86" Title="Loxone Miniserver" Type="LoxLIVE" CycleUserProt="-1.000" Serial="EEE000D80ECE" Installation="Utility Cupboard" SwitchBoard="Consumer Unit" SwitchBoardRow="1" SwitchBoardPos="1" ExtAddr="clouddns.loxone.com" IntAddr="" BaseID="-1" CompressStats="60" CompressArea="3"/>
 	<Control V="63" UUID="c347ba60-9cad-11e3-9b8efb030ef95e86" Title="Digital inputs" Type="InputCaption"/>
-	<Control V="63" UUID="c347e171-9cad-11e3-9b93fb030ef95e86" Title="Master Bedroom Top Switch" IName="I1" Type="DigitalIn" NotUsed="true" MinTime="10" NumIOs="1">
-		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+	<Control V="63" UUID="c347e171-9cad-11e3-9b93fb030ef95e86" Title="Master Bedroom Top Switch" IName="I1" Type="DigitalIn" MinTime="10" NumIOs="1">
+		<IoData CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a9b01-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="0" Unit="&lt;v.1&gt;V" StateOnly="false" Step="1.000"/>
 		<Connector V="62" Key="0C000037" UUID="c347e170-9cad-11e3-9b94fb030ef95e86"/>
 	</Control>
-	<Control V="63" UUID="c347e171-9cad-11e3-9b94fb030ef95e86" Title="Master Bedroom Bottom Switch" IName="I2" Type="DigitalIn" NotUsed="true" MinTime="10" NumIOs="1">
-		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+	<Control V="63" UUID="c347e171-9cad-11e3-9b94fb030ef95e86" Title="Master Bedroom Bottom Switch" IName="I2" Type="DigitalIn" MinTime="10" NumIOs="1">
+		<IoData CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a9b01-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="0" Unit="&lt;v.1&gt;V" StateOnly="false" Step="1.000"/>
@@ -442,12 +425,14 @@
 		<Connector V="62" Key="04041033" UUID="c347e170-9cad-11e3-9ba1fb030ef95e86"/>
 	</Control>
 	<Control V="63" UUID="c347ba60-9cad-11e3-9b8ffb030ef95e86" Title="Digital outputs" Type="OutputCaption"/>
-	<Control V="63" UUID="c347e171-9cad-11e3-9ba1fb030ef95e86" Title="UFH pump" IName="Q1" Type="Actor" NotUsed="true" NumIOs="1">
-		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+	<Control V="63" UUID="c347e171-9cad-11e3-9ba1fb030ef95e86" Title="UFH pump" IName="Q1" Type="Actor" NumIOs="1">
+		<IoData CatRef="c3348081-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a9b01-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="0" Unit="&lt;v.1&gt;V" StateOnly="false" Step="1.000"/>
-		<Connector V="62" Key="0800003F" UUID="c347e170-9cad-11e3-9ba2fb030ef95e86"/>
+		<Connector V="62" Key="0800003F" UUID="c347e170-9cad-11e3-9ba2fb030ef95e86" NumCons="1">
+			<In Input="00f62450-9cbd-11e3-8d30fb030ef95e86"/>
+		</Connector>
 	</Control>
 	<Control V="63" UUID="c347e171-9cad-11e3-9ba2fb030ef95e86" Title="UFH zone 1 actuator" IName="Q2" Type="Actor" NotUsed="true" NumIOs="1">
 		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
@@ -463,12 +448,14 @@
 		<Display V="21" Type="0" Unit="&lt;v.1&gt;V" StateOnly="false" Step="1.000"/>
 		<Connector V="62" Key="0800003F" UUID="c347e170-9cad-11e3-9ba4fb030ef95e86"/>
 	</Control>
-	<Control V="63" UUID="c347e171-9cad-11e3-9ba4fb030ef95e86" Title="UFH zone 3 actuator" IName="Q4" Type="Actor" NotUsed="true" NumIOs="1">
-		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+	<Control V="63" UUID="c347e171-9cad-11e3-9ba4fb030ef95e86" Title="UFH zone 3 actuator" IName="Q4" Type="Actor" NumIOs="1">
+		<IoData CatRef="c3348081-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a9b01-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="0" Unit="&lt;v.1&gt;V" StateOnly="false" Step="1.000"/>
-		<Connector V="62" Key="0800003F" UUID="c347e170-9cad-11e3-9ba5fb030ef95e86"/>
+		<Connector V="62" Key="0800003F" UUID="c347e170-9cad-11e3-9ba5fb030ef95e86" NumCons="1">
+			<In Input="4f5d8301-9cbc-11e3-8cb0fb030ef95e86"/>
+		</Connector>
 	</Control>
 	<Control V="63" UUID="c347e171-9cad-11e3-9ba5fb030ef95e86" Title="UFH zone 4 actuator" IName="Q5" Type="Actor" NotUsed="true" NumIOs="1">
 		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
@@ -693,6 +680,22 @@
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 	</Control>
+	<Control V="63" UUID="a98ed290-9cb5-11e3-b380fb030ef95e86" Title="Master Bedroom Top Switch" Type="InputRef" PositionX="2208" PositionY="7296" PositionX2="5088" PositionY2="5088" Color="200,200,236" NumIOs="4" Ref="c347e171-9cad-11e3-9b93fb030ef95e86">
+		<Connector V="62" Key="60000136" UUID="a98ef9a0-9cb5-11e3-b380fb030ef95e86" NumCons="1">
+			<In Input="c347e170-9cad-11e3-9b94fb030ef95e86"/>
+		</Connector>
+		<Connector V="62" Key="40000136" UUID="a98ef9a1-9cb5-11e3-b380fb030ef95e86"/>
+		<Connector V="62" Key="2C001136" UUID="a98ef9a0-9cb5-11e3-b381fb030ef95e86"/>
+		<Connector V="62" Key="04042136" UUID="a98ef9a1-9cb5-11e3-b381fb030ef95e86"/>
+	</Control>
+	<Control V="63" UUID="d68ec021-9cb5-11e3-b540fb030ef95e86" Title="Master Bedroom Bottom Switch" Type="InputRef" PositionX="2208" PositionY="6720" PositionX2="5280" PositionY2="5280" Color="200,200,236" NumIOs="4" Ref="c347e171-9cad-11e3-9b94fb030ef95e86">
+		<Connector V="62" Key="60000136" UUID="d68ec020-9cb5-11e3-b541fb030ef95e86" NumCons="1">
+			<In Input="c347e170-9cad-11e3-9b95fb030ef95e86"/>
+		</Connector>
+		<Connector V="62" Key="40000136" UUID="d68ec021-9cb5-11e3-b541fb030ef95e86"/>
+		<Connector V="62" Key="2C001136" UUID="d68ec020-9cb5-11e3-b542fb030ef95e86"/>
+		<Connector V="62" Key="04042136" UUID="d68ec021-9cb5-11e3-b542fb030ef95e86"/>
+	</Control>
 	<Control V="63" UUID="93236910-9cb2-11e3-b1adfb030ef95e86" Title="Lighting controller" Type="LightController" PositionX="8736" PositionY="4032" PositionX2="12768" PositionY2="12768" Color="200,216,179" NameAI0="" NameAI1="" NameAI2="" NameAI3="" NameAI4="" NameAI5="" NameAI6="" NameAI7="" NameAI8="" NameAI9="" NameAI10="" NameAI11="" NumIOs="56">
 		<IoData Visu="true" CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a9b01-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
@@ -719,10 +722,14 @@
 		<Connector V="62" Key="20249164" UUID="93236910-9cb2-11e3-b1b6fb030ef95e86"/>
 		<Connector V="62" Key="2028A164" UUID="93236911-9cb2-11e3-b1b6fb030ef95e86"/>
 		<Connector V="62" Key="202CB164" UUID="93236910-9cb2-11e3-b1b7fb030ef95e86"/>
-		<Connector V="62" Key="0030C164" UUID="93236911-9cb2-11e3-b1b7fb030ef95e86"/>
+		<Connector V="62" Key="0030C164" UUID="93236911-9cb2-11e3-b1b7fb030ef95e86" NumCons="1">
+			<In Input="d68ec020-9cb5-11e3-b542fb030ef95e86"/>
+		</Connector>
 		<Connector V="62" Key="0034D164" UUID="93236910-9cb2-11e3-b1b8fb030ef95e86"/>
 		<Connector V="62" Key="2038E164" UUID="93236911-9cb2-11e3-b1b8fb030ef95e86"/>
-		<Connector V="62" Key="003CF164" UUID="93236910-9cb2-11e3-b1b9fb030ef95e86"/>
+		<Connector V="62" Key="003CF164" UUID="93236910-9cb2-11e3-b1b9fb030ef95e86" NumCons="1">
+			<In Input="a98ef9a0-9cb5-11e3-b381fb030ef95e86"/>
+		</Connector>
 		<Connector V="62" Key="00410164" UUID="93236911-9cb2-11e3-b1b9fb030ef95e86"/>
 		<Connector V="62" Key="00451164" UUID="93236910-9cb2-11e3-b1bafb030ef95e86"/>
 		<Connector V="62" Key="00492164" UUID="93236911-9cb2-11e3-b1bafb030ef95e86"/>
@@ -763,5 +770,78 @@
 		<Connector V="62" Key="2C335164" UUID="93236910-9cb2-11e3-b1ccfb030ef95e86"/>
 		<Connector V="62" Key="04376164" UUID="93236911-9cb2-11e3-b1ccfb030ef95e86"/>
 		<Connector V="62" Key="043B7164" UUID="93236910-9cb2-11e3-b1cdfb030ef95e86"/>
+	</Control>
+	<Control V="63" UUID="8c48b410-9cb7-11e3-b660fb030ef95e86" Title="Master Bedroom Heating" Type="Page">
+		<IoData CatRef="c3348081-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a9b01-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+			<LoggerMailer V="20" MinimumTime="20"/>
+		</IoData>
+	</Control>
+	<Control V="63" UUID="49188d10-9cbb-11e3-8a76fb030ef95e86" Title="Intelligent room controller" Type="IRoomcontrol" PositionX="7584" PositionY="3744" PositionX2="11040" PositionY2="11040" Color="233,243,220" OverrideHeat="false" OverrideCool="false" Month="10" Day="1" Month2="4" Day2="30" MonthC="5" DayC="1" Month2C="9" Day2C="30" UUIDheat="49188d11-9cbb-11e3-8a76fb030ef95e86" UUIDcool="49188d10-9cbb-11e3-8a77fb030ef95e86" UUIDheatmode="49188d11-9cbb-11e3-8a77fb030ef95e86" UUIDcoolmode="49188d10-9cbb-11e3-8a78fb030ef95e86" UUIDheatIx="49188d11-9cbb-11e3-8a78fb030ef95e86" UUIDcoolIx="49188d10-9cbb-11e3-8a79fb030ef95e86" NumIOs="36">
+		<TimerHeat UserModes="3" DefValue="0.000" N="3" Modes="c343e9d1-9cad-11e3-9b1efb030ef95e86,c343e9d0-9cad-11e3-9b20fb030ef95e86,c34410e0-9cad-11e3-9b21fb030ef95e86,93d98c54-fdd2-4259-a11b084bc87a14e6,1c1ee766-6e31-4ed1-b151dd1b21e4eeab,9b0c50ca-9810-4938-b47f8d9fe3305aa0,ec9bca78-f10c-4d1c-ab728086fa5f258c,80f6a462-94c5-46f1-abb4b782fb9bb0d5,e1f3f320-efb5-4359-9cbac5d878ded1f2,46001ffc-495b-4f6c-a0eb81e4761dba98">
+			<Entry From="0" To="1440" Ix="0" V="4.000"/>
+			<Entry From="0" To="1440" Ix="1" V="3.000"/>
+			<Entry From="0" To="1440" Ix="2" V="2.000"/>
+		</TimerHeat>
+		<TimerCool UserModes="3" DefValue="0.000" N="3" Modes="c343e9d1-9cad-11e3-9b1efb030ef95e86,c343e9d0-9cad-11e3-9b20fb030ef95e86,c34410e0-9cad-11e3-9b21fb030ef95e86,93d98c54-fdd2-4259-a11b084bc87a14e6,1c1ee766-6e31-4ed1-b151dd1b21e4eeab,9b0c50ca-9810-4938-b47f8d9fe3305aa0,ec9bca78-f10c-4d1c-ab728086fa5f258c,80f6a462-94c5-46f1-abb4b782fb9bb0d5,e1f3f320-efb5-4359-9cbac5d878ded1f2,46001ffc-495b-4f6c-a0eb81e4761dba98">
+			<Entry From="0" To="1440" Ix="0" V="4.000"/>
+			<Entry From="0" To="1440" Ix="1" V="3.000"/>
+			<Entry From="0" To="1440" Ix="2" V="2.000"/>
+		</TimerCool>
+		<IoData Visu="true" CatRef="c3348081-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a9b01-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+			<LoggerMailer V="20" MinimumTime="20"/>
+		</IoData>
+		<Connector V="62" Key="200001C3" UUID="49188d11-9cbb-11e3-8a79fb030ef95e86"/>
+		<Connector V="62" Key="200411C3" UUID="49188d10-9cbb-11e3-8a7afb030ef95e86"/>
+		<Connector V="62" Key="200821C3" UUID="49188d11-9cbb-11e3-8a7afb030ef95e86"/>
+		<Connector V="62" Key="200C31C3" UUID="49188d10-9cbb-11e3-8a7bfb030ef95e86"/>
+		<Connector V="62" Key="001041C3" UUID="49188d11-9cbb-11e3-8a7bfb030ef95e86"/>
+		<Connector V="62" Key="001451C3" UUID="49188d10-9cbb-11e3-8a7cfb030ef95e86"/>
+		<Connector V="62" Key="001861C3" UUID="49188d11-9cbb-11e3-8a7cfb030ef95e86"/>
+		<Connector V="62" Key="001C71C3" UUID="49188d10-9cbb-11e3-8a7dfb030ef95e86"/>
+		<Connector V="62" Key="002081C3" UUID="49188d11-9cbb-11e3-8a7dfb030ef95e86"/>
+		<Connector V="62" Key="320091C3" UUID="49188d10-9cbb-11e3-8a7efb030ef95e86" Def="3.000"/>
+		<Connector V="62" Key="3204A1C3" UUID="49188d11-9cbb-11e3-8a7efb030ef95e86" Def="21.000"/>
+		<Connector V="62" Key="3208B1C3" UUID="49188d10-9cbb-11e3-8a7ffb030ef95e86" Def="20.000"/>
+		<Connector V="62" Key="320CC1C3" UUID="49188d11-9cbb-11e3-8a7ffb030ef95e86" Def="5.000"/>
+		<Connector V="62" Key="3210D1C3" UUID="49188d10-9cbb-11e3-8a80fb030ef95e86" Def="3.000"/>
+		<Connector V="62" Key="3214E1C3" UUID="49188d11-9cbb-11e3-8a80fb030ef95e86" Def="5.000"/>
+		<Connector V="62" Key="3218F1C3" UUID="49188d10-9cbb-11e3-8a81fb030ef95e86" Def="28.000"/>
+		<Connector V="62" Key="331D01C3" UUID="49188d11-9cbb-11e3-8a81fb030ef95e86" Def="1209600.000"/>
+		<Connector V="62" Key="332111C3" UUID="49188d10-9cbb-11e3-8a82fb030ef95e86" Def="1209600.000"/>
+		<Connector V="62" Key="332521C3" UUID="49188d11-9cbb-11e3-8a82fb030ef95e86" Def="3600.000"/>
+		<Connector V="62" Key="332931C3" UUID="49188d10-9cbb-11e3-8a83fb030ef95e86" Def="3600.000"/>
+		<Connector V="62" Key="2C0141C3" UUID="49188d11-9cbb-11e3-8a83fb030ef95e86"/>
+		<Connector V="62" Key="040551C3" UUID="49188d10-9cbb-11e3-8a84fb030ef95e86"/>
+		<Connector V="62" Key="2C0961C3" UUID="49188d11-9cbb-11e3-8a84fb030ef95e86"/>
+		<Connector V="62" Key="040D71C3" UUID="49188d10-9cbb-11e3-8a85fb030ef95e86"/>
+		<Connector V="62" Key="2C1181C3" UUID="49188d11-9cbb-11e3-8a85fb030ef95e86"/>
+		<Connector V="62" Key="041591C3" UUID="49188d10-9cbb-11e3-8a86fb030ef95e86"/>
+		<Connector V="62" Key="2419A1C3" UUID="49188d11-9cbb-11e3-8a86fb030ef95e86"/>
+		<Connector V="62" Key="241DB1C3" UUID="49188d10-9cbb-11e3-8a87fb030ef95e86"/>
+		<Connector V="62" Key="2421C1C3" UUID="49188d11-9cbb-11e3-8a87fb030ef95e86"/>
+		<Connector V="62" Key="0425D1C3" UUID="49188d10-9cbb-11e3-8a88fb030ef95e86"/>
+		<Connector V="62" Key="8429E1C3" UUID="49188d11-9cbb-11e3-8a88fb030ef95e86"/>
+		<Connector V="62" Key="242DF1C3" UUID="49188d10-9cbb-11e3-8a89fb030ef95e86"/>
+		<Connector V="62" Key="243201C3" UUID="49188d11-9cbb-11e3-8a89fb030ef95e86"/>
+		<Connector V="62" Key="243611C3" UUID="49188d10-9cbb-11e3-8a8afb030ef95e86"/>
+		<Connector V="62" Key="243A21C3" UUID="49188d11-9cbb-11e3-8a8afb030ef95e86"/>
+		<Connector V="62" Key="043E31C3" UUID="49188d10-9cbb-11e3-8a8bfb030ef95e86"/>
+	</Control>
+	<Control V="63" UUID="4f5d8301-9cbc-11e3-8caffb030ef95e86" Title="UFH zone 3 actuator" Type="OutputRef" PositionX="13440" PositionY="4512" PositionX2="15744" PositionY2="15744" Color="200,200,236" NumIOs="2" Ref="c347e171-9cad-11e3-9ba4fb030ef95e86">
+		<Connector V="62" Key="28000137" UUID="4f5d8300-9cbc-11e3-8cb0fb030ef95e86" NumCons="1">
+			<In Input="49188d10-9cbb-11e3-8a84fb030ef95e86"/>
+		</Connector>
+		<Connector V="62" Key="64001137" UUID="4f5d8301-9cbc-11e3-8cb0fb030ef95e86"/>
+	</Control>
+	<Control V="63" UUID="00f5fd40-9cbd-11e3-8d30fb030ef95e86" Title="UFH pump" Type="OutputRef" PositionX="13440" PositionY="4320" PositionX2="14976" PositionY2="14976" Color="200,200,236" NumIOs="2" Ref="c347e171-9cad-11e3-9ba1fb030ef95e86">
+		<Connector V="62" Key="28000137" UUID="00f5fd41-9cbd-11e3-8d30fb030ef95e86" NumCons="1">
+			<In Input="49188d10-9cbb-11e3-8a84fb030ef95e86"/>
+		</Connector>
+		<Connector V="62" Key="64001137" UUID="00f62450-9cbd-11e3-8d30fb030ef95e86"/>
+	</Control>
+	<Control V="63" UUID="db9884b0-9cbb-11e3-8b17fb030ef95e86" Title="Central Functions" Type="Page">
+		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+			<LoggerMailer V="20" MinimumTime="20"/>
+		</IoData>
 	</Control>
 </ControlList>
