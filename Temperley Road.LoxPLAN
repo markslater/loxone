@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ControlList Version="66" NextObj="2" NextConst="1" NextNote="1" NextMem="1">
-	<Control V="63" UUID="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" Type="Document" PaperFormat="0" Font="Arial" AutoSave="0" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="23/02/2014 19:08:40" DateS="162414520" Town="SW12 8QH" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater"/>
+<ControlList Version="66" NextObj="5" NextConst="1" NextNote="1" NextMem="1">
+	<Control V="63" UUID="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" Type="Document" PaperFormat="0" Font="Arial" AutoSave="0" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="24/02/2014 22:06:58" DateS="162511618" Town="SW12 8QH" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater"/>
 	<Control V="63" UUID="c332d2d0-9cad-11e3-9b00fb030ef95e86" Title="Status symbols" Type="IconCaptionState"/>
 	<Control V="63" UUID="c34178d1-9cad-11e3-9b0afb030ef95e86" Title="Not assigned" Type="IconState" User="false" Ix="0"/>
 	<Control V="63" UUID="c3419fe0-9cad-11e3-9b0afb030ef95e86" Title="Fatal error" Type="IconState" User="false" Ix="1"/>
@@ -425,7 +425,7 @@
 		<Connector V="62" Key="04041033" UUID="c347e170-9cad-11e3-9ba1fb030ef95e86"/>
 	</Control>
 	<Control V="63" UUID="c347ba60-9cad-11e3-9b8ffb030ef95e86" Title="Digital outputs" Type="OutputCaption"/>
-	<Control V="63" UUID="c347e171-9cad-11e3-9ba1fb030ef95e86" Title="UFH pump" IName="Q1" Type="Actor" NumIOs="1">
+	<Control V="63" UUID="c347e171-9cad-11e3-9ba1fb030ef95e86" Title="Boiler central heating demand" IName="Q1" Type="Actor" NumIOs="1">
 		<IoData CatRef="c3348081-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a9b01-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
@@ -434,44 +434,46 @@
 			<In Input="00f62450-9cbd-11e3-8d30fb030ef95e86"/>
 		</Connector>
 	</Control>
-	<Control V="63" UUID="c347e171-9cad-11e3-9ba2fb030ef95e86" Title="UFH zone 1 actuator" IName="Q2" Type="Actor" NotUsed="true" NumIOs="1">
-		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+	<Control V="63" UUID="c347e171-9cad-11e3-9ba2fb030ef95e86" Title="UFH pump" IName="Q2" Type="Actor" NumIOs="1">
+		<IoData CatRef="c3348081-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a9b01-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="0" Unit="&lt;v.1&gt;V" StateOnly="false" Step="1.000"/>
-		<Connector V="62" Key="0800003F" UUID="c347e170-9cad-11e3-9ba3fb030ef95e86"/>
+		<Connector V="62" Key="0800003F" UUID="c347e170-9cad-11e3-9ba3fb030ef95e86" NumCons="1">
+			<In Input="ae4f99a0-9d9f-11e3-af0fd0393889cccf"/>
+		</Connector>
 	</Control>
-	<Control V="63" UUID="c347e171-9cad-11e3-9ba3fb030ef95e86" Title="UFH zone 2 actuator" IName="Q3" Type="Actor" NotUsed="true" NumIOs="1">
+	<Control V="63" UUID="c347e171-9cad-11e3-9ba3fb030ef95e86" Title="UFH zone 1 actuator" IName="Q3" Type="Actor" NotUsed="true" NumIOs="1">
 		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="0" Unit="&lt;v.1&gt;V" StateOnly="false" Step="1.000"/>
 		<Connector V="62" Key="0800003F" UUID="c347e170-9cad-11e3-9ba4fb030ef95e86"/>
 	</Control>
-	<Control V="63" UUID="c347e171-9cad-11e3-9ba4fb030ef95e86" Title="UFH zone 3 actuator" IName="Q4" Type="Actor" NumIOs="1">
+	<Control V="63" UUID="c347e171-9cad-11e3-9ba4fb030ef95e86" Title="UFH zone 2 actuator" IName="Q4" Type="Actor" NotUsed="true" NumIOs="1">
 		<IoData CatRef="c3348081-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a9b01-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="0" Unit="&lt;v.1&gt;V" StateOnly="false" Step="1.000"/>
-		<Connector V="62" Key="0800003F" UUID="c347e170-9cad-11e3-9ba5fb030ef95e86" NumCons="1">
-			<In Input="4f5d8301-9cbc-11e3-8cb0fb030ef95e86"/>
-		</Connector>
+		<Connector V="62" Key="0800003F" UUID="c347e170-9cad-11e3-9ba5fb030ef95e86"/>
 	</Control>
-	<Control V="63" UUID="c347e171-9cad-11e3-9ba5fb030ef95e86" Title="UFH zone 4 actuator" IName="Q5" Type="Actor" NotUsed="true" NumIOs="1">
-		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+	<Control V="63" UUID="c347e171-9cad-11e3-9ba5fb030ef95e86" Title="UFH zone 3 actuator" IName="Q5" Type="Actor" NumIOs="1">
+		<IoData CatRef="c3348081-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a9b01-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="0" Unit="&lt;v.1&gt;V" StateOnly="false" Step="1.000"/>
-		<Connector V="62" Key="0800003F" UUID="c347e170-9cad-11e3-9ba6fb030ef95e86"/>
+		<Connector V="62" Key="0800003F" UUID="c347e170-9cad-11e3-9ba6fb030ef95e86" NumCons="1">
+			<In Input="ae645a20-9d9f-11e3-af9ed0393889cccf"/>
+		</Connector>
 	</Control>
-	<Control V="63" UUID="c3480880-9cad-11e3-9ba6fb030ef95e86" Title="UFH zone 5 actuator" IName="Q6" Type="Actor" NotUsed="true" NumIOs="1">
+	<Control V="63" UUID="c3480880-9cad-11e3-9ba6fb030ef95e86" Title="UFH zone 4 actuator" IName="Q6" Type="Actor" NotUsed="true" NumIOs="1">
 		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="0" Unit="&lt;v.1&gt;V" StateOnly="false" Step="1.000"/>
 		<Connector V="62" Key="0800003F" UUID="c3480881-9cad-11e3-9ba6fb030ef95e86"/>
 	</Control>
-	<Control V="63" UUID="c3480880-9cad-11e3-9ba7fb030ef95e86" Title="Actuator (relay) Q7" IName="Q7" Type="Actor" NotUsed="true" NumIOs="1">
+	<Control V="63" UUID="c3480880-9cad-11e3-9ba7fb030ef95e86" Title="UFH zone 5 actuator" IName="Q7" Type="Actor" NotUsed="true" NumIOs="1">
 		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
@@ -680,7 +682,7 @@
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 	</Control>
-	<Control V="63" UUID="a98ed290-9cb5-11e3-b380fb030ef95e86" Title="Master Bedroom Top Switch" Type="InputRef" PositionX="2208" PositionY="7296" PositionX2="5088" PositionY2="5088" Color="200,200,236" NumIOs="4" Ref="c347e171-9cad-11e3-9b93fb030ef95e86">
+	<Control V="63" UUID="a98ed290-9cb5-11e3-b380fb030ef95e86" Title="Master Bedroom Top Switch" Type="InputRef" PositionX="2208" PositionY="7296" PositionX2="5280" PositionY2="5280" Color="200,200,236" NumIOs="4" Ref="c347e171-9cad-11e3-9b93fb030ef95e86">
 		<Connector V="62" Key="60000136" UUID="a98ef9a0-9cb5-11e3-b380fb030ef95e86" NumCons="1">
 			<In Input="c347e170-9cad-11e3-9b94fb030ef95e86"/>
 		</Connector>
@@ -688,7 +690,7 @@
 		<Connector V="62" Key="2C001136" UUID="a98ef9a0-9cb5-11e3-b381fb030ef95e86"/>
 		<Connector V="62" Key="04042136" UUID="a98ef9a1-9cb5-11e3-b381fb030ef95e86"/>
 	</Control>
-	<Control V="63" UUID="d68ec021-9cb5-11e3-b540fb030ef95e86" Title="Master Bedroom Bottom Switch" Type="InputRef" PositionX="2208" PositionY="6720" PositionX2="5280" PositionY2="5280" Color="200,200,236" NumIOs="4" Ref="c347e171-9cad-11e3-9b94fb030ef95e86">
+	<Control V="63" UUID="d68ec021-9cb5-11e3-b540fb030ef95e86" Title="Master Bedroom Bottom Switch" Type="InputRef" PositionX="2208" PositionY="6720" PositionX2="5472" PositionY2="5472" Color="200,200,236" NumIOs="4" Ref="c347e171-9cad-11e3-9b94fb030ef95e86">
 		<Connector V="62" Key="60000136" UUID="d68ec020-9cb5-11e3-b541fb030ef95e86" NumCons="1">
 			<In Input="c347e170-9cad-11e3-9b95fb030ef95e86"/>
 		</Connector>
@@ -827,17 +829,23 @@
 		<Connector V="62" Key="243A21C3" UUID="49188d11-9cbb-11e3-8a8afb030ef95e86"/>
 		<Connector V="62" Key="043E31C3" UUID="49188d10-9cbb-11e3-8a8bfb030ef95e86"/>
 	</Control>
-	<Control V="63" UUID="4f5d8301-9cbc-11e3-8caffb030ef95e86" Title="UFH zone 3 actuator" Type="OutputRef" PositionX="13440" PositionY="4512" PositionX2="15744" PositionY2="15744" Color="200,200,236" NumIOs="2" Ref="c347e171-9cad-11e3-9ba4fb030ef95e86">
-		<Connector V="62" Key="28000137" UUID="4f5d8300-9cbc-11e3-8cb0fb030ef95e86" NumCons="1">
-			<In Input="49188d10-9cbb-11e3-8a84fb030ef95e86"/>
-		</Connector>
-		<Connector V="62" Key="64001137" UUID="4f5d8301-9cbc-11e3-8cb0fb030ef95e86"/>
-	</Control>
-	<Control V="63" UUID="00f5fd40-9cbd-11e3-8d30fb030ef95e86" Title="UFH pump" Type="OutputRef" PositionX="13440" PositionY="4320" PositionX2="14976" PositionY2="14976" Color="200,200,236" NumIOs="2" Ref="c347e171-9cad-11e3-9ba1fb030ef95e86">
+	<Control V="63" UUID="00f5fd40-9cbd-11e3-8d30fb030ef95e86" Title="Boiler central heating demand" Type="OutputRef" PositionX="12960" PositionY="4320" PositionX2="16224" PositionY2="16224" Color="200,200,236" NumIOs="2" Ref="c347e171-9cad-11e3-9ba1fb030ef95e86">
 		<Connector V="62" Key="28000137" UUID="00f5fd41-9cbd-11e3-8d30fb030ef95e86" NumCons="1">
 			<In Input="49188d10-9cbb-11e3-8a84fb030ef95e86"/>
 		</Connector>
 		<Connector V="62" Key="64001137" UUID="00f62450-9cbd-11e3-8d30fb030ef95e86"/>
+	</Control>
+	<Control V="63" UUID="ae4f99a0-9d9f-11e3-af0ed0393889cccf" Title="UFH pump" Type="OutputRef" PositionX="12960" PositionY="4512" PositionX2="14496" PositionY2="14496" Color="200,200,236" NumIOs="2" Ref="c347e171-9cad-11e3-9ba2fb030ef95e86">
+		<Connector V="62" Key="28000137" UUID="ae4f99a1-9d9f-11e3-af0ed0393889cccf" NumCons="1">
+			<In Input="49188d10-9cbb-11e3-8a84fb030ef95e86"/>
+		</Connector>
+		<Connector V="62" Key="64001137" UUID="ae4f99a0-9d9f-11e3-af0fd0393889cccf"/>
+	</Control>
+	<Control V="63" UUID="ae645a20-9d9f-11e3-af9dd0393889cccf" Title="UFH zone 3 actuator" Type="OutputRef" PositionX="12960" PositionY="4704" PositionX2="15264" PositionY2="15264" Color="200,200,236" NumIOs="2" Ref="c347e171-9cad-11e3-9ba5fb030ef95e86">
+		<Connector V="62" Key="28000137" UUID="ae645a21-9d9f-11e3-af9dd0393889cccf" NumCons="1">
+			<In Input="49188d10-9cbb-11e3-8a84fb030ef95e86"/>
+		</Connector>
+		<Connector V="62" Key="64001137" UUID="ae645a20-9d9f-11e3-af9ed0393889cccf"/>
 	</Control>
 	<Control V="63" UUID="db9884b0-9cbb-11e3-8b17fb030ef95e86" Title="Central Functions" Type="Page">
 		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
