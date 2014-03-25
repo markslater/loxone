@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ControlList Version="66" NextObj="16" NextConst="1" NextNote="1" NextMem="1">
-	<Control V="63" UUID="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" Type="Document" PaperFormat="0" Font="Arial" AutoSave="0" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="02/03/2014 21:57:52" DateS="163029472" Town="SW12 8QH" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater"/>
+<ControlList Version="66" NextObj="17" NextConst="1" NextNote="1" NextMem="1">
+	<Control V="63" UUID="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" Type="Document" PaperFormat="0" Font="Arial" AutoSave="0" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="25/03/2014 18:27:25" DateS="165004044" Town="SW12 8QH" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater"/>
 	<Control V="63" UUID="c332d2d0-9cad-11e3-9b00fb030ef95e86" Title="Status symbols" Type="IconCaptionState"/>
 	<Control V="63" UUID="c34178d1-9cad-11e3-9b0afb030ef95e86" Title="Not assigned" Type="IconState" User="false" Ix="0"/>
 	<Control V="63" UUID="c3419fe0-9cad-11e3-9b0afb030ef95e86" Title="Fatal error" Type="IconState" User="false" Ix="1"/>
@@ -743,8 +743,8 @@
 	</Control>
 	<Control V="63" UUID="61dc62dc-a0c4-11e3-b3cafb2c2de534db" Title="1-Wire product family" Type="Lox1wireFamily" Family="02117828" Poll="60.000"/>
 	<Control V="63" UUID="ce5d7640-a164-11e3-8403cd6f32422864" Title="Master Bedroom" Type="Lox1wireDevice" ROMID="287BDA91050000C6"/>
-	<Control V="63" UUID="ce6369b0-a164-11e3-8403cd6f32422864" Title="Master Bedroom Temperature sensor" IName="AWI2" Type="Lox1wireAsensor" Color="255,255,116" Analog="true" SourceValHigh="100.000" DestValHigh="100.000" MaxVal="10.000" MinChange="0.250" MinTime="1000" AverageTime="1" NumIOs="2">
-		<IoData CatRef="c3348081-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a9b01-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+	<Control V="63" UUID="ce6369b0-a164-11e3-8403cd6f32422864" Title="Master Bedroom Temperature sensor" IName="AWI2" Type="Lox1wireAsensor" Color="255,255,116" Analog="true" SourceValHigh="100.000" DestValHigh="100.000" MaxVal="10.000" MinChange="0.250" MinTime="1000" AverageTime="1" StatsType="1" CompressStats="-1" NumIOs="2">
+		<IoData Visu="true" CatRef="c3348081-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a9b01-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="2" Unit="&lt;v.1&gt;°" StateOnly="true" Step="1.000"/>
@@ -752,8 +752,8 @@
 		<Connector V="62" Key="04041067" UUID="ce6369b0-a164-11e3-8404cd6f32422864"/>
 	</Control>
 	<Control V="63" UUID="a93de8b0-a171-11e3-9949b830a73fcead" Title="Bedroom 2" Type="Lox1wireDevice" ROMID="28A0D291050000C4"/>
-	<Control V="63" UUID="a941e050-a171-11e3-9949b830a73fcead" Title="Bedroom 2 Temperature sensor" IName="AWI1" Type="Lox1wireAsensor" Color="255,255,116" Analog="true" SourceValHigh="100.000" DestValHigh="100.000" MaxVal="10.000" MinChange="0.250" MinTime="1000" AverageTime="1" NumIOs="2">
-		<IoData CatRef="c3348081-9cad-11e3-9b03fb030ef95e86" PlaceRef="57270c00-a171-11e3-968eb830a73fcead" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+	<Control V="63" UUID="a941e050-a171-11e3-9949b830a73fcead" Title="Bedroom 2 Temperature sensor" IName="AWI1" Type="Lox1wireAsensor" Color="255,255,116" Analog="true" SourceValHigh="100.000" DestValHigh="100.000" MaxVal="10.000" MinChange="0.250" MinTime="1000" AverageTime="1" StatsType="1" CompressStats="-1" NumIOs="2">
+		<IoData Visu="true" CatRef="c3348081-9cad-11e3-9b03fb030ef95e86" PlaceRef="57270c00-a171-11e3-968eb830a73fcead" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="2" Unit="&lt;v.1&gt;°" StateOnly="true" Step="1.000"/>
@@ -761,8 +761,8 @@
 		<Connector V="62" Key="04041067" UUID="a941e050-a171-11e3-994ab830a73fcead"/>
 	</Control>
 	<Control V="63" UUID="63a30aa0-a172-11e3-9ea1b830a73fcead" Title="Landing" Type="Lox1wireDevice" ROMID="286605920500006E"/>
-	<Control V="63" UUID="63a63ef0-a172-11e3-9ea1b830a73fcead" Title="Landing Temperature sensor" IName="AWI3" Type="Lox1wireAsensor" Color="255,255,116" Analog="true" SourceValHigh="100.000" DestValHigh="100.000" MaxVal="10.000" MinChange="0.250" MinTime="1000" AverageTime="1" NumIOs="2">
-		<IoData CatRef="c3348081-9cad-11e3-9b03fb030ef95e86" PlaceRef="c339d7b1-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+	<Control V="63" UUID="63a63ef0-a172-11e3-9ea1b830a73fcead" Title="Landing Temperature sensor" IName="AWI3" Type="Lox1wireAsensor" Color="255,255,116" Analog="true" SourceValHigh="100.000" DestValHigh="100.000" MaxVal="10.000" MinChange="0.250" MinTime="1000" AverageTime="1" StatsType="1" CompressStats="-1" NumIOs="2">
+		<IoData Visu="true" CatRef="c3348081-9cad-11e3-9b03fb030ef95e86" PlaceRef="c339d7b1-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="2" Unit="&lt;v.1&gt;°" StateOnly="true" Step="1.000"/>
@@ -779,13 +779,22 @@
 		<Connector V="62" Key="04041067" UUID="0c5ee360-a18e-11e3-b25cb830a73fcead"/>
 	</Control>
 	<Control V="63" UUID="8ea00e60-a195-11e3-b63ab830a73fcead" Title="Bathroom" Type="Lox1wireDevice" ROMID="28A4F191050000AE"/>
-	<Control V="63" UUID="8ea31ba0-a195-11e3-b63ab830a73fcead" Title="Bathroom Temperature sensor" IName="AWI5" Type="Lox1wireAsensor" Color="255,255,116" Analog="true" SourceValHigh="100.000" DestValHigh="100.000" MaxVal="10.000" MinChange="0.250" MinTime="1000" AverageTime="1" StatsType="2" CompressStats="-1" NumIOs="2">
+	<Control V="63" UUID="8ea31ba0-a195-11e3-b63ab830a73fcead" Title="Bathroom Temperature sensor" IName="AWI5" Type="Lox1wireAsensor" Color="255,255,116" Analog="true" SourceValHigh="100.000" DestValHigh="100.000" MaxVal="10.000" MinChange="0.250" MinTime="1000" AverageTime="1" NumIOs="2">
 		<IoData CatRef="c3348081-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a73f1-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="2" Unit="&lt;v.1&gt;°" StateOnly="true" Step="1.000"/>
 		<Connector V="62" Key="2C000067" UUID="8ea31ba1-a195-11e3-b63ab830a73fcead"/>
 		<Connector V="62" Key="04041067" UUID="8ea31ba0-a195-11e3-b63bb830a73fcead"/>
+	</Control>
+	<Control V="63" UUID="e98cf590-b441-11e3-ace7ea873ddef408" Title="Ensuite Flush Panel" Type="Lox1wireDevice" ROMID="2858F68C05000055"/>
+	<Control V="63" UUID="e990c620-b441-11e3-ace7ea873ddef408" Title="Ensuite Flush Panel Temperature sensor" IName="AWI6" Type="Lox1wireAsensor" Color="255,255,116" Analog="true" SourceValHigh="100.000" DestValHigh="100.000" MaxVal="10.000" MinChange="0.250" MinTime="1000" AverageTime="1" StatsType="1" CompressStats="-1" NumIOs="2">
+		<IoData Visu="true" CatRef="c3348081-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a4ce1-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+			<LoggerMailer V="20" MinimumTime="20"/>
+		</IoData>
+		<Display V="21" Type="2" Unit="&lt;v.1&gt;°" StateOnly="true" Step="1.000"/>
+		<Connector V="62" Key="2C000067" UUID="e990c621-b441-11e3-ace7ea873ddef408"/>
+		<Connector V="62" Key="04041067" UUID="e990c620-b441-11e3-ace8ea873ddef408"/>
 	</Control>
 	<Control V="63" UUID="61dc62dd-a0c4-11e3-b3cafb2c2de534db" Title="1-Wire product family" Type="Lox1wireFamily" Family="00000010" Poll="60.000"/>
 	<Control V="63" UUID="61dc62dc-a0c4-11e3-b3cbfb2c2de534db" Title="1-Wire product family" Type="Lox1wireFamily" Family="00000022" Poll="60.000"/>
@@ -1245,5 +1254,20 @@
 		</Connector>
 		<Connector V="62" Key="2C001136" UUID="98a906a1-a195-11e3-b6d9b830a73fcead"/>
 		<Connector V="62" Key="04042136" UUID="98a906a0-a195-11e3-b6dab830a73fcead"/>
+	</Control>
+	<Control V="63" UUID="10f15720-b442-11e3-ad9fea873ddef408" Title="Ensuite Heating" Type="Page">
+		<IoData CatRef="c3348081-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a4ce1-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+			<LoggerMailer V="20" MinimumTime="20"/>
+		</IoData>
+	</Control>
+	<Control V="63" UUID="28784a21-b442-11e3-b06eea873ddef408" Title="Ensuite Flush Panel Temperature sensor" Type="InputRef" PositionX="5760" PositionY="4896" PositionX2="10368" PositionY2="10368" Color="200,200,236" Analog="true" NumIOs="4" Ref="e990c620-b441-11e3-ace7ea873ddef408">
+		<Connector V="62" Key="60000136" UUID="28784a20-b442-11e3-b06fea873ddef408" NumCons="1">
+			<In Input="e990c621-b441-11e3-ace7ea873ddef408"/>
+		</Connector>
+		<Connector V="62" Key="40000136" UUID="28784a21-b442-11e3-b06fea873ddef408" NumCons="1">
+			<In Input="e990c620-b441-11e3-ace8ea873ddef408"/>
+		</Connector>
+		<Connector V="62" Key="2C001136" UUID="28784a20-b442-11e3-b070ea873ddef408"/>
+		<Connector V="62" Key="04042136" UUID="28784a21-b442-11e3-b070ea873ddef408"/>
 	</Control>
 </ControlList>
