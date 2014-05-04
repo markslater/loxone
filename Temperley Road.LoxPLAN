@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ControlList Version="66" NextObj="17" NextConst="1" NextNote="1" NextMem="1">
-	<Control V="63" UUID="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" Type="Document" PaperFormat="0" Font="Arial" AutoSave="0" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="25/03/2014 18:27:25" DateS="165004044" Town="SW12 8QH" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater"/>
+<ControlList Version="66" NextObj="16" NextConst="1" NextNote="1" NextMem="1">
+	<Control V="63" UUID="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" Type="Document" PaperFormat="0" Font="Arial" AutoSave="0" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="26/03/2014 22:21:54" DateS="165104514" Town="SW12 8QH" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater"/>
 	<Control V="63" UUID="c332d2d0-9cad-11e3-9b00fb030ef95e86" Title="Status symbols" Type="IconCaptionState"/>
 	<Control V="63" UUID="c34178d1-9cad-11e3-9b0afb030ef95e86" Title="Not assigned" Type="IconState" User="false" Ix="0"/>
 	<Control V="63" UUID="c3419fe0-9cad-11e3-9b0afb030ef95e86" Title="Fatal error" Type="IconState" User="false" Ix="1"/>
@@ -689,7 +689,7 @@
 		<Connector V="62" Key="04000002" UUID="22315451-9f38-11e3-a43895d9cdbb6d3f"/>
 	</Control>
 	<Control V="63" UUID="642315a0-9f39-11e3-a98895d9cdbb6d3f" Title="DMX device 1" IName="AI6" Type="LoxDMXdevice" Channel="1" Serial="" DevInfo="" Model="" Manu="" Software="" Pers="" PersDesc="" SlotInfo="" SlotDesc="" DefSlot=""/>
-	<Control V="63" UUID="6428baf0-9f39-11e3-a98895d9cdbb6d3f" Title="Master bedroom nearest window" IName="DQ1" Type="LoxDMXactor" Dimmer="true" Percent="true" Channel="1" SourceValHigh="100.000" DestValHigh="100.000" Slewrate="15" NumIOs="1">
+	<Control V="63" UUID="6428baf0-9f39-11e3-a98895d9cdbb6d3f" Title="Master bedroom nearest window" IName="DQ1" Type="LoxDMXactor" Percent="true" Channel="1" SourceValHigh="100.000" DestValHigh="100.000" Slewrate="15" NumIOs="1">
 		<IoData CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a9b01-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
@@ -699,7 +699,7 @@
 		</Connector>
 	</Control>
 	<Control V="63" UUID="eab18610-a182-11e3-a0f7b830a73fcead" Title="Living Room Fireplace" IName="AI7" Type="LoxDMXdevice" Channel="2" Serial="0004646F0001D0F6" DevInfo="" Model="" Manu="eldoLED BV" Software="" Pers="" PersDesc="" SlotInfo="" SlotDesc="" DefSlot=""/>
-	<Control V="63" UUID="eab6dd40-a182-11e3-a0f7b830a73fcead" Title="DMX actuator 1" IName="DQ2" Type="LoxDMXactor" Dimmer="true" Percent="true" Channel="2" SourceValHigh="100.000" DestValHigh="100.000" Slewrate="40" NumIOs="1">
+	<Control V="63" UUID="eab6dd40-a182-11e3-a0f7b830a73fcead" Title="DMX actuator 1" IName="DQ2" Type="LoxDMXactor" Percent="true" Channel="2" SourceValHigh="100.000" DestValHigh="100.000" Slewrate="40" NumIOs="1">
 		<IoData CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c339fec1-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
@@ -708,7 +708,7 @@
 			<In Input="08065fb0-a183-11e3-a3f2b830a73fcead"/>
 		</Connector>
 	</Control>
-	<Control V="63" UUID="eabdbb10-a182-11e3-a0f7b830a73fcead" Title="DMX actuator 2" IName="DQ3" Type="LoxDMXactor" Dimmer="true" Percent="true" Channel="3" SourceValHigh="100.000" DestValHigh="100.000" Slewrate="40" NumIOs="1">
+	<Control V="63" UUID="eabdbb10-a182-11e3-a0f7b830a73fcead" Title="DMX actuator 2" IName="DQ3" Type="LoxDMXactor" Percent="true" Channel="3" SourceValHigh="100.000" DestValHigh="100.000" Slewrate="40" NumIOs="1">
 		<IoData CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a9b01-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
@@ -717,14 +717,14 @@
 			<In Input="93a68b81-a183-11e3-a817b830a73fcead"/>
 		</Connector>
 	</Control>
-	<Control V="63" UUID="eabe0930-a182-11e3-a0f7b830a73fcead" Title="DMX actuator 3" IName="DQ4" Type="LoxDMXactor" NotUsed="true" Dimmer="true" Percent="true" Channel="4" SourceValHigh="100.000" DestValHigh="100.000" Slewrate="15" NumIOs="1">
+	<Control V="63" UUID="eabe0930-a182-11e3-a0f7b830a73fcead" Title="DMX actuator 3" IName="DQ4" Type="LoxDMXactor" NotUsed="true" Percent="true" Channel="4" SourceValHigh="100.000" DestValHigh="100.000" Slewrate="15" NumIOs="1">
 		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="0" Unit="&lt;v&gt;%" StateOnly="true" Step="1.000"/>
 		<Connector V="62" Key="28000084" UUID="eabe0931-a182-11e3-a0f7b830a73fcead"/>
 	</Control>
-	<Control V="63" UUID="eabe5750-a182-11e3-a0f7b830a73fcead" Title="DMX actuator 4" IName="DQ5" Type="LoxDMXactor" NotUsed="true" Dimmer="true" Percent="true" Channel="5" SourceValHigh="100.000" DestValHigh="100.000" Slewrate="15" NumIOs="1">
+	<Control V="63" UUID="eabe5750-a182-11e3-a0f7b830a73fcead" Title="DMX actuator 4" IName="DQ5" Type="LoxDMXactor" NotUsed="true" Percent="true" Channel="5" SourceValHigh="100.000" DestValHigh="100.000" Slewrate="15" NumIOs="1">
 		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
@@ -741,7 +741,7 @@
 		<Display V="21" Type="0" Unit="&lt;v.1&gt;V" StateOnly="true" IxText="8" Step="1.000"/>
 		<Connector V="62" Key="04000002" UUID="61df972d-a0c4-11e3-b3ccfb2c2de534db"/>
 	</Control>
-	<Control V="63" UUID="61dc62dc-a0c4-11e3-b3cafb2c2de534db" Title="1-Wire product family" Type="Lox1wireFamily" Family="02117828" Poll="60.000"/>
+	<Control V="63" UUID="61dc62dc-a0c4-11e3-b3cafb2c2de534db" Title="DS18B20    (28) Programmable resolution 1-Wire digital temperature sensor" Type="Lox1wireFamily" Family="03FB0028" Poll="60.000"/>
 	<Control V="63" UUID="ce5d7640-a164-11e3-8403cd6f32422864" Title="Master Bedroom" Type="Lox1wireDevice" ROMID="287BDA91050000C6"/>
 	<Control V="63" UUID="ce6369b0-a164-11e3-8403cd6f32422864" Title="Master Bedroom Temperature sensor" IName="AWI2" Type="Lox1wireAsensor" Color="255,255,116" Analog="true" SourceValHigh="100.000" DestValHigh="100.000" MaxVal="10.000" MinChange="0.250" MinTime="1000" AverageTime="1" StatsType="1" CompressStats="-1" NumIOs="2">
 		<IoData Visu="true" CatRef="c3348081-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a9b01-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
@@ -796,11 +796,11 @@
 		<Connector V="62" Key="2C000067" UUID="e990c621-b441-11e3-ace7ea873ddef408"/>
 		<Connector V="62" Key="04041067" UUID="e990c620-b441-11e3-ace8ea873ddef408"/>
 	</Control>
-	<Control V="63" UUID="61dc62dd-a0c4-11e3-b3cafb2c2de534db" Title="1-Wire product family" Type="Lox1wireFamily" Family="00000010" Poll="60.000"/>
-	<Control V="63" UUID="61dc62dc-a0c4-11e3-b3cbfb2c2de534db" Title="1-Wire product family" Type="Lox1wireFamily" Family="00000022" Poll="60.000"/>
-	<Control V="63" UUID="61dc62dd-a0c4-11e3-b3cbfb2c2de534db" Title="1-Wire product family" Type="Lox1wireFamily" Family="00000001" Poll="0.100"/>
-	<Control V="63" UUID="61dc62dc-a0c4-11e3-b3ccfb2c2de534db" Title="1-Wire product family" Type="Lox1wireFamily" Family="00000026" Poll="60.000"/>
-	<Control V="63" UUID="61dc62dd-a0c4-11e3-b3ccfb2c2de534db" Title="1-Wire product family" Type="Lox1wireFamily" Family="00000018" Poll="0.100"/>
+	<Control V="63" UUID="61dc62dd-a0c4-11e3-b3cafb2c2de534db" Title="DS18S20 Parasitically powered digital temperature sensor" Type="Lox1wireFamily" Family="33C4FE10" Poll="60.000"/>
+	<Control V="63" UUID="61dc62dc-a0c4-11e3-b3cbfb2c2de534db" Title="DS1822 (22) Econo 1-Wire digital temperature sensor " Type="Lox1wireFamily" Family="6D610022" Poll="60.000"/>
+	<Control V="63" UUID="61dc62dd-a0c4-11e3-b3cbfb2c2de534db" Title="DS1990 and DSxxxx (01,02,04,06,08,09,0B,0C,0F,14,1A,21,23,24,37,41) Serial Number iButton" Type="Lox1wireFamily" Family="33C4FE01" Poll="0.100"/>
+	<Control V="63" UUID="61dc62dc-a0c4-11e3-b3ccfb2c2de534db" Title="DS2438 (26) Smart Battery Monitor" Type="Lox1wireFamily" Family="03000026" Poll="60.000"/>
+	<Control V="63" UUID="61dc62dd-a0c4-11e3-b3ccfb2c2de534db" Title="DS1963S (18) Serial Number iButton (SHA)" Type="Lox1wireFamily" Family="33C4FE18" Poll="0.100"/>
 	<Control V="63" UUID="a2f1ead1-a255-11e3-b9f2972a8456a1bb" Title="Loxone Dimmer Extension" Type="LoxDIMM" CycleUserProt="-1.000" Serial="02D80662" Installation="Utility Cupboard" SwitchBoard="Consumer Unit" SwitchBoardRow="1" SwitchBoardPos="4" ExtensionBlinkNum="12" ExtAddr="clouddns.loxone.com" IntAddr="" BaseID="-1">
 		<Alt></Alt>
 	</Control>
@@ -869,28 +869,28 @@
 		<Connector V="62" Key="0C000037" UUID="a3028ca1-a255-11e3-b9fa972a8456a1bb"/>
 	</Control>
 	<Control V="63" UUID="a3026590-a255-11e3-b9f3972a8456a1bb" Title="Analogue outputs" Type="AnalogOutputCaption"/>
-	<Control V="63" UUID="a3028ca0-a255-11e3-b9fb972a8456a1bb" Title="Dimmer AQ1" IName="AQ1" Type="Dimmer" NotUsed="true" Dimmer="true" Percent="true" Channel="1" SourceValHigh="100.000" DestValHigh="100.000" DimmType="2" Slewrate="15" NumIOs="1">
+	<Control V="63" UUID="a3028ca0-a255-11e3-b9fb972a8456a1bb" Title="Dimmer AQ1" IName="AQ1" Type="Dimmer" NotUsed="true" Percent="true" Channel="1" SourceValHigh="100.000" DestValHigh="100.000" DimmType="2" Slewrate="15" NumIOs="1">
 		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="0" Unit="&lt;v&gt;%" StateOnly="true" Step="1.000"/>
 		<Connector V="62" Key="2800003C" UUID="a3028ca1-a255-11e3-b9fb972a8456a1bb"/>
 	</Control>
-	<Control V="63" UUID="a3028ca0-a255-11e3-b9fc972a8456a1bb" Title="Dimmer AQ2" IName="AQ2" Type="Dimmer" NotUsed="true" Dimmer="true" Percent="true" Channel="1" SourceValHigh="100.000" DestValHigh="100.000" DimmType="2" Slewrate="15" NumIOs="1">
+	<Control V="63" UUID="a3028ca0-a255-11e3-b9fc972a8456a1bb" Title="Dimmer AQ2" IName="AQ2" Type="Dimmer" NotUsed="true" Percent="true" Channel="1" SourceValHigh="100.000" DestValHigh="100.000" DimmType="2" Slewrate="15" NumIOs="1">
 		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="0" Unit="&lt;v&gt;%" StateOnly="true" Step="1.000"/>
 		<Connector V="62" Key="2800003C" UUID="a3028ca1-a255-11e3-b9fc972a8456a1bb"/>
 	</Control>
-	<Control V="63" UUID="a3028ca0-a255-11e3-b9fd972a8456a1bb" Title="Dimmer AQ3" IName="AQ3" Type="Dimmer" NotUsed="true" Dimmer="true" Percent="true" Channel="1" SourceValHigh="100.000" DestValHigh="100.000" DimmType="2" Slewrate="15" NumIOs="1">
+	<Control V="63" UUID="a3028ca0-a255-11e3-b9fd972a8456a1bb" Title="Dimmer AQ3" IName="AQ3" Type="Dimmer" NotUsed="true" Percent="true" Channel="1" SourceValHigh="100.000" DestValHigh="100.000" DimmType="2" Slewrate="15" NumIOs="1">
 		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="0" Unit="&lt;v&gt;%" StateOnly="true" Step="1.000"/>
 		<Connector V="62" Key="2800003C" UUID="a3028ca1-a255-11e3-b9fd972a8456a1bb"/>
 	</Control>
-	<Control V="63" UUID="a3028ca0-a255-11e3-b9fe972a8456a1bb" Title="Dimmer AQ4" IName="AQ4" Type="Dimmer" NotUsed="true" Dimmer="true" Percent="true" Channel="1" SourceValHigh="100.000" DestValHigh="100.000" DimmType="2" Slewrate="15" NumIOs="1">
+	<Control V="63" UUID="a3028ca0-a255-11e3-b9fe972a8456a1bb" Title="Dimmer AQ4" IName="AQ4" Type="Dimmer" NotUsed="true" Percent="true" Channel="1" SourceValHigh="100.000" DestValHigh="100.000" DimmType="2" Slewrate="15" NumIOs="1">
 		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
