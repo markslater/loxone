@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ControlList Version="66" NextObj="20" NextConst="1" NextNote="1" NextMem="1">
-	<Control V="63" UUID="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" Type="Document" PaperFormat="0" Font="Arial" AutoSave="0" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="04/05/2014 15:43:40" DateS="168450220" Town="SW12 8QH" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater"/>
+	<Control V="63" UUID="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" Type="Document" PaperFormat="0" Font="Arial" AutoSave="0" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="12/05/2014 20:37:00" DateS="169159019" Town="SW12 8QH" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater"/>
 	<Control V="63" UUID="c332d2d0-9cad-11e3-9b00fb030ef95e86" Title="Status symbols" Type="IconCaptionState"/>
 	<Control V="63" UUID="c34178d1-9cad-11e3-9b0afb030ef95e86" Title="Not assigned" Type="IconState" User="false" Ix="0"/>
 	<Control V="63" UUID="c3419fe0-9cad-11e3-9b0afb030ef95e86" Title="Fatal error" Type="IconState" User="false" Ix="1"/>
@@ -797,8 +797,8 @@
 		<Connector V="62" Key="04041067" UUID="e990c620-b441-11e3-ace8ea873ddef408"/>
 	</Control>
 	<Control V="63" UUID="50610456-d398-11e3-93bee67b6262cc92" Title="Bedroom 2 floor" Type="Lox1wireDevice" ROMID="2874078D0500007A"/>
-	<Control V="63" UUID="50641196-d398-11e3-93bee67b6262cc92" Title="Bedroom 2 Floor Temperature sensor" IName="AWI7" Type="Lox1wireAsensor" Color="255,255,116" Analog="true" SourceValHigh="100.000" DestValHigh="100.000" MaxVal="10.000" MinChange="0.250" MinTime="1000" AverageTime="1" NumIOs="2">
-		<IoData CatRef="c3348081-9cad-11e3-9b03fb030ef95e86" PlaceRef="57270c00-a171-11e3-968eb830a73fcead" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+	<Control V="63" UUID="50641196-d398-11e3-93bee67b6262cc92" Title="Bedroom 2 Floor Temperature sensor" IName="AWI7" Type="Lox1wireAsensor" Color="255,255,116" Analog="true" SourceValHigh="100.000" DestValHigh="100.000" MaxVal="10.000" MinChange="0.250" MinTime="1000" AverageTime="1" StatsType="1" CompressStats="-1" NumIOs="2">
+		<IoData Visu="true" CatRef="c3348081-9cad-11e3-9b03fb030ef95e86" PlaceRef="57270c00-a171-11e3-968eb830a73fcead" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="2" Unit="&lt;v.1&gt;°" StateOnly="true" Step="1.000"/>
@@ -806,8 +806,8 @@
 		<Connector V="62" Key="04041067" UUID="50641196-d398-11e3-93bfe67b6262cc92"/>
 	</Control>
 	<Control V="63" UUID="630ac766-d39a-11e3-95e8e67b6262cc92" Title="Master Bedroom Floor" Type="Lox1wireDevice" ROMID="289AEE8C050000E6"/>
-	<Control V="63" UUID="630fd076-d39a-11e3-95e8e67b6262cc92" Title="Master Bedroom Floor Temperature sensor" IName="AWI8" Type="Lox1wireAsensor" Color="255,255,116" Analog="true" SourceValHigh="100.000" DestValHigh="100.000" MaxVal="10.000" MinChange="0.250" MinTime="1000" AverageTime="1" NumIOs="2">
-		<IoData CatRef="c3348081-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a9b01-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+	<Control V="63" UUID="630fd076-d39a-11e3-95e8e67b6262cc92" Title="Master Bedroom Floor Temperature sensor" IName="AWI8" Type="Lox1wireAsensor" Color="255,255,116" Analog="true" SourceValHigh="100.000" DestValHigh="100.000" MaxVal="10.000" MinChange="0.250" MinTime="1000" AverageTime="1" StatsType="1" CompressStats="-1" NumIOs="2">
+		<IoData Visu="true" CatRef="c3348081-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a9b01-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="2" Unit="&lt;v.1&gt;°" StateOnly="true" Step="1.000"/>
