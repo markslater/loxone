@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ControlList Version="66" NextObj="20" NextConst="1" NextNote="1" NextMem="1">
-	<Control V="63" UUID="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" Type="Document" PaperFormat="0" Font="Arial" AutoSave="0" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="12/05/2014 20:37:00" DateS="169159019" Town="SW12 8QH" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater"/>
+<ControlList Version="66" NextObj="22" NextConst="1" NextNote="1" NextMem="1">
+	<Control V="63" UUID="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" Type="Document" PaperFormat="0" Font="Arial" AutoSave="0" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="22/07/2014 22:39:13" DateS="175300752" Town="SW12 8QH" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater"/>
 	<Control V="63" UUID="c332d2d0-9cad-11e3-9b00fb030ef95e86" Title="Status symbols" Type="IconCaptionState"/>
 	<Control V="63" UUID="c34178d1-9cad-11e3-9b0afb030ef95e86" Title="Not assigned" Type="IconState" User="false" Ix="0"/>
 	<Control V="63" UUID="c3419fe0-9cad-11e3-9b0afb030ef95e86" Title="Fatal error" Type="IconState" User="false" Ix="1"/>
@@ -351,15 +351,15 @@
 		<Display V="21" Type="0" Unit="&lt;v.1&gt;V" StateOnly="false" Step="1.000"/>
 		<Connector V="62" Key="0C000037" UUID="c347e170-9cad-11e3-9b95fb030ef95e86"/>
 	</Control>
-	<Control V="63" UUID="c347e171-9cad-11e3-9b95fb030ef95e86" Title="Ensuite Top Switch" IName="I3" Type="DigitalIn" NotUsed="true" MinTime="10" NumIOs="1">
-		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+	<Control V="63" UUID="c347e171-9cad-11e3-9b95fb030ef95e86" Title="Ensuite Top Switch" IName="I3" Type="DigitalIn" MinTime="10" NumIOs="1">
+		<IoData CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a4ce1-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="0" Unit="&lt;v.1&gt;V" StateOnly="false" Step="1.000"/>
 		<Connector V="62" Key="0C000037" UUID="c347e170-9cad-11e3-9b96fb030ef95e86"/>
 	</Control>
-	<Control V="63" UUID="c347e171-9cad-11e3-9b96fb030ef95e86" Title="Ensuite Bottom Switch" IName="I4" Type="DigitalIn" NotUsed="true" MinTime="10" NumIOs="1">
-		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+	<Control V="63" UUID="c347e171-9cad-11e3-9b96fb030ef95e86" Title="Ensuite Bottom Switch" IName="I4" Type="DigitalIn" MinTime="10" NumIOs="1">
+		<IoData CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a4ce1-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="0" Unit="&lt;v.1&gt;V" StateOnly="false" Step="1.000"/>
@@ -379,15 +379,15 @@
 		<Display V="21" Type="0" Unit="&lt;v.1&gt;V" StateOnly="false" Step="1.000"/>
 		<Connector V="62" Key="0C000037" UUID="c347e170-9cad-11e3-9b99fb030ef95e86"/>
 	</Control>
-	<Control V="63" UUID="c347e171-9cad-11e3-9b99fb030ef95e86" Title="Landing Top Switch" IName="I7" Type="DigitalIn" NotUsed="true" MinTime="10" NumIOs="1">
-		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+	<Control V="63" UUID="c347e171-9cad-11e3-9b99fb030ef95e86" Title="Landing Top Switch" IName="I7" Type="DigitalIn" MinTime="10" NumIOs="1">
+		<IoData CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c339d7b1-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="0" Unit="&lt;v.1&gt;V" StateOnly="false" Step="1.000"/>
 		<Connector V="62" Key="0C000037" UUID="c347e170-9cad-11e3-9b9afb030ef95e86"/>
 	</Control>
-	<Control V="63" UUID="c347e171-9cad-11e3-9b9afb030ef95e86" Title="Landing Bottom Switch" IName="I8" Type="DigitalIn" NotUsed="true" MinTime="10" NumIOs="1">
-		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+	<Control V="63" UUID="c347e171-9cad-11e3-9b9afb030ef95e86" Title="Landing Bottom Switch" IName="I8" Type="DigitalIn" MinTime="10" NumIOs="1">
+		<IoData CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c339d7b1-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="0" Unit="&lt;v.1&gt;V" StateOnly="false" Step="1.000"/>
@@ -741,7 +741,7 @@
 		<Display V="21" Type="0" Unit="&lt;v.1&gt;V" StateOnly="true" IxText="8" Step="1.000"/>
 		<Connector V="62" Key="04000002" UUID="61df972d-a0c4-11e3-b3ccfb2c2de534db"/>
 	</Control>
-	<Control V="63" UUID="61dc62dc-a0c4-11e3-b3cafb2c2de534db" Title="1-Wire product family" Type="Lox1wireFamily" Family="03FB0028" Poll="60.000"/>
+	<Control V="63" UUID="61dc62dc-a0c4-11e3-b3cafb2c2de534db" Title="1-Wire product family" Type="Lox1wireFamily" Family="00000028" Poll="60.000"/>
 	<Control V="63" UUID="ce5d7640-a164-11e3-8403cd6f32422864" Title="Master Bedroom" Type="Lox1wireDevice" ROMID="287BDA91050000C6"/>
 	<Control V="63" UUID="ce6369b0-a164-11e3-8403cd6f32422864" Title="Master Bedroom Temperature sensor" IName="AWI2" Type="Lox1wireAsensor" Color="255,255,116" Analog="true" SourceValHigh="100.000" DestValHigh="100.000" MaxVal="10.000" MinChange="0.250" MinTime="1000" AverageTime="1" StatsType="1" CompressStats="-1" NumIOs="2">
 		<IoData Visu="true" CatRef="c3348081-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a9b01-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
@@ -814,11 +814,11 @@
 		<Connector V="62" Key="2C000067" UUID="630fd077-d39a-11e3-95e8e67b6262cc92"/>
 		<Connector V="62" Key="04041067" UUID="630fd076-d39a-11e3-95e9e67b6262cc92"/>
 	</Control>
-	<Control V="63" UUID="61dc62dd-a0c4-11e3-b3cafb2c2de534db" Title="1-Wire product family" Type="Lox1wireFamily" Family="33C4FE10" Poll="60.000"/>
-	<Control V="63" UUID="61dc62dc-a0c4-11e3-b3cbfb2c2de534db" Title="1-Wire product family" Type="Lox1wireFamily" Family="6D610022" Poll="60.000"/>
-	<Control V="63" UUID="61dc62dd-a0c4-11e3-b3cbfb2c2de534db" Title="1-Wire product family" Type="Lox1wireFamily" Family="33C4FE01" Poll="0.100"/>
-	<Control V="63" UUID="61dc62dc-a0c4-11e3-b3ccfb2c2de534db" Title="1-Wire product family" Type="Lox1wireFamily" Family="03000026" Poll="60.000"/>
-	<Control V="63" UUID="61dc62dd-a0c4-11e3-b3ccfb2c2de534db" Title="1-Wire product family" Type="Lox1wireFamily" Family="33C4FE18" Poll="0.100"/>
+	<Control V="63" UUID="61dc62dd-a0c4-11e3-b3cafb2c2de534db" Title="1-Wire product family" Type="Lox1wireFamily" Family="00000010" Poll="60.000"/>
+	<Control V="63" UUID="61dc62dc-a0c4-11e3-b3cbfb2c2de534db" Title="1-Wire product family" Type="Lox1wireFamily" Family="00000022" Poll="60.000"/>
+	<Control V="63" UUID="61dc62dd-a0c4-11e3-b3cbfb2c2de534db" Title="1-Wire product family" Type="Lox1wireFamily" Family="00000001" Poll="0.100"/>
+	<Control V="63" UUID="61dc62dc-a0c4-11e3-b3ccfb2c2de534db" Title="1-Wire product family" Type="Lox1wireFamily" Family="00000026" Poll="60.000"/>
+	<Control V="63" UUID="61dc62dd-a0c4-11e3-b3ccfb2c2de534db" Title="1-Wire product family" Type="Lox1wireFamily" Family="00000018" Poll="0.100"/>
 	<Control V="63" UUID="a2f1ead1-a255-11e3-b9f2972a8456a1bb" Title="Loxone Dimmer Extension" Type="LoxDIMM" CycleUserProt="-1.000" Serial="02D80662" Installation="Utility Cupboard" SwitchBoard="Consumer Unit" SwitchBoardRow="1" SwitchBoardPos="4" ExtensionBlinkNum="12" ExtAddr="clouddns.loxone.com" IntAddr="" BaseID="-1">
 		<Alt></Alt>
 	</Control>
@@ -1313,7 +1313,7 @@
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 	</Control>
-	<Control V="63" UUID="c90c6c46-d394-11e3-8deae67b6262cc92" Title="Bedroom 2 Top Switch" Type="InputRef" PositionX="5088" PositionY="5280" PositionX2="7584" PositionY2="7584" Color="200,200,236" NumIOs="4" Ref="c347e171-9cad-11e3-9b97fb030ef95e86">
+	<Control V="63" UUID="c90c6c46-d394-11e3-8deae67b6262cc92" Title="Bedroom 2 Top Switch" Type="InputRef" PositionX="4320" PositionY="7584" PositionX2="6816" PositionY2="6816" Color="200,200,236" NumIOs="4" Ref="c347e171-9cad-11e3-9b97fb030ef95e86">
 		<Connector V="62" Key="60000136" UUID="c90c6c47-d394-11e3-8deae67b6262cc92" NumCons="1">
 			<In Input="c347e170-9cad-11e3-9b98fb030ef95e86"/>
 		</Connector>
@@ -1321,12 +1321,279 @@
 		<Connector V="62" Key="2C001136" UUID="c90c6c47-d394-11e3-8debe67b6262cc92"/>
 		<Connector V="62" Key="04042136" UUID="c90c6c46-d394-11e3-8dece67b6262cc92"/>
 	</Control>
-	<Control V="63" UUID="cd966137-d394-11e3-8ea4e67b6262cc92" Title="Bedroom 2 Bottom Switch" Type="InputRef" PositionX="4704" PositionY="5760" PositionX2="7584" PositionY2="7584" Color="200,200,236" NumIOs="4" Ref="c347e171-9cad-11e3-9b98fb030ef95e86">
+	<Control V="63" UUID="cd966137-d394-11e3-8ea4e67b6262cc92" Title="Bedroom 2 Bottom Switch" Type="InputRef" PositionX="3936" PositionY="7008" PositionX2="6816" PositionY2="6816" Color="200,200,236" NumIOs="4" Ref="c347e171-9cad-11e3-9b98fb030ef95e86">
 		<Connector V="62" Key="60000136" UUID="cd966136-d394-11e3-8ea5e67b6262cc92" NumCons="1">
 			<In Input="c347e170-9cad-11e3-9b99fb030ef95e86"/>
 		</Connector>
 		<Connector V="62" Key="40000136" UUID="cd966137-d394-11e3-8ea5e67b6262cc92"/>
 		<Connector V="62" Key="2C001136" UUID="cd966136-d394-11e3-8ea6e67b6262cc92"/>
 		<Connector V="62" Key="04042136" UUID="cd966137-d394-11e3-8ea6e67b6262cc92"/>
+	</Control>
+	<Control V="63" UUID="6df36701-110e-11e4-9a8a9b3f962d716d" Title="Lighting controller" Type="LightController" PositionX="9216" PositionY="4320" PositionX2="13248" PositionY2="13248" Color="200,216,179" NameAI0="" NameAI1="" NameAI2="" NameAI3="" NameAI4="" NameAI5="" NameAI6="" NameAI7="" NameAI8="" NameAI9="" NameAI10="" NameAI11="" NumIOs="56">
+		<IoData Visu="true" CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="57270c00-a171-11e3-968eb830a73fcead" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+			<LoggerMailer V="20" MinimumTime="20"/>
+		</IoData>
+		<LightscenesC Outputs="12" Num="8">
+			<LightsceneC Name="Scene 1" UUID="6df36700-110e-11e4-9a8b9b3f962d716d" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="6df36701-110e-11e4-9a8b9b3f962d716d" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="6df36700-110e-11e4-9a8c9b3f962d716d" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="6df36701-110e-11e4-9a8c9b3f962d716d" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="6df36700-110e-11e4-9a8d9b3f962d716d" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="6df36701-110e-11e4-9a8d9b3f962d716d" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="6df36700-110e-11e4-9a8e9b3f962d716d" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="6df36701-110e-11e4-9a8e9b3f962d716d" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+		</LightscenesC>
+		<Connector V="62" Key="20000164" UUID="6df36700-110e-11e4-9a8f9b3f962d716d"/>
+		<Connector V="62" Key="20041164" UUID="6df36701-110e-11e4-9a8f9b3f962d716d"/>
+		<Connector V="62" Key="20082164" UUID="6df36700-110e-11e4-9a909b3f962d716d"/>
+		<Connector V="62" Key="200C3164" UUID="6df36701-110e-11e4-9a909b3f962d716d"/>
+		<Connector V="62" Key="20104164" UUID="6df36700-110e-11e4-9a919b3f962d716d"/>
+		<Connector V="62" Key="20145164" UUID="6df36701-110e-11e4-9a919b3f962d716d"/>
+		<Connector V="62" Key="20186164" UUID="6df36700-110e-11e4-9a929b3f962d716d"/>
+		<Connector V="62" Key="201C7164" UUID="6df36701-110e-11e4-9a929b3f962d716d"/>
+		<Connector V="62" Key="20208164" UUID="6df36700-110e-11e4-9a939b3f962d716d"/>
+		<Connector V="62" Key="20249164" UUID="6df36701-110e-11e4-9a939b3f962d716d"/>
+		<Connector V="62" Key="2028A164" UUID="6df36700-110e-11e4-9a949b3f962d716d"/>
+		<Connector V="62" Key="202CB164" UUID="6df36701-110e-11e4-9a949b3f962d716d"/>
+		<Connector V="62" Key="0030C164" UUID="6df36700-110e-11e4-9a959b3f962d716d" NumCons="1">
+			<In Input="cd966136-d394-11e3-8ea6e67b6262cc92"/>
+		</Connector>
+		<Connector V="62" Key="0034D164" UUID="6df36701-110e-11e4-9a959b3f962d716d"/>
+		<Connector V="62" Key="2038E164" UUID="6df36700-110e-11e4-9a969b3f962d716d"/>
+		<Connector V="62" Key="003CF164" UUID="6df36701-110e-11e4-9a969b3f962d716d" NumCons="1">
+			<In Input="c90c6c47-d394-11e3-8debe67b6262cc92"/>
+		</Connector>
+		<Connector V="62" Key="00410164" UUID="6df36700-110e-11e4-9a979b3f962d716d"/>
+		<Connector V="62" Key="00451164" UUID="6df36701-110e-11e4-9a979b3f962d716d"/>
+		<Connector V="62" Key="00492164" UUID="6df36700-110e-11e4-9a989b3f962d716d"/>
+		<Connector V="62" Key="004D3164" UUID="6df36701-110e-11e4-9a989b3f962d716d"/>
+		<Connector V="62" Key="00514164" UUID="6df36700-110e-11e4-9a999b3f962d716d"/>
+		<Connector V="62" Key="00555164" UUID="6df36701-110e-11e4-9a999b3f962d716d"/>
+		<Connector V="62" Key="00596164" UUID="6df36700-110e-11e4-9a9a9b3f962d716d"/>
+		<Connector V="62" Key="005D7164" UUID="6df36701-110e-11e4-9a9a9b3f962d716d"/>
+		<Connector V="62" Key="00618164" UUID="6df36700-110e-11e4-9a9b9b3f962d716d"/>
+		<Connector V="62" Key="00659164" UUID="6df36701-110e-11e4-9a9b9b3f962d716d"/>
+		<Connector V="62" Key="0069A164" UUID="6df36700-110e-11e4-9a9c9b3f962d716d"/>
+		<Connector V="62" Key="006DB164" UUID="6df36701-110e-11e4-9a9c9b3f962d716d"/>
+		<Connector V="62" Key="0101C164" UUID="6df36700-110e-11e4-9a9d9b3f962d716d"/>
+		<Connector V="62" Key="3305D164" UUID="6df36701-110e-11e4-9a9d9b3f962d716d" Def="0.350"/>
+		<Connector V="62" Key="3209E164" UUID="6df36700-110e-11e4-9a9e9b3f962d716d" Def="2.000"/>
+		<Connector V="62" Key="330DF164" UUID="6df36701-110e-11e4-9a9e9b3f962d716d" Def="0.200"/>
+		<Connector V="62" Key="32120164" UUID="6df36700-110e-11e4-9a9f9b3f962d716d" Def="15.000"/>
+		<Connector V="62" Key="32161164" UUID="6df36701-110e-11e4-9a9f9b3f962d716d" Def="100.000"/>
+		<Connector V="62" Key="021A2164" UUID="6df36700-110e-11e4-9aa09b3f962d716d"/>
+		<Connector V="62" Key="021E3164" UUID="6df36701-110e-11e4-9aa09b3f962d716d"/>
+		<Connector V="62" Key="33224164" UUID="6df36700-110e-11e4-9aa19b3f962d716d" Def="180.000"/>
+		<Connector V="62" Key="33265164" UUID="6df36701-110e-11e4-9aa19b3f962d716d" Def="5.000"/>
+		<Connector V="62" Key="322A6164" UUID="6df36700-110e-11e4-9aa29b3f962d716d"/>
+		<Connector V="62" Key="332E7164" UUID="6df36701-110e-11e4-9aa29b3f962d716d"/>
+		<Connector V="62" Key="02328164" UUID="6df36700-110e-11e4-9aa39b3f962d716d"/>
+		<Connector V="62" Key="24029164" UUID="6df36701-110e-11e4-9aa39b3f962d716d"/>
+		<Connector V="62" Key="2406A164" UUID="6df36700-110e-11e4-9aa49b3f962d716d"/>
+		<Connector V="62" Key="240AB164" UUID="6df36701-110e-11e4-9aa49b3f962d716d"/>
+		<Connector V="62" Key="240EC164" UUID="6df36700-110e-11e4-9aa59b3f962d716d"/>
+		<Connector V="62" Key="2412D164" UUID="6df36701-110e-11e4-9aa59b3f962d716d"/>
+		<Connector V="62" Key="2416E164" UUID="6df36700-110e-11e4-9aa69b3f962d716d"/>
+		<Connector V="62" Key="241AF164" UUID="6df36701-110e-11e4-9aa69b3f962d716d"/>
+		<Connector V="62" Key="241F0164" UUID="6df36700-110e-11e4-9aa79b3f962d716d"/>
+		<Connector V="62" Key="24231164" UUID="6df36701-110e-11e4-9aa79b3f962d716d"/>
+		<Connector V="62" Key="24272164" UUID="6df36700-110e-11e4-9aa89b3f962d716d"/>
+		<Connector V="62" Key="242B3164" UUID="6df36701-110e-11e4-9aa89b3f962d716d"/>
+		<Connector V="62" Key="242F4164" UUID="6df36700-110e-11e4-9aa99b3f962d716d"/>
+		<Connector V="62" Key="2C335164" UUID="6df36701-110e-11e4-9aa99b3f962d716d"/>
+		<Connector V="62" Key="04376164" UUID="6df36700-110e-11e4-9aaa9b3f962d716d"/>
+		<Connector V="62" Key="043B7164" UUID="6df36701-110e-11e4-9aaa9b3f962d716d"/>
+	</Control>
+	<Control V="63" UUID="fe8c2710-1119-11e4-a5c09b3f962d716d" Title="Ensuite Lighting" Type="Page">
+		<IoData CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a4ce1-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+			<LoggerMailer V="20" MinimumTime="20"/>
+		</IoData>
+	</Control>
+	<Control V="63" UUID="1c153011-111a-11e4-a8a59b3f962d716d" Title="Ensuite Top Switch" Type="InputRef" PositionX="6144" PositionY="6912" PositionX2="8448" PositionY2="8448" Color="200,200,236" NumIOs="4" Ref="c347e171-9cad-11e3-9b95fb030ef95e86">
+		<Connector V="62" Key="60000136" UUID="1c153010-111a-11e4-a8a69b3f962d716d" NumCons="1">
+			<In Input="c347e170-9cad-11e3-9b96fb030ef95e86"/>
+		</Connector>
+		<Connector V="62" Key="40000136" UUID="1c153011-111a-11e4-a8a69b3f962d716d"/>
+		<Connector V="62" Key="2C001136" UUID="1c153010-111a-11e4-a8a79b3f962d716d"/>
+		<Connector V="62" Key="04042136" UUID="1c153011-111a-11e4-a8a79b3f962d716d"/>
+	</Control>
+	<Control V="63" UUID="1eb33381-111a-11e4-a95d9b3f962d716d" Title="Ensuite Bottom Switch" Type="InputRef" PositionX="5952" PositionY="6336" PositionX2="8448" PositionY2="8448" Color="200,200,236" NumIOs="4" Ref="c347e171-9cad-11e3-9b96fb030ef95e86">
+		<Connector V="62" Key="60000136" UUID="1eb33380-111a-11e4-a95e9b3f962d716d" NumCons="1">
+			<In Input="c347e170-9cad-11e3-9b97fb030ef95e86"/>
+		</Connector>
+		<Connector V="62" Key="40000136" UUID="1eb33381-111a-11e4-a95e9b3f962d716d"/>
+		<Connector V="62" Key="2C001136" UUID="1eb33380-111a-11e4-a95f9b3f962d716d"/>
+		<Connector V="62" Key="04042136" UUID="1eb33381-111a-11e4-a95f9b3f962d716d"/>
+	</Control>
+	<Control V="63" UUID="3c517231-111a-11e4-aa359b3f962d716d" Title="Lighting controller" Type="LightController" PositionX="10656" PositionY="3648" PositionX2="14688" PositionY2="14688" Color="200,216,179" NameAI0="" NameAI1="" NameAI2="" NameAI3="" NameAI4="" NameAI5="" NameAI6="" NameAI7="" NameAI8="" NameAI9="" NameAI10="" NameAI11="" NumIOs="56">
+		<IoData Visu="true" CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a4ce1-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+			<LoggerMailer V="20" MinimumTime="20"/>
+		</IoData>
+		<LightscenesC Outputs="12" Num="8">
+			<LightsceneC Name="Scene 1" UUID="3c517230-111a-11e4-aa369b3f962d716d" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="3c517231-111a-11e4-aa369b3f962d716d" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="3c517230-111a-11e4-aa379b3f962d716d" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="3c517231-111a-11e4-aa379b3f962d716d" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="3c517230-111a-11e4-aa389b3f962d716d" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="3c517231-111a-11e4-aa389b3f962d716d" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="3c517230-111a-11e4-aa399b3f962d716d" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="3c517231-111a-11e4-aa399b3f962d716d" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+		</LightscenesC>
+		<Connector V="62" Key="20000164" UUID="3c517230-111a-11e4-aa3a9b3f962d716d"/>
+		<Connector V="62" Key="20041164" UUID="3c517231-111a-11e4-aa3a9b3f962d716d"/>
+		<Connector V="62" Key="20082164" UUID="3c517230-111a-11e4-aa3b9b3f962d716d"/>
+		<Connector V="62" Key="200C3164" UUID="3c517231-111a-11e4-aa3b9b3f962d716d"/>
+		<Connector V="62" Key="20104164" UUID="3c517230-111a-11e4-aa3c9b3f962d716d"/>
+		<Connector V="62" Key="20145164" UUID="3c517231-111a-11e4-aa3c9b3f962d716d"/>
+		<Connector V="62" Key="20186164" UUID="3c517230-111a-11e4-aa3d9b3f962d716d"/>
+		<Connector V="62" Key="201C7164" UUID="3c517231-111a-11e4-aa3d9b3f962d716d"/>
+		<Connector V="62" Key="20208164" UUID="3c517230-111a-11e4-aa3e9b3f962d716d"/>
+		<Connector V="62" Key="20249164" UUID="3c517231-111a-11e4-aa3e9b3f962d716d"/>
+		<Connector V="62" Key="2028A164" UUID="3c517230-111a-11e4-aa3f9b3f962d716d"/>
+		<Connector V="62" Key="202CB164" UUID="3c517231-111a-11e4-aa3f9b3f962d716d"/>
+		<Connector V="62" Key="0030C164" UUID="3c517230-111a-11e4-aa409b3f962d716d" NumCons="1">
+			<In Input="1eb33380-111a-11e4-a95f9b3f962d716d"/>
+		</Connector>
+		<Connector V="62" Key="0034D164" UUID="3c517231-111a-11e4-aa409b3f962d716d"/>
+		<Connector V="62" Key="2038E164" UUID="3c517230-111a-11e4-aa419b3f962d716d"/>
+		<Connector V="62" Key="003CF164" UUID="3c517231-111a-11e4-aa419b3f962d716d" NumCons="1">
+			<In Input="1c153010-111a-11e4-a8a79b3f962d716d"/>
+		</Connector>
+		<Connector V="62" Key="00410164" UUID="3c517230-111a-11e4-aa429b3f962d716d"/>
+		<Connector V="62" Key="00451164" UUID="3c517231-111a-11e4-aa429b3f962d716d"/>
+		<Connector V="62" Key="00492164" UUID="3c517230-111a-11e4-aa439b3f962d716d"/>
+		<Connector V="62" Key="004D3164" UUID="3c517231-111a-11e4-aa439b3f962d716d"/>
+		<Connector V="62" Key="00514164" UUID="3c517230-111a-11e4-aa449b3f962d716d"/>
+		<Connector V="62" Key="00555164" UUID="3c517231-111a-11e4-aa449b3f962d716d"/>
+		<Connector V="62" Key="00596164" UUID="3c517230-111a-11e4-aa459b3f962d716d"/>
+		<Connector V="62" Key="005D7164" UUID="3c517231-111a-11e4-aa459b3f962d716d"/>
+		<Connector V="62" Key="00618164" UUID="3c517230-111a-11e4-aa469b3f962d716d"/>
+		<Connector V="62" Key="00659164" UUID="3c517231-111a-11e4-aa469b3f962d716d"/>
+		<Connector V="62" Key="0069A164" UUID="3c517230-111a-11e4-aa479b3f962d716d"/>
+		<Connector V="62" Key="006DB164" UUID="3c517231-111a-11e4-aa479b3f962d716d"/>
+		<Connector V="62" Key="0101C164" UUID="3c517230-111a-11e4-aa489b3f962d716d"/>
+		<Connector V="62" Key="3305D164" UUID="3c517231-111a-11e4-aa489b3f962d716d" Def="0.350"/>
+		<Connector V="62" Key="3209E164" UUID="3c517230-111a-11e4-aa499b3f962d716d" Def="2.000"/>
+		<Connector V="62" Key="330DF164" UUID="3c517231-111a-11e4-aa499b3f962d716d" Def="0.200"/>
+		<Connector V="62" Key="32120164" UUID="3c517230-111a-11e4-aa4a9b3f962d716d" Def="15.000"/>
+		<Connector V="62" Key="32161164" UUID="3c517231-111a-11e4-aa4a9b3f962d716d" Def="100.000"/>
+		<Connector V="62" Key="021A2164" UUID="3c517230-111a-11e4-aa4b9b3f962d716d"/>
+		<Connector V="62" Key="021E3164" UUID="3c517231-111a-11e4-aa4b9b3f962d716d"/>
+		<Connector V="62" Key="33224164" UUID="3c517230-111a-11e4-aa4c9b3f962d716d" Def="180.000"/>
+		<Connector V="62" Key="33265164" UUID="3c517231-111a-11e4-aa4c9b3f962d716d" Def="5.000"/>
+		<Connector V="62" Key="322A6164" UUID="3c517230-111a-11e4-aa4d9b3f962d716d"/>
+		<Connector V="62" Key="332E7164" UUID="3c517231-111a-11e4-aa4d9b3f962d716d"/>
+		<Connector V="62" Key="02328164" UUID="3c517230-111a-11e4-aa4e9b3f962d716d"/>
+		<Connector V="62" Key="24029164" UUID="3c517231-111a-11e4-aa4e9b3f962d716d"/>
+		<Connector V="62" Key="2406A164" UUID="3c517230-111a-11e4-aa4f9b3f962d716d"/>
+		<Connector V="62" Key="240AB164" UUID="3c517231-111a-11e4-aa4f9b3f962d716d"/>
+		<Connector V="62" Key="240EC164" UUID="3c517230-111a-11e4-aa509b3f962d716d"/>
+		<Connector V="62" Key="2412D164" UUID="3c517231-111a-11e4-aa509b3f962d716d"/>
+		<Connector V="62" Key="2416E164" UUID="3c517230-111a-11e4-aa519b3f962d716d"/>
+		<Connector V="62" Key="241AF164" UUID="3c517231-111a-11e4-aa519b3f962d716d"/>
+		<Connector V="62" Key="241F0164" UUID="3c517230-111a-11e4-aa529b3f962d716d"/>
+		<Connector V="62" Key="24231164" UUID="3c517231-111a-11e4-aa529b3f962d716d"/>
+		<Connector V="62" Key="24272164" UUID="3c517230-111a-11e4-aa539b3f962d716d"/>
+		<Connector V="62" Key="242B3164" UUID="3c517231-111a-11e4-aa539b3f962d716d"/>
+		<Connector V="62" Key="242F4164" UUID="3c517230-111a-11e4-aa549b3f962d716d"/>
+		<Connector V="62" Key="2C335164" UUID="3c517231-111a-11e4-aa549b3f962d716d"/>
+		<Connector V="62" Key="04376164" UUID="3c517230-111a-11e4-aa559b3f962d716d"/>
+		<Connector V="62" Key="043B7164" UUID="3c517231-111a-11e4-aa559b3f962d716d"/>
+	</Control>
+	<Control V="63" UUID="627c36b0-11e8-11e4-a06586d90d45a4ab" Title="Landing Lighting" Type="Page">
+		<IoData CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c339d7b1-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+			<LoggerMailer V="20" MinimumTime="20"/>
+		</IoData>
+	</Control>
+	<Control V="63" UUID="82545fd1-11e8-11e4-a37e86d90d45a4ab" Title="Landing Top Switch" Type="InputRef" PositionX="5280" PositionY="7392" PositionX2="7584" PositionY2="7584" Color="200,200,236" NumIOs="4" Ref="c347e171-9cad-11e3-9b99fb030ef95e86">
+		<Connector V="62" Key="60000136" UUID="82545fd0-11e8-11e4-a37f86d90d45a4ab" NumCons="1">
+			<In Input="c347e170-9cad-11e3-9b9afb030ef95e86"/>
+		</Connector>
+		<Connector V="62" Key="40000136" UUID="82545fd1-11e8-11e4-a37f86d90d45a4ab"/>
+		<Connector V="62" Key="2C001136" UUID="82545fd0-11e8-11e4-a38086d90d45a4ab"/>
+		<Connector V="62" Key="04042136" UUID="82545fd1-11e8-11e4-a38086d90d45a4ab"/>
+	</Control>
+	<Control V="63" UUID="83bf3a70-11e8-11e4-a44186d90d45a4ab" Title="Landing Bottom Switch" Type="InputRef" PositionX="4896" PositionY="6816" PositionX2="7584" PositionY2="7584" Color="200,200,236" NumIOs="4" Ref="c347e171-9cad-11e3-9b9afb030ef95e86">
+		<Connector V="62" Key="60000136" UUID="83bf3a71-11e8-11e4-a44186d90d45a4ab" NumCons="1">
+			<In Input="c347e170-9cad-11e3-9b9bfb030ef95e86"/>
+		</Connector>
+		<Connector V="62" Key="40000136" UUID="83bf3a70-11e8-11e4-a44286d90d45a4ab"/>
+		<Connector V="62" Key="2C001136" UUID="83bf3a71-11e8-11e4-a44286d90d45a4ab"/>
+		<Connector V="62" Key="04042136" UUID="83bf3a70-11e8-11e4-a44386d90d45a4ab"/>
+	</Control>
+	<Control V="63" UUID="9121bdf0-11e8-11e4-a5eb86d90d45a4ab" Title="Lighting controller" Type="LightController" PositionX="9984" PositionY="4128" PositionX2="14016" PositionY2="14016" Color="200,216,179" NameAI0="" NameAI1="" NameAI2="" NameAI3="" NameAI4="" NameAI5="" NameAI6="" NameAI7="" NameAI8="" NameAI9="" NameAI10="" NameAI11="" NumIOs="56">
+		<IoData Visu="true" CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c339d7b1-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+			<LoggerMailer V="20" MinimumTime="20"/>
+		</IoData>
+		<LightscenesC Outputs="12" Num="8">
+			<LightsceneC Name="Scene 1" UUID="9121bdf1-11e8-11e4-a5eb86d90d45a4ab" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="9121bdf0-11e8-11e4-a5ec86d90d45a4ab" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="9121bdf1-11e8-11e4-a5ec86d90d45a4ab" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="9121bdf0-11e8-11e4-a5ed86d90d45a4ab" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="9121bdf1-11e8-11e4-a5ed86d90d45a4ab" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="9121bdf0-11e8-11e4-a5ee86d90d45a4ab" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="9121bdf1-11e8-11e4-a5ee86d90d45a4ab" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="9121bdf0-11e8-11e4-a5ef86d90d45a4ab" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+		</LightscenesC>
+		<Connector V="62" Key="20000164" UUID="9121bdf1-11e8-11e4-a5ef86d90d45a4ab"/>
+		<Connector V="62" Key="20041164" UUID="9121bdf0-11e8-11e4-a5f086d90d45a4ab"/>
+		<Connector V="62" Key="20082164" UUID="9121bdf1-11e8-11e4-a5f086d90d45a4ab"/>
+		<Connector V="62" Key="200C3164" UUID="9121bdf0-11e8-11e4-a5f186d90d45a4ab"/>
+		<Connector V="62" Key="20104164" UUID="9121bdf1-11e8-11e4-a5f186d90d45a4ab"/>
+		<Connector V="62" Key="20145164" UUID="9121bdf0-11e8-11e4-a5f286d90d45a4ab"/>
+		<Connector V="62" Key="20186164" UUID="9121bdf1-11e8-11e4-a5f286d90d45a4ab"/>
+		<Connector V="62" Key="201C7164" UUID="9121bdf0-11e8-11e4-a5f386d90d45a4ab"/>
+		<Connector V="62" Key="20208164" UUID="9121bdf1-11e8-11e4-a5f386d90d45a4ab"/>
+		<Connector V="62" Key="20249164" UUID="9121bdf0-11e8-11e4-a5f486d90d45a4ab"/>
+		<Connector V="62" Key="2028A164" UUID="9121bdf1-11e8-11e4-a5f486d90d45a4ab"/>
+		<Connector V="62" Key="202CB164" UUID="9121bdf0-11e8-11e4-a5f586d90d45a4ab"/>
+		<Connector V="62" Key="0030C164" UUID="9121bdf1-11e8-11e4-a5f586d90d45a4ab" NumCons="1">
+			<In Input="83bf3a71-11e8-11e4-a44286d90d45a4ab"/>
+		</Connector>
+		<Connector V="62" Key="0034D164" UUID="9121bdf0-11e8-11e4-a5f686d90d45a4ab"/>
+		<Connector V="62" Key="2038E164" UUID="9121bdf1-11e8-11e4-a5f686d90d45a4ab"/>
+		<Connector V="62" Key="003CF164" UUID="9121bdf0-11e8-11e4-a5f786d90d45a4ab" NumCons="1">
+			<In Input="82545fd0-11e8-11e4-a38086d90d45a4ab"/>
+		</Connector>
+		<Connector V="62" Key="00410164" UUID="9121bdf1-11e8-11e4-a5f786d90d45a4ab"/>
+		<Connector V="62" Key="00451164" UUID="9121bdf0-11e8-11e4-a5f886d90d45a4ab"/>
+		<Connector V="62" Key="00492164" UUID="9121bdf1-11e8-11e4-a5f886d90d45a4ab"/>
+		<Connector V="62" Key="004D3164" UUID="9121bdf0-11e8-11e4-a5f986d90d45a4ab"/>
+		<Connector V="62" Key="00514164" UUID="9121bdf1-11e8-11e4-a5f986d90d45a4ab"/>
+		<Connector V="62" Key="00555164" UUID="9121bdf0-11e8-11e4-a5fa86d90d45a4ab"/>
+		<Connector V="62" Key="00596164" UUID="9121bdf1-11e8-11e4-a5fa86d90d45a4ab"/>
+		<Connector V="62" Key="005D7164" UUID="9121bdf0-11e8-11e4-a5fb86d90d45a4ab"/>
+		<Connector V="62" Key="00618164" UUID="9121bdf1-11e8-11e4-a5fb86d90d45a4ab"/>
+		<Connector V="62" Key="00659164" UUID="9121bdf0-11e8-11e4-a5fc86d90d45a4ab"/>
+		<Connector V="62" Key="0069A164" UUID="9121bdf1-11e8-11e4-a5fc86d90d45a4ab"/>
+		<Connector V="62" Key="006DB164" UUID="9121bdf0-11e8-11e4-a5fd86d90d45a4ab"/>
+		<Connector V="62" Key="0101C164" UUID="9121bdf1-11e8-11e4-a5fd86d90d45a4ab"/>
+		<Connector V="62" Key="3305D164" UUID="9121bdf0-11e8-11e4-a5fe86d90d45a4ab" Def="0.350"/>
+		<Connector V="62" Key="3209E164" UUID="9121bdf1-11e8-11e4-a5fe86d90d45a4ab" Def="2.000"/>
+		<Connector V="62" Key="330DF164" UUID="9121bdf0-11e8-11e4-a5ff86d90d45a4ab" Def="0.200"/>
+		<Connector V="62" Key="32120164" UUID="9121bdf1-11e8-11e4-a5ff86d90d45a4ab" Def="15.000"/>
+		<Connector V="62" Key="32161164" UUID="9121bdf0-11e8-11e4-a60086d90d45a4ab" Def="100.000"/>
+		<Connector V="62" Key="021A2164" UUID="9121bdf1-11e8-11e4-a60086d90d45a4ab"/>
+		<Connector V="62" Key="021E3164" UUID="9121bdf0-11e8-11e4-a60186d90d45a4ab"/>
+		<Connector V="62" Key="33224164" UUID="9121bdf1-11e8-11e4-a60186d90d45a4ab" Def="180.000"/>
+		<Connector V="62" Key="33265164" UUID="9121bdf0-11e8-11e4-a60286d90d45a4ab" Def="5.000"/>
+		<Connector V="62" Key="322A6164" UUID="9121bdf1-11e8-11e4-a60286d90d45a4ab"/>
+		<Connector V="62" Key="332E7164" UUID="9121bdf0-11e8-11e4-a60386d90d45a4ab"/>
+		<Connector V="62" Key="02328164" UUID="9121bdf1-11e8-11e4-a60386d90d45a4ab"/>
+		<Connector V="62" Key="24029164" UUID="9121bdf0-11e8-11e4-a60486d90d45a4ab"/>
+		<Connector V="62" Key="2406A164" UUID="9121bdf1-11e8-11e4-a60486d90d45a4ab"/>
+		<Connector V="62" Key="240AB164" UUID="9121bdf0-11e8-11e4-a60586d90d45a4ab"/>
+		<Connector V="62" Key="240EC164" UUID="9121bdf1-11e8-11e4-a60586d90d45a4ab"/>
+		<Connector V="62" Key="2412D164" UUID="9121bdf0-11e8-11e4-a60686d90d45a4ab"/>
+		<Connector V="62" Key="2416E164" UUID="9121bdf1-11e8-11e4-a60686d90d45a4ab"/>
+		<Connector V="62" Key="241AF164" UUID="9121bdf0-11e8-11e4-a60786d90d45a4ab"/>
+		<Connector V="62" Key="241F0164" UUID="9121bdf1-11e8-11e4-a60786d90d45a4ab"/>
+		<Connector V="62" Key="24231164" UUID="9121bdf0-11e8-11e4-a60886d90d45a4ab"/>
+		<Connector V="62" Key="24272164" UUID="9121bdf1-11e8-11e4-a60886d90d45a4ab"/>
+		<Connector V="62" Key="242B3164" UUID="9121bdf0-11e8-11e4-a60986d90d45a4ab"/>
+		<Connector V="62" Key="242F4164" UUID="9121bdf1-11e8-11e4-a60986d90d45a4ab"/>
+		<Connector V="62" Key="2C335164" UUID="9121bdf0-11e8-11e4-a60a86d90d45a4ab"/>
+		<Connector V="62" Key="04376164" UUID="9121bdf1-11e8-11e4-a60a86d90d45a4ab"/>
+		<Connector V="62" Key="043B7164" UUID="9121bdf0-11e8-11e4-a60b86d90d45a4ab"/>
 	</Control>
 </ControlList>
