@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ControlList Version="66" NextObj="22" NextConst="1" NextNote="1" NextMem="1">
-	<Control V="63" UUID="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" Type="Document" PaperFormat="0" Font="Arial" AutoSave="0" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="22/07/2014 22:39:13" DateS="175300752" Town="SW12 8QH" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater"/>
+<ControlList Version="66" NextObj="25" NextConst="1" NextNote="1" NextMem="1">
+	<Control V="63" UUID="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" Type="Document" PaperFormat="0" Font="Arial" AutoSave="0" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="31/07/2014 22:37:51" DateS="176078271" Town="SW12 8QH" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater"/>
 	<Control V="63" UUID="c332d2d0-9cad-11e3-9b00fb030ef95e86" Title="Status symbols" Type="IconCaptionState"/>
 	<Control V="63" UUID="c34178d1-9cad-11e3-9b0afb030ef95e86" Title="Not assigned" Type="IconState" User="false" Ix="0"/>
 	<Control V="63" UUID="c3419fe0-9cad-11e3-9b0afb030ef95e86" Title="Fatal error" Type="IconState" User="false" Ix="1"/>
@@ -335,7 +335,7 @@
 		<Connector V="62" Key="04001017" UUID="c34410e1-9cad-11e3-9b26fb030ef95e86"/>
 	</Control>
 	<Control V="63" UUID="c3339620-9cad-11e3-9b02fb030ef95e86" Title="Remote controls" Type="RemoteControls"/>
-	<Control V="63" UUID="c346d001-9cad-11e3-9b8efb030ef95e86" Title="Loxone Miniserver" Type="LoxLIVE" CycleUserProt="-1.000" Serial="EEE000D80ECE" Installation="Utility Cupboard" SwitchBoard="Consumer Unit" SwitchBoardRow="1" SwitchBoardPos="1" ExtAddr="clouddns.loxone.com" IntAddr="" BaseID="-1" CompressStats="60" CompressArea="3"/>
+	<Control V="63" UUID="c346d001-9cad-11e3-9b8efb030ef95e86" Title="Loxone Miniserver" Type="LoxLIVE" CycleUserProt="-1.000" Serial="EEE000D80ECE" Installation="Utility Cupboard" SwitchBoard="Consumer Unit" SwitchBoardRow="3" SwitchBoardPos="1" ExtensionBlinkNum="4" ExtAddr="clouddns.loxone.com" IntAddr="" BaseID="-1" CompressStats="60" CompressArea="3"/>
 	<Control V="63" UUID="c347ba60-9cad-11e3-9b8efb030ef95e86" Title="Digital inputs" Type="InputCaption"/>
 	<Control V="63" UUID="c347e171-9cad-11e3-9b93fb030ef95e86" Title="Master Bedroom Top Switch" IName="I1" Type="DigitalIn" MinTime="10" NumIOs="1">
 		<IoData CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a9b01-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
@@ -678,7 +678,7 @@
 	</Control>
 	<Control V="63" UUID="c347e171-9cad-11e3-9b92fb030ef95e86" Title="Messages" Type="LoggerOutCaption"/>
 	<Control V="63" UUID="c347e170-9cad-11e3-9b93fb030ef95e86" Title="Logger" Type="Logger" Address=""/>
-	<Control V="63" UUID="22287ab0-9f38-11e3-a43895d9cdbb6d3f" Title="Loxone DMX Extension" Type="CommDMX" CycleUserProt="-1.000" Serial="04D80543" Installation="Utility Cupboard" SwitchBoard="Consumer Unit" SwitchBoardRow="1" SwitchBoardPos="2" ExtensionBlinkNum="4" ExtAddr="clouddns.loxone.com" IntAddr="" BaseID="-1">
+	<Control V="63" UUID="22287ab0-9f38-11e3-a43895d9cdbb6d3f" Title="Loxone DMX Extension" Type="CommDMX" CycleUserProt="-1.000" Serial="04D80543" Installation="Utility Cupboard" SwitchBoard="Consumer Unit" SwitchBoardRow="3" SwitchBoardPos="3" ExtensionBlinkNum="12" ExtAddr="clouddns.loxone.com" IntAddr="" BaseID="-1">
 		<Alt></Alt>
 	</Control>
 	<Control V="63" UUID="22315450-9f38-11e3-a43895d9cdbb6d3f" Title="Online status Loxone DMX Extension" IName="S0" Type="Online" NotUsed="true" Color="255,179,179" MinTime="10" NumIOs="1">
@@ -708,7 +708,7 @@
 			<In Input="08065fb0-a183-11e3-a3f2b830a73fcead"/>
 		</Connector>
 	</Control>
-	<Control V="63" UUID="eabdbb10-a182-11e3-a0f7b830a73fcead" Title="DMX actuator 2" IName="DQ3" Type="LoxDMXactor" Percent="true" Channel="3" SourceValHigh="100.000" DestValHigh="100.000" Slewrate="40" NumIOs="1">
+	<Control V="63" UUID="eabdbb10-a182-11e3-a0f7b830a73fcead" Title="Right hand bookshelf" IName="DQ3" Type="LoxDMXactor" Percent="true" Channel="3" SourceValHigh="100.000" DestValHigh="100.000" Slewrate="40" NumIOs="1">
 		<IoData CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a9b01-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
@@ -717,21 +717,25 @@
 			<In Input="93a68b81-a183-11e3-a817b830a73fcead"/>
 		</Connector>
 	</Control>
-	<Control V="63" UUID="eabe0930-a182-11e3-a0f7b830a73fcead" Title="DMX actuator 3" IName="DQ4" Type="LoxDMXactor" NotUsed="true" Percent="true" Channel="4" SourceValHigh="100.000" DestValHigh="100.000" Slewrate="15" NumIOs="1">
-		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+	<Control V="63" UUID="eabe0930-a182-11e3-a0f7b830a73fcead" Title="DMX actuator 3" IName="DQ4" Type="LoxDMXactor" Percent="true" Channel="4" SourceValHigh="100.000" DestValHigh="100.000" Slewrate="40" NumIOs="1">
+		<IoData CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c339fec1-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="0" Unit="&lt;v&gt;%" StateOnly="true" Step="1.000"/>
-		<Connector V="62" Key="28000084" UUID="eabe0931-a182-11e3-a0f7b830a73fcead"/>
+		<Connector V="62" Key="28000084" UUID="eabe0931-a182-11e3-a0f7b830a73fcead" NumCons="1">
+			<In Input="efae5eb1-18ef-11e4-9fecfaf90206b321"/>
+		</Connector>
 	</Control>
-	<Control V="63" UUID="eabe5750-a182-11e3-a0f7b830a73fcead" Title="DMX actuator 4" IName="DQ5" Type="LoxDMXactor" NotUsed="true" Percent="true" Channel="5" SourceValHigh="100.000" DestValHigh="100.000" Slewrate="15" NumIOs="1">
-		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+	<Control V="63" UUID="eabe5750-a182-11e3-a0f7b830a73fcead" Title="DMX actuator 4" IName="DQ5" Type="LoxDMXactor" Percent="true" Channel="5" SourceValHigh="100.000" DestValHigh="100.000" Slewrate="15" NumIOs="1">
+		<IoData CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c339fec1-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="0" Unit="&lt;v&gt;%" StateOnly="true" Step="1.000"/>
-		<Connector V="62" Key="28000084" UUID="eabe5751-a182-11e3-a0f7b830a73fcead"/>
+		<Connector V="62" Key="28000084" UUID="eabe5751-a182-11e3-a0f7b830a73fcead" NumCons="1">
+			<In Input="f4792d31-18ef-11e4-a0b8faf90206b321"/>
+		</Connector>
 	</Control>
-	<Control V="63" UUID="61d02ddc-a0c4-11e3-b3cafb2c2de534db" Title="Loxone 1-Wire Extension" Type="Comm1wire" CycleUserProt="-1.000" Serial="05D80761" Installation="Utility Cupboard" SwitchBoard="Consumer Unit" SwitchBoardRow="1" SwitchBoardPos="3" ExtensionBlinkNum="8" ExtAddr="clouddns.loxone.com" IntAddr="" BaseID="-1">
+	<Control V="63" UUID="61d02ddc-a0c4-11e3-b3cafb2c2de534db" Title="Loxone 1-Wire Extension" Type="Comm1wire" CycleUserProt="-1.000" Serial="05D80761" Installation="Utility Cupboard" SwitchBoard="Consumer Unit" SwitchBoardRow="3" SwitchBoardPos="2" ExtensionBlinkNum="8" ExtAddr="clouddns.loxone.com" IntAddr="" BaseID="-1">
 		<Alt></Alt>
 	</Control>
 	<Control V="63" UUID="61df972c-a0c4-11e3-b3ccfb2c2de534db" Title="Online status Loxone 1-Wire Extension" IName="S0" Type="Online" NotUsed="true" Color="255,179,179" MinTime="10" NumIOs="1">
@@ -819,7 +823,7 @@
 	<Control V="63" UUID="61dc62dd-a0c4-11e3-b3cbfb2c2de534db" Title="1-Wire product family" Type="Lox1wireFamily" Family="00000001" Poll="0.100"/>
 	<Control V="63" UUID="61dc62dc-a0c4-11e3-b3ccfb2c2de534db" Title="1-Wire product family" Type="Lox1wireFamily" Family="00000026" Poll="60.000"/>
 	<Control V="63" UUID="61dc62dd-a0c4-11e3-b3ccfb2c2de534db" Title="1-Wire product family" Type="Lox1wireFamily" Family="00000018" Poll="0.100"/>
-	<Control V="63" UUID="a2f1ead1-a255-11e3-b9f2972a8456a1bb" Title="Loxone Dimmer Extension" Type="LoxDIMM" CycleUserProt="-1.000" Serial="02D80662" Installation="Utility Cupboard" SwitchBoard="Consumer Unit" SwitchBoardRow="1" SwitchBoardPos="4" ExtensionBlinkNum="12" ExtAddr="clouddns.loxone.com" IntAddr="" BaseID="-1">
+	<Control V="63" UUID="a2f1ead1-a255-11e3-b9f2972a8456a1bb" Title="Loxone Dimmer Extension" Type="LoxDIMM" CycleUserProt="-1.000" Serial="02D80662" Installation="Utility Cupboard" SwitchBoard="Consumer Unit" SwitchBoardRow="2" SwitchBoardPos="3" ExtAddr="clouddns.loxone.com" IntAddr="" BaseID="-1">
 		<Alt></Alt>
 	</Control>
 	<Control V="63" UUID="a3023e80-a255-11e3-b9f2972a8456a1bb" Title="Online status Loxone Dimmer Extension" IName="S0" Type="Online" NotUsed="true" Color="255,179,179" MinTime="10" NumIOs="1">
@@ -887,12 +891,14 @@
 		<Connector V="62" Key="0C000037" UUID="a3028ca1-a255-11e3-b9fa972a8456a1bb"/>
 	</Control>
 	<Control V="63" UUID="a3026590-a255-11e3-b9f3972a8456a1bb" Title="Analogue outputs" Type="AnalogOutputCaption"/>
-	<Control V="63" UUID="a3028ca0-a255-11e3-b9fb972a8456a1bb" Title="Dimmer AQ1" IName="AQ1" Type="Dimmer" NotUsed="true" Percent="true" Channel="1" SourceValHigh="100.000" DestValHigh="100.000" DimmType="2" Slewrate="15" NumIOs="1">
-		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+	<Control V="63" UUID="a3028ca0-a255-11e3-b9fb972a8456a1bb" Title="Dimmer AQ1" IName="AQ1" Type="Dimmer" Percent="true" Channel="1" SourceValHigh="100.000" DestValHigh="100.000" DimmType="2" Slewrate="15" NumIOs="1">
+		<IoData CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a4ce1-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="0" Unit="&lt;v&gt;%" StateOnly="true" Step="1.000"/>
-		<Connector V="62" Key="2800003C" UUID="a3028ca1-a255-11e3-b9fb972a8456a1bb"/>
+		<Connector V="62" Key="2800003C" UUID="a3028ca1-a255-11e3-b9fb972a8456a1bb" NumCons="1">
+			<In Input="ab883ac0-18fa-11e4-b428faf90206b321"/>
+		</Connector>
 	</Control>
 	<Control V="63" UUID="a3028ca0-a255-11e3-b9fc972a8456a1bb" Title="Dimmer AQ2" IName="AQ2" Type="Dimmer" NotUsed="true" Percent="true" Channel="1" SourceValHigh="100.000" DestValHigh="100.000" DimmType="2" Slewrate="15" NumIOs="1">
 		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
@@ -1180,19 +1186,19 @@
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 	</Control>
-	<Control V="63" UUID="1f1c4161-a183-11e3-a4b1b830a73fcead" Title="Lighting controller" Type="LightController" PositionX="7488" PositionY="3936" PositionX2="11520" PositionY2="11520" Color="200,216,179" NameAI0="DMX actuator 1" NameAI1="DMX actuator 2" NameAI2="" NameAI3="" NameAI4="" NameAI5="" NameAI6="" NameAI7="" NameAI8="" NameAI9="" NameAI10="" NameAI11="" NumIOs="56">
+	<Control V="63" UUID="1f1c4161-a183-11e3-a4b1b830a73fcead" Title="Lighting controller" Type="LightController" PositionX="7488" PositionY="3936" PositionX2="11520" PositionY2="11520" Color="200,216,179" NameAI0="DMX actuator 1" NameAI1="Right hand bookshelf" NameAI2="DMX actuator 3" NameAI3="DMX actuator 4" NameAI4="" NameAI5="" NameAI6="" NameAI7="" NameAI8="" NameAI9="" NameAI10="" NameAI11="" NumIOs="56">
 		<IoData Visu="true" CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c339fec1-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<LightscenesC Outputs="12" Num="8">
-			<LightsceneC Name="Scene 1" UUID="1f1c4160-a183-11e3-a4b2b830a73fcead" Outputs="12" Q1="268435456" Q2="268435456" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
-			<LightsceneC Name="-" UUID="1f1c4161-a183-11e3-a4b2b830a73fcead" Outputs="12" Q1="268435456" Q2="268435456" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
-			<LightsceneC Name="-" UUID="1f1c4160-a183-11e3-a4b3b830a73fcead" Outputs="12" Q1="268435456" Q2="268435456" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
-			<LightsceneC Name="-" UUID="1f1c4161-a183-11e3-a4b3b830a73fcead" Outputs="12" Q1="268435456" Q2="268435456" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
-			<LightsceneC Name="-" UUID="1f1c4160-a183-11e3-a4b4b830a73fcead" Outputs="12" Q1="268435456" Q2="268435456" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
-			<LightsceneC Name="-" UUID="1f1c4161-a183-11e3-a4b4b830a73fcead" Outputs="12" Q1="268435456" Q2="268435456" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
-			<LightsceneC Name="-" UUID="1f1c4160-a183-11e3-a4b5b830a73fcead" Outputs="12" Q1="268435456" Q2="268435456" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
-			<LightsceneC Name="-" UUID="1f1c4161-a183-11e3-a4b5b830a73fcead" Outputs="12" Q1="268435456" Q2="268435456" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="Dimmed bookshelf" UUID="1f1c4160-a183-11e3-a4b2b830a73fcead" Outputs="12" Q1="268435456" Q2="268435513" Q3="268435456" Q4="268435456" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="1f1c4161-a183-11e3-a4b2b830a73fcead" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="1f1c4160-a183-11e3-a4b3b830a73fcead" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="1f1c4161-a183-11e3-a4b3b830a73fcead" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="1f1c4160-a183-11e3-a4b4b830a73fcead" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="1f1c4161-a183-11e3-a4b4b830a73fcead" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="1f1c4160-a183-11e3-a4b5b830a73fcead" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="1f1c4161-a183-11e3-a4b5b830a73fcead" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
 		</LightscenesC>
 		<Connector V="62" Key="20000164" UUID="1f1c4160-a183-11e3-a4b6b830a73fcead"/>
 		<Connector V="62" Key="20041164" UUID="1f1c4161-a183-11e3-a4b6b830a73fcead"/>
@@ -1257,11 +1263,23 @@
 		</Connector>
 		<Connector V="62" Key="64001137" UUID="08065fb0-a183-11e3-a3f2b830a73fcead"/>
 	</Control>
-	<Control V="63" UUID="93a68b81-a183-11e3-a816b830a73fcead" Title="DMX actuator 2" Type="OutputRef" PositionX="13056" PositionY="4512" PositionX2="15552" PositionY2="15552" Color="200,200,236" Analog="true" NumIOs="2" Ref="eabdbb10-a182-11e3-a0f7b830a73fcead">
+	<Control V="63" UUID="93a68b81-a183-11e3-a816b830a73fcead" Title="Right hand bookshelf" Type="OutputRef" PositionX="13056" PositionY="4512" PositionX2="16128" PositionY2="16128" Color="200,200,236" Analog="true" NumIOs="2" Ref="eabdbb10-a182-11e3-a0f7b830a73fcead">
 		<Connector V="62" Key="28000137" UUID="93a68b80-a183-11e3-a817b830a73fcead" NumCons="1">
 			<In Input="1f1c4160-a183-11e3-a4cbb830a73fcead"/>
 		</Connector>
 		<Connector V="62" Key="64001137" UUID="93a68b81-a183-11e3-a817b830a73fcead"/>
+	</Control>
+	<Control V="63" UUID="efae5eb1-18ef-11e4-9febfaf90206b321" Title="DMX actuator 3" Type="OutputRef" PositionX="13056" PositionY="4704" PositionX2="15552" PositionY2="15552" Color="200,200,236" Analog="true" NumIOs="2" Ref="eabe0930-a182-11e3-a0f7b830a73fcead">
+		<Connector V="62" Key="28000137" UUID="efae5eb0-18ef-11e4-9fecfaf90206b321" NumCons="1">
+			<In Input="1f1c4161-a183-11e3-a4cbb830a73fcead"/>
+		</Connector>
+		<Connector V="62" Key="64001137" UUID="efae5eb1-18ef-11e4-9fecfaf90206b321"/>
+	</Control>
+	<Control V="63" UUID="f4792d31-18ef-11e4-a0b7faf90206b321" Title="DMX actuator 4" Type="OutputRef" PositionX="13056" PositionY="4896" PositionX2="15552" PositionY2="15552" Color="200,200,236" Analog="true" NumIOs="2" Ref="eabe5750-a182-11e3-a0f7b830a73fcead">
+		<Connector V="62" Key="28000137" UUID="f4792d30-18ef-11e4-a0b8faf90206b321" NumCons="1">
+			<In Input="1f1c4160-a183-11e3-a4ccb830a73fcead"/>
+		</Connector>
+		<Connector V="62" Key="64001137" UUID="f4792d31-18ef-11e4-a0b8faf90206b321"/>
 	</Control>
 	<Control V="63" UUID="ceb388e1-a18d-11e3-afc2b830a73fcead" Title="Bedroom 3 Heating" Type="Page">
 		<IoData CatRef="c3348081-9cad-11e3-9b03fb030ef95e86" PlaceRef="c2d18ae0-a18d-11e3-adeeb830a73fcead" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
@@ -1409,7 +1427,7 @@
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 	</Control>
-	<Control V="63" UUID="1c153011-111a-11e4-a8a59b3f962d716d" Title="Ensuite Top Switch" Type="InputRef" PositionX="6144" PositionY="6912" PositionX2="8448" PositionY2="8448" Color="200,200,236" NumIOs="4" Ref="c347e171-9cad-11e3-9b95fb030ef95e86">
+	<Control V="63" UUID="1c153011-111a-11e4-a8a59b3f962d716d" Title="Ensuite Top Switch" Type="InputRef" PositionX="4608" PositionY="7008" PositionX2="6912" PositionY2="6912" Color="200,200,236" NumIOs="4" Ref="c347e171-9cad-11e3-9b95fb030ef95e86">
 		<Connector V="62" Key="60000136" UUID="1c153010-111a-11e4-a8a69b3f962d716d" NumCons="1">
 			<In Input="c347e170-9cad-11e3-9b96fb030ef95e86"/>
 		</Connector>
@@ -1417,7 +1435,7 @@
 		<Connector V="62" Key="2C001136" UUID="1c153010-111a-11e4-a8a79b3f962d716d"/>
 		<Connector V="62" Key="04042136" UUID="1c153011-111a-11e4-a8a79b3f962d716d"/>
 	</Control>
-	<Control V="63" UUID="1eb33381-111a-11e4-a95d9b3f962d716d" Title="Ensuite Bottom Switch" Type="InputRef" PositionX="5952" PositionY="6336" PositionX2="8448" PositionY2="8448" Color="200,200,236" NumIOs="4" Ref="c347e171-9cad-11e3-9b96fb030ef95e86">
+	<Control V="63" UUID="1eb33381-111a-11e4-a95d9b3f962d716d" Title="Ensuite Bottom Switch" Type="InputRef" PositionX="4416" PositionY="6432" PositionX2="6912" PositionY2="6912" Color="200,200,236" NumIOs="4" Ref="c347e171-9cad-11e3-9b96fb030ef95e86">
 		<Connector V="62" Key="60000136" UUID="1eb33380-111a-11e4-a95e9b3f962d716d" NumCons="1">
 			<In Input="c347e170-9cad-11e3-9b97fb030ef95e86"/>
 		</Connector>
@@ -1425,19 +1443,19 @@
 		<Connector V="62" Key="2C001136" UUID="1eb33380-111a-11e4-a95f9b3f962d716d"/>
 		<Connector V="62" Key="04042136" UUID="1eb33381-111a-11e4-a95f9b3f962d716d"/>
 	</Control>
-	<Control V="63" UUID="3c517231-111a-11e4-aa359b3f962d716d" Title="Lighting controller" Type="LightController" PositionX="10656" PositionY="3648" PositionX2="14688" PositionY2="14688" Color="200,216,179" NameAI0="" NameAI1="" NameAI2="" NameAI3="" NameAI4="" NameAI5="" NameAI6="" NameAI7="" NameAI8="" NameAI9="" NameAI10="" NameAI11="" NumIOs="56">
+	<Control V="63" UUID="3c517231-111a-11e4-aa359b3f962d716d" Title="Lighting controller" Type="LightController" PositionX="8640" PositionY="3744" PositionX2="12672" PositionY2="12672" Color="200,216,179" NameAI0="Dimmer AQ1" NameAI1="" NameAI2="" NameAI3="" NameAI4="" NameAI5="" NameAI6="" NameAI7="" NameAI8="" NameAI9="" NameAI10="" NameAI11="" NumIOs="56">
 		<IoData Visu="true" CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a4ce1-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<LightscenesC Outputs="12" Num="8">
-			<LightsceneC Name="Scene 1" UUID="3c517230-111a-11e4-aa369b3f962d716d" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
-			<LightsceneC Name="-" UUID="3c517231-111a-11e4-aa369b3f962d716d" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
-			<LightsceneC Name="-" UUID="3c517230-111a-11e4-aa379b3f962d716d" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
-			<LightsceneC Name="-" UUID="3c517231-111a-11e4-aa379b3f962d716d" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
-			<LightsceneC Name="-" UUID="3c517230-111a-11e4-aa389b3f962d716d" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
-			<LightsceneC Name="-" UUID="3c517231-111a-11e4-aa389b3f962d716d" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
-			<LightsceneC Name="-" UUID="3c517230-111a-11e4-aa399b3f962d716d" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
-			<LightsceneC Name="-" UUID="3c517231-111a-11e4-aa399b3f962d716d" Outputs="12" Q1="0" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="Scene 1" UUID="3c517230-111a-11e4-aa369b3f962d716d" Outputs="12" Q1="268435456" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="3c517231-111a-11e4-aa369b3f962d716d" Outputs="12" Q1="268435456" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="3c517230-111a-11e4-aa379b3f962d716d" Outputs="12" Q1="268435456" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="3c517231-111a-11e4-aa379b3f962d716d" Outputs="12" Q1="268435456" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="3c517230-111a-11e4-aa389b3f962d716d" Outputs="12" Q1="268435456" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="3c517231-111a-11e4-aa389b3f962d716d" Outputs="12" Q1="268435456" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="3c517230-111a-11e4-aa399b3f962d716d" Outputs="12" Q1="268435456" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="3c517231-111a-11e4-aa399b3f962d716d" Outputs="12" Q1="268435456" Q2="0" Q3="0" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
 		</LightscenesC>
 		<Connector V="62" Key="20000164" UUID="3c517230-111a-11e4-aa3a9b3f962d716d"/>
 		<Connector V="62" Key="20041164" UUID="3c517231-111a-11e4-aa3a9b3f962d716d"/>
@@ -1499,6 +1517,12 @@
 		<Connector V="62" Key="2C335164" UUID="3c517231-111a-11e4-aa549b3f962d716d"/>
 		<Connector V="62" Key="04376164" UUID="3c517230-111a-11e4-aa559b3f962d716d"/>
 		<Connector V="62" Key="043B7164" UUID="3c517231-111a-11e4-aa559b3f962d716d"/>
+	</Control>
+	<Control V="63" UUID="ab883ac0-18fa-11e4-b427faf90206b321" Title="Dimmer AQ1" Type="OutputRef" PositionX="13920" PositionY="4128" PositionX2="16224" PositionY2="16224" Color="200,200,236" Analog="true" NumIOs="2" Ref="a3028ca0-a255-11e3-b9fb972a8456a1bb">
+		<Connector V="62" Key="28000137" UUID="ab883ac1-18fa-11e4-b427faf90206b321" NumCons="1">
+			<In Input="3c517231-111a-11e4-aa4e9b3f962d716d"/>
+		</Connector>
+		<Connector V="62" Key="64001137" UUID="ab883ac0-18fa-11e4-b428faf90206b321"/>
 	</Control>
 	<Control V="63" UUID="627c36b0-11e8-11e4-a06586d90d45a4ab" Title="Landing Lighting" Type="Page">
 		<IoData CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c339d7b1-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
