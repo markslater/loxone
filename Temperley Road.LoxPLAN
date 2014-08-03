@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ControlList Version="66" NextObj="25" NextConst="1" NextNote="1" NextMem="1">
-	<Control V="63" UUID="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" Type="Document" PaperFormat="0" Font="Arial" AutoSave="0" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="31/07/2014 22:37:51" DateS="176078271" Town="SW12 8QH" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater"/>
+<ControlList Version="66" NextObj="33" NextConst="1" NextNote="1" NextMem="1">
+	<Control V="63" UUID="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" Type="Document" PaperFormat="0" Font="Arial" AutoSave="0" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="03/08/2014 22:25:33" DateS="176336732" Town="SW12 8QH" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater"/>
 	<Control V="63" UUID="c332d2d0-9cad-11e3-9b00fb030ef95e86" Title="Status symbols" Type="IconCaptionState"/>
 	<Control V="63" UUID="c34178d1-9cad-11e3-9b0afb030ef95e86" Title="Not assigned" Type="IconState" User="false" Ix="0"/>
 	<Control V="63" UUID="c3419fe0-9cad-11e3-9b0afb030ef95e86" Title="Fatal error" Type="IconState" User="false" Ix="1"/>
@@ -735,6 +735,41 @@
 			<In Input="f4792d31-18ef-11e4-a0b8faf90206b321"/>
 		</Connector>
 	</Control>
+	<Control V="63" UUID="3d2344d0-19a4-11e4-8f36c77dcecfcd84" Title="Dining Room Controller" IName="AI8" Type="LoxDMXdevice" Channel="6" Serial="0004646F0001D2F7" DevInfo="" Model="" Manu="eldoLED BV" Software="" Pers="" PersDesc="" SlotInfo="" SlotDesc="" DefSlot=""/>
+	<Control V="63" UUID="3d2a49b0-19a4-11e4-8f36c77dcecfcd84" Title="DMX actuator 1" IName="DQ6" Type="LoxDMXactor" NotUsed="true" Dimmer="true" Percent="true" Channel="6" SourceValHigh="100.000" DestValHigh="100.000" Slewrate="15" NumIOs="1">
+		<IoData CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33d3310-9cad-11e3-9b0afb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+			<LoggerMailer V="20" MinimumTime="20"/>
+		</IoData>
+		<Display V="21" Type="0" Unit="&lt;v&gt;%" StateOnly="true" Step="1.000"/>
+		<Connector V="62" Key="28000084" UUID="3d2a49b1-19a4-11e4-8f36c77dcecfcd84"/>
+	</Control>
+	<Control V="63" UUID="3d356d40-19a4-11e4-8f36c77dcecfcd84" Title="DMX actuator 2" IName="DQ7" Type="LoxDMXactor" Dimmer="true" Percent="true" Channel="7" SourceValHigh="100.000" DestValHigh="100.000" Slewrate="15" NumIOs="1">
+		<IoData CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33d3310-9cad-11e3-9b0afb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+			<LoggerMailer V="20" MinimumTime="20"/>
+		</IoData>
+		<Display V="21" Type="0" Unit="&lt;v&gt;%" StateOnly="true" Step="1.000"/>
+		<Connector V="62" Key="28000084" UUID="3d356d41-19a4-11e4-8f36c77dcecfcd84" NumCons="1">
+			<In Input="8dd9ce31-19a4-11e4-96bfc77dcecfcd84"/>
+		</Connector>
+	</Control>
+	<Control V="63" UUID="3d35e270-19a4-11e4-8f36c77dcecfcd84" Title="Right of entrance" IName="DQ8" Type="LoxDMXactor" Dimmer="true" Percent="true" Channel="8" SourceValHigh="100.000" DestValHigh="100.000" Slewrate="15" NumIOs="1">
+		<IoData CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33d3310-9cad-11e3-9b0afb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+			<LoggerMailer V="20" MinimumTime="20"/>
+		</IoData>
+		<Display V="21" Type="0" Unit="&lt;v&gt;%" StateOnly="true" Step="1.000"/>
+		<Connector V="62" Key="28000084" UUID="3d35e271-19a4-11e4-8f36c77dcecfcd84" NumCons="1">
+			<In Input="8e010540-19a4-11e4-9798c77dcecfcd84"/>
+		</Connector>
+	</Control>
+	<Control V="63" UUID="3d363090-19a4-11e4-8f36c77dcecfcd84" Title="Left of entrance" IName="DQ9" Type="LoxDMXactor" Dimmer="true" Percent="true" Channel="9" SourceValHigh="100.000" DestValHigh="100.000" Slewrate="15" NumIOs="1">
+		<IoData CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33d3310-9cad-11e3-9b0afb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+			<LoggerMailer V="20" MinimumTime="20"/>
+		</IoData>
+		<Display V="21" Type="0" Unit="&lt;v&gt;%" StateOnly="true" Step="1.000"/>
+		<Connector V="62" Key="28000084" UUID="3d363091-19a4-11e4-8f36c77dcecfcd84" NumCons="1">
+			<In Input="8e2974d0-19a4-11e4-9871c77dcecfcd84"/>
+		</Connector>
+	</Control>
 	<Control V="63" UUID="61d02ddc-a0c4-11e3-b3cafb2c2de534db" Title="Loxone 1-Wire Extension" Type="Comm1wire" CycleUserProt="-1.000" Serial="05D80761" Installation="Utility Cupboard" SwitchBoard="Consumer Unit" SwitchBoardRow="3" SwitchBoardPos="2" ExtensionBlinkNum="8" ExtAddr="clouddns.loxone.com" IntAddr="" BaseID="-1">
 		<Alt></Alt>
 	</Control>
@@ -891,35 +926,41 @@
 		<Connector V="62" Key="0C000037" UUID="a3028ca1-a255-11e3-b9fa972a8456a1bb"/>
 	</Control>
 	<Control V="63" UUID="a3026590-a255-11e3-b9f3972a8456a1bb" Title="Analogue outputs" Type="AnalogOutputCaption"/>
-	<Control V="63" UUID="a3028ca0-a255-11e3-b9fb972a8456a1bb" Title="Dimmer AQ1" IName="AQ1" Type="Dimmer" Percent="true" Channel="1" SourceValHigh="100.000" DestValHigh="100.000" DimmType="2" Slewrate="15" NumIOs="1">
-		<IoData CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33a4ce1-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+	<Control V="63" UUID="a3028ca0-a255-11e3-b9fb972a8456a1bb" Title="Front door pendant" IName="AQ1" Type="Dimmer" Percent="true" Channel="1" SourceValHigh="100.000" DestValHigh="100.000" DimmType="2" Slewrate="15" NumIOs="1">
+		<IoData CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="0" Unit="&lt;v&gt;%" StateOnly="true" Step="1.000"/>
 		<Connector V="62" Key="2800003C" UUID="a3028ca1-a255-11e3-b9fb972a8456a1bb" NumCons="1">
-			<In Input="ab883ac0-18fa-11e4-b428faf90206b321"/>
+			<In Input="38757ca0-1b43-11e4-bd55b1bd37ae859c"/>
 		</Connector>
 	</Control>
-	<Control V="63" UUID="a3028ca0-a255-11e3-b9fc972a8456a1bb" Title="Dimmer AQ2" IName="AQ2" Type="Dimmer" NotUsed="true" Percent="true" Channel="1" SourceValHigh="100.000" DestValHigh="100.000" DimmType="2" Slewrate="15" NumIOs="1">
-		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+	<Control V="63" UUID="a3028ca0-a255-11e3-b9fc972a8456a1bb" Title="Dining room pendants" IName="AQ2" Type="Dimmer" Percent="true" Channel="1" SourceValHigh="100.000" DestValHigh="100.000" DimmType="2" Slewrate="15" NumIOs="1">
+		<IoData CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33d3310-9cad-11e3-9b0afb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="0" Unit="&lt;v&gt;%" StateOnly="true" Step="1.000"/>
-		<Connector V="62" Key="2800003C" UUID="a3028ca1-a255-11e3-b9fc972a8456a1bb"/>
+		<Connector V="62" Key="2800003C" UUID="a3028ca1-a255-11e3-b9fc972a8456a1bb" NumCons="1">
+			<In Input="a3f308d1-1b43-11e4-86b0b1bd37ae859c"/>
+		</Connector>
 	</Control>
-	<Control V="63" UUID="a3028ca0-a255-11e3-b9fd972a8456a1bb" Title="Dimmer AQ3" IName="AQ3" Type="Dimmer" NotUsed="true" Percent="true" Channel="1" SourceValHigh="100.000" DestValHigh="100.000" DimmType="2" Slewrate="15" NumIOs="1">
-		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+	<Control V="63" UUID="a3028ca0-a255-11e3-b9fd972a8456a1bb" Title="Dimmer AQ3" IName="AQ3" Type="Dimmer" Percent="true" Channel="1" SourceValHigh="100.000" DestValHigh="100.000" DimmType="2" Slewrate="15" NumIOs="1">
+		<IoData CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="0" Unit="&lt;v&gt;%" StateOnly="true" Step="1.000"/>
-		<Connector V="62" Key="2800003C" UUID="a3028ca1-a255-11e3-b9fd972a8456a1bb"/>
+		<Connector V="62" Key="2800003C" UUID="a3028ca1-a255-11e3-b9fd972a8456a1bb" NumCons="1">
+			<In Input="5deb9831-1b42-11e4-b2e8b1bd37ae859c"/>
+		</Connector>
 	</Control>
-	<Control V="63" UUID="a3028ca0-a255-11e3-b9fe972a8456a1bb" Title="Dimmer AQ4" IName="AQ4" Type="Dimmer" NotUsed="true" Percent="true" Channel="1" SourceValHigh="100.000" DestValHigh="100.000" DimmType="2" Slewrate="15" NumIOs="1">
-		<IoData CatRef="c3340b51-9cad-11e3-9b02fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b07fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+	<Control V="63" UUID="a3028ca0-a255-11e3-b9fe972a8456a1bb" Title="Dimmer AQ4" IName="AQ4" Type="Dimmer" Percent="true" Channel="1" SourceValHigh="100.000" DestValHigh="100.000" DimmType="2" Slewrate="15" NumIOs="1">
+		<IoData CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
 		</IoData>
 		<Display V="21" Type="0" Unit="&lt;v&gt;%" StateOnly="true" Step="1.000"/>
-		<Connector V="62" Key="2800003C" UUID="a3028ca1-a255-11e3-b9fe972a8456a1bb"/>
+		<Connector V="62" Key="2800003C" UUID="a3028ca1-a255-11e3-b9fe972a8456a1bb" NumCons="1">
+			<In Input="5e00cde1-1b42-11e4-b3d2b1bd37ae859c"/>
+		</Connector>
 	</Control>
 	<Control V="63" UUID="c34437f0-9cad-11e3-9b2bfb030ef95e86" Title="Program" Type="Program"/>
 	<Control V="63" UUID="c34437f1-9cad-11e3-9b2bfb030ef95e86" Title="Master Bedroom Lighting" Type="Page">
@@ -1518,12 +1559,6 @@
 		<Connector V="62" Key="04376164" UUID="3c517230-111a-11e4-aa559b3f962d716d"/>
 		<Connector V="62" Key="043B7164" UUID="3c517231-111a-11e4-aa559b3f962d716d"/>
 	</Control>
-	<Control V="63" UUID="ab883ac0-18fa-11e4-b427faf90206b321" Title="Dimmer AQ1" Type="OutputRef" PositionX="13920" PositionY="4128" PositionX2="16224" PositionY2="16224" Color="200,200,236" Analog="true" NumIOs="2" Ref="a3028ca0-a255-11e3-b9fb972a8456a1bb">
-		<Connector V="62" Key="28000137" UUID="ab883ac1-18fa-11e4-b427faf90206b321" NumCons="1">
-			<In Input="3c517231-111a-11e4-aa4e9b3f962d716d"/>
-		</Connector>
-		<Connector V="62" Key="64001137" UUID="ab883ac0-18fa-11e4-b428faf90206b321"/>
-	</Control>
 	<Control V="63" UUID="627c36b0-11e8-11e4-a06586d90d45a4ab" Title="Landing Lighting" Type="Page">
 		<IoData CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c339d7b1-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
 			<LoggerMailer V="20" MinimumTime="20"/>
@@ -1619,5 +1654,199 @@
 		<Connector V="62" Key="2C335164" UUID="9121bdf0-11e8-11e4-a60a86d90d45a4ab"/>
 		<Connector V="62" Key="04376164" UUID="9121bdf1-11e8-11e4-a60a86d90d45a4ab"/>
 		<Connector V="62" Key="043B7164" UUID="9121bdf0-11e8-11e4-a60b86d90d45a4ab"/>
+	</Control>
+	<Control V="63" UUID="68c9bce0-19a4-11e4-90bec77dcecfcd84" Title="Dining Room Lighting" Type="Page">
+		<IoData CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33d3310-9cad-11e3-9b0afb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+			<LoggerMailer V="20" MinimumTime="20"/>
+		</IoData>
+	</Control>
+	<Control V="63" UUID="81066b50-19a4-11e4-9412c77dcecfcd84" Title="Lighting controller" Type="LightController" PositionX="7392" PositionY="3840" PositionX2="11424" PositionY2="11424" Color="200,216,179" NameAI0="Pendants" NameAI1="DMX actuator 2" NameAI2="Right of entrance" NameAI3="Left of entrance" NameAI4="" NameAI5="" NameAI6="" NameAI7="" NameAI8="" NameAI9="" NameAI10="" NameAI11="" NumIOs="56">
+		<IoData Visu="true" CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c33d3310-9cad-11e3-9b0afb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+			<LoggerMailer V="20" MinimumTime="20"/>
+		</IoData>
+		<LightscenesC Outputs="12" Num="8">
+			<LightsceneC Name="Scene 1" UUID="81066b51-19a4-11e4-9412c77dcecfcd84" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="81066b50-19a4-11e4-9413c77dcecfcd84" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="81066b51-19a4-11e4-9413c77dcecfcd84" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="81066b50-19a4-11e4-9414c77dcecfcd84" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="81066b51-19a4-11e4-9414c77dcecfcd84" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="81066b50-19a4-11e4-9415c77dcecfcd84" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="81066b51-19a4-11e4-9415c77dcecfcd84" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="81066b50-19a4-11e4-9416c77dcecfcd84" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+		</LightscenesC>
+		<Connector V="62" Key="20000164" UUID="81066b51-19a4-11e4-9416c77dcecfcd84"/>
+		<Connector V="62" Key="20041164" UUID="81066b50-19a4-11e4-9417c77dcecfcd84"/>
+		<Connector V="62" Key="20082164" UUID="81066b51-19a4-11e4-9417c77dcecfcd84"/>
+		<Connector V="62" Key="200C3164" UUID="81066b50-19a4-11e4-9418c77dcecfcd84"/>
+		<Connector V="62" Key="20104164" UUID="81066b51-19a4-11e4-9418c77dcecfcd84"/>
+		<Connector V="62" Key="20145164" UUID="81066b50-19a4-11e4-9419c77dcecfcd84"/>
+		<Connector V="62" Key="20186164" UUID="81066b51-19a4-11e4-9419c77dcecfcd84"/>
+		<Connector V="62" Key="201C7164" UUID="81066b50-19a4-11e4-941ac77dcecfcd84"/>
+		<Connector V="62" Key="20208164" UUID="81066b51-19a4-11e4-941ac77dcecfcd84"/>
+		<Connector V="62" Key="20249164" UUID="81066b50-19a4-11e4-941bc77dcecfcd84"/>
+		<Connector V="62" Key="2028A164" UUID="81066b51-19a4-11e4-941bc77dcecfcd84"/>
+		<Connector V="62" Key="202CB164" UUID="81066b50-19a4-11e4-941cc77dcecfcd84"/>
+		<Connector V="62" Key="0030C164" UUID="81066b51-19a4-11e4-941cc77dcecfcd84"/>
+		<Connector V="62" Key="0034D164" UUID="81066b50-19a4-11e4-941dc77dcecfcd84"/>
+		<Connector V="62" Key="2038E164" UUID="81066b51-19a4-11e4-941dc77dcecfcd84"/>
+		<Connector V="62" Key="003CF164" UUID="81066b50-19a4-11e4-941ec77dcecfcd84"/>
+		<Connector V="62" Key="00410164" UUID="81066b51-19a4-11e4-941ec77dcecfcd84"/>
+		<Connector V="62" Key="00451164" UUID="81066b50-19a4-11e4-941fc77dcecfcd84"/>
+		<Connector V="62" Key="00492164" UUID="81066b51-19a4-11e4-941fc77dcecfcd84"/>
+		<Connector V="62" Key="004D3164" UUID="81066b50-19a4-11e4-9420c77dcecfcd84"/>
+		<Connector V="62" Key="00514164" UUID="81066b51-19a4-11e4-9420c77dcecfcd84"/>
+		<Connector V="62" Key="00555164" UUID="81066b50-19a4-11e4-9421c77dcecfcd84"/>
+		<Connector V="62" Key="00596164" UUID="81066b51-19a4-11e4-9421c77dcecfcd84"/>
+		<Connector V="62" Key="005D7164" UUID="81066b50-19a4-11e4-9422c77dcecfcd84"/>
+		<Connector V="62" Key="00618164" UUID="81066b51-19a4-11e4-9422c77dcecfcd84"/>
+		<Connector V="62" Key="00659164" UUID="81066b50-19a4-11e4-9423c77dcecfcd84"/>
+		<Connector V="62" Key="0069A164" UUID="81066b51-19a4-11e4-9423c77dcecfcd84"/>
+		<Connector V="62" Key="006DB164" UUID="81066b50-19a4-11e4-9424c77dcecfcd84"/>
+		<Connector V="62" Key="0101C164" UUID="81066b51-19a4-11e4-9424c77dcecfcd84" Inv="true"/>
+		<Connector V="62" Key="3305D164" UUID="81066b50-19a4-11e4-9425c77dcecfcd84" Def="0.350"/>
+		<Connector V="62" Key="3209E164" UUID="81066b51-19a4-11e4-9425c77dcecfcd84" Def="2.000"/>
+		<Connector V="62" Key="330DF164" UUID="81066b50-19a4-11e4-9426c77dcecfcd84" Def="0.200"/>
+		<Connector V="62" Key="32120164" UUID="81066b51-19a4-11e4-9426c77dcecfcd84" Def="15.000"/>
+		<Connector V="62" Key="32161164" UUID="81066b50-19a4-11e4-9427c77dcecfcd84" Def="100.000"/>
+		<Connector V="62" Key="021A2164" UUID="81066b51-19a4-11e4-9427c77dcecfcd84"/>
+		<Connector V="62" Key="021E3164" UUID="81066b50-19a4-11e4-9428c77dcecfcd84"/>
+		<Connector V="62" Key="33224164" UUID="81066b51-19a4-11e4-9428c77dcecfcd84" Def="180.000"/>
+		<Connector V="62" Key="33265164" UUID="81066b50-19a4-11e4-9429c77dcecfcd84" Def="5.000"/>
+		<Connector V="62" Key="322A6164" UUID="81066b51-19a4-11e4-9429c77dcecfcd84"/>
+		<Connector V="62" Key="332E7164" UUID="81066b50-19a4-11e4-942ac77dcecfcd84"/>
+		<Connector V="62" Key="02328164" UUID="81066b51-19a4-11e4-942ac77dcecfcd84"/>
+		<Connector V="62" Key="24029164" UUID="81066b50-19a4-11e4-942bc77dcecfcd84"/>
+		<Connector V="62" Key="2406A164" UUID="81066b51-19a4-11e4-942bc77dcecfcd84"/>
+		<Connector V="62" Key="240AB164" UUID="81066b50-19a4-11e4-942cc77dcecfcd84"/>
+		<Connector V="62" Key="240EC164" UUID="81066b51-19a4-11e4-942cc77dcecfcd84"/>
+		<Connector V="62" Key="2412D164" UUID="81066b50-19a4-11e4-942dc77dcecfcd84"/>
+		<Connector V="62" Key="2416E164" UUID="81066b51-19a4-11e4-942dc77dcecfcd84"/>
+		<Connector V="62" Key="241AF164" UUID="81066b50-19a4-11e4-942ec77dcecfcd84"/>
+		<Connector V="62" Key="241F0164" UUID="81066b51-19a4-11e4-942ec77dcecfcd84"/>
+		<Connector V="62" Key="24231164" UUID="81066b50-19a4-11e4-942fc77dcecfcd84"/>
+		<Connector V="62" Key="24272164" UUID="81066b51-19a4-11e4-942fc77dcecfcd84"/>
+		<Connector V="62" Key="242B3164" UUID="81066b50-19a4-11e4-9430c77dcecfcd84"/>
+		<Connector V="62" Key="242F4164" UUID="81066b51-19a4-11e4-9430c77dcecfcd84"/>
+		<Connector V="62" Key="2C335164" UUID="81066b50-19a4-11e4-9431c77dcecfcd84"/>
+		<Connector V="62" Key="04376164" UUID="81066b51-19a4-11e4-9431c77dcecfcd84"/>
+		<Connector V="62" Key="043B7164" UUID="81066b50-19a4-11e4-9432c77dcecfcd84"/>
+	</Control>
+	<Control V="63" UUID="8dd9ce31-19a4-11e4-96bec77dcecfcd84" Title="DMX actuator 2" Type="OutputRef" PositionX="12864" PositionY="4416" PositionX2="15360" PositionY2="15360" Color="200,200,236" Analog="true" NumIOs="2" Ref="3d356d40-19a4-11e4-8f36c77dcecfcd84">
+		<Connector V="62" Key="28000137" UUID="8dd9ce30-19a4-11e4-96bfc77dcecfcd84" NumCons="1">
+			<In Input="81066b51-19a4-11e4-942bc77dcecfcd84"/>
+		</Connector>
+		<Connector V="62" Key="64001137" UUID="8dd9ce31-19a4-11e4-96bfc77dcecfcd84"/>
+	</Control>
+	<Control V="63" UUID="8e010540-19a4-11e4-9797c77dcecfcd84" Title="Right of entrance" Type="OutputRef" PositionX="12864" PositionY="4608" PositionX2="15552" PositionY2="15552" Color="200,200,236" Analog="true" NumIOs="2" Ref="3d35e270-19a4-11e4-8f36c77dcecfcd84">
+		<Connector V="62" Key="28000137" UUID="8e010541-19a4-11e4-9797c77dcecfcd84" NumCons="1">
+			<In Input="81066b50-19a4-11e4-942cc77dcecfcd84"/>
+		</Connector>
+		<Connector V="62" Key="64001137" UUID="8e010540-19a4-11e4-9798c77dcecfcd84"/>
+	</Control>
+	<Control V="63" UUID="8e2974d0-19a4-11e4-9870c77dcecfcd84" Title="Left of entrance" Type="OutputRef" PositionX="12864" PositionY="4800" PositionX2="15552" PositionY2="15552" Color="200,200,236" Analog="true" NumIOs="2" Ref="3d363090-19a4-11e4-8f36c77dcecfcd84">
+		<Connector V="62" Key="28000137" UUID="8e2974d1-19a4-11e4-9870c77dcecfcd84" NumCons="1">
+			<In Input="81066b51-19a4-11e4-942cc77dcecfcd84"/>
+		</Connector>
+		<Connector V="62" Key="64001137" UUID="8e2974d0-19a4-11e4-9871c77dcecfcd84"/>
+	</Control>
+	<Control V="63" UUID="a3f308d1-1b43-11e4-86afb1bd37ae859c" Title="Dining room pendants" Type="OutputRef" PositionX="12864" PositionY="4224" PositionX2="15936" PositionY2="15936" Color="200,200,236" Analog="true" NumIOs="2" Ref="a3028ca0-a255-11e3-b9fc972a8456a1bb">
+		<Connector V="62" Key="28000137" UUID="a3f308d0-1b43-11e4-86b0b1bd37ae859c" NumCons="1">
+			<In Input="81066b50-19a4-11e4-942bc77dcecfcd84"/>
+		</Connector>
+		<Connector V="62" Key="64001137" UUID="a3f308d1-1b43-11e4-86b0b1bd37ae859c"/>
+	</Control>
+	<Control V="63" UUID="43be3d50-1b42-11e4-ae91b1bd37ae859c" Title="Hallway Lighting" Type="Page">
+		<IoData CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+			<LoggerMailer V="20" MinimumTime="20"/>
+		</IoData>
+	</Control>
+	<Control V="63" UUID="6a034c30-1b42-11e4-b4dbb1bd37ae859c" Title="Lighting controller" Type="LightController" PositionX="6048" PositionY="4416" PositionX2="10080" PositionY2="10080" Color="200,216,179" NameAI0="Pendant above door" NameAI1="Dimmer AQ3" NameAI2="Dimmer AQ4" NameAI3="" NameAI4="" NameAI5="" NameAI6="" NameAI7="" NameAI8="" NameAI9="" NameAI10="" NameAI11="" NumIOs="56">
+		<IoData Visu="true" CatRef="c3343260-9cad-11e3-9b03fb030ef95e86" PlaceRef="c339b0a0-9cad-11e3-9b08fb030ef95e86" UserGroupRef="c34437f0-9cad-11e3-9b29fb030ef95e86" UserGroupRefRemote="c34437f0-9cad-11e3-9b29fb030ef95e86">
+			<LoggerMailer V="20" MinimumTime="20"/>
+		</IoData>
+		<LightscenesC Outputs="12" Num="8">
+			<LightsceneC Name="Scene 1" UUID="6a034c31-1b42-11e4-b4dbb1bd37ae859c" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="6a034c30-1b42-11e4-b4dcb1bd37ae859c" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="6a034c31-1b42-11e4-b4dcb1bd37ae859c" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="6a034c30-1b42-11e4-b4ddb1bd37ae859c" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="6a034c31-1b42-11e4-b4ddb1bd37ae859c" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="6a034c30-1b42-11e4-b4deb1bd37ae859c" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="6a034c31-1b42-11e4-b4deb1bd37ae859c" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+			<LightsceneC Name="-" UUID="6a034c30-1b42-11e4-b4dfb1bd37ae859c" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+		</LightscenesC>
+		<Connector V="62" Key="20000164" UUID="6a034c31-1b42-11e4-b4dfb1bd37ae859c"/>
+		<Connector V="62" Key="20041164" UUID="6a034c30-1b42-11e4-b4e0b1bd37ae859c"/>
+		<Connector V="62" Key="20082164" UUID="6a034c31-1b42-11e4-b4e0b1bd37ae859c"/>
+		<Connector V="62" Key="200C3164" UUID="6a034c30-1b42-11e4-b4e1b1bd37ae859c"/>
+		<Connector V="62" Key="20104164" UUID="6a034c31-1b42-11e4-b4e1b1bd37ae859c"/>
+		<Connector V="62" Key="20145164" UUID="6a034c30-1b42-11e4-b4e2b1bd37ae859c"/>
+		<Connector V="62" Key="20186164" UUID="6a034c31-1b42-11e4-b4e2b1bd37ae859c"/>
+		<Connector V="62" Key="201C7164" UUID="6a034c30-1b42-11e4-b4e3b1bd37ae859c"/>
+		<Connector V="62" Key="20208164" UUID="6a034c31-1b42-11e4-b4e3b1bd37ae859c"/>
+		<Connector V="62" Key="20249164" UUID="6a034c30-1b42-11e4-b4e4b1bd37ae859c"/>
+		<Connector V="62" Key="2028A164" UUID="6a034c31-1b42-11e4-b4e4b1bd37ae859c"/>
+		<Connector V="62" Key="202CB164" UUID="6a034c30-1b42-11e4-b4e5b1bd37ae859c"/>
+		<Connector V="62" Key="0030C164" UUID="6a034c31-1b42-11e4-b4e5b1bd37ae859c"/>
+		<Connector V="62" Key="0034D164" UUID="6a034c30-1b42-11e4-b4e6b1bd37ae859c"/>
+		<Connector V="62" Key="2038E164" UUID="6a034c31-1b42-11e4-b4e6b1bd37ae859c"/>
+		<Connector V="62" Key="003CF164" UUID="6a034c30-1b42-11e4-b4e7b1bd37ae859c"/>
+		<Connector V="62" Key="00410164" UUID="6a034c31-1b42-11e4-b4e7b1bd37ae859c"/>
+		<Connector V="62" Key="00451164" UUID="6a034c30-1b42-11e4-b4e8b1bd37ae859c"/>
+		<Connector V="62" Key="00492164" UUID="6a034c31-1b42-11e4-b4e8b1bd37ae859c"/>
+		<Connector V="62" Key="004D3164" UUID="6a034c30-1b42-11e4-b4e9b1bd37ae859c"/>
+		<Connector V="62" Key="00514164" UUID="6a034c31-1b42-11e4-b4e9b1bd37ae859c"/>
+		<Connector V="62" Key="00555164" UUID="6a034c30-1b42-11e4-b4eab1bd37ae859c"/>
+		<Connector V="62" Key="00596164" UUID="6a034c31-1b42-11e4-b4eab1bd37ae859c"/>
+		<Connector V="62" Key="005D7164" UUID="6a034c30-1b42-11e4-b4ebb1bd37ae859c"/>
+		<Connector V="62" Key="00618164" UUID="6a034c31-1b42-11e4-b4ebb1bd37ae859c"/>
+		<Connector V="62" Key="00659164" UUID="6a034c30-1b42-11e4-b4ecb1bd37ae859c"/>
+		<Connector V="62" Key="0069A164" UUID="6a034c31-1b42-11e4-b4ecb1bd37ae859c"/>
+		<Connector V="62" Key="006DB164" UUID="6a034c30-1b42-11e4-b4edb1bd37ae859c"/>
+		<Connector V="62" Key="0101C164" UUID="6a034c31-1b42-11e4-b4edb1bd37ae859c" Inv="true"/>
+		<Connector V="62" Key="3305D164" UUID="6a034c30-1b42-11e4-b4eeb1bd37ae859c" Def="0.350"/>
+		<Connector V="62" Key="3209E164" UUID="6a034c31-1b42-11e4-b4eeb1bd37ae859c" Def="2.000"/>
+		<Connector V="62" Key="330DF164" UUID="6a034c30-1b42-11e4-b4efb1bd37ae859c" Def="0.200"/>
+		<Connector V="62" Key="32120164" UUID="6a034c31-1b42-11e4-b4efb1bd37ae859c" Def="15.000"/>
+		<Connector V="62" Key="32161164" UUID="6a034c30-1b42-11e4-b4f0b1bd37ae859c" Def="100.000"/>
+		<Connector V="62" Key="021A2164" UUID="6a034c31-1b42-11e4-b4f0b1bd37ae859c"/>
+		<Connector V="62" Key="021E3164" UUID="6a034c30-1b42-11e4-b4f1b1bd37ae859c"/>
+		<Connector V="62" Key="33224164" UUID="6a034c31-1b42-11e4-b4f1b1bd37ae859c" Def="180.000"/>
+		<Connector V="62" Key="33265164" UUID="6a034c30-1b42-11e4-b4f2b1bd37ae859c" Def="5.000"/>
+		<Connector V="62" Key="322A6164" UUID="6a034c31-1b42-11e4-b4f2b1bd37ae859c"/>
+		<Connector V="62" Key="332E7164" UUID="6a034c30-1b42-11e4-b4f3b1bd37ae859c"/>
+		<Connector V="62" Key="02328164" UUID="6a034c31-1b42-11e4-b4f3b1bd37ae859c"/>
+		<Connector V="62" Key="24029164" UUID="6a034c30-1b42-11e4-b4f4b1bd37ae859c"/>
+		<Connector V="62" Key="2406A164" UUID="6a034c31-1b42-11e4-b4f4b1bd37ae859c"/>
+		<Connector V="62" Key="240AB164" UUID="6a034c30-1b42-11e4-b4f5b1bd37ae859c"/>
+		<Connector V="62" Key="240EC164" UUID="6a034c31-1b42-11e4-b4f5b1bd37ae859c"/>
+		<Connector V="62" Key="2412D164" UUID="6a034c30-1b42-11e4-b4f6b1bd37ae859c"/>
+		<Connector V="62" Key="2416E164" UUID="6a034c31-1b42-11e4-b4f6b1bd37ae859c"/>
+		<Connector V="62" Key="241AF164" UUID="6a034c30-1b42-11e4-b4f7b1bd37ae859c"/>
+		<Connector V="62" Key="241F0164" UUID="6a034c31-1b42-11e4-b4f7b1bd37ae859c"/>
+		<Connector V="62" Key="24231164" UUID="6a034c30-1b42-11e4-b4f8b1bd37ae859c"/>
+		<Connector V="62" Key="24272164" UUID="6a034c31-1b42-11e4-b4f8b1bd37ae859c"/>
+		<Connector V="62" Key="242B3164" UUID="6a034c30-1b42-11e4-b4f9b1bd37ae859c"/>
+		<Connector V="62" Key="242F4164" UUID="6a034c31-1b42-11e4-b4f9b1bd37ae859c"/>
+		<Connector V="62" Key="2C335164" UUID="6a034c30-1b42-11e4-b4fab1bd37ae859c"/>
+		<Connector V="62" Key="04376164" UUID="6a034c31-1b42-11e4-b4fab1bd37ae859c"/>
+		<Connector V="62" Key="043B7164" UUID="6a034c30-1b42-11e4-b4fbb1bd37ae859c"/>
+	</Control>
+	<Control V="63" UUID="5deb9831-1b42-11e4-b2e7b1bd37ae859c" Title="Dimmer AQ3" Type="OutputRef" PositionX="10944" PositionY="4992" PositionX2="13248" PositionY2="13248" Color="200,200,236" Analog="true" NumIOs="2" Ref="a3028ca0-a255-11e3-b9fd972a8456a1bb">
+		<Connector V="62" Key="28000137" UUID="5deb9830-1b42-11e4-b2e8b1bd37ae859c" NumCons="1">
+			<In Input="6a034c31-1b42-11e4-b4f4b1bd37ae859c"/>
+		</Connector>
+		<Connector V="62" Key="64001137" UUID="5deb9831-1b42-11e4-b2e8b1bd37ae859c"/>
+	</Control>
+	<Control V="63" UUID="5e00cde1-1b42-11e4-b3d1b1bd37ae859c" Title="Dimmer AQ4" Type="OutputRef" PositionX="10944" PositionY="5184" PositionX2="13248" PositionY2="13248" Color="200,200,236" Analog="true" NumIOs="2" Ref="a3028ca0-a255-11e3-b9fe972a8456a1bb">
+		<Connector V="62" Key="28000137" UUID="5e00cde0-1b42-11e4-b3d2b1bd37ae859c" NumCons="1">
+			<In Input="6a034c30-1b42-11e4-b4f5b1bd37ae859c"/>
+		</Connector>
+		<Connector V="62" Key="64001137" UUID="5e00cde1-1b42-11e4-b3d2b1bd37ae859c"/>
+	</Control>
+	<Control V="63" UUID="38757ca0-1b43-11e4-bd54b1bd37ae859c" Title="Front door pendant" Type="OutputRef" PositionX="10944" PositionY="4800" PositionX2="13824" PositionY2="13824" Color="200,200,236" Analog="true" NumIOs="2" Ref="a3028ca0-a255-11e3-b9fb972a8456a1bb">
+		<Connector V="62" Key="28000137" UUID="38757ca1-1b43-11e4-bd54b1bd37ae859c" NumCons="1">
+			<In Input="6a034c30-1b42-11e4-b4f4b1bd37ae859c"/>
+		</Connector>
+		<Connector V="62" Key="64001137" UUID="38757ca0-1b43-11e4-bd55b1bd37ae859c"/>
 	</Control>
 </ControlList>
