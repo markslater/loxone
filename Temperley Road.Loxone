@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ControlList Version="93" NextObj="163" NextConst="1" NextNote="1" NextMem="13">
-	<C Type="Document" V="92" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="7000817" Font="Arial" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="2015-08-27 10:51:58" DateS="209904718" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="00000000-0000-0000-0000000000000000" Currency="€" UpdTime="120" NumO="599">
+	<C Type="Document" V="92" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="7000817" Font="Arial" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="2015-09-13 16:59:08" DateS="211395548" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="00000000-0000-0000-0000000000000000" Currency="€" UpdTime="120" NumO="597">
 		<C Type="IconCaptionState" V="92" U="c332d2d0-9cad-11e3-9b00fb030ef95e86" Title="Status Symbols">
 			<C Type="IconState" V="92" U="00000000-0000-0001-2200000000000000" Title="Not assigned"/>
 			<C Type="IconState" V="92" U="00000000-0000-0002-2200000000000000" Title="Fatal error" Ix="1"/>
@@ -1468,15 +1468,6 @@
 					</LightscenesC>
 					<PSD As="-2" Ae="1380" Amin="1" Amax="4" Dmin="30" Dmax="180" O="1" V="20"/>
 				</C>
-				<C Type="Memory" V="92" U="0bc6dc4c-0202-8941-ffffb830a73fcead" Title="Lights all off from bathroom" Px="6336" Py="9888" Px2="9216" Py2="9216" Cl="200,200,236" Nio="3">
-					<Co K="Input" Nc="1" U="0bc6dc4c-0202-893f-ffff112233445566">
-						<In Input="0bc68c9b-0201-1fa4-ffff112233445566"/>
-					</Co>
-					<Co K="AQ" U="0bc6dc4c-0202-8940-ffff112233445566"/>
-					<Co K="Q" U="0c82db71-0150-29aa-ffff98bcb8fa4811"/>
-					<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001e-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
-					<Display Unit="&lt;v.1&gt;V" StateOnly="true"/>
-				</C>
 				<C Type="OutputRef" V="92" U="0af414ce-0220-341a-ffffb830a73fcead" Title="Bathroom extractor" Px="13632" Py="5088" Px2="15936" Py2="15936" Cl="200,200,236" Nio="2" Ref="ea25c120-23f5-11e4-bc31d665d37d0df3">
 					<Co K="AI" Nc="2" U="0af414ce-0220-3418-ffff112233445566">
 						<In Input="0afa5b2f-03ad-d93d-ffff112233445566"/>
@@ -1867,14 +1858,6 @@
 					<Co K="AQ" U="0ab8607b-012c-8850-ffff112233445566"/>
 					<Co K="Q" U="0ab8607b-012c-8851-ffff112233445566"/>
 				</C>
-				<C Type="InputRef" V="92" U="0bc6dc81-01e6-98fb-fffffb030ef95e86" Title="Lights all off from bathroom" Px="2784" Py="5472" Px2="5856" Py2="5856" Cl="200,200,236" Nio="4" Ref="0bc6dc4c-0202-8941-ffffb830a73fcead">
-					<Co K="AI" Nc="1" U="0bc6dc81-01e6-98f7-ffff112233445566">
-						<In Input="0bc6dc4c-0202-8940-ffff112233445566"/>
-					</Co>
-					<Co K="I" U="0bc6dc81-01e6-98f8-ffff112233445566"/>
-					<Co K="AQ" U="0bc6dc81-01e6-98f9-ffff112233445566"/>
-					<Co K="Q" U="0bc6dc81-01e6-98fa-ffff112233445566"/>
-				</C>
 				<C Type="Memory" V="92" U="0ab16534-020b-1f2e-fffffb030ef95e86" Title="Lights all off" Px="11520" Py="4896" Px2="13056" Py2="13056" Cl="200,200,236" Nio="3">
 					<Co K="Input" Nc="3" U="0ab16534-020b-1f2c-ffff112233445566">
 						<In Input="0ab6c43d-00dc-4b1f-ffffeee000d80ece"/>
@@ -1887,10 +1870,9 @@
 					<Display Unit="&lt;v.1&gt;V" StateOnly="true"/>
 				</C>
 				<C Type="LongClick" V="92" U="0ab6c43d-00dc-4b14-ffffeee000d80ece" Title="O97" Px="7008" Py="4704" Px2="9120" Py2="9120" Cl="200,220,236" Nio="14">
-					<Co K="InputTrigger" Nc="3" U="0ab6c43d-00dc-4b15-ffffeee000d80ece">
+					<Co K="InputTrigger" Nc="2" U="0ab6c43d-00dc-4b15-ffffeee000d80ece">
 						<In Input="0ab6c330-01d1-3aab-ffff112233445566"/>
 						<In Input="0ab6c7e7-016a-99ab-ffff112233445566"/>
-						<In Input="0bc6dc81-01e6-98f9-ffff112233445566"/>
 					</Co>
 					<Co K="Reset" U="0ab6c43d-00dc-4b16-ffffeee000d80ece"/>
 					<Co K="Remanence" U="0ab6c43d-00dc-4b17-ffffeee000d80ece"/>
