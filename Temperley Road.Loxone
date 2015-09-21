@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ControlList Version="93" NextObj="163" NextConst="1" NextNote="1" NextMem="13">
-	<C Type="Document" V="92" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="7000817" Font="Arial" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="2015-09-21 17:25:41" DateS="212088341" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="00000000-0000-0000-0000000000000000" Currency="€" UpdTime="120" NumO="597">
+	<C Type="Document" V="92" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="7000817" Font="Arial" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="2015-09-21 20:20:33" DateS="212098833" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="00000000-0000-0000-0000000000000000" Currency="€" UpdTime="120" NumO="597">
 		<C Type="IconCaptionState" V="92" U="c332d2d0-9cad-11e3-9b00fb030ef95e86" Title="Status Symbols">
 			<C Type="IconState" V="92" U="00000000-0000-0001-2200000000000000" Title="Not assigned"/>
 			<C Type="IconState" V="92" U="00000000-0000-0002-2200000000000000" Title="Fatal error" Ix="1"/>
@@ -2031,7 +2031,7 @@
 					<Co K="InputDisable" U="0aa97f3b-02d2-9fd9-ffff112233445566"/>
 					<Co K="DisMv" U="0c82db71-0136-2549-ffff98bcb8fa4811"/>
 					<Co K="TSave" Def="3" U="0aa97f3b-02d2-9fda-ffff112233445566"/>
-					<Co K="TComfort" Def="21" U="0aa97f3b-02d2-9fdb-ffff112233445566"/>
+					<Co K="TComfort" Def="20" U="0aa97f3b-02d2-9fdb-ffff112233445566"/>
 					<Co K="TComfortC" Def="20" U="0aa97f3b-02d2-9fdc-ffff112233445566"/>
 					<Co K="TParty" Def="5" U="0aa97f3b-02d2-9fdd-ffff112233445566"/>
 					<Co K="TMore" Def="3" U="0aa97f3b-02d2-9fde-ffff112233445566"/>
