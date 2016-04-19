@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ControlList Version="106" NextObj="166" NextConst="1" NextNote="1" NextMem="13">
-	<C Type="Document" V="101" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="7030224" Font="Arial" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="2016-04-19 21:54:25" DateS="230334865" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" Currency="€" UpdTime="120" NumO="610">
+<ControlList Version="106" NextObj="174" NextConst="1" NextNote="1" NextMem="13">
+	<C Type="Document" V="101" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="7030224" Font="Arial" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="2016-04-19 22:16:40" DateS="230336200" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" Currency="€" UpdTime="120" NumO="614">
 		<C Type="IconCaptionState" V="101" U="c332d2d0-9cad-11e3-9b00fb030ef95e86" Title="Status Symbols">
 			<C Type="IconState" V="101" U="00000000-0000-0001-2200000000000000" Title="Not assigned"/>
 			<C Type="IconState" V="101" U="00000000-0000-0002-2200000000000000" Title="Fatal error" Ix="1"/>
@@ -1352,25 +1352,33 @@
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
 				</C>
-				<C Type="LoxDMXdevice" V="101" U="0ba019a2-026c-299d-ffff95d9cdbb6d3f" Title="Dining Room Back" WF="1" Channel="57" Serial="" DevInfo="" Model="" Manu="" Software="" Pers="" PersDesc="" SlotInfo="" SlotDesc="" DefSlot="">
-					<C Type="LoxDMXactor" IName="DQ48" V="101" U="0ba019a2-02a9-29a0-ffff95d9cdbb6d3f" Title="DMX actuator 5" Nio="1" WF="1" Dimmer="true" Percent="true" Channel="57" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
-						<Co K="I" U="0ba019a2-02a9-299f-ffff112233445566"/>
-						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+				<C Type="LoxDMXdevice" V="101" U="0dbaa470-00fe-af1c-ffff95d9cdbb6d3f" Title="Dining room back" WF="1" Channel="57" Serial="" DevInfo="" Model="" Manu="" Software="" Pers="" PersDesc="" SlotInfo="" SlotDesc="" DefSlot="">
+					<C Type="LoxDMXactor" IName="DQ48" V="101" U="0dbaa470-011b-af1f-ffff95d9cdbb6d3f" Title="Left of picture" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="57" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="15">
+						<Co K="I" Nc="1" U="0dbaa470-011b-af1e-fffff0d1125569c1">
+							<In Input="0dbaa4c9-0091-cd89-ffffd901b30bec03"/>
+						</Co>
+						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0025-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ49" V="101" U="0ba019a2-02de-29a3-ffff95d9cdbb6d3f" Title="DMX actuator 6" Nio="1" WF="1" Dimmer="true" Percent="true" Channel="58" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
-						<Co K="I" U="0ba019a2-02de-29a2-ffff112233445566"/>
-						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+					<C Type="LoxDMXactor" IName="DQ49" V="101" U="0dbaa470-0120-af22-ffff95d9cdbb6d3f" Title="Back left corner" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="58" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="15">
+						<Co K="I" Nc="1" U="0dbaa470-0120-af21-fffff0d1125569c1">
+							<In Input="0dbaa4c9-009f-cd8d-ffff0dc83600956e"/>
+						</Co>
+						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0025-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ50" V="101" U="0ba019a2-02ff-29a6-ffff95d9cdbb6d3f" Title="DMX actuator 7" Nio="1" WF="1" Dimmer="true" Percent="true" Channel="59" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
-						<Co K="I" U="0ba019a2-02ff-29a5-ffff112233445566"/>
-						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+					<C Type="LoxDMXactor" IName="DQ50" V="101" U="0dbaa470-0126-af25-ffff95d9cdbb6d3f" Title="Back right corner" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="59" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="15">
+						<Co K="I" Nc="1" U="0dbaa470-0126-af24-fffff0d1125569c1">
+							<In Input="0dbaa4c9-00b0-cd91-ffff725873ea9def"/>
+						</Co>
+						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0025-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ51" V="101" U="0ba019a2-0322-29a9-ffff95d9cdbb6d3f" Title="DMX actuator 8" Nio="1" WF="1" Dimmer="true" Percent="true" Channel="60" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
-						<Co K="I" U="0ba019a2-0322-29a8-ffff112233445566"/>
-						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+					<C Type="LoxDMXactor" IName="DQ51" V="101" U="0dbaa470-012b-af28-ffff95d9cdbb6d3f" Title="Right of picture" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="60" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="15">
+						<Co K="I" Nc="1" U="0dbaa470-012b-af27-fffff0d1125569c1">
+							<In Input="0dbaa4c9-00c4-cd95-ffffa61ff6df465b"/>
+						</Co>
+						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0025-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
 				</C>
@@ -1956,7 +1964,7 @@
 			</C>
 			<C Type="Page" V="101" U="68c9bce0-19a4-11e4-90bec77dcecfcd84" Title="Dining Room Lighting">
 				<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0025-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
-				<C Type="InputRef" V="101" U="0ab1656d-0356-256c-ffffc77dcecfcd84" Title="Lights all off" Px="3456" Py="7104" Px2="5184" Py2="5184" Cl="200,200,236" Nio="4" Ref="0ab16534-020b-1f2e-fffffb030ef95e86" LinkRefType="320">
+				<C Type="InputRef" V="101" U="0ab1656d-0356-256c-ffffc77dcecfcd84" Title="Lights all off" Px="3456" Py="7104" Px2="5184" Py2="7296" Cl="200,200,236" Nio="4" Ref="0ab16534-020b-1f2e-fffffb030ef95e86" LinkRefType="320">
 					<Co K="AI" Nc="1" U="0ab1656d-0356-2568-ffff112233445566">
 						<In Input="0ab16534-020b-1f2d-ffff112233445566"/>
 					</Co>
@@ -1964,7 +1972,7 @@
 					<Co K="AQ" U="0ab1656d-0356-256a-ffff112233445566"/>
 					<Co K="Q" U="0ab1656d-0356-256b-ffff112233445566"/>
 				</C>
-				<C Type="InputRef" V="101" U="0ab860d8-0064-9c26-ffffc77dcecfcd84" Title="Hallway scene" Px="3264" Py="6912" Px2="5760" Py2="5760" Cl="200,200,236" Nio="4" Ref="0ab85f22-0387-5642-ffffb1bd37ae859c" Analog="true" LinkRefType="320">
+				<C Type="InputRef" V="101" U="0ab860d8-0064-9c26-ffffc77dcecfcd84" Title="Hallway scene" Px="3264" Py="6912" Px2="5760" Py2="7104" Cl="200,200,236" Nio="4" Ref="0ab85f22-0387-5642-ffffb1bd37ae859c" Analog="true" LinkRefType="320">
 					<Co K="AI" Nc="1" U="0ab860d8-0064-9c22-ffff112233445566">
 						<In Input="0ab85f22-0387-5641-ffff112233445566"/>
 					</Co>
@@ -1972,7 +1980,7 @@
 					<Co K="AQ" U="0ab860d8-0064-9c24-ffff112233445566"/>
 					<Co K="Q" U="0ab860d8-0064-9c25-ffff112233445566"/>
 				</C>
-				<C Type="LightController" V="101" U="81066b50-19a4-11e4-9412c77dcecfcd84" Title="Lighting controller" Px="7392" Py="3840" Px2="11616" Py2="11616" Cl="200,216,179" Nio="59" NameAI0="Pendants" NameAI1="Right of entrance" NameAI2="Left of entrance" NameAI3="" NameAI4="" NameAI5="" NameAI6="" NameAI7="" NameAI8="" NameAI9="" NameAI10="" NameAI11="" DoNotUseZero="true" DoNotUseAllOn="true" SpStates="0c82db71-0144-274b-ffffc77dcecfcd84,0c82db71-0144-274c-ffffc77dcecfcd84,0c82db71-0144-274d-ffffc77dcecfcd84,0c82db71-0144-274e-ffffc77dcecfcd84">
+				<C Type="LightController" V="101" U="81066b50-19a4-11e4-9412c77dcecfcd84" Title="Lighting controller" Px="7392" Py="3840" Px2="11616" Py2="10176" Cl="200,216,179" Nio="59" NameAI0="Pendants" NameAI1="Right of entrance" NameAI2="Left of entrance" NameAI3="Left of picture" NameAI4="Back left corner" NameAI5="Back right corner" NameAI6="Right of picture" NameAI7="" NameAI8="" NameAI9="" NameAI10="" NameAI11="" DoNotUseZero="true" DoNotUseAllOn="true" SpStates="0c82db71-0144-274b-ffffc77dcecfcd84,0c82db71-0144-274c-ffffc77dcecfcd84,0c82db71-0144-274d-ffffc77dcecfcd84,0c82db71-0144-274e-ffffc77dcecfcd84">
 					<Co K="I1" U="81066b51-19a4-11e4-9416c77dcecfcd84"/>
 					<Co K="I2" U="81066b50-19a4-11e4-9417c77dcecfcd84"/>
 					<Co K="I3" U="81066b51-19a4-11e4-9417c77dcecfcd84"/>
@@ -2038,34 +2046,58 @@
 					<Co K="OutputResetAll" U="81066b50-19a4-11e4-9432c77dcecfcd84"/>
 					<IoData Visu="true" Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0025-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<LightscenesC FC="0040FFFF,008080FF,00FFFF80,0040FF40" Outputs="12" Num="8">
-						<LightsceneC Name="All on" UUID="81066b51-19a4-11e4-9412c77dcecfcd84" Outputs="12" Q1="268435556" Q2="268435556" Q3="268435556" Q4="268435456" Q5="268435456" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
-						<LightsceneC Name="Ted time" UUID="81066b50-19a4-11e4-9413c77dcecfcd84" Outputs="12" Q1="268435516" Q2="268435516" Q3="268435516" Q4="268435456" Q5="268435456" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
-						<LightsceneC Name="Evening meal" UUID="81066b51-19a4-11e4-9413c77dcecfcd84" Outputs="12" Q1="268435531" Q2="268435486" Q3="268435486" Q4="268435456" Q5="268435456" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
-						<LightsceneC Name="Living room" UUID="81066b50-19a4-11e4-9414c77dcecfcd84" Outputs="12" Q1="268435456" Q2="268435476" Q3="268435476" Q4="268435456" Q5="268435456" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
-						<LightsceneC Name="-" UUID="81066b51-19a4-11e4-9414c77dcecfcd84" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="268435456" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
-						<LightsceneC Name="-" UUID="81066b50-19a4-11e4-9415c77dcecfcd84" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="268435456" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
-						<LightsceneC Name="-" UUID="81066b51-19a4-11e4-9415c77dcecfcd84" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="268435456" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
-						<LightsceneC Name="-" UUID="81066b50-19a4-11e4-9416c77dcecfcd84" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="268435456" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+						<LightsceneC Name="All on" UUID="81066b51-19a4-11e4-9412c77dcecfcd84" Outputs="12" Q1="268435556" Q2="268435556" Q3="268435556" Q4="268435556" Q5="268435556" Q6="268435556" Q7="268435556" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+						<LightsceneC Name="Ted time" UUID="81066b50-19a4-11e4-9413c77dcecfcd84" Outputs="12" Q1="268435516" Q2="268435516" Q3="268435516" Q4="268435516" Q5="268435516" Q6="268435516" Q7="268435516" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+						<LightsceneC Name="Evening meal" UUID="81066b51-19a4-11e4-9413c77dcecfcd84" Outputs="12" Q1="268435541" Q2="268435486" Q3="268435486" Q4="268435486" Q5="268435486" Q6="268435486" Q7="268435486" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+						<LightsceneC Name="Living room" UUID="81066b50-19a4-11e4-9414c77dcecfcd84" Outputs="12" Q1="268435456" Q2="268435476" Q3="268435476" Q4="268435476" Q5="268435476" Q6="268435476" Q7="268435476" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+						<LightsceneC Name="-" UUID="81066b51-19a4-11e4-9414c77dcecfcd84" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="268435456" Q6="268435456" Q7="268435456" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+						<LightsceneC Name="-" UUID="81066b50-19a4-11e4-9415c77dcecfcd84" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="268435456" Q6="268435456" Q7="268435456" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+						<LightsceneC Name="-" UUID="81066b51-19a4-11e4-9415c77dcecfcd84" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="268435456" Q6="268435456" Q7="268435456" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+						<LightsceneC Name="-" UUID="81066b50-19a4-11e4-9416c77dcecfcd84" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="268435456" Q6="268435456" Q7="268435456" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
 					</LightscenesC>
 					<PSD As="-2" Ae="1380" Amin="1" Amax="4" Dmin="30" Dmax="180" O="1" V="20"/>
 				</C>
-				<C Type="OutputRef" V="101" U="8e010540-19a4-11e4-9797c77dcecfcd84" Title="Right of entrance" Px="12864" Py="4416" Px2="15552" Py2="15552" Cl="200,200,236" Nio="2" Ref="3d35e270-19a4-11e4-8f36c77dcecfcd84" Analog="true" LinkRefType="132">
+				<C Type="OutputRef" V="101" U="8e010540-19a4-11e4-9797c77dcecfcd84" Title="Right of entrance" Px="12864" Py="4416" Px2="15552" Py2="4608" Cl="200,200,236" Nio="2" Ref="3d35e270-19a4-11e4-8f36c77dcecfcd84" Analog="true" LinkRefType="132">
 					<Co K="AI" Nc="1" U="8e010541-19a4-11e4-9797c77dcecfcd84">
 						<In Input="81066b51-19a4-11e4-942bc77dcecfcd84"/>
 					</Co>
 					<Co K="AQ" U="8e010540-19a4-11e4-9798c77dcecfcd84"/>
 				</C>
-				<C Type="OutputRef" V="101" U="8e2974d0-19a4-11e4-9870c77dcecfcd84" Title="Left of entrance" Px="12864" Py="4608" Px2="15552" Py2="15552" Cl="200,200,236" Nio="2" Ref="3d363090-19a4-11e4-8f36c77dcecfcd84" Analog="true" LinkRefType="132">
+				<C Type="OutputRef" V="101" U="8e2974d0-19a4-11e4-9870c77dcecfcd84" Title="Left of entrance" Px="12864" Py="4608" Px2="15552" Py2="4800" Cl="200,200,236" Nio="2" Ref="3d363090-19a4-11e4-8f36c77dcecfcd84" Analog="true" LinkRefType="132">
 					<Co K="AI" Nc="1" U="8e2974d1-19a4-11e4-9870c77dcecfcd84">
 						<In Input="81066b50-19a4-11e4-942cc77dcecfcd84"/>
 					</Co>
 					<Co K="AQ" U="8e2974d0-19a4-11e4-9871c77dcecfcd84"/>
 				</C>
-				<C Type="OutputRef" V="101" U="a3f308d1-1b43-11e4-86afb1bd37ae859c" Title="Dining room pendants" Px="12864" Py="4224" Px2="15936" Py2="15936" Cl="200,200,236" Nio="2" Ref="a3028ca0-a255-11e3-b9fc972a8456a1bb" Analog="true" LinkRefType="60">
+				<C Type="OutputRef" V="101" U="a3f308d1-1b43-11e4-86afb1bd37ae859c" Title="Dining room pendants" Px="12864" Py="4224" Px2="15936" Py2="4416" Cl="200,200,236" Nio="2" Ref="a3028ca0-a255-11e3-b9fc972a8456a1bb" Analog="true" LinkRefType="60">
 					<Co K="AI" Nc="1" U="a3f308d0-1b43-11e4-86b0b1bd37ae859c">
 						<In Input="81066b50-19a4-11e4-942bc77dcecfcd84"/>
 					</Co>
 					<Co K="AQ" U="a3f308d1-1b43-11e4-86b0b1bd37ae859c"/>
+				</C>
+				<C Type="OutputRef" V="101" U="0dbaa4c9-0091-cd8a-ffffc77dcecfcd84" Title="Left of picture" Px="12864" Py="4800" Px2="15360" Py2="4992" Cl="200,200,236" Nio="2" Ref="0dbaa470-011b-af1f-ffff95d9cdbb6d3f" Analog="true" LinkRefType="132">
+					<Co K="AI" Nc="1" U="0dbaa4c9-0091-cd88-ffffd901b30bec03">
+						<In Input="81066b51-19a4-11e4-942cc77dcecfcd84"/>
+					</Co>
+					<Co K="AQ" U="0dbaa4c9-0091-cd89-ffffd901b30bec03"/>
+				</C>
+				<C Type="OutputRef" V="101" U="0dbaa4c9-009f-cd8e-ffffc77dcecfcd84" Title="Back left corner" Px="12864" Py="4992" Px2="15360" Py2="5184" Cl="200,200,236" Nio="2" Ref="0dbaa470-0120-af22-ffff95d9cdbb6d3f" Analog="true" LinkRefType="132">
+					<Co K="AI" Nc="1" U="0dbaa4c9-009f-cd8c-ffff0dc83600956e">
+						<In Input="81066b50-19a4-11e4-942dc77dcecfcd84"/>
+					</Co>
+					<Co K="AQ" U="0dbaa4c9-009f-cd8d-ffff0dc83600956e"/>
+				</C>
+				<C Type="OutputRef" V="101" U="0dbaa4c9-00b0-cd92-ffffc77dcecfcd84" Title="Back right corner" Px="12864" Py="5184" Px2="15552" Py2="5376" Cl="200,200,236" Nio="2" Ref="0dbaa470-0126-af25-ffff95d9cdbb6d3f" Analog="true" LinkRefType="132">
+					<Co K="AI" Nc="1" U="0dbaa4c9-00b0-cd90-ffff725873ea9def">
+						<In Input="81066b51-19a4-11e4-942dc77dcecfcd84"/>
+					</Co>
+					<Co K="AQ" U="0dbaa4c9-00b0-cd91-ffff725873ea9def"/>
+				</C>
+				<C Type="OutputRef" V="101" U="0dbaa4c9-00c4-cd96-ffffc77dcecfcd84" Title="Right of picture" Px="12864" Py="5376" Px2="15360" Py2="5568" Cl="200,200,236" Nio="2" Ref="0dbaa470-012b-af28-ffff95d9cdbb6d3f" Analog="true" LinkRefType="132">
+					<Co K="AI" Nc="1" U="0dbaa4c9-00c4-cd94-ffffa61ff6df465b">
+						<In Input="81066b50-19a4-11e4-942ec77dcecfcd84"/>
+					</Co>
+					<Co K="AQ" U="0dbaa4c9-00c4-cd95-ffffa61ff6df465b"/>
 				</C>
 			</C>
 			<C Type="Page" V="101" U="10f15720-b442-11e3-ad9fea873ddef408" Title="En Suite Heating">
