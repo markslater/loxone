@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ControlList Version="106" NextObj="163" NextConst="1" NextNote="1" NextMem="13">
-	<C Type="Document" V="101" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="7030224" Font="Arial" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="2016-04-19 21:26:18" DateS="230333178" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="0dba9aec-01f1-028f-ffffe37b57479835" Currency="€" UpdTime="120" NumO="606">
+<ControlList Version="106" NextObj="166" NextConst="1" NextNote="1" NextMem="13">
+	<C Type="Document" V="101" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="7030224" Font="Arial" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="2016-04-19 21:28:43" DateS="230333323" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="0dba9b7d-01c0-16a8-ffff48bb3be0784a" Currency="€" UpdTime="120" NumO="610">
 		<C Type="IconCaptionState" V="101" U="c332d2d0-9cad-11e3-9b00fb030ef95e86" Title="Status Symbols">
 			<C Type="IconState" V="101" U="00000000-0000-0001-2200000000000000" Title="Not assigned"/>
 			<C Type="IconState" V="101" U="00000000-0000-0002-2200000000000000" Title="Fatal error" Ix="1"/>
@@ -155,8 +155,8 @@
 			<C Type="Category" V="101" U="0aa18988-0254-0015-0d00000000000000" Title="Appliances" Icon="00000000-0000-0022-2000000000000000"/>
 			<C Type="Category" V="101" U="0aa18988-0254-0016-0d00000000000000" Title="Plant watering" Icon="00000000-0000-0024-2000000000000000"/>
 			<C Type="Category" V="101" U="0aa18988-0254-0017-0d00000000000000" Title="Photovoltaics" Icon="00000000-0000-0026-2000000000000000"/>
-			<C Type="Category" V="101" U="0dba9aec-0262-0c9c-fffffb030ef95e86" Title="Sun" Icon="00000000-0000-002b-2000000000000000"/>
-			<C Type="Category" V="101" U="0dba9aec-0262-0ca0-fffffb030ef95e86" Title="Alarm" Icon="00000000-0000-002c-2000000000000000"/>
+			<C Type="Category" V="101" U="0dba9b7d-01ef-20d8-fffffb030ef95e86" Title="Sun" Icon="00000000-0000-002b-2000000000000000"/>
+			<C Type="Category" V="101" U="0dba9b7d-01ef-20dc-fffffb030ef95e86" Title="Alarm" Icon="00000000-0000-002c-2000000000000000"/>
 		</C>
 		<C Type="PlaceCaption" V="101" U="c332d2d0-9cad-11e3-9b01fb030ef95e86" Title="Rooms">
 			<C Type="Place" V="101" U="0aa18988-0254-0018-0f00000000000000" Title="Not assigned" Icon="00000000-0000-0001-2100000000000000" First="true"/>
@@ -220,10 +220,12 @@
 				<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 				<Display StateOnly="true"/>
 			</C>
-			<C Type="Mode" V="101" U="00000000-0000-0003-1500000000000000" Title="Day off/School holidays" Nio="2" Mode="2">
-				<Co K="I" U="c3439bb1-9cad-11e3-9b0efb030ef95e86"/>
+			<C Type="Mode" V="101" U="00000000-0000-0003-1500000000000000" Title="Day off/School holidays" Nio="2" WF="16" Mode="2">
+				<Co K="I" Nc="1" U="c3439bb1-9cad-11e3-9b0efb030ef95e86">
+					<In Input="0ce652ea-02c2-8ef8-ffffa597f27e7762"/>
+				</Co>
 				<Co K="Q" U="c3439bb0-9cad-11e3-9b0ffb030ef95e86"/>
-				<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+				<IoData Cr="0aa18988-0254-0004-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 				<Display StateOnly="true"/>
 			</C>
 			<C Type="Mode" V="101" U="00000000-0000-0004-1500000000000000" Title="Monday" Nio="2" Mode="3">
@@ -310,16 +312,20 @@
 				<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 				<Display StateOnly="true"/>
 			</C>
-			<C Type="Mode" V="101" U="0aa18988-0254-002f-1500000000000000" Title="All absent" Nio="2" Mode="-6">
-				<Co K="I" U="c34410e0-9cad-11e3-9b23fb030ef95e86"/>
+			<C Type="Mode" V="101" U="0aa18988-0254-002f-1500000000000000" Title="All absent" Nio="2" WF="16" Mode="-6">
+				<Co K="I" Nc="1" U="c34410e0-9cad-11e3-9b23fb030ef95e86">
+					<In Input="0cd9294c-031b-6f97-ffff07372a390897"/>
+				</Co>
 				<Co K="Q" U="c34410e1-9cad-11e3-9b23fb030ef95e86"/>
 				<IoData Cr="0aa18988-0254-0004-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 				<Display StateOnly="true"/>
 			</C>
-			<C Type="Mode" V="101" U="0b3eb2ed-01f7-1a72-ffffb830a73fcead" Title="Guests staying" Nio="2" Mode="-7">
-				<Co K="I" U="0b3eb2ed-01f7-1a70-ffff112233445566"/>
+			<C Type="Mode" V="101" U="0b3eb2ed-01f7-1a72-ffffb830a73fcead" Title="Guests staying" Nio="2" WF="16" Mode="-7">
+				<Co K="I" Nc="1" U="0b3eb2ed-01f7-1a70-ffff112233445566">
+					<In Input="0ce65178-0297-34a8-ffff05690589e741"/>
+				</Co>
 				<Co K="Q" U="0b3eb2ed-01f7-1a71-ffff112233445566"/>
-				<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+				<IoData Cr="0aa18988-0254-0004-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 				<Display StateOnly="true"/>
 			</C>
 		</C>
@@ -332,7 +338,7 @@
 				<Co K="I" U="c34410e0-9cad-11e3-9b26fb030ef95e86"/>
 				<Co K="Q" U="c34410e1-9cad-11e3-9b26fb030ef95e86"/>
 			</C>
-			<C Type="CalendarEntry" Desc="Malta" V="101" U="0bb42f16-02e6-1002-fffffb030ef95e86" Title="Holiday" Nio="2" CalType="-6" Mode="3" Month="1" Day="1" Month2="1" Day2="1" From="2272" To="2277" WeekDayInMonth="1">
+			<C Type="CalendarEntry" Desc="Barcelona" V="101" U="0bb42f16-02e6-1002-fffffb030ef95e86" Title="Holiday" Nio="2" CalType="-6" Mode="3" Month="1" Day="1" Month2="1" Day2="1" From="2496" To="2255" WeekDayInMonth="1">
 				<Co K="I" U="0bb42f16-02e6-1000-ffff112233445566"/>
 				<Co K="Q" U="0bb42f16-02e6-1001-ffff112233445566"/>
 			</C>
@@ -1373,7 +1379,7 @@
 		<C Type="Program" V="101" U="c34437f0-9cad-11e3-9b2bfb030ef95e86" Title="Loxone Miniserver" Ref="c346d001-9cad-11e3-9b8efb030ef95e86">
 			<C Type="Page" V="101" U="0af4148a-0309-26b6-ffffb830a73fcead" Title="Bathroom Lighting">
 				<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001e-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
-				<C Type="InputRef" V="101" U="0bc68c9b-0201-1fa6-ffffb830a73fcead" Title="Bathroom top switch" Px="2208" Py="6240" Px2="4704" Py2="6432" Cl="200,200,236" Nio="4" Ref="b46d7730-23f5-11e4-b843d665d37d0df3" LinkRefType="55">
+				<C Type="InputRef" V="101" U="0bc68c9b-0201-1fa6-ffffb830a73fcead" Title="Bathroom top switch" Px="2208" Py="6240" Px2="4704" Py2="4704" Cl="200,200,236" Nio="4" Ref="b46d7730-23f5-11e4-b843d665d37d0df3" LinkRefType="55">
 					<Co K="AI" Nc="1" U="0bc68c9b-0201-1fa2-ffff112233445566">
 						<In Input="b46d7731-23f5-11e4-b843d665d37d0df3"/>
 					</Co>
@@ -1381,7 +1387,7 @@
 					<Co K="AQ" U="0bc68c9b-0201-1fa4-ffff112233445566"/>
 					<Co K="Q" U="0bc68c9b-0201-1fa5-ffff112233445566"/>
 				</C>
-				<C Type="InputRef" V="101" U="0bc68ca6-0174-2b67-ffffb830a73fcead" Title="Bathroom bottom switch" Px="2016" Py="5664" Px2="4704" Py2="5856" Cl="200,200,236" Nio="4" Ref="b46d9e40-23f5-11e4-b843d665d37d0df3" LinkRefType="55">
+				<C Type="InputRef" V="101" U="0bc68ca6-0174-2b67-ffffb830a73fcead" Title="Bathroom bottom switch" Px="2016" Py="5664" Px2="4704" Py2="4704" Cl="200,200,236" Nio="4" Ref="b46d9e40-23f5-11e4-b843d665d37d0df3" LinkRefType="55">
 					<Co K="AI" Nc="1" U="0bc68ca6-0174-2b63-ffff112233445566">
 						<In Input="b46d9e41-23f5-11e4-b843d665d37d0df3"/>
 					</Co>
@@ -1389,7 +1395,7 @@
 					<Co K="AQ" U="0bc68ca6-0174-2b65-ffff112233445566"/>
 					<Co K="Q" U="0bc68ca6-0174-2b66-ffff112233445566"/>
 				</C>
-				<C Type="OffDelay" V="101" U="0afa5b2f-03ad-d93e-ffffb830a73fcead" Title="O130" Px="11328" Py="5472" Px2="13056" Py2="6432" Cl="200,220,236" Nio="5">
+				<C Type="OffDelay" V="101" U="0afa5b2f-03ad-d93e-ffffb830a73fcead" Title="O130" Px="11328" Py="5472" Px2="13056" Py2="13056" Cl="200,220,236" Nio="5">
 					<Co K="InputTrigger" Nc="1" U="0afa5b2f-03ad-d939-ffff112233445566">
 						<In Input="0ba01a2b-033d-3d24-ffff112233445566"/>
 					</Co>
@@ -1400,7 +1406,7 @@
 					<Co K="Time" Def="3600" U="0afa5b2f-03ad-d93c-ffff112233445566"/>
 					<Co K="Q" U="0afa5b2f-03ad-d93d-ffff112233445566"/>
 				</C>
-				<C Type="LightController" V="101" U="0ba01a2b-033d-3d26-ffffb830a73fcead" Title="Lighting controller" Px="6432" Py="2976" Px2="10656" Py2="9312" Cl="200,216,179" Nio="59" NameAI0="DMX actuator 1" NameAI1="DMX actuator 2" NameAI2="DMX actuator 3" NameAI3="DMX actuator 4" NameAI4="Bathroom extractor" NameAI5="" NameAI6="" NameAI7="" NameAI8="" NameAI9="" NameAI10="" NameAI11="" DoNotUseZero="true" DoNotUseAllOn="true" SpStates="0c82db71-0150-29a3-ffffb830a73fcead,0c82db71-0150-29a4-ffffb830a73fcead,0c82db71-0150-29a5-ffffb830a73fcead,0c82db71-0150-29a6-ffffb830a73fcead">
+				<C Type="LightController" V="101" U="0ba01a2b-033d-3d26-ffffb830a73fcead" Title="Lighting controller" Px="6432" Py="2976" Px2="10656" Py2="10656" Cl="200,216,179" Nio="59" NameAI0="DMX actuator 1" NameAI1="DMX actuator 2" NameAI2="DMX actuator 3" NameAI3="DMX actuator 4" NameAI4="Bathroom extractor" NameAI5="" NameAI6="" NameAI7="" NameAI8="" NameAI9="" NameAI10="" NameAI11="" DoNotUseZero="true" DoNotUseAllOn="true" SpStates="0c82db71-0150-29a3-ffffb830a73fcead,0c82db71-0150-29a4-ffffb830a73fcead,0c82db71-0150-29a5-ffffb830a73fcead,0c82db71-0150-29a6-ffffb830a73fcead">
 					<Co K="I1" U="0ba01a2b-033d-3ceb-ffff112233445566"/>
 					<Co K="I2" U="0ba01a2b-033d-3cec-ffff112233445566"/>
 					<Co K="I3" U="0ba01a2b-033d-3ced-ffff112233445566"/>
@@ -1477,32 +1483,32 @@
 					</LightscenesC>
 					<PSD As="-2" Ae="1380" Amin="1" Amax="4" Dmin="30" Dmax="180" O="1" V="20"/>
 				</C>
-				<C Type="OutputRef" V="101" U="0af414ce-0220-341a-ffffb830a73fcead" Title="Bathroom extractor" Px="13632" Py="5088" Px2="15936" Py2="5280" Cl="200,200,236" Nio="2" Ref="ea25c120-23f5-11e4-bc31d665d37d0df3" LinkRefType="63">
+				<C Type="OutputRef" V="101" U="0af414ce-0220-341a-ffffb830a73fcead" Title="Bathroom extractor" Px="13632" Py="5088" Px2="15936" Py2="15936" Cl="200,200,236" Nio="2" Ref="ea25c120-23f5-11e4-bc31d665d37d0df3" LinkRefType="63">
 					<Co K="AI" Nc="2" U="0af414ce-0220-3418-ffff112233445566">
 						<In Input="0afa5b2f-03ad-d93d-ffff112233445566"/>
 						<In Input="0ba01a2b-033d-3d1b-ffff112233445566"/>
 					</Co>
 					<Co K="AQ" U="0af414ce-0220-3419-ffff112233445566"/>
 				</C>
-				<C Type="OutputRef" V="101" U="0bb2c29c-0224-0ff6-ffffb830a73fcead" Title="DMX actuator 1" Px="13440" Py="3360" Px2="15936" Py2="3552" Cl="200,200,236" Nio="2" Ref="0ba017b3-01c2-0f60-fffffb030ef95e86" Analog="true" LinkRefType="132">
+				<C Type="OutputRef" V="101" U="0bb2c29c-0224-0ff6-ffffb830a73fcead" Title="DMX actuator 1" Px="13440" Py="3360" Px2="15936" Py2="15936" Cl="200,200,236" Nio="2" Ref="0ba017b3-01c2-0f60-fffffb030ef95e86" Analog="true" LinkRefType="132">
 					<Co K="AI" Nc="1" U="0bb2c29c-0224-0ff4-ffff112233445566">
 						<In Input="0ba01a2b-033d-3d17-ffff112233445566"/>
 					</Co>
 					<Co K="AQ" U="0bb2c29c-0224-0ff5-ffff112233445566"/>
 				</C>
-				<C Type="OutputRef" V="101" U="0bb2c29c-0261-0ffa-ffffb830a73fcead" Title="DMX actuator 2" Px="13440" Py="3552" Px2="15936" Py2="3744" Cl="200,200,236" Nio="2" Ref="0ba017b3-01df-0f63-fffffb030ef95e86" Analog="true" LinkRefType="132">
+				<C Type="OutputRef" V="101" U="0bb2c29c-0261-0ffa-ffffb830a73fcead" Title="DMX actuator 2" Px="13440" Py="3552" Px2="15936" Py2="15936" Cl="200,200,236" Nio="2" Ref="0ba017b3-01df-0f63-fffffb030ef95e86" Analog="true" LinkRefType="132">
 					<Co K="AI" Nc="1" U="0bb2c29c-0261-0ff8-ffff112233445566">
 						<In Input="0ba01a2b-033d-3d18-ffff112233445566"/>
 					</Co>
 					<Co K="AQ" U="0bb2c29c-0261-0ff9-ffff112233445566"/>
 				</C>
-				<C Type="OutputRef" V="101" U="0bb2c29c-026b-0ffe-ffffb830a73fcead" Title="DMX actuator 3" Px="13440" Py="3744" Px2="15936" Py2="3936" Cl="200,200,236" Nio="2" Ref="0ba017b3-01ff-0f66-fffffb030ef95e86" Analog="true" LinkRefType="132">
+				<C Type="OutputRef" V="101" U="0bb2c29c-026b-0ffe-ffffb830a73fcead" Title="DMX actuator 3" Px="13440" Py="3744" Px2="15936" Py2="15936" Cl="200,200,236" Nio="2" Ref="0ba017b3-01ff-0f66-fffffb030ef95e86" Analog="true" LinkRefType="132">
 					<Co K="AI" Nc="1" U="0bb2c29c-026b-0ffc-ffff112233445566">
 						<In Input="0ba01a2b-033d-3d19-ffff112233445566"/>
 					</Co>
 					<Co K="AQ" U="0bb2c29c-026b-0ffd-ffff112233445566"/>
 				</C>
-				<C Type="OutputRef" V="101" U="0bb2c29c-0275-1002-ffffb830a73fcead" Title="DMX actuator 4" Px="13440" Py="3936" Px2="15936" Py2="4128" Cl="200,200,236" Nio="2" Ref="0ba017b3-021b-0f69-fffffb030ef95e86" Analog="true" LinkRefType="132">
+				<C Type="OutputRef" V="101" U="0bb2c29c-0275-1002-ffffb830a73fcead" Title="DMX actuator 4" Px="13440" Py="3936" Px2="15936" Py2="15936" Cl="200,200,236" Nio="2" Ref="0ba017b3-021b-0f69-fffffb030ef95e86" Analog="true" LinkRefType="132">
 					<Co K="AI" Nc="1" U="0bb2c29c-0275-1000-ffff112233445566">
 						<In Input="0ba01a2b-033d-3d1a-ffff112233445566"/>
 					</Co>
@@ -1548,7 +1554,7 @@
 					<IoData Cr="0aa18988-0254-0004-0d00000000000000" Pr="0aa18988-0254-0028-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<Display Unit="&lt;v.1&gt;V" StateOnly="true"/>
 				</C>
-				<C Type="IRoomcontrol" V="101" U="0aa97aa1-0086-400f-ffffb830a73fcead" Title="Intelligent room controller" Px="7776" Py="4032" Px2="11232" Py2="11232" Cl="233,243,220" Nio="41" Month="10" Day="1" Month2="4" Day2="30" MonthC="5" DayC="1" Month2C="9" Day2C="30" UUIDheat="0aa97aa1-0086-3fe5-ffff112233445566" UUIDcool="0aa97aa1-0086-3fe6-ffff112233445566" UUIDheatIx="0aa97aa1-0086-3fe9-ffff112233445566" UUIDcoolIx="0aa97aa1-0086-3fea-ffff112233445566" MixerH="00000000-0000-0000-0000000000000000" MixerC="00000000-0000-0000-0000000000000000" SpStates="0dba9aec-0249-05ec-ffffb830a73fcead,0dba9aec-0249-05ed-ffffb830a73fcead,0dba9aec-0249-05ee-ffffb830a73fcead,0dba9aec-0249-05ef-ffffb830a73fcead,0dba9aec-0249-05f0-ffffb830a73fcead">
+				<C Type="IRoomcontrol" V="101" U="0aa97aa1-0086-400f-ffffb830a73fcead" Title="Intelligent room controller" Px="7776" Py="4032" Px2="11232" Py2="11232" Cl="233,243,220" Nio="41" Month="10" Day="1" Month2="4" Day2="30" MonthC="5" DayC="1" Month2C="9" Day2C="30" UUIDheat="0aa97aa1-0086-3fe5-ffff112233445566" UUIDcool="0aa97aa1-0086-3fe6-ffff112233445566" UUIDheatIx="0aa97aa1-0086-3fe9-ffff112233445566" UUIDcoolIx="0aa97aa1-0086-3fea-ffff112233445566" MixerH="00000000-0000-0000-0000000000000000" MixerC="00000000-0000-0000-0000000000000000" SpStates="0dba9b7d-01e3-1a05-ffffb830a73fcead,0dba9b7d-01e3-1a06-ffffb830a73fcead,0dba9b7d-01e3-1a07-ffffb830a73fcead,0dba9b7d-01e3-1a08-ffffb830a73fcead,0dba9b7d-01e3-1a09-ffffb830a73fcead">
 					<Co K="AMode" U="0aa97aa1-0086-3feb-ffff112233445566"/>
 					<Co K="SMode" U="0aa97aa1-0086-3fec-ffff112233445566"/>
 					<Co K="Input" U="0aa97aa1-0086-3fed-ffff112233445566"/>
@@ -1560,7 +1566,7 @@
 					</Co>
 					<Co K="Comfort" U="0aa97aa1-0086-3ff0-ffff112233445566"/>
 					<Co K="Save" U="0aa97aa1-0086-3ff1-ffff112233445566"/>
-					<Co K="Move" U="0dba9aec-0249-05ca-ffffe37b57479835"/>
+					<Co K="Move" U="0dba9b7d-01e3-19e3-ffff48bb3be0784a"/>
 					<Co K="Reset" U="0aa97aa1-0086-3ff2-ffff112233445566"/>
 					<Co K="InputDisable" U="0aa97aa1-0086-3ff3-ffff112233445566"/>
 					<Co K="DisMv" U="0c82db71-012e-243f-ffff98bcb8fa4811"/>
@@ -1575,7 +1581,7 @@
 					<Co K="TimeMoveC" Def="14" U="0aa97aa1-0086-3ffc-ffff112233445566"/>
 					<Co K="TimeC" Def="3600" U="0aa97aa1-0086-3ffd-ffff112233445566"/>
 					<Co K="TimeS" Def="3600" U="0aa97aa1-0086-3ffe-ffff112233445566"/>
-					<Co K="TimeMv" Def="1800" U="0dba9aec-0249-05d9-ffffe37b57479835"/>
+					<Co K="TimeMv" Def="1800" U="0dba9b7d-01e3-19f2-ffff48bb3be0784a"/>
 					<Co K="AQ" U="0aa97aa1-0086-3fff-ffff112233445566"/>
 					<Co K="Q" U="0aa97aa1-0086-4000-ffff112233445566"/>
 					<Co K="AQ2" U="0aa97aa1-0086-4001-ffff112233445566"/>
@@ -1594,7 +1600,7 @@
 					<Co K="AQcm" U="0aa97aa1-0086-400c-ffff112233445566"/>
 					<Co K="AQtr" U="0aa97aa1-0086-400d-ffff112233445566"/>
 					<Co K="Qp" U="0aa97aa1-0086-400e-ffff112233445566"/>
-					<TimerHeat UserModes="7" DefValue="0" N="7" Modes="0aa18988-0254-002f-1500000000000000,0aa18988-0254-002c-1500000000000000,0aa18988-0254-002d-1500000000000000,0aa18988-0254-002e-1500000000000000,00000000-0000-0001-1500000000000000,00000000-0000-0002-1500000000000000,00000000-0000-0003-1500000000000000,00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
+					<TimerHeat UserModes="8" DefValue="0" N="7" Modes="0aa18988-0254-002f-1500000000000000,0aa18988-0254-002c-1500000000000000,0aa18988-0254-002d-1500000000000000,0aa18988-0254-002e-1500000000000000,0b3eb2ed-01f7-1a72-ffffb830a73fcead,00000000-0000-0001-1500000000000000,00000000-0000-0002-1500000000000000,00000000-0000-0003-1500000000000000,00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
 						<Entry To="1440" V="4"/>
 						<Entry To="1440" Ix="1" V="4"/>
 						<Entry To="1440" Ix="2" V="3"/>
@@ -1830,17 +1836,63 @@
 					<Co K="TimeOff" Def="180" U="0ac87cfb-01d4-0dbc-ffff112233445566"/>
 					<Co K="Q" U="0ac87cfb-01d4-0dbd-ffff112233445566"/>
 				</C>
-				<C Type="OutputRef" V="101" U="0aa97b2a-01df-554b-fffffb030ef95e86" Title="Heating demand" Px="11712" Py="3936" Px2="13824" Py2="13824" Cl="200,200,236" Nio="2" Ref="ea25c120-23f5-11e4-bc28d665d37d0df3" LinkRefType="63">
-					<Co K="AI" Nc="1" U="0aa97b2a-01df-5549-ffff112233445566">
-						<In Input="0ac87cfb-01d4-0dbd-ffff112233445566"/>
-					</Co>
-					<Co K="AQ" U="0aa97b2a-01df-554a-ffff112233445566"/>
+				<C Type="Radio" V="101" U="0ce6514d-007d-1686-fffffb030ef95e86" Title="Operating Mode" Px="4512" Py="7296" Px2="6432" Py2="6432" Cl="200,216,179" Nio="25" T1="Away" T2="Guests staying" T3="Day off" T9="Automatic">
+					<Co K="InputTrigger 1" U="0ce6514d-007d-166d-ffff28cedc9ec76e"/>
+					<Co K="InputTrigger 2" U="0ce6514d-007d-166e-ffff28cedc9ec76e"/>
+					<Co K="InputTrigger 3" U="0ce6514d-007d-166f-ffff28cedc9ec76e"/>
+					<Co K="InputTrigger 4" U="0ce6514d-007d-1670-ffff28cedc9ec76e"/>
+					<Co K="InputTrigger 5" U="0ce6514d-007d-1671-ffff28cedc9ec76e"/>
+					<Co K="InputTrigger 6" U="0ce6514d-007d-1672-ffff28cedc9ec76e"/>
+					<Co K="InputTrigger 7" U="0ce6514d-007d-1673-ffff28cedc9ec76e"/>
+					<Co K="InputTrigger 8" U="0ce6514d-007d-1674-ffff28cedc9ec76e"/>
+					<Co K="InputTriggerP" U="0ce6514d-007d-1675-ffff28cedc9ec76e"/>
+					<Co K="InputTriggerM" U="0ce6514d-007d-1676-ffff28cedc9ec76e"/>
+					<Co K="InputSel" U="0ce6514d-007d-1677-ffff28cedc9ec76e"/>
+					<Co K="Reset" U="0ce6514d-007d-1678-ffff28cedc9ec76e"/>
+					<Co K="InputDisable" U="0ce6514d-007d-1679-ffff28cedc9ec76e"/>
+					<Co K="Remanence" Inv="true" U="0ce6514d-007d-167a-ffff28cedc9ec76e"/>
+					<Co K="Max" Def="8" U="0ce6514d-007d-167b-ffff28cedc9ec76e"/>
+					<Co K="Mode" U="0ce6514d-007d-167c-ffff28cedc9ec76e"/>
+					<Co K="Q1" U="0ce6514d-007d-167d-ffff28cedc9ec76e"/>
+					<Co K="Q2" U="0ce6514d-007d-167e-ffff28cedc9ec76e"/>
+					<Co K="Q3" U="0ce6514d-007d-167f-ffff28cedc9ec76e"/>
+					<Co K="Q4" U="0ce6514d-007d-1680-ffff28cedc9ec76e"/>
+					<Co K="Q5" U="0ce6514d-007d-1681-ffff28cedc9ec76e"/>
+					<Co K="Q6" U="0ce6514d-007d-1682-ffff28cedc9ec76e"/>
+					<Co K="Q7" U="0ce6514d-007d-1683-ffff28cedc9ec76e"/>
+					<Co K="Q8" U="0ce6514d-007d-1684-ffff28cedc9ec76e"/>
+					<Co K="AQ" U="0ce6514d-007d-1685-ffff28cedc9ec76e"/>
+					<IoData Visu="true" Cr="0aa18988-0254-0004-0d00000000000000" Pr="0aa18988-0254-0027-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 				</C>
 				<C Type="OutputRef" V="101" U="0aa97b4b-020a-5d45-fffffb030ef95e86" Title="Underfloor heating pump" Px="11712" Py="6240" Px2="14400" Py2="14400" Cl="200,200,236" Nio="2" Ref="ea25c120-23f5-11e4-bc29d665d37d0df3" LinkRefType="63">
 					<Co K="AI" Nc="1" U="0aa97b4b-020a-5d43-ffff112233445566">
 						<In Input="0aaaecc4-00ac-1417-ffff112233445566"/>
 					</Co>
 					<Co K="AQ" U="0aa97b4b-020a-5d44-ffff112233445566"/>
+				</C>
+				<C Type="OutputRef" V="101" U="0aa97b2a-01df-554b-fffffb030ef95e86" Title="Heating demand" Px="11712" Py="3936" Px2="13824" Py2="13824" Cl="200,200,236" Nio="2" Ref="ea25c120-23f5-11e4-bc28d665d37d0df3" LinkRefType="63">
+					<Co K="AI" Nc="1" U="0aa97b2a-01df-5549-ffff112233445566">
+						<In Input="0ac87cfb-01d4-0dbd-ffff112233445566"/>
+					</Co>
+					<Co K="AQ" U="0aa97b2a-01df-554a-ffff112233445566"/>
+				</C>
+				<C Type="OutputRef" V="101" U="0cd9294c-031b-6f98-fffffb030ef95e86" Title="All absent" Px="7584" Py="7680" Px2="9120" Py2="9120" Cl="200,200,236" Nio="2" Ref="0aa18988-0254-002f-1500000000000000" LinkRefType="21">
+					<Co K="AI" Nc="1" U="0cd9294c-031b-6f96-ffff07372a390897">
+						<In Input="0ce6514d-007d-167d-ffff28cedc9ec76e"/>
+					</Co>
+					<Co K="AQ" U="0cd9294c-031b-6f97-ffff07372a390897"/>
+				</C>
+				<C Type="OutputRef" V="101" U="0ce65178-0297-34a9-fffffb030ef95e86" Title="Guests staying" Px="7584" Py="7872" Px2="9504" Py2="9504" Cl="200,200,236" Nio="2" Ref="0b3eb2ed-01f7-1a72-ffffb830a73fcead" LinkRefType="21">
+					<Co K="AI" Nc="1" U="0ce65178-0297-34a7-ffff05690589e741">
+						<In Input="0ce6514d-007d-167e-ffff28cedc9ec76e"/>
+					</Co>
+					<Co K="AQ" U="0ce65178-0297-34a8-ffff05690589e741"/>
+				</C>
+				<C Type="OutputRef" V="101" U="0ce652ea-02c2-8ef9-fffffb030ef95e86" Title="Day off/School holidays" Px="7584" Py="8064" Px2="10272" Py2="10272" Cl="200,200,236" Nio="2" Ref="00000000-0000-0003-1500000000000000" LinkRefType="21">
+					<Co K="AI" Nc="1" U="0ce652ea-02c2-8ef7-ffffa597f27e7762">
+						<In Input="0ce6514d-007d-167f-ffff28cedc9ec76e"/>
+					</Co>
+					<Co K="AQ" U="0ce652ea-02c2-8ef8-ffffa597f27e7762"/>
 				</C>
 			</C>
 			<C Type="Page" V="101" U="0ab164b6-0294-12ca-fffffb030ef95e86" Title="Central Functions - Lighting">
@@ -2028,7 +2080,7 @@
 					<Co K="AQ" U="28784a20-b442-11e3-b070ea873ddef408"/>
 					<Co K="Q" U="28784a21-b442-11e3-b070ea873ddef408"/>
 				</C>
-				<C Type="IRoomcontrol" V="101" U="0aa97f3b-02d2-9ff5-ffffea873ddef408" Title="Intelligent room controller" Px="7008" Py="2976" Px2="10464" Py2="10464" Cl="233,243,220" Nio="41" Month="10" Day="1" Month2="4" Day2="30" MonthC="5" DayC="1" Month2C="9" Day2C="30" UUIDheat="0aa97f3b-02d2-9fcb-ffff112233445566" UUIDcool="0aa97f3b-02d2-9fcc-ffff112233445566" UUIDheatIx="0aa97f3b-02d2-9fcf-ffff112233445566" UUIDcoolIx="0aa97f3b-02d2-9fd0-ffff112233445566" MixerH="00000000-0000-0000-0000000000000000" MixerC="00000000-0000-0000-0000000000000000" SpStates="0dba9aec-0249-075f-ffffea873ddef408,0dba9aec-0249-0760-ffffea873ddef408,0dba9aec-0249-0761-ffffea873ddef408,0dba9aec-0249-0762-ffffea873ddef408,0dba9aec-0249-0763-ffffea873ddef408">
+				<C Type="IRoomcontrol" V="101" U="0aa97f3b-02d2-9ff5-ffffea873ddef408" Title="Intelligent room controller" Px="7008" Py="2976" Px2="10464" Py2="10464" Cl="233,243,220" Nio="41" Month="10" Day="1" Month2="4" Day2="30" MonthC="5" DayC="1" Month2C="9" Day2C="30" UUIDheat="0aa97f3b-02d2-9fcb-ffff112233445566" UUIDcool="0aa97f3b-02d2-9fcc-ffff112233445566" UUIDheatIx="0aa97f3b-02d2-9fcf-ffff112233445566" UUIDcoolIx="0aa97f3b-02d2-9fd0-ffff112233445566" MixerH="00000000-0000-0000-0000000000000000" MixerC="00000000-0000-0000-0000000000000000" SpStates="0dba9b7d-01e3-1b9b-ffffea873ddef408,0dba9b7d-01e3-1b9c-ffffea873ddef408,0dba9b7d-01e3-1b9d-ffffea873ddef408,0dba9b7d-01e3-1b9e-ffffea873ddef408,0dba9b7d-01e3-1b9f-ffffea873ddef408">
 					<Co K="AMode" U="0aa97f3b-02d2-9fd1-ffff112233445566"/>
 					<Co K="SMode" U="0aa97f3b-02d2-9fd2-ffff112233445566"/>
 					<Co K="Input" U="0aa97f3b-02d2-9fd3-ffff112233445566"/>
@@ -2038,7 +2090,7 @@
 					<Co K="Window" U="0aa97f3b-02d2-9fd5-ffff112233445566"/>
 					<Co K="Comfort" U="0aa97f3b-02d2-9fd6-ffff112233445566"/>
 					<Co K="Save" U="0aa97f3b-02d2-9fd7-ffff112233445566"/>
-					<Co K="Move" U="0dba9aec-0249-073d-ffffe37b57479835"/>
+					<Co K="Move" U="0dba9b7d-01e3-1b79-ffff48bb3be0784a"/>
 					<Co K="Reset" U="0aa97f3b-02d2-9fd8-ffff112233445566"/>
 					<Co K="InputDisable" U="0aa97f3b-02d2-9fd9-ffff112233445566"/>
 					<Co K="DisMv" U="0c82db71-0136-2549-ffff98bcb8fa4811"/>
@@ -2053,7 +2105,7 @@
 					<Co K="TimeMoveC" Def="14" U="0aa97f3b-02d2-9fe2-ffff112233445566"/>
 					<Co K="TimeC" Def="3600" U="0aa97f3b-02d2-9fe3-ffff112233445566"/>
 					<Co K="TimeS" Def="3600" U="0aa97f3b-02d2-9fe4-ffff112233445566"/>
-					<Co K="TimeMv" Def="1800" U="0dba9aec-0249-074c-ffffe37b57479835"/>
+					<Co K="TimeMv" Def="1800" U="0dba9b7d-01e3-1b88-ffff48bb3be0784a"/>
 					<Co K="AQ" U="0aa97f3b-02d2-9fe5-ffff112233445566"/>
 					<Co K="Q" U="0aa97f3b-02d2-9fe6-ffff112233445566"/>
 					<Co K="AQ2" U="0aa97f3b-02d2-9fe7-ffff112233445566"/>
@@ -2072,14 +2124,17 @@
 					<Co K="AQcm" U="0aa97f3b-02d2-9ff2-ffff112233445566"/>
 					<Co K="AQtr" U="0aa97f3b-02d2-9ff3-ffff112233445566"/>
 					<Co K="Qp" U="0aa97f3b-02d2-9ff4-ffff112233445566"/>
-					<TimerHeat UserModes="7" DefValue="0" N="21" Modes="0aa18988-0254-002f-1500000000000000,0aa18988-0254-002c-1500000000000000,0aa18988-0254-002d-1500000000000000,0aa18988-0254-002e-1500000000000000,00000000-0000-0001-1500000000000000,00000000-0000-0002-1500000000000000,00000000-0000-0003-1500000000000000,00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
+					<TimerHeat UserModes="7" DefValue="0" N="24" Modes="0aa18988-0254-002f-1500000000000000,0aa18988-0254-002c-1500000000000000,0aa18988-0254-002d-1500000000000000,0aa18988-0254-002e-1500000000000000,00000000-0000-0001-1500000000000000,00000000-0000-0002-1500000000000000,00000000-0000-0003-1500000000000000,00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
 						<Entry To="1440" V="4"/>
 						<Entry To="1440" Ix="1" V="4"/>
 						<Entry To="1440" Ix="2" V="3"/>
 						<Entry To="1440" Ix="3" V="2"/>
-						<Entry To="1440" Ix="4" V="1"/>
-						<Entry To="1440" Ix="5" V="1"/>
-						<Entry To="1440" Ix="6" V="1"/>
+						<Entry From="360" To="480" Ix="4" V="1"/>
+						<Entry From="1290" To="1380" Ix="4" V="1"/>
+						<Entry From="360" To="480" Ix="5" V="1"/>
+						<Entry From="1290" To="1380" Ix="5" V="1"/>
+						<Entry From="360" To="480" Ix="6" V="1"/>
+						<Entry From="1290" To="1380" Ix="6" V="1"/>
 						<Entry From="360" To="480" Ix="7" V="1"/>
 						<Entry From="1290" To="1380" Ix="7" V="1"/>
 						<Entry From="360" To="480" Ix="8" V="1"/>
@@ -2434,7 +2489,7 @@
 					<Co K="AQ" U="0aa99bd2-007a-7611-ffff112233445566"/>
 					<Co K="Q" U="0aa99bd2-007a-7612-ffff112233445566"/>
 				</C>
-				<C Type="IRoomcontrol" V="101" U="0aa99c10-0281-9765-fffffb030ef95e86" Title="Intelligent room controller" Px="6720" Py="3936" Px2="10176" Py2="10176" Cl="233,243,220" Nio="41" Month="10" Day="1" Month2="4" Day2="30" MonthC="5" DayC="1" Month2C="9" Day2C="30" UUIDheat="0aa99c10-0281-973b-ffff112233445566" UUIDcool="0aa99c10-0281-973c-ffff112233445566" UUIDheatIx="0aa99c10-0281-973f-ffff112233445566" UUIDcoolIx="0aa99c10-0281-9740-ffff112233445566" MixerH="00000000-0000-0000-0000000000000000" MixerC="00000000-0000-0000-0000000000000000" SpStates="0dba9aec-0255-08a2-fffffb030ef95e86,0dba9aec-0255-08a3-fffffb030ef95e86,0dba9aec-0255-08a4-fffffb030ef95e86,0dba9aec-0255-08a5-fffffb030ef95e86,0dba9aec-0255-08a6-fffffb030ef95e86">
+				<C Type="IRoomcontrol" V="101" U="0aa99c10-0281-9765-fffffb030ef95e86" Title="Intelligent room controller" Px="6720" Py="3936" Px2="10176" Py2="10176" Cl="233,243,220" Nio="41" Month="10" Day="1" Month2="4" Day2="30" MonthC="5" DayC="1" Month2C="9" Day2C="30" UUIDheat="0aa99c10-0281-973b-ffff112233445566" UUIDcool="0aa99c10-0281-973c-ffff112233445566" UUIDheatIx="0aa99c10-0281-973f-ffff112233445566" UUIDcoolIx="0aa99c10-0281-9740-ffff112233445566" MixerH="00000000-0000-0000-0000000000000000" MixerC="00000000-0000-0000-0000000000000000" SpStates="0dba9b7d-01ef-1cde-fffffb030ef95e86,0dba9b7d-01ef-1cdf-fffffb030ef95e86,0dba9b7d-01ef-1ce0-fffffb030ef95e86,0dba9b7d-01ef-1ce1-fffffb030ef95e86,0dba9b7d-01ef-1ce2-fffffb030ef95e86">
 					<Co K="AMode" U="0aa99c10-0281-9741-ffff112233445566"/>
 					<Co K="SMode" U="0aa99c10-0281-9742-ffff112233445566"/>
 					<Co K="Input" U="0aa99c10-0281-9743-ffff112233445566"/>
@@ -2444,7 +2499,7 @@
 					<Co K="Window" U="0aa99c10-0281-9745-ffff112233445566"/>
 					<Co K="Comfort" U="0aa99c10-0281-9746-ffff112233445566"/>
 					<Co K="Save" U="0aa99c10-0281-9747-ffff112233445566"/>
-					<Co K="Move" U="0dba9aec-0255-0880-ffffe37b57479835"/>
+					<Co K="Move" U="0dba9b7d-01e3-1cbc-ffff48bb3be0784a"/>
 					<Co K="Reset" U="0aa99c10-0281-9748-ffff112233445566"/>
 					<Co K="InputDisable" U="0aa99c10-0281-9749-ffff112233445566"/>
 					<Co K="DisMv" U="0c82db71-014a-287a-ffff98bcb8fa4811"/>
@@ -2459,7 +2514,7 @@
 					<Co K="TimeMoveC" Def="14" U="0aa99c10-0281-9752-ffff112233445566"/>
 					<Co K="TimeC" Def="3600" U="0aa99c10-0281-9753-ffff112233445566"/>
 					<Co K="TimeS" Def="3600" U="0aa99c10-0281-9754-ffff112233445566"/>
-					<Co K="TimeMv" Def="1800" U="0dba9aec-0255-088f-ffffe37b57479835"/>
+					<Co K="TimeMv" Def="1800" U="0dba9b7d-01e3-1ccb-ffff48bb3be0784a"/>
 					<Co K="AQ" U="0aa99c10-0281-9755-ffff112233445566"/>
 					<Co K="Q" U="0aa99c10-0281-9756-ffff112233445566"/>
 					<Co K="AQ2" U="0aa99c10-0281-9757-ffff112233445566"/>
@@ -2478,7 +2533,7 @@
 					<Co K="AQcm" U="0aa99c10-0281-9762-ffff112233445566"/>
 					<Co K="AQtr" U="0aa99c10-0281-9763-ffff112233445566"/>
 					<Co K="Qp" U="0aa99c10-0281-9764-ffff112233445566"/>
-					<TimerHeat UserModes="7" DefValue="0" N="17" Modes="0aa18988-0254-002f-1500000000000000,0aa18988-0254-002c-1500000000000000,0aa18988-0254-002d-1500000000000000,0aa18988-0254-002e-1500000000000000,00000000-0000-0001-1500000000000000,00000000-0000-0002-1500000000000000,00000000-0000-0003-1500000000000000,00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
+					<TimerHeat UserModes="7" DefValue="0" N="19" Modes="0aa18988-0254-002f-1500000000000000,0aa18988-0254-002c-1500000000000000,0aa18988-0254-002d-1500000000000000,0aa18988-0254-002e-1500000000000000,00000000-0000-0001-1500000000000000,00000000-0000-0002-1500000000000000,00000000-0000-0003-1500000000000000,00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
 						<Entry To="1440" V="4"/>
 						<Entry To="1440" Ix="1" V="4"/>
 						<Entry To="1440" Ix="2" V="3"/>
@@ -2486,8 +2541,10 @@
 						<Entry To="1440" Ix="4" V="1"/>
 						<Entry To="1440" Ix="5" V="1"/>
 						<Entry To="1440" Ix="6" V="1"/>
-						<Entry To="1440" Ix="7" V="1"/>
-						<Entry To="1440" Ix="8" V="1"/>
+						<Entry To="480" Ix="7" V="1"/>
+						<Entry From="960" To="1440" Ix="7" V="1"/>
+						<Entry To="480" Ix="8" V="1"/>
+						<Entry From="960" To="1440" Ix="8" V="1"/>
 						<Entry To="480" Ix="9" V="1"/>
 						<Entry From="960" To="1440" Ix="9" V="1"/>
 						<Entry To="480" Ix="10" V="1"/>
@@ -2809,7 +2866,7 @@
 					<LightscenesC FC="0040FFFF,008080FF,00FFFF80,0040FF40" Outputs="12" Num="8">
 						<LightsceneC Name="All on" UUID="9121bdf1-11e8-11e4-a5eb86d90d45a4ab" Outputs="12" Q1="268435556" Q2="268435556" Q3="268435556" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
 						<LightsceneC Name="Dimmed" UUID="9121bdf0-11e8-11e4-a5ec86d90d45a4ab" Outputs="12" Q1="268435506" Q2="268435496" Q3="268435496" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
-						<LightsceneC Name="Night light" UUID="9121bdf1-11e8-11e4-a5ec86d90d45a4ab" Outputs="12" Q1="268435471" Q2="268435456" Q3="268435456" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+						<LightsceneC Name="Night light" UUID="9121bdf1-11e8-11e4-a5ec86d90d45a4ab" Outputs="12" Q1="268435496" Q2="268435456" Q3="268435456" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
 						<LightsceneC Name="-" UUID="9121bdf0-11e8-11e4-a5ed86d90d45a4ab" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
 						<LightsceneC Name="-" UUID="9121bdf1-11e8-11e4-a5ed86d90d45a4ab" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
 						<LightsceneC Name="-" UUID="9121bdf0-11e8-11e4-a5ee86d90d45a4ab" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="0" Q5="0" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
@@ -3137,7 +3194,7 @@
 					<Co K="AQ" U="0ac5b332-0048-e170-ffff112233445566"/>
 					<Co K="Q" U="0ac5b332-0048-e171-ffff112233445566"/>
 				</C>
-				<C Type="IRoomcontrol" V="101" U="0aa98107-0055-f0f2-fffffb030ef95e86" Title="Intelligent room controller" Px="7296" Py="3648" Px2="10752" Py2="10752" Cl="233,243,220" Nio="41" Month="10" Day="1" Month2="4" Day2="30" MonthC="5" DayC="1" Month2C="9" Day2C="30" UUIDheat="0aa98107-0054-f0c8-ffff112233445566" UUIDcool="0aa98107-0054-f0c9-ffff112233445566" UUIDheatIx="0aa98107-0054-f0cc-ffff112233445566" UUIDcoolIx="0aa98107-0054-f0cd-ffff112233445566" MixerH="00000000-0000-0000-0000000000000000" MixerC="00000000-0000-0000-0000000000000000" SpStates="0dba9aec-0255-0add-fffffb030ef95e86,0dba9aec-0255-0ade-fffffb030ef95e86,0dba9aec-0255-0adf-fffffb030ef95e86,0dba9aec-0255-0ae0-fffffb030ef95e86,0dba9aec-0255-0ae1-fffffb030ef95e86">
+				<C Type="IRoomcontrol" V="101" U="0aa98107-0055-f0f2-fffffb030ef95e86" Title="Intelligent room controller" Px="7296" Py="3648" Px2="10752" Py2="10752" Cl="233,243,220" Nio="41" Month="10" Day="1" Month2="4" Day2="30" MonthC="5" DayC="1" Month2C="9" Day2C="30" UUIDheat="0aa98107-0054-f0c8-ffff112233445566" UUIDcool="0aa98107-0054-f0c9-ffff112233445566" UUIDheatIx="0aa98107-0054-f0cc-ffff112233445566" UUIDcoolIx="0aa98107-0054-f0cd-ffff112233445566" MixerH="00000000-0000-0000-0000000000000000" MixerC="00000000-0000-0000-0000000000000000" SpStates="0dba9b7d-01ef-1f19-fffffb030ef95e86,0dba9b7d-01ef-1f1a-fffffb030ef95e86,0dba9b7d-01ef-1f1b-fffffb030ef95e86,0dba9b7d-01ef-1f1c-fffffb030ef95e86,0dba9b7d-01ef-1f1d-fffffb030ef95e86">
 					<Co K="AMode" U="0aa98107-0055-f0ce-ffff112233445566"/>
 					<Co K="SMode" U="0aa98107-0055-f0cf-ffff112233445566"/>
 					<Co K="Input" U="0aa98107-0055-f0d0-ffff112233445566"/>
@@ -3149,7 +3206,7 @@
 					</Co>
 					<Co K="Comfort" U="0aa98107-0055-f0d3-ffff112233445566"/>
 					<Co K="Save" U="0aa98107-0055-f0d4-ffff112233445566"/>
-					<Co K="Move" U="0dba9aec-0255-0abb-ffffe37b57479835"/>
+					<Co K="Move" U="0dba9b7d-01ef-1ef7-ffff48bb3be0784a"/>
 					<Co K="Reset" U="0aa98107-0055-f0d5-ffff112233445566"/>
 					<Co K="InputDisable" U="0aa98107-0055-f0d6-ffff112233445566"/>
 					<Co K="DisMv" U="0c82db71-012a-23c3-ffff98bcb8fa4811"/>
@@ -3164,7 +3221,7 @@
 					<Co K="TimeMoveC" Def="14" U="0aa98107-0055-f0df-ffff112233445566"/>
 					<Co K="TimeC" Def="3600" U="0aa98107-0055-f0e0-ffff112233445566"/>
 					<Co K="TimeS" Def="3600" U="0aa98107-0055-f0e1-ffff112233445566"/>
-					<Co K="TimeMv" Def="1800" U="0dba9aec-0255-0aca-ffffe37b57479835"/>
+					<Co K="TimeMv" Def="1800" U="0dba9b7d-01ef-1f06-ffff48bb3be0784a"/>
 					<Co K="AQ" U="0aa98107-0055-f0e2-ffff112233445566"/>
 					<Co K="Q" U="0aa98107-0055-f0e3-ffff112233445566"/>
 					<Co K="AQ2" U="0aa98107-0055-f0e4-ffff112233445566"/>
@@ -3183,16 +3240,18 @@
 					<Co K="AQcm" U="0aa98107-0055-f0ef-ffff112233445566"/>
 					<Co K="AQtr" U="0aa98107-0055-f0f0-ffff112233445566"/>
 					<Co K="Qp" U="0aa98107-0055-f0f1-ffff112233445566"/>
-					<TimerHeat UserModes="7" DefValue="0" N="17" Modes="0aa18988-0254-002f-1500000000000000,0aa18988-0254-002c-1500000000000000,0aa18988-0254-002d-1500000000000000,0aa18988-0254-002e-1500000000000000,00000000-0000-0001-1500000000000000,00000000-0000-0002-1500000000000000,00000000-0000-0003-1500000000000000,00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
+					<TimerHeat UserModes="7" DefValue="0" N="19" Modes="0aa18988-0254-002f-1500000000000000,0aa18988-0254-002c-1500000000000000,0aa18988-0254-002d-1500000000000000,0aa18988-0254-002e-1500000000000000,00000000-0000-0001-1500000000000000,00000000-0000-0002-1500000000000000,00000000-0000-0003-1500000000000000,00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
 						<Entry To="1440" V="4"/>
 						<Entry To="1440" Ix="1" V="4"/>
-						<Entry To="1440" Ix="2" V="3"/>
+						<Entry Ix="2" V="3"/>
 						<Entry To="1440" Ix="3" V="2"/>
 						<Entry To="1440" Ix="4" V="1"/>
 						<Entry To="1440" Ix="5" V="1"/>
 						<Entry To="1440" Ix="6" V="1"/>
-						<Entry To="1440" Ix="7" V="1"/>
-						<Entry To="1440" Ix="8" V="1"/>
+						<Entry To="480" Ix="7" V="1"/>
+						<Entry From="960" To="1440" Ix="7" V="1"/>
+						<Entry To="480" Ix="8" V="1"/>
+						<Entry From="960" To="1440" Ix="8" V="1"/>
 						<Entry To="480" Ix="9" V="1"/>
 						<Entry From="960" To="1440" Ix="9" V="1"/>
 						<Entry To="480" Ix="10" V="1"/>
@@ -3203,6 +3262,9 @@
 						<Entry To="1440" Ix="13" V="1"/>
 					</TimerHeat>
 					<TimerCool UserModes="6" DefValue="0" N="13" Modes="0aa18988-0254-002c-1500000000000000,0aa18988-0254-002d-1500000000000000,0aa18988-0254-002e-1500000000000000,00000000-0000-0001-1500000000000000,00000000-0000-0002-1500000000000000,00000000-0000-0003-1500000000000000,00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
+						<Entry To="1440" V="5"/>
+						<Entry To="1440" Ix="1" V="3"/>
+						<Entry To="1440" Ix="2" V="2"/>
 						<Entry To="1440" Ix="3" V="1"/>
 						<Entry To="1440" Ix="4" V="1"/>
 						<Entry To="1440" Ix="5" V="1"/>
@@ -3213,9 +3275,6 @@
 						<Entry To="1440" Ix="10" V="1"/>
 						<Entry To="1440" Ix="11" V="1"/>
 						<Entry To="1440" Ix="12" V="1"/>
-						<Entry To="1440" V="5"/>
-						<Entry To="1440" Ix="1" V="3"/>
-						<Entry To="1440" Ix="2" V="2"/>
 					</TimerCool>
 					<IoData Visu="true" Cr="0aa18988-0254-0004-0d00000000000000" Pr="0aa18988-0254-001f-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 				</C>
@@ -3228,7 +3287,7 @@
 					<IoData Cr="0aa18988-0254-0004-0d00000000000000" Pr="0aa18988-0254-001f-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<Display Unit="&lt;v.1&gt;V" StateOnly="true"/>
 				</C>
-				<C Type="Greater" V="101" U="0ac5b337-014d-e4cf-fffffb030ef95e86" Title="Master bedroom floor protection" Px="5376" Py="8160" Px2="8640" Py2="8640" Cl="233,243,220" Nio="3">
+				<C Type="Greater" V="101" U="0ac5b337-014d-e4cf-fffffb030ef95e86" Title="Master bedroom floor protection" Px="3456" Py="8160" Px2="6720" Py2="6720" Cl="233,243,220" Nio="3">
 					<Co K="Input1" Nc="1" U="0ac5b337-014d-e4cc-ffff112233445566">
 						<In Input="7720d697-d39a-11e3-96a6e67b6262cc92"/>
 					</Co>
@@ -3400,7 +3459,7 @@
 					<Co K="AQ" U="0ac5b2bf-02fe-c024-ffff112233445566"/>
 					<Co K="Q" U="0ac5b2bf-02fe-c025-ffff112233445566"/>
 				</C>
-				<C Type="IRoomcontrol" V="101" U="0aa98211-01e3-3477-ffffb830a73fcead" Title="Intelligent room controller" Px="7008" Py="3360" Px2="10464" Py2="10464" Cl="233,243,220" Nio="41" Month="10" Day="1" Month2="4" Day2="30" MonthC="5" DayC="1" Month2C="9" Day2C="30" UUIDheat="0aa98211-01e3-344d-ffff112233445566" UUIDcool="0aa98211-01e3-344e-ffff112233445566" UUIDheatIx="0aa98211-01e3-3451-ffff112233445566" UUIDcoolIx="0aa98211-01e3-3452-ffff112233445566" MixerH="00000000-0000-0000-0000000000000000" MixerC="00000000-0000-0000-0000000000000000" SpStates="0dba9aec-0255-0ba2-ffffb830a73fcead,0dba9aec-0255-0ba3-ffffb830a73fcead,0dba9aec-0255-0ba4-ffffb830a73fcead,0dba9aec-0255-0ba5-ffffb830a73fcead,0dba9aec-0255-0ba6-ffffb830a73fcead">
+				<C Type="IRoomcontrol" V="101" U="0aa98211-01e3-3477-ffffb830a73fcead" Title="Intelligent room controller" Px="7008" Py="3360" Px2="10464" Py2="10464" Cl="233,243,220" Nio="41" Month="10" Day="1" Month2="4" Day2="30" MonthC="5" DayC="1" Month2C="9" Day2C="30" UUIDheat="0aa98211-01e3-344d-ffff112233445566" UUIDcool="0aa98211-01e3-344e-ffff112233445566" UUIDheatIx="0aa98211-01e3-3451-ffff112233445566" UUIDcoolIx="0aa98211-01e3-3452-ffff112233445566" MixerH="00000000-0000-0000-0000000000000000" MixerC="00000000-0000-0000-0000000000000000" SpStates="0dba9b7d-01ef-1fde-ffffb830a73fcead,0dba9b7d-01ef-1fdf-ffffb830a73fcead,0dba9b7d-01ef-1fe0-ffffb830a73fcead,0dba9b7d-01ef-1fe1-ffffb830a73fcead,0dba9b7d-01ef-1fe2-ffffb830a73fcead">
 					<Co K="AMode" U="0aa98211-01e3-3453-ffff112233445566"/>
 					<Co K="SMode" U="0aa98211-01e3-3454-ffff112233445566"/>
 					<Co K="Input" U="0aa98211-01e3-3455-ffff112233445566"/>
@@ -3412,7 +3471,7 @@
 					</Co>
 					<Co K="Comfort" U="0aa98211-01e3-3458-ffff112233445566"/>
 					<Co K="Save" U="0aa98211-01e3-3459-ffff112233445566"/>
-					<Co K="Move" U="0dba9aec-0255-0b80-ffffe37b57479835"/>
+					<Co K="Move" U="0dba9b7d-01ef-1fbc-ffff48bb3be0784a"/>
 					<Co K="Reset" U="0aa98211-01e3-345a-ffff112233445566"/>
 					<Co K="InputDisable" U="0aa98211-01e3-345b-ffff112233445566"/>
 					<Co K="DisMv" U="0c82db71-0134-2508-ffff98bcb8fa4811"/>
@@ -3427,7 +3486,7 @@
 					<Co K="TimeMoveC" Def="14" U="0aa98211-01e3-3464-ffff112233445566"/>
 					<Co K="TimeC" Def="3600" U="0aa98211-01e3-3465-ffff112233445566"/>
 					<Co K="TimeS" Def="3600" U="0aa98211-01e3-3466-ffff112233445566"/>
-					<Co K="TimeMv" Def="1800" U="0dba9aec-0255-0b8f-ffffe37b57479835"/>
+					<Co K="TimeMv" Def="1800" U="0dba9b7d-01ef-1fcb-ffff48bb3be0784a"/>
 					<Co K="AQ" U="0aa98211-01e3-3467-ffff112233445566"/>
 					<Co K="Q" U="0aa98211-01e3-3468-ffff112233445566"/>
 					<Co K="AQ2" U="0aa98211-01e3-3469-ffff112233445566"/>
@@ -3446,14 +3505,11 @@
 					<Co K="AQcm" U="0aa98211-01e3-3474-ffff112233445566"/>
 					<Co K="AQtr" U="0aa98211-01e3-3475-ffff112233445566"/>
 					<Co K="Qp" U="0aa98211-01e3-3476-ffff112233445566"/>
-					<TimerHeat UserModes="7" DefValue="0" N="7" Modes="0aa18988-0254-002f-1500000000000000,0aa18988-0254-002c-1500000000000000,0aa18988-0254-002d-1500000000000000,0aa18988-0254-002e-1500000000000000,00000000-0000-0001-1500000000000000,00000000-0000-0002-1500000000000000,00000000-0000-0003-1500000000000000,00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
+					<TimerHeat UserModes="7" DefValue="0" N="4" Modes="0aa18988-0254-002f-1500000000000000,0aa18988-0254-002c-1500000000000000,0aa18988-0254-002d-1500000000000000,0aa18988-0254-002e-1500000000000000,00000000-0000-0001-1500000000000000,00000000-0000-0002-1500000000000000,00000000-0000-0003-1500000000000000,00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
 						<Entry To="1440" V="4"/>
 						<Entry To="1440" Ix="1" V="4"/>
 						<Entry To="1440" Ix="2" V="3"/>
 						<Entry To="1440" Ix="3" V="2"/>
-						<Entry To="1440" Ix="4" V="1"/>
-						<Entry To="1440" Ix="5" V="1"/>
-						<Entry To="1440" Ix="6" V="1"/>
 					</TimerHeat>
 					<TimerCool UserModes="6" DefValue="0" N="13" Modes="0aa18988-0254-002c-1500000000000000,0aa18988-0254-002d-1500000000000000,0aa18988-0254-002e-1500000000000000,00000000-0000-0001-1500000000000000,00000000-0000-0002-1500000000000000,00000000-0000-0003-1500000000000000,00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
 						<Entry To="1440" Ix="3" V="1"/>
@@ -3481,7 +3537,7 @@
 					<IoData Cr="0aa18988-0254-0004-0d00000000000000" Pr="0aa18988-0254-0020-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<Display Unit="&lt;v.1&gt;V" StateOnly="true"/>
 				</C>
-				<C Type="Greater" V="101" U="0ac5b2cf-0208-c381-ffffb830a73fcead" Title="Nursery floor protection" Px="4128" Py="7680" Px2="6624" Py2="6624" Cl="233,243,220" Nio="3">
+				<C Type="Greater" V="101" U="0ac5b2cf-0208-c381-ffffb830a73fcead" Title="Nursery floor protection" Px="5856" Py="8736" Px2="8352" Py2="8352" Cl="233,243,220" Nio="3">
 					<Co K="Input1" Nc="1" U="0ac5b2cf-0208-c37e-ffff112233445566">
 						<In Input="0ab59e2f-03b4-1c93-ffff112233445566"/>
 					</Co>
@@ -3581,9 +3637,9 @@
 					<Co K="OutputResetAll" U="0ab5b091-02e8-3327-ffff112233445566"/>
 					<IoData Visu="true" Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0020-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<LightscenesC FC="0040FFFF,008080FF,00FFFF80,0040FF40" Outputs="12" Num="8">
-						<LightsceneC Name="All on" UUID="0ab5b091-02e8-32d9-ffff112233445566" Outputs="12" Q1="268435556" Q2="268435556" Q3="268435556" Q4="268435556" Q5="268435556" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+						<LightsceneC Name="All on" UUID="0ab5b091-02e8-32d9-ffff112233445566" Outputs="12" Q1="268435536" Q2="268435556" Q3="268435556" Q4="268435556" Q5="268435556" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
 						<LightsceneC Name="Dimmed" UUID="0ab5b091-02e8-32db-ffff112233445566" Outputs="12" Q1="268435456" Q2="268435471" Q3="268435456" Q4="268435456" Q5="268435471" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
-						<LightsceneC Name="-" UUID="0ab5b091-02e8-32dd-ffff112233445566" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="268435456" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
+						<LightsceneC Name="Reading" UUID="0ab5b091-02e8-32dd-ffff112233445566" Outputs="12" Q1="268435506" Q2="268435456" Q3="268435456" Q4="268435456" Q5="268435506" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
 						<LightsceneC Name="-" UUID="0ab5b091-02e8-32df-ffff112233445566" Move="true" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="268435456" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
 						<LightsceneC Name="-" UUID="0ab5b091-02e8-32e1-ffff112233445566" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="268435456" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
 						<LightsceneC Name="-" UUID="0ab5b091-02e8-32e3-ffff112233445566" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="268435456" Q6="0" Q7="0" Q8="0" Q9="0" Q10="0" Q11="0" Q12="0"/>
