@@ -803,26 +803,26 @@
 					</C>
 				</C>
 				<C Type="AnalogOutputCaption" V="101" U="b46d7731-23f5-11e4-b842d665d37d0df3" Title="Analogue outputs">
-					<C Type="Dimmer" IName="AQ1" V="101" U="b46d9e40-23f5-11e4-b84ad665d37d0df3" Title="Stairway lights" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="1" SourceValHigh="100" DestValHigh="100" DimmType="2" Slewrate="30">
+					<C Type="Dimmer" IName="AQ1" V="101" U="b46d9e40-23f5-11e4-b84ad665d37d0df3" Title="Stairway lights" Nio="1" WF="16" Percent="true" Channel="1" SourceValHigh="100" DestValHigh="100" DimmType="2" Slewrate="30">
 						<Co K="I" Nc="1" U="b46d9e41-23f5-11e4-b84ad665d37d0df3">
 							<In Input="0afa16da-0130-31da-ffff112233445566"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001a-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="Dimmer" IName="AQ2" V="101" U="b46d9e40-23f5-11e4-b84bd665d37d0df3" Title="Wall light" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="1" SourceValHigh="100" DestValHigh="100" DimmType="2" Slewrate="30">
+					<C Type="Dimmer" IName="AQ2" V="101" U="b46d9e40-23f5-11e4-b84bd665d37d0df3" Title="Wall light" Nio="1" WF="16" Percent="true" Channel="1" SourceValHigh="100" DestValHigh="100" DimmType="2" Slewrate="30">
 						<Co K="I" Nc="1" U="b46d9e41-23f5-11e4-b84bd665d37d0df3">
 							<In Input="0b1a3760-0117-2872-ffff112233445566"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0020-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="Dimmer" IName="AQ3" V="101" U="b46d9e40-23f5-11e4-b84cd665d37d0df3" Title="Dimmer AQ3" Nio="1" WF="1" Dimmer="true" Percent="true" Channel="1" SourceValHigh="100" DestValHigh="100" DimmType="2" Slewrate="30">
+					<C Type="Dimmer" IName="AQ3" V="101" U="b46d9e40-23f5-11e4-b84cd665d37d0df3" Title="Dimmer AQ3" Nio="1" WF="1" Percent="true" Channel="1" SourceValHigh="100" DestValHigh="100" DimmType="2" Slewrate="30">
 						<Co K="I" U="b46d9e41-23f5-11e4-b84cd665d37d0df3"/>
 						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="Dimmer" IName="AQ4" V="101" U="b46d9e40-23f5-11e4-b84dd665d37d0df3" Title="Dimmer AQ4" Nio="1" WF="1" Dimmer="true" Percent="true" Channel="1" SourceValHigh="100" DestValHigh="100" DimmType="2" Slewrate="30">
+					<C Type="Dimmer" IName="AQ4" V="101" U="b46d9e40-23f5-11e4-b84dd665d37d0df3" Title="Dimmer AQ4" Nio="1" WF="1" Percent="true" Channel="1" SourceValHigh="100" DestValHigh="100" DimmType="2" Slewrate="30">
 						<Co K="I" U="b46d9e41-23f5-11e4-b84dd665d37d0df3"/>
 						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
@@ -884,28 +884,28 @@
 					</C>
 				</C>
 				<C Type="AnalogOutputCaption" V="101" U="a3026590-a255-11e3-b9f3972a8456a1bb" Title="Analogue outputs">
-					<C Type="Dimmer" IName="AQ1" V="101" U="a3028ca0-a255-11e3-b9fb972a8456a1bb" Title="Front door pendant" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="1" SourceValHigh="100" DestValHigh="100" DimmType="2" Slewrate="30">
+					<C Type="Dimmer" IName="AQ1" V="101" U="a3028ca0-a255-11e3-b9fb972a8456a1bb" Title="Front door pendant" Nio="1" WF="16" Percent="true" Channel="1" SourceValHigh="100" DestValHigh="100" DimmType="2" Slewrate="30">
 						<Co K="I" Nc="1" U="a3028ca1-a255-11e3-b9fb972a8456a1bb">
 							<In Input="38757ca0-1b43-11e4-bd55b1bd37ae859c"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0019-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="Dimmer" IName="AQ2" V="101" U="a3028ca0-a255-11e3-b9fc972a8456a1bb" Title="Dining room pendants" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="1" SourceValHigh="100" DestValHigh="100" DimmType="2" Slewrate="30">
+					<C Type="Dimmer" IName="AQ2" V="101" U="a3028ca0-a255-11e3-b9fc972a8456a1bb" Title="Dining room pendants" Nio="1" WF="16" Percent="true" Channel="1" SourceValHigh="100" DestValHigh="100" DimmType="2" Slewrate="30">
 						<Co K="I" Nc="1" U="a3028ca1-a255-11e3-b9fc972a8456a1bb">
 							<In Input="a3f308d1-1b43-11e4-86b0b1bd37ae859c"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0025-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="Dimmer" IName="AQ3" V="101" U="a3028ca0-a255-11e3-b9fd972a8456a1bb" Title="Upper landing light socket" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="1" SourceValHigh="100" DestValHigh="100" DimmType="2" Slewrate="30">
+					<C Type="Dimmer" IName="AQ3" V="101" U="a3028ca0-a255-11e3-b9fd972a8456a1bb" Title="Upper landing light socket" Nio="1" WF="16" Percent="true" Channel="1" SourceValHigh="100" DestValHigh="100" DimmType="2" Slewrate="30">
 						<Co K="I" Nc="1" U="a3028ca1-a255-11e3-b9fd972a8456a1bb">
 							<In Input="5329e460-2cb3-11e4-a4d9a5244cfb24ba"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0019-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="Dimmer" IName="AQ4" V="101" U="a3028ca0-a255-11e3-b9fe972a8456a1bb" Title="En suite mirror lights" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="1" SourceValHigh="100" DestValHigh="100" DimmType="2" Slewrate="30">
+					<C Type="Dimmer" IName="AQ4" V="101" U="a3028ca0-a255-11e3-b9fe972a8456a1bb" Title="En suite mirror lights" Nio="1" WF="16" Percent="true" Channel="1" SourceValHigh="100" DestValHigh="100" DimmType="2" Slewrate="30">
 						<Co K="I" Nc="1" U="a3028ca1-a255-11e3-b9fe972a8456a1bb">
 							<In Input="751a95b0-2be1-11e4-98c8d8f081f7bbc6"/>
 						</Co>
@@ -1000,28 +1000,28 @@
 					<Display Unit="&lt;v.1&gt;V" StateOnly="true" IxText="8"/>
 				</C>
 				<C Type="LoxDMXdevice" V="101" U="3d2344d0-19a4-11e4-8f36c77dcecfcd84" Title="Dining Room Front" WF="1" Channel="9" Serial="0004646F0001D2F7" DevInfo="" Model="" Manu="eldoLED BV" Software="" Pers="" PersDesc="" SlotInfo="" SlotDesc="" DefSlot="">
-					<C Type="LoxDMXactor" IName="DQ6" V="101" U="3d2a49b0-19a4-11e4-8f36c77dcecfcd84" Title="Upper landing downlight" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="9" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ6" V="101" U="3d2a49b0-19a4-11e4-8f36c77dcecfcd84" Title="Upper landing downlight" Nio="1" WF="16" Percent="true" Channel="9" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="3d2a49b1-19a4-11e4-8f36c77dcecfcd84">
 							<In Input="760e19b1-28fd-11e4-b71386be22345f79"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0025-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ7" V="101" U="3d356d40-19a4-11e4-8f36c77dcecfcd84" Title="Bedroom 2 chimney breast" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="10" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ7" V="101" U="3d356d40-19a4-11e4-8f36c77dcecfcd84" Title="Bedroom 2 chimney breast" Nio="1" WF="16" Percent="true" Channel="10" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="3d356d41-19a4-11e4-8f36c77dcecfcd84">
 							<In Input="84376fa1-28fd-11e4-b8ff86be22345f79"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0025-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ8" V="101" U="3d35e270-19a4-11e4-8f36c77dcecfcd84" Title="Right of entrance" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="11" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ8" V="101" U="3d35e270-19a4-11e4-8f36c77dcecfcd84" Title="Right of entrance" Nio="1" WF="16" Percent="true" Channel="11" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="3d35e271-19a4-11e4-8f36c77dcecfcd84">
 							<In Input="8e010540-19a4-11e4-9798c77dcecfcd84"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0025-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ9" V="101" U="3d363090-19a4-11e4-8f36c77dcecfcd84" Title="Left of entrance" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="12" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ9" V="101" U="3d363090-19a4-11e4-8f36c77dcecfcd84" Title="Left of entrance" Nio="1" WF="16" Percent="true" Channel="12" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="3d363091-19a4-11e4-8f36c77dcecfcd84">
 							<In Input="8e2974d0-19a4-11e4-9871c77dcecfcd84"/>
 						</Co>
@@ -1030,28 +1030,28 @@
 					</C>
 				</C>
 				<C Type="LoxDMXdevice" V="101" U="f6b29170-1c1b-11e4-982a90b99f9f36ac" Title="Living Room" WF="1" Channel="1" Serial="0004646F0001D1CE" DevInfo="" Model="" Manu="eldoLED BV" Software="" Pers="" PersDesc="" SlotInfo="" SlotDesc="" DefSlot="">
-					<C Type="LoxDMXactor" IName="DQ1" V="101" U="f6b59eb0-1c1b-11e4-982a90b99f9f36ac" Title="Right of picture" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="1" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ1" V="101" U="f6b59eb0-1c1b-11e4-982a90b99f9f36ac" Title="Right of picture" Nio="1" WF="16" Percent="true" Channel="1" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="f6b59eb1-1c1b-11e4-982a90b99f9f36ac">
 							<In Input="20cd6070-1c1c-11e4-9ca990b99f9f36ac"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001b-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ2" V="101" U="f6b94830-1c1b-11e4-982a90b99f9f36ac" Title="Right of entrance" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="2" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ2" V="101" U="f6b94830-1c1b-11e4-982a90b99f9f36ac" Title="Right of entrance" Nio="1" WF="16" Percent="true" Channel="2" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="f6b94831-1c1b-11e4-982a90b99f9f36ac">
 							<In Input="20ec5a21-1c1c-11e4-9d9790b99f9f36ac"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001b-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ3" V="101" U="f6b96f40-1c1b-11e4-982a90b99f9f36ac" Title="Right hand bookshelf" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="3" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ3" V="101" U="f6b96f40-1c1b-11e4-982a90b99f9f36ac" Title="Right hand bookshelf" Nio="1" WF="16" Percent="true" Channel="3" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="f6b96f41-1c1b-11e4-982a90b99f9f36ac">
 							<In Input="2100cc81-1c1c-11e4-9e8790b99f9f36ac"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001b-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ4" V="101" U="f6b99650-1c1b-11e4-982a90b99f9f36ac" Title="Left of picture" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="4" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ4" V="101" U="f6b99650-1c1b-11e4-982a90b99f9f36ac" Title="Left of picture" Nio="1" WF="16" Percent="true" Channel="4" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="f6b99651-1c1b-11e4-982a90b99f9f36ac">
 							<In Input="21160231-1c1c-11e4-9f7690b99f9f36ac"/>
 						</Co>
@@ -1060,28 +1060,28 @@
 					</C>
 				</C>
 				<C Type="LoxDMXdevice" V="101" U="c2026230-1d9b-11e4-a01ebbac2bab55d3" Title="Hallway" WF="1" Channel="5" Serial="0004646F0001D0F6" DevInfo="" Model="" Manu="eldoLED BV" Software="" Pers="" PersDesc="" SlotInfo="" SlotDesc="" DefSlot="">
-					<C Type="LoxDMXactor" IName="DQ5" V="101" U="c2060bb0-1d9b-11e4-a01ebbac2bab55d3" Title="Above mirror" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="5" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ5" V="101" U="c2060bb0-1d9b-11e4-a01ebbac2bab55d3" Title="Above mirror" Nio="1" WF="16" Percent="true" Channel="5" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="c2060bb1-1d9b-11e4-a01ebbac2bab55d3">
 							<In Input="ff0b6230-1d9b-11e4-a115bbac2bab55d3"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001b-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ10" V="101" U="c20a0350-1d9b-11e4-a01ebbac2bab55d3" Title="Left hand bookshelf" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="6" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ10" V="101" U="c20a0350-1d9b-11e4-a01ebbac2bab55d3" Title="Left hand bookshelf" Nio="1" WF="16" Percent="true" Channel="6" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="c20a0351-1d9b-11e4-a01ebbac2bab55d3">
 							<In Input="ff23a520-1d9b-11e4-a208bbac2bab55d3"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001b-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ11" V="101" U="c20ac6a0-1d9b-11e4-a01ebbac2bab55d3" Title="Left of entrance" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="7" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ11" V="101" U="c20ac6a0-1d9b-11e4-a01ebbac2bab55d3" Title="Left of entrance" Nio="1" WF="16" Percent="true" Channel="7" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="c20ac6a1-1d9b-11e4-a01ebbac2bab55d3">
 							<In Input="ff38dad0-1d9b-11e4-a2fbbbac2bab55d3"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001b-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ12" V="101" U="c20b14c0-1d9b-11e4-a01ebbac2bab55d3" Title="Downlight" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="8" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ12" V="101" U="c20b14c0-1d9b-11e4-a01ebbac2bab55d3" Title="Downlight" Nio="1" WF="16" Percent="true" Channel="8" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="c20b14c1-1d9b-11e4-a01ebbac2bab55d3">
 							<In Input="adc8fd70-1da4-11e4-b67abbac2bab55d3"/>
 						</Co>
@@ -1090,28 +1090,28 @@
 					</C>
 				</C>
 				<C Type="LoxDMXdevice" V="101" U="fe8bac80-2be1-11e4-9dc8d8f081f7bbc6" Title="Bedroom 2" WF="1" Channel="13" Serial="0004646F0001D046" DevInfo="" Model="" Manu="eldoLED BV" Software="" Pers="" PersDesc="" SlotInfo="" SlotDesc="" DefSlot="">
-					<C Type="LoxDMXactor" IName="DQ13" V="101" U="fe926340-2be1-11e4-9dc8d8f081f7bbc6" Title="Right hand side of bed" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="13" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ13" V="101" U="fe926340-2be1-11e4-9dc8d8f081f7bbc6" Title="Right hand side of bed" Nio="1" WF="16" Percent="true" Channel="13" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="fe926341-2be1-11e4-9dc8d8f081f7bbc6">
 							<In Input="17429400-2be2-11e4-9ec1d8f081f7bbc6"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0028-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ14" V="101" U="fe980890-2be1-11e4-9dc8d8f081f7bbc6" Title="Left hand window" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="14" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ14" V="101" U="fe980890-2be1-11e4-9dc8d8f081f7bbc6" Title="Left hand window" Nio="1" WF="16" Percent="true" Channel="14" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="fe980891-2be1-11e4-9dc8d8f081f7bbc6">
 							<In Input="17631451-2be2-11e4-9fc9d8f081f7bbc6"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0028-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ15" V="101" U="fe9856b0-2be1-11e4-9dc8d8f081f7bbc6" Title="Right hand window" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="15" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ15" V="101" U="fe9856b0-2be1-11e4-9dc8d8f081f7bbc6" Title="Right hand window" Nio="1" WF="16" Percent="true" Channel="15" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="fe9856b1-2be1-11e4-9dc8d8f081f7bbc6">
 							<In Input="177a93f0-2be2-11e4-a0d0d8f081f7bbc6"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0028-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ16" V="101" U="fe98f2f0-2be1-11e4-9dc8d8f081f7bbc6" Title="Left hand side of bed" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="16" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ16" V="101" U="fe98f2f0-2be1-11e4-9dc8d8f081f7bbc6" Title="Left hand side of bed" Nio="1" WF="16" Percent="true" Channel="16" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="fe98f2f1-2be1-11e4-9dc8d8f081f7bbc6">
 							<In Input="179261b1-2be2-11e4-a1d8d8f081f7bbc6"/>
 						</Co>
@@ -1120,28 +1120,28 @@
 					</C>
 				</C>
 				<C Type="LoxDMXdevice" V="101" U="6be77920-2be3-11e4-abe0d8f081f7bbc6" Title="Master Bedroom" WF="1" Channel="17" Serial="0004646F0001D0A9" DevInfo="" Model="" Manu="eldoLED BV" Software="" Pers="" PersDesc="" SlotInfo="" SlotDesc="" DefSlot="">
-					<C Type="LoxDMXactor" IName="DQ17" V="101" U="6bed4580-2be3-11e4-abe0d8f081f7bbc6" Title="Left window" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="17" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ17" V="101" U="6bed4580-2be3-11e4-abe0d8f081f7bbc6" Title="Left window" Nio="1" WF="16" Percent="true" Channel="17" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="6bed4581-2be3-11e4-abe0d8f081f7bbc6">
 							<In Input="9f67ad60-2be3-11e4-adecd8f081f7bbc6"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001f-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ18" V="101" U="6bf47170-2be3-11e4-abe0d8f081f7bbc6" Title="Right hand side of bed" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="18" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ18" V="101" U="6bf47170-2be3-11e4-abe0d8f081f7bbc6" Title="Right hand side of bed" Nio="1" WF="16" Percent="true" Channel="18" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="6bf47171-2be3-11e4-abe0d8f081f7bbc6">
 							<In Input="9f84d251-2be3-11e4-aefad8f081f7bbc6"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001f-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ19" V="101" U="6bf534c0-2be3-11e4-abe0d8f081f7bbc6" Title="Right window" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="19" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ19" V="101" U="6bf534c0-2be3-11e4-abe0d8f081f7bbc6" Title="Right window" Nio="1" WF="16" Percent="true" Channel="19" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="6bf534c1-2be3-11e4-abe0d8f081f7bbc6">
 							<In Input="9f9dd890-2be3-11e4-b00bd8f081f7bbc6"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001f-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ20" V="101" U="6bf5d100-2be3-11e4-abe0d8f081f7bbc6" Title="Left hand side of bed" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="20" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ20" V="101" U="6bf5d100-2be3-11e4-abe0d8f081f7bbc6" Title="Left hand side of bed" Nio="1" WF="16" Percent="true" Channel="20" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="6bf5d101-2be3-11e4-abe0d8f081f7bbc6">
 							<In Input="9fb75400-2be3-11e4-b11cd8f081f7bbc6"/>
 						</Co>
@@ -1150,28 +1150,28 @@
 					</C>
 				</C>
 				<C Type="LoxDMXdevice" V="101" U="70f6cab0-2be3-11e4-acded8f081f7bbc6" Title="En Suite" WF="1" Channel="21" Serial="0004646F0001D028" DevInfo="" Model="" Manu="eldoLED BV" Software="" Pers="" PersDesc="" SlotInfo="" SlotDesc="" DefSlot="">
-					<C Type="LoxDMXactor" IName="DQ21" V="101" U="70fb5e90-2be3-11e4-acded8f081f7bbc6" Title="Between doors" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="21" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ21" V="101" U="70fb5e90-2be3-11e4-acded8f081f7bbc6" Title="Between doors" Nio="1" WF="16" Percent="true" Channel="21" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="70fb5e91-2be3-11e4-acded8f081f7bbc6">
 							<In Input="faf22ab0-2be4-11e4-9356d8f081f7bbc6"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001d-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ22" V="101" U="70ff2f20-2be3-11e4-acded8f081f7bbc6" Title="Toilet" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="22" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ22" V="101" U="70ff2f20-2be3-11e4-acded8f081f7bbc6" Title="Toilet" Nio="1" WF="16" Percent="true" Channel="22" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="70ff2f21-2be3-11e4-acded8f081f7bbc6">
 							<In Input="1f131681-2be4-11e4-bc74d8f081f7bbc6"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001d-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ23" V="101" U="70ff7d40-2be3-11e4-acded8f081f7bbc6" Title="Basin" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="23" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ23" V="101" U="70ff7d40-2be3-11e4-acded8f081f7bbc6" Title="Basin" Nio="1" WF="16" Percent="true" Channel="23" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="70ff7d41-2be3-11e4-acded8f081f7bbc6">
 							<In Input="1f2c91f1-2be4-11e4-bd83d8f081f7bbc6"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001d-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ24" V="101" U="70fff270-2be3-11e4-acded8f081f7bbc6" Title="Shower" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="24" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ24" V="101" U="70fff270-2be3-11e4-acded8f081f7bbc6" Title="Shower" Nio="1" WF="16" Percent="true" Channel="24" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="70fff271-2be3-11e4-acded8f081f7bbc6">
 							<In Input="1f463471-2be4-11e4-be93d8f081f7bbc6"/>
 						</Co>
@@ -1180,28 +1180,28 @@
 					</C>
 				</C>
 				<C Type="LoxDMXdevice" V="101" U="0aa79046-01d8-3b26-ffff95d9cdbb6d3f" Title="Kitchen Under Unit" WF="1" Channel="61" Serial="" DevInfo="" Model="" Manu="" Software="" Pers="" PersDesc="" SlotInfo="" SlotDesc="" DefSlot="">
-					<C Type="LoxDMXactor" IName="DQ25" V="101" U="0aa79046-020a-3b29-ffff95d9cdbb6d3f" Title="Right of hob" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="61" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ25" V="101" U="0aa79046-020a-3b29-ffff95d9cdbb6d3f" Title="Right of hob" Nio="1" WF="16" Percent="true" Channel="61" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="0aa79046-020a-3b28-ffff112233445566">
 							<In Input="0aa7905c-001a-3db8-ffff112233445566"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001c-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ26" V="101" U="0aa79046-0227-3b2c-ffff95d9cdbb6d3f" Title="Right of bar" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="62" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ26" V="101" U="0aa79046-0227-3b2c-ffff95d9cdbb6d3f" Title="Right of bar" Nio="1" WF="16" Percent="true" Channel="62" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="0aa79046-0227-3b2b-ffff112233445566">
 							<In Input="0aa7905c-00ee-403c-ffff112233445566"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001c-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ27" V="101" U="0aa79046-0243-3b2f-ffff95d9cdbb6d3f" Title="Left of hob" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="63" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ27" V="101" U="0aa79046-0243-3b2f-ffff95d9cdbb6d3f" Title="Left of hob" Nio="1" WF="16" Percent="true" Channel="63" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="0aa79046-0243-3b2e-ffff112233445566">
 							<In Input="0aa7905c-01a7-42c1-ffff112233445566"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001c-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ28" V="101" U="0aa79046-0261-3b32-ffff95d9cdbb6d3f" Title="Left of bar" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="64" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ28" V="101" U="0aa79046-0261-3b32-ffff95d9cdbb6d3f" Title="Left of bar" Nio="1" WF="16" Percent="true" Channel="64" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="0aa79046-0261-3b31-ffff112233445566">
 							<In Input="0aa7905c-0265-4547-ffff112233445566"/>
 						</Co>
@@ -1210,28 +1210,28 @@
 					</C>
 				</C>
 				<C Type="LoxDMXdevice" V="101" U="0aaaf09c-0126-357a-ffff95d9cdbb6d3f" Title="Kitchen Overhead Stairs Side" WF="1" Channel="29" Serial="" DevInfo="" Model="" Manu="" Software="" Pers="" PersDesc="" SlotInfo="" SlotDesc="" DefSlot="">
-					<C Type="LoxDMXactor" IName="DQ29" V="101" U="0aaaf09c-0150-357d-ffff95d9cdbb6d3f" Title="Dishwasher" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="29" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ29" V="101" U="0aaaf09c-0150-357d-ffff95d9cdbb6d3f" Title="Dishwasher" Nio="1" WF="16" Percent="true" Channel="29" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="0aaaf09c-0150-357c-ffff112233445566">
 							<In Input="0aaaf125-02e1-385e-ffff112233445566"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0004-0d00000000000000" Pr="0aa18988-0254-001d-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ30" V="101" U="0aaaf09c-0179-3580-ffff95d9cdbb6d3f" Title="Sink" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="30" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ30" V="101" U="0aaaf09c-0179-3580-ffff95d9cdbb6d3f" Title="Sink" Nio="1" WF="16" Percent="true" Channel="30" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="0aaaf09c-0179-357f-ffff112233445566">
 							<In Input="0aaaf126-0005-3b30-ffff112233445566"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001c-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ31" V="101" U="0aaaf09c-0196-3583-ffff95d9cdbb6d3f" Title="Bar 1" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="31" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ31" V="101" U="0aaaf09c-0196-3583-ffff95d9cdbb6d3f" Title="Bar 1" Nio="1" WF="16" Percent="true" Channel="31" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="0aaaf09c-0196-3582-ffff112233445566">
 							<In Input="0aaaf126-00cc-3e03-ffff112233445566"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001c-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ32" V="101" U="0aaaf09c-01b4-3586-ffff95d9cdbb6d3f" Title="Bar 2" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="32" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ32" V="101" U="0aaaf09c-01b4-3586-ffff95d9cdbb6d3f" Title="Bar 2" Nio="1" WF="16" Percent="true" Channel="32" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="0aaaf09c-01b4-3585-ffff112233445566">
 							<In Input="0aaaf126-0197-40d7-ffff112233445566"/>
 						</Co>
@@ -1240,28 +1240,28 @@
 					</C>
 				</C>
 				<C Type="LoxDMXdevice" V="101" U="0aab5bd3-008f-0ead-fffffb030ef95e86" Title="Kitchen Overhead Hob Side" WF="1" Channel="33" Serial="" DevInfo="" Model="" Manu="" Software="" Pers="" PersDesc="" SlotInfo="" SlotDesc="" DefSlot="">
-					<C Type="LoxDMXactor" IName="DQ33" V="101" U="0aab5bd3-00ad-0eb0-fffffb030ef95e86" Title="Hob" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="33" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ33" V="101" U="0aab5bd3-00ad-0eb0-fffffb030ef95e86" Title="Hob" Nio="1" WF="16" Percent="true" Channel="33" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="0aab5bd3-00ad-0eaf-ffff112233445566">
 							<In Input="0aab5c09-029c-146c-ffff112233445566"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001c-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ34" V="101" U="0aab5bd3-00d1-0eb3-fffffb030ef95e86" Title="Right of hob" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="34" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ34" V="101" U="0aab5bd3-00d1-0eb3-fffffb030ef95e86" Title="Right of hob" Nio="1" WF="16" Percent="true" Channel="34" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="0aab5bd3-00d1-0eb2-ffff112233445566">
 							<In Input="0aab5c09-037e-1747-ffff112233445566"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001c-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ35" V="101" U="0aab5bd3-00e9-0eb6-fffffb030ef95e86" Title="Fridge" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="35" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ35" V="101" U="0aab5bd3-00e9-0eb6-fffffb030ef95e86" Title="Fridge" Nio="1" WF="16" Percent="true" Channel="35" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="0aab5bd3-00e9-0eb5-ffff112233445566">
 							<In Input="0aab5c09-005b-1a23-ffff112233445566"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001c-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ36" V="101" U="0aab5bd3-0101-0eb9-fffffb030ef95e86" Title="Left of hob" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="36" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ36" V="101" U="0aab5bd3-0101-0eb9-fffffb030ef95e86" Title="Left of hob" Nio="1" WF="16" Percent="true" Channel="36" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="0aab5bd3-0101-0eb8-ffff112233445566">
 							<In Input="0aab5c09-0124-1d00-ffff112233445566"/>
 						</Co>
@@ -1270,21 +1270,21 @@
 					</C>
 				</C>
 				<C Type="LoxDMXdevice" V="101" U="0b175c34-0054-291d-ffff95d9cdbb6d3f" Title="Loft" WF="1" Channel="127" Serial="" DevInfo="" Model="" Manu="" Software="" Pers="" PersDesc="" SlotInfo="" SlotDesc="" DefSlot="">
-					<C Type="LoxDMXactor" IName="DQ37" V="101" U="0b175c34-0079-2920-ffff95d9cdbb6d3f" Title="Left upper" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="127" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ37" V="101" U="0b175c34-0079-2920-ffff95d9cdbb6d3f" Title="Left upper" Nio="1" WF="16" Percent="true" Channel="127" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="0b175c34-0079-291f-ffff112233445566">
 							<In Input="0b175cb2-016d-33b6-ffff112233445566"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0b175bb6-003c-1a7a-fffffb030ef95e86" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ38" V="101" U="0b175c34-00a6-2923-ffff95d9cdbb6d3f" Title="Right upper" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="128" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ38" V="101" U="0b175c34-00a6-2923-ffff95d9cdbb6d3f" Title="Right upper" Nio="1" WF="16" Percent="true" Channel="128" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="0b175c34-00a6-2922-ffff112233445566">
 							<In Input="0b175cb2-01ad-33ba-ffff112233445566"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0b175bb6-003c-1a7a-fffffb030ef95e86" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ39" V="101" U="0b175c34-00ce-2926-ffff95d9cdbb6d3f" Title="Lower" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="129" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ39" V="101" U="0b175c34-00ce-2926-ffff95d9cdbb6d3f" Title="Lower" Nio="1" WF="16" Percent="true" Channel="129" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="0b175c34-00ce-2925-ffff112233445566">
 							<In Input="0b175cb2-01ba-33be-ffff112233445566"/>
 						</Co>
@@ -1293,28 +1293,28 @@
 					</C>
 				</C>
 				<C Type="LoxDMXdevice" V="101" U="0b9f1f82-0336-0f3f-ffff95d9cdbb6d3f" Title="Nursery" WF="1" Channel="41" Serial="" DevInfo="" Model="" Manu="" Software="" Pers="" PersDesc="" SlotInfo="" SlotDesc="" DefSlot="">
-					<C Type="LoxDMXactor" IName="DQ40" V="101" U="0b9f1f82-0358-0f42-ffff95d9cdbb6d3f" Title="Front left" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="41" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ40" V="101" U="0b9f1f82-0358-0f42-ffff95d9cdbb6d3f" Title="Front left" Nio="1" WF="16" Percent="true" Channel="41" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="0b9f1f82-0358-0f41-ffff112233445566">
 							<In Input="0b9f3021-00ad-1a71-ffff112233445566"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0020-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ41" V="101" U="0b9f1f82-037d-0f45-ffff95d9cdbb6d3f" Title="Back left" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="42" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ41" V="101" U="0b9f1f82-037d-0f45-ffff95d9cdbb6d3f" Title="Back left" Nio="1" WF="16" Percent="true" Channel="42" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="0b9f1f82-037d-0f44-ffff112233445566">
 							<In Input="0b9f3029-0384-21e5-ffff112233445566"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0020-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ42" V="101" U="0b9f1f82-03a5-0f48-ffff95d9cdbb6d3f" Title="Back right" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="43" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ42" V="101" U="0b9f1f82-03a5-0f48-ffff95d9cdbb6d3f" Title="Back right" Nio="1" WF="16" Percent="true" Channel="43" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="0b9f1f82-03a5-0f47-ffff112233445566">
 							<In Input="0b9f3030-0023-25a4-ffff112233445566"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0020-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ43" V="101" U="0b9f1f82-03c6-0f4b-ffff95d9cdbb6d3f" Title="Front right" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="44" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ43" V="101" U="0b9f1f82-03c6-0f4b-ffff95d9cdbb6d3f" Title="Front right" Nio="1" WF="16" Percent="true" Channel="44" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="0b9f1f82-03c6-0f4a-ffff112233445566">
 							<In Input="0b9f3036-0370-2964-ffff112233445566"/>
 						</Co>
@@ -1323,28 +1323,28 @@
 					</C>
 				</C>
 				<C Type="LoxDMXdevice" V="101" U="0ba017b3-01a8-0f5d-fffffb030ef95e86" Title="Bathroom" WF="1" Channel="49" Serial="" DevInfo="" Model="" Manu="" Software="" Pers="" PersDesc="" SlotInfo="" SlotDesc="" DefSlot="">
-					<C Type="LoxDMXactor" IName="DQ44" V="101" U="0ba017b3-01c2-0f60-fffffb030ef95e86" Title="DMX actuator 1" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="49" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ44" V="101" U="0ba017b3-01c2-0f60-fffffb030ef95e86" Title="DMX actuator 1" Nio="1" WF="16" Percent="true" Channel="49" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="0ba017b3-01c2-0f5f-ffff112233445566">
 							<In Input="0bb2c29c-0224-0ff5-ffff112233445566"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001e-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ45" V="101" U="0ba017b3-01df-0f63-fffffb030ef95e86" Title="DMX actuator 2" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="50" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ45" V="101" U="0ba017b3-01df-0f63-fffffb030ef95e86" Title="DMX actuator 2" Nio="1" WF="16" Percent="true" Channel="50" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="0ba017b3-01df-0f62-ffff112233445566">
 							<In Input="0bb2c29c-0261-0ff9-ffff112233445566"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001e-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ46" V="101" U="0ba017b3-01ff-0f66-fffffb030ef95e86" Title="DMX actuator 3" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="51" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ46" V="101" U="0ba017b3-01ff-0f66-fffffb030ef95e86" Title="DMX actuator 3" Nio="1" WF="16" Percent="true" Channel="51" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="0ba017b3-01ff-0f65-ffff112233445566">
 							<In Input="0bb2c29c-026b-0ffd-ffff112233445566"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001e-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ47" V="101" U="0ba017b3-021b-0f69-fffffb030ef95e86" Title="DMX actuator 4" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="52" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
+					<C Type="LoxDMXactor" IName="DQ47" V="101" U="0ba017b3-021b-0f69-fffffb030ef95e86" Title="DMX actuator 4" Nio="1" WF="16" Percent="true" Channel="52" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="0ba017b3-021b-0f68-ffff112233445566">
 							<In Input="0bb2c29c-0275-1001-ffff112233445566"/>
 						</Co>
@@ -1353,28 +1353,28 @@
 					</C>
 				</C>
 				<C Type="LoxDMXdevice" V="101" U="0dbaa470-00fe-af1c-ffff95d9cdbb6d3f" Title="Dining room back" WF="1" Channel="57" Serial="" DevInfo="" Model="" Manu="" Software="" Pers="" PersDesc="" SlotInfo="" SlotDesc="" DefSlot="">
-					<C Type="LoxDMXactor" IName="DQ48" V="101" U="0dbaa470-011b-af1f-ffff95d9cdbb6d3f" Title="Left of picture" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="57" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="15">
+					<C Type="LoxDMXactor" IName="DQ48" V="101" U="0dbaa470-011b-af1f-ffff95d9cdbb6d3f" Title="Left of picture" Nio="1" WF="16" Percent="true" Channel="57" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="15">
 						<Co K="I" Nc="1" U="0dbaa470-011b-af1e-fffff0d1125569c1">
 							<In Input="0dbaa4c9-0091-cd89-ffffd901b30bec03"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0025-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ49" V="101" U="0dbaa470-0120-af22-ffff95d9cdbb6d3f" Title="Back left corner" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="58" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="15">
+					<C Type="LoxDMXactor" IName="DQ49" V="101" U="0dbaa470-0120-af22-ffff95d9cdbb6d3f" Title="Back left corner" Nio="1" WF="16" Percent="true" Channel="58" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="15">
 						<Co K="I" Nc="1" U="0dbaa470-0120-af21-fffff0d1125569c1">
 							<In Input="0dbaa4c9-009f-cd8d-ffff0dc83600956e"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0025-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ50" V="101" U="0dbaa470-0126-af25-ffff95d9cdbb6d3f" Title="Back right corner" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="59" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="15">
+					<C Type="LoxDMXactor" IName="DQ50" V="101" U="0dbaa470-0126-af25-ffff95d9cdbb6d3f" Title="Back right corner" Nio="1" WF="16" Percent="true" Channel="59" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="15">
 						<Co K="I" Nc="1" U="0dbaa470-0126-af24-fffff0d1125569c1">
 							<In Input="0dbaa4c9-00b0-cd91-ffff725873ea9def"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0025-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ51" V="101" U="0dbaa470-012b-af28-ffff95d9cdbb6d3f" Title="Right of picture" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="60" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="15">
+					<C Type="LoxDMXactor" IName="DQ51" V="101" U="0dbaa470-012b-af28-ffff95d9cdbb6d3f" Title="Right of picture" Nio="1" WF="16" Percent="true" Channel="60" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="15">
 						<Co K="I" Nc="1" U="0dbaa470-012b-af27-fffff0d1125569c1">
 							<In Input="0dbaa4c9-00c4-cd95-ffffa61ff6df465b"/>
 						</Co>
