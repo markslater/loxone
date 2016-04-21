@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ControlList Version="106" NextObj="176" NextConst="1" NextNote="1" NextMem="13">
-	<C Type="Document" V="101" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="7030224" Font="Arial" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="2016-04-20 21:57:30" DateS="230421450" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" Currency="€" UpdTime="120" NumO="615">
+<ControlList Version="106" NextObj="178" NextConst="1" NextNote="1" NextMem="13">
+	<C Type="Document" V="101" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="7030224" Font="Arial" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="2016-04-21 19:53:26" DateS="230500406" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" Currency="€" UpdTime="120" NumO="616">
 		<C Type="IconCaptionState" V="101" U="c332d2d0-9cad-11e3-9b00fb030ef95e86" Title="Status Symbols">
 			<C Type="IconState" V="101" U="00000000-0000-0001-2200000000000000" Title="Not assigned"/>
 			<C Type="IconState" V="101" U="00000000-0000-0002-2200000000000000" Title="Fatal error" Ix="1"/>
@@ -185,17 +185,17 @@
 			<C Type="User" V="101" U="fa260231-9cb7-11e3-babffb030ef95e86" Title="Laura" Pwd="6D982F86FB9BC0A294D914AC6FC27B83"/>
 		</C>
 		<C Type="UserGroupCaption" V="101" U="c333e440-9cad-11e3-9b02fb030ef95e86" Title="User group">
-			<C Type="UserGroup" V="101" U="c34437f0-9cad-11e3-9b27fb030ef95e86" Title="Administrators" Rights="-1" UgType="1" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
+			<C Type="UserGroup" V="101" U="c34437f0-9cad-11e3-9b27fb030ef95e86" Title="Administrators" Rights="-1" UgType="1" UserModes="4" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
 				<C Type="RefUser" V="101" U="70190410-9cb8-11e3-bfadfb030ef95e86" Title="Mark" Cl="0,0,0" Ref="d4f98f41-9cb7-11e3-b888fb030ef95e86"/>
 				<C Type="RefUser" V="101" U="c34437f1-9cad-11e3-9b27fb030ef95e86" Title="admin" Cl="0,0,0" Ref="c34410e0-9cad-11e3-9b27fb030ef95e86"/>
 			</C>
-			<C Type="UserGroup" V="101" U="c34437f0-9cad-11e3-9b28fb030ef95e86" Title="User" Rights="1" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000"/>
-			<C Type="UserGroup" V="101" U="c34437f0-9cad-11e3-9b29fb030ef95e86" Title="All" Rights="1" UgType="2" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
+			<C Type="UserGroup" V="101" U="c34437f0-9cad-11e3-9b28fb030ef95e86" Title="User" Rights="1" UserModes="4" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000"/>
+			<C Type="UserGroup" V="101" U="c34437f0-9cad-11e3-9b29fb030ef95e86" Title="All" Rights="1" UgType="2" UserModes="4" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
 				<C Type="RefUser" V="101" U="fa260230-9cb7-11e3-bac0fb030ef95e86" Title="Laura" Cl="0,0,0" Ref="fa260231-9cb7-11e3-babffb030ef95e86"/>
 				<C Type="RefUser" V="101" U="d4f98f40-9cb7-11e3-b889fb030ef95e86" Title="Mark" Cl="0,0,0" Ref="d4f98f41-9cb7-11e3-b888fb030ef95e86"/>
 				<C Type="RefUser" V="101" U="c34437f1-9cad-11e3-9b29fb030ef95e86" Title="admin" Cl="0,0,0" Ref="c34410e0-9cad-11e3-9b27fb030ef95e86"/>
 			</C>
-			<C Type="UserGroup" V="101" U="c34437f1-9cad-11e3-9b2afb030ef95e86" Title="Nobody" UgType="3" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000"/>
+			<C Type="UserGroup" V="101" U="c34437f1-9cad-11e3-9b2afb030ef95e86" Title="Nobody" UgType="3" UserModes="4" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000"/>
 		</C>
 		<C Type="ConstantCaption" V="101" U="c332f9e0-9cad-11e3-9b02fb030ef95e86" Title="Constants">
 			<C Type="Constant" V="101" U="0ab86063-00bf-7e65-fffffb030ef95e86" Title="Long click duration" Cl="200,200,236" Nio="1" WF="16" Analog="true" AnalogConstant="2">
@@ -817,16 +817,18 @@
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0020-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="Dimmer" IName="AQ3" V="101" U="b46d9e40-23f5-11e4-b84cd665d37d0df3" Title="Lamp" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="1" SourceValHigh="100" DestValHigh="100" Slewrate="30">
+					<C Type="Dimmer" IName="AQ3" V="101" U="b46d9e40-23f5-11e4-b84cd665d37d0df3" Title="Lamp" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="1" SourceValHigh="100" DestValHigh="100" DimmType="2" Slewrate="30">
 						<Co K="I" Nc="1" U="b46d9e41-23f5-11e4-b84cd665d37d0df3">
-							<In Input="0dbbf37a-0191-3573-ffff868aef22577a"/>
+							<In Input="0dbd27e2-0098-d96f-ffff2bb32c3f7e8a"/>
 						</Co>
-						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001b-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0025-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="Dimmer" IName="AQ4" V="101" U="b46d9e40-23f5-11e4-b84dd665d37d0df3" Title="Dimmer AQ4" Nio="1" WF="1" Dimmer="true" Percent="true" Channel="1" SourceValHigh="100" DestValHigh="100" DimmType="2" Slewrate="30">
-						<Co K="I" U="b46d9e41-23f5-11e4-b84dd665d37d0df3"/>
-						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+					<C Type="Dimmer" IName="AQ4" V="101" U="b46d9e40-23f5-11e4-b84dd665d37d0df3" Title="Lamp" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="1" SourceValHigh="100" DestValHigh="100" DimmType="2" Slewrate="30">
+						<Co K="I" Nc="1" U="b46d9e41-23f5-11e4-b84dd665d37d0df3">
+							<In Input="0dbd244f-01a8-54d1-ffff0c6f63df536c"/>
+						</Co>
+						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001b-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
 				</C>
@@ -1982,7 +1984,7 @@
 					<Co K="AQ" U="0ab860d8-0064-9c24-ffff112233445566"/>
 					<Co K="Q" U="0ab860d8-0064-9c25-ffff112233445566"/>
 				</C>
-				<C Type="LightController" V="101" U="81066b50-19a4-11e4-9412c77dcecfcd84" Title="Lighting controller" Px="7392" Py="3840" Px2="11616" Py2="10176" Cl="200,216,179" Nio="59" NameAI0="Pendants" NameAI1="Right of entrance" NameAI2="Left of entrance" NameAI3="Left of picture" NameAI4="Back left corner" NameAI5="Back right corner" NameAI6="Right of picture" NameAI7="Dimmer AQ3" NameAI8="" NameAI9="" NameAI10="" NameAI11="" DoNotUseZero="true" DoNotUseAllOn="true" SpStates="0c82db71-0144-274b-ffffc77dcecfcd84,0c82db71-0144-274c-ffffc77dcecfcd84,0c82db71-0144-274d-ffffc77dcecfcd84,0c82db71-0144-274e-ffffc77dcecfcd84">
+				<C Type="LightController" V="101" U="81066b50-19a4-11e4-9412c77dcecfcd84" Title="Lighting controller" Px="7392" Py="3840" Px2="11616" Py2="10176" Cl="200,216,179" Nio="59" NameAI0="Pendants" NameAI1="Right of entrance" NameAI2="Left of entrance" NameAI3="Left of picture" NameAI4="Back left corner" NameAI5="Back right corner" NameAI6="Right of picture" NameAI7="Lamp" NameAI8="" NameAI9="" NameAI10="" NameAI11="" DoNotUseZero="true" DoNotUseAllOn="true" SpStates="0c82db71-0144-274b-ffffc77dcecfcd84,0c82db71-0144-274c-ffffc77dcecfcd84,0c82db71-0144-274d-ffffc77dcecfcd84,0c82db71-0144-274e-ffffc77dcecfcd84">
 					<Co K="I1" U="81066b51-19a4-11e4-9416c77dcecfcd84"/>
 					<Co K="I2" U="81066b50-19a4-11e4-9417c77dcecfcd84"/>
 					<Co K="I3" U="81066b51-19a4-11e4-9417c77dcecfcd84"/>
@@ -2048,9 +2050,9 @@
 					<Co K="OutputResetAll" U="81066b50-19a4-11e4-9432c77dcecfcd84"/>
 					<IoData Visu="true" Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0025-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<LightscenesC FC="0040FFFF,008080FF,00FFFF80,0040FF40" Outputs="12" Num="8">
-						<LightsceneC Name="All on" UUID="81066b51-19a4-11e4-9412c77dcecfcd84" Outputs="12" Q1="268435556" Q2="268435556" Q3="268435556" Q4="268435556" Q5="268435556" Q6="268435556" Q7="268435556" Q8="268435456" Q9="0" Q10="0" Q11="0" Q12="0"/>
-						<LightsceneC Name="Ted time" UUID="81066b50-19a4-11e4-9413c77dcecfcd84" Outputs="12" Q1="268435516" Q2="268435516" Q3="268435516" Q4="268435516" Q5="268435516" Q6="268435516" Q7="268435516" Q8="268435456" Q9="0" Q10="0" Q11="0" Q12="0"/>
-						<LightsceneC Name="Evening meal" UUID="81066b51-19a4-11e4-9413c77dcecfcd84" Outputs="12" Q1="268435541" Q2="268435486" Q3="268435486" Q4="268435486" Q5="268435486" Q6="268435486" Q7="268435486" Q8="268435456" Q9="0" Q10="0" Q11="0" Q12="0"/>
+						<LightsceneC Name="All on" UUID="81066b51-19a4-11e4-9412c77dcecfcd84" Outputs="12" Q1="268435556" Q2="268435556" Q3="268435556" Q4="268435556" Q5="268435556" Q6="268435556" Q7="268435556" Q8="268435556" Q9="0" Q10="0" Q11="0" Q12="0"/>
+						<LightsceneC Name="Ted time" UUID="81066b50-19a4-11e4-9413c77dcecfcd84" Outputs="12" Q1="268435516" Q2="268435516" Q3="268435516" Q4="268435516" Q5="268435516" Q6="268435516" Q7="268435516" Q8="268435516" Q9="0" Q10="0" Q11="0" Q12="0"/>
+						<LightsceneC Name="Evening meal" UUID="81066b51-19a4-11e4-9413c77dcecfcd84" Outputs="12" Q1="268435541" Q2="268435486" Q3="268435486" Q4="268435486" Q5="268435486" Q6="268435486" Q7="268435486" Q8="268435556" Q9="0" Q10="0" Q11="0" Q12="0"/>
 						<LightsceneC Name="Living room" UUID="81066b50-19a4-11e4-9414c77dcecfcd84" Outputs="12" Q1="268435456" Q2="268435476" Q3="268435476" Q4="268435476" Q5="268435476" Q6="268435476" Q7="268435476" Q8="268435456" Q9="0" Q10="0" Q11="0" Q12="0"/>
 						<LightsceneC Name="-" UUID="81066b51-19a4-11e4-9414c77dcecfcd84" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="268435456" Q6="268435456" Q7="268435456" Q8="268435456" Q9="0" Q10="0" Q11="0" Q12="0"/>
 						<LightsceneC Name="-" UUID="81066b50-19a4-11e4-9415c77dcecfcd84" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="268435456" Q6="268435456" Q7="268435456" Q8="268435456" Q9="0" Q10="0" Q11="0" Q12="0"/>
@@ -2100,6 +2102,12 @@
 						<In Input="81066b50-19a4-11e4-942ec77dcecfcd84"/>
 					</Co>
 					<Co K="AQ" U="0dbaa4c9-00c4-cd95-ffffa61ff6df465b"/>
+				</C>
+				<C Type="OutputRef" V="101" U="0dbd27e2-0098-d970-ffffc77dcecfcd84" Title="Lamp" Px="12864" Py="5568" Px2="14592" Py2="5760" Cl="200,200,236" Nio="2" Ref="b46d9e40-23f5-11e4-b84cd665d37d0df3" Analog="true" LinkRefType="60">
+					<Co K="AI" Nc="1" U="0dbd27e2-0098-d96e-ffff2bb32c3f7e8a">
+						<In Input="81066b51-19a4-11e4-942ec77dcecfcd84"/>
+					</Co>
+					<Co K="AQ" U="0dbd27e2-0098-d96f-ffff2bb32c3f7e8a"/>
 				</C>
 			</C>
 			<C Type="Page" V="101" U="10f15720-b442-11e3-ad9fea873ddef408" Title="En Suite Heating">
@@ -2955,7 +2963,7 @@
 					<Co K="AQ" U="0ab85f5b-00d6-6a14-ffff112233445566"/>
 					<Co K="Q" U="0ab85f5b-00d6-6a15-ffff112233445566"/>
 				</C>
-				<C Type="LightController" V="101" U="1f1c4161-a183-11e3-a4b1b830a73fcead" Title="Lighting controller" Px="7488" Py="3936" Px2="11712" Py2="10272" Cl="200,216,179" Nio="59" NameAI0="Left of picture" NameAI1="Right of picture" NameAI2="Left of entrance" NameAI3="Right hand bookshelf" NameAI4="Above mirror" NameAI5="Left hand bookshelf" NameAI6="Right of entrance" NameAI7="Dimmer AQ3" NameAI8="" NameAI9="" NameAI10="" NameAI11="" DoNotUseZero="true" DoNotUseAllOn="true" SpStates="0c82db71-0132-24cd-ffffb830a73fcead,0c82db71-0132-24ce-ffffb830a73fcead,0c82db71-0132-24cf-ffffb830a73fcead,0c82db71-0132-24d0-ffffb830a73fcead">
+				<C Type="LightController" V="101" U="1f1c4161-a183-11e3-a4b1b830a73fcead" Title="Lighting controller" Px="7488" Py="3936" Px2="11712" Py2="10272" Cl="200,216,179" Nio="59" NameAI0="Left of picture" NameAI1="Right of picture" NameAI2="Left of entrance" NameAI3="Right hand bookshelf" NameAI4="Above mirror" NameAI5="Left hand bookshelf" NameAI6="Right of entrance" NameAI7="Lamp" NameAI8="" NameAI9="" NameAI10="" NameAI11="" DoNotUseZero="true" DoNotUseAllOn="true" SpStates="0c82db71-0132-24cd-ffffb830a73fcead,0c82db71-0132-24ce-ffffb830a73fcead,0c82db71-0132-24cf-ffffb830a73fcead,0c82db71-0132-24d0-ffffb830a73fcead">
 					<Co K="I1" U="1f1c4160-a183-11e3-a4b6b830a73fcead"/>
 					<Co K="I2" U="1f1c4161-a183-11e3-a4b6b830a73fcead"/>
 					<Co K="I3" U="1f1c4160-a183-11e3-a4b7b830a73fcead"/>
@@ -3021,14 +3029,14 @@
 					<Co K="OutputResetAll" U="1f1c4161-a183-11e3-a4d1b830a73fcead"/>
 					<IoData Visu="true" Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001b-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<LightscenesC FC="0040FFFF,008080FF,00FFFF80,0040FF40" Outputs="12" Num="8">
-						<LightsceneC Name="All on" UUID="1f1c4160-a183-11e3-a4b2b830a73fcead" Outputs="12" Q1="268435556" Q2="268435556" Q3="268435556" Q4="268435556" Q5="268435556" Q6="268435556" Q7="268435556" Q8="268435456" Q9="0" Q10="0" Q11="0" Q12="0"/>
-						<LightsceneC Name="Ted time" UUID="1f1c4161-a183-11e3-a4b2b830a73fcead" Outputs="12" Q1="268435496" Q2="268435496" Q3="268435496" Q4="268435496" Q5="268435556" Q6="268435556" Q7="268435556" Q8="268435456" Q9="0" Q10="0" Q11="0" Q12="0"/>
-						<LightsceneC Name="Evening meal" UUID="1f1c4160-a183-11e3-a4b3b830a73fcead" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="268435486" Q6="268435456" Q7="268435456" Q8="268435456" Q9="0" Q10="0" Q11="0" Q12="0"/>
-						<LightsceneC Name="Living room" UUID="1f1c4161-a183-11e3-a4b3b830a73fcead" Outputs="12" Q1="268435486" Q2="268435486" Q3="268435486" Q4="268435486" Q5="268435536" Q6="268435486" Q7="268435486" Q8="268435486" Q9="0" Q10="0" Q11="0" Q12="0"/>
-						<LightsceneC Name="-" UUID="1f1c4160-a183-11e3-a4b4b830a73fcead" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="268435456" Q6="268435456" Q7="268435456" Q8="268435456" Q9="0" Q10="0" Q11="0" Q12="0"/>
-						<LightsceneC Name="-" UUID="1f1c4161-a183-11e3-a4b4b830a73fcead" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="268435456" Q6="268435456" Q7="268435456" Q8="268435456" Q9="0" Q10="0" Q11="0" Q12="0"/>
-						<LightsceneC Name="-" UUID="1f1c4160-a183-11e3-a4b5b830a73fcead" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="268435456" Q6="268435456" Q7="268435456" Q8="268435456" Q9="0" Q10="0" Q11="0" Q12="0"/>
-						<LightsceneC Name="-" UUID="1f1c4161-a183-11e3-a4b5b830a73fcead" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="268435456" Q6="268435456" Q7="268435456" Q8="268435456" Q9="0" Q10="0" Q11="0" Q12="0"/>
+						<LightsceneC Name="All on" UUID="1f1c4160-a183-11e3-a4b2b830a73fcead" Outputs="12" Q1="268435556" Q2="268435556" Q3="268435556" Q4="268435556" Q5="268435556" Q6="268435556" Q7="268435556" Q8="268435556" Q9="268435456" Q10="0" Q11="0" Q12="0"/>
+						<LightsceneC Name="Ted time" UUID="1f1c4161-a183-11e3-a4b2b830a73fcead" Outputs="12" Q1="268435496" Q2="268435496" Q3="268435496" Q4="268435496" Q5="268435556" Q6="268435556" Q7="268435556" Q8="268435556" Q9="268435456" Q10="0" Q11="0" Q12="0"/>
+						<LightsceneC Name="Evening meal" UUID="1f1c4160-a183-11e3-a4b3b830a73fcead" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="268435486" Q6="268435456" Q7="268435456" Q8="268435486" Q9="268435456" Q10="0" Q11="0" Q12="0"/>
+						<LightsceneC Name="Living room" UUID="1f1c4161-a183-11e3-a4b3b830a73fcead" Outputs="12" Q1="268435486" Q2="268435486" Q3="268435486" Q4="268435486" Q5="268435536" Q6="268435486" Q7="268435486" Q8="268435556" Q9="268435456" Q10="0" Q11="0" Q12="0"/>
+						<LightsceneC Name="-" UUID="1f1c4160-a183-11e3-a4b4b830a73fcead" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="268435456" Q6="268435456" Q7="268435456" Q8="268435456" Q9="268435456" Q10="0" Q11="0" Q12="0"/>
+						<LightsceneC Name="-" UUID="1f1c4161-a183-11e3-a4b4b830a73fcead" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="268435456" Q6="268435456" Q7="268435456" Q8="268435456" Q9="268435456" Q10="0" Q11="0" Q12="0"/>
+						<LightsceneC Name="-" UUID="1f1c4160-a183-11e3-a4b5b830a73fcead" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="268435456" Q6="268435456" Q7="268435456" Q8="268435456" Q9="268435456" Q10="0" Q11="0" Q12="0"/>
+						<LightsceneC Name="-" UUID="1f1c4161-a183-11e3-a4b5b830a73fcead" Outputs="12" Q1="268435456" Q2="268435456" Q3="268435456" Q4="268435456" Q5="268435456" Q6="268435456" Q7="268435456" Q8="268435456" Q9="268435456" Q10="0" Q11="0" Q12="0"/>
 					</LightscenesC>
 					<PSD As="-2" Ae="1380" Amin="1" Amax="4" Dmin="30" Dmax="180" O="1" V="20"/>
 				</C>
@@ -3074,11 +3082,11 @@
 					</Co>
 					<Co K="AQ" U="ff38dad0-1d9b-11e4-a2fbbbac2bab55d3"/>
 				</C>
-				<C Type="OutputRef" V="101" U="0dbbf37a-0191-3574-ffffb830a73fcead" Title="Lamp" Px="12960" Py="5664" Px2="14688" Py2="5856" Cl="200,200,236" Nio="2" Ref="b46d9e40-23f5-11e4-b84cd665d37d0df3" Analog="true" LinkRefType="60">
-					<Co K="AI" Nc="1" U="0dbbf37a-0191-3572-ffff868aef22577a">
+				<C Type="OutputRef" V="101" U="0dbd244f-01a8-54d2-ffffb830a73fcead" Title="Lamp" Px="12960" Py="5664" Px2="14688" Py2="5856" Cl="200,200,236" Nio="2" Ref="b46d9e40-23f5-11e4-b84dd665d37d0df3" Analog="true" LinkRefType="60">
+					<Co K="AI" Nc="1" U="0dbd244f-01a8-54d0-ffff0c6f63df536c">
 						<In Input="1f1c4160-a183-11e3-a4ceb830a73fcead"/>
 					</Co>
-					<Co K="AQ" U="0dbbf37a-0191-3573-ffff868aef22577a"/>
+					<Co K="AQ" U="0dbd244f-01a8-54d1-ffff0c6f63df536c"/>
 				</C>
 			</C>
 			<C Type="Page" V="101" U="0b175b60-01ae-1058-fffffb030ef95e86" Title="Loft Lighting">
