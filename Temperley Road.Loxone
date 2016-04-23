@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ControlList Version="106" NextObj="178" NextConst="1" NextNote="1" NextMem="13">
-	<C Type="Document" V="101" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="7030224" Font="Arial" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="2016-04-21 19:53:26" DateS="230500406" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" Currency="€" UpdTime="120" NumO="616">
+<ControlList Version="106" NextObj="184" NextConst="1" NextNote="1" NextMem="14">
+	<C Type="Document" V="101" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="7030224" Font="Arial" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="2016-04-23 15:45:07" DateS="230658307" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" Currency="€" UpdTime="120" NumO="619">
 		<C Type="IconCaptionState" V="101" U="c332d2d0-9cad-11e3-9b00fb030ef95e86" Title="Status Symbols">
 			<C Type="IconState" V="101" U="00000000-0000-0001-2200000000000000" Title="Not assigned"/>
 			<C Type="IconState" V="101" U="00000000-0000-0002-2200000000000000" Title="Fatal error" Ix="1"/>
@@ -185,17 +185,17 @@
 			<C Type="User" V="101" U="fa260231-9cb7-11e3-babffb030ef95e86" Title="Laura" Pwd="6D982F86FB9BC0A294D914AC6FC27B83"/>
 		</C>
 		<C Type="UserGroupCaption" V="101" U="c333e440-9cad-11e3-9b02fb030ef95e86" Title="User group">
-			<C Type="UserGroup" V="101" U="c34437f0-9cad-11e3-9b27fb030ef95e86" Title="Administrators" Rights="-1" UgType="1" UserModes="4" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
+			<C Type="UserGroup" V="101" U="c34437f0-9cad-11e3-9b27fb030ef95e86" Title="Administrators" Rights="-1" UgType="1" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
 				<C Type="RefUser" V="101" U="70190410-9cb8-11e3-bfadfb030ef95e86" Title="Mark" Cl="0,0,0" Ref="d4f98f41-9cb7-11e3-b888fb030ef95e86"/>
 				<C Type="RefUser" V="101" U="c34437f1-9cad-11e3-9b27fb030ef95e86" Title="admin" Cl="0,0,0" Ref="c34410e0-9cad-11e3-9b27fb030ef95e86"/>
 			</C>
-			<C Type="UserGroup" V="101" U="c34437f0-9cad-11e3-9b28fb030ef95e86" Title="User" Rights="1" UserModes="4" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000"/>
-			<C Type="UserGroup" V="101" U="c34437f0-9cad-11e3-9b29fb030ef95e86" Title="All" Rights="1" UgType="2" UserModes="4" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
+			<C Type="UserGroup" V="101" U="c34437f0-9cad-11e3-9b28fb030ef95e86" Title="User" Rights="1" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000"/>
+			<C Type="UserGroup" V="101" U="c34437f0-9cad-11e3-9b29fb030ef95e86" Title="All" Rights="1" UgType="2" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
 				<C Type="RefUser" V="101" U="fa260230-9cb7-11e3-bac0fb030ef95e86" Title="Laura" Cl="0,0,0" Ref="fa260231-9cb7-11e3-babffb030ef95e86"/>
 				<C Type="RefUser" V="101" U="d4f98f40-9cb7-11e3-b889fb030ef95e86" Title="Mark" Cl="0,0,0" Ref="d4f98f41-9cb7-11e3-b888fb030ef95e86"/>
 				<C Type="RefUser" V="101" U="c34437f1-9cad-11e3-9b29fb030ef95e86" Title="admin" Cl="0,0,0" Ref="c34410e0-9cad-11e3-9b27fb030ef95e86"/>
 			</C>
-			<C Type="UserGroup" V="101" U="c34437f1-9cad-11e3-9b2afb030ef95e86" Title="Nobody" UgType="3" UserModes="4" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000"/>
+			<C Type="UserGroup" V="101" U="c34437f1-9cad-11e3-9b2afb030ef95e86" Title="Nobody" UgType="3" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000"/>
 		</C>
 		<C Type="ConstantCaption" V="101" U="c332f9e0-9cad-11e3-9b02fb030ef95e86" Title="Constants">
 			<C Type="Constant" V="101" U="0ab86063-00bf-7e65-fffffb030ef95e86" Title="Long click duration" Cl="200,200,236" Nio="1" WF="16" Analog="true" AnalogConstant="2">
@@ -781,14 +781,14 @@
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0b175bb6-003c-1a7a-fffffb030ef95e86" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v.1&gt;V"/>
 					</C>
-					<C Type="DigitalIn" IName="I5" V="101" U="b46d9e40-23f5-11e4-b846d665d37d0df3" Title="Input I5" Nio="1" WF="1" MinTime="10">
+					<C Type="DigitalIn" IName="I5" V="101" U="b46d9e40-23f5-11e4-b846d665d37d0df3" Title="Hallway bottom switch" Nio="1" WF="16" MinTime="10">
 						<Co K="Q" U="b46d9e41-23f5-11e4-b846d665d37d0df3"/>
-						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0019-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v.1&gt;V"/>
 					</C>
-					<C Type="DigitalIn" IName="I6" V="101" U="b46d9e40-23f5-11e4-b847d665d37d0df3" Title="Input I6" Nio="1" WF="1" MinTime="10">
+					<C Type="DigitalIn" IName="I6" V="101" U="b46d9e40-23f5-11e4-b847d665d37d0df3" Title="Hallway top switch" Nio="1" WF="16" MinTime="10">
 						<Co K="Q" U="b46d9e41-23f5-11e4-b847d665d37d0df3"/>
-						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0019-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v.1&gt;V"/>
 					</C>
 					<C Type="DigitalIn" IName="I7" V="101" U="b46d9e40-23f5-11e4-b848d665d37d0df3" Title="Input I7" Nio="1" WF="1" MinTime="10">
@@ -856,14 +856,14 @@
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001c-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v.1&gt;V"/>
 					</C>
-					<C Type="DigitalIn" IName="I3" V="101" U="a3026591-a255-11e3-b9f5972a8456a1bb" Title="Hallway bottom switch" Nio="1" WF="16" MinTime="10">
+					<C Type="DigitalIn" IName="I3" V="101" U="a3026591-a255-11e3-b9f5972a8456a1bb" Title="Stairs bottom switch" Nio="1" WF="16" MinTime="10">
 						<Co K="Q" U="a3026590-a255-11e3-b9f6972a8456a1bb"/>
-						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0019-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001c-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v.1&gt;V"/>
 					</C>
-					<C Type="DigitalIn" IName="I4" V="101" U="a3026591-a255-11e3-b9f6972a8456a1bb" Title="Hallway top switch" Nio="1" WF="16" MinTime="10">
+					<C Type="DigitalIn" IName="I4" V="101" U="a3026591-a255-11e3-b9f6972a8456a1bb" Title="Stairs top switch" Nio="1" WF="16" MinTime="10">
 						<Co K="Q" U="a3026590-a255-11e3-b9f7972a8456a1bb"/>
-						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0019-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001c-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v.1&gt;V"/>
 					</C>
 					<C Type="DigitalIn" IName="I5" V="101" U="a3026591-a255-11e3-b9f7972a8456a1bb" Title="Nursery bottom switch" Nio="1" WF="16" MinTime="10">
@@ -1976,7 +1976,7 @@
 					<Co K="AQ" U="0ab1656d-0356-256a-ffff112233445566"/>
 					<Co K="Q" U="0ab1656d-0356-256b-ffff112233445566"/>
 				</C>
-				<C Type="InputRef" V="101" U="0ab860d8-0064-9c26-ffffc77dcecfcd84" Title="Hallway scene" Px="3264" Py="6912" Px2="5760" Py2="7104" Cl="200,200,236" Nio="4" Ref="0ab85f22-0387-5642-ffffb1bd37ae859c" Analog="true" LinkRefType="320">
+				<C Type="InputRef" V="101" U="0ab860d8-0064-9c26-ffffc77dcecfcd84" Title="Hallway scene" Px="3264" Py="6912" Px2="5760" Py2="7104" Cl="200,200,236" Nio="4" Ref="0ab85f22-0387-5642-ffffb1bd37ae859c" LinkRefType="320">
 					<Co K="AI" Nc="1" U="0ab860d8-0064-9c22-ffff112233445566">
 						<In Input="0ab85f22-0387-5641-ffff112233445566"/>
 					</Co>
@@ -2395,7 +2395,7 @@
 			</C>
 			<C Type="Page" V="101" U="43be3d50-1b42-11e4-ae91b1bd37ae859c" Title="Hallway Lighting">
 				<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0019-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
-				<C Type="InputRef" V="101" U="0ab16667-02f1-3502-ffffb1bd37ae859c" Title="Lights all off" Px="2688" Py="7680" Px2="4416" Py2="4416" Cl="200,200,236" Nio="4" Ref="0ab16534-020b-1f2e-fffffb030ef95e86" LinkRefType="320">
+				<C Type="InputRef" V="101" U="0ab16667-02f1-3502-ffffb1bd37ae859c" Title="Lights all off" Px="3744" Py="5952" Px2="5472" Py2="6144" Cl="200,200,236" Nio="4" Ref="0ab16534-020b-1f2e-fffffb030ef95e86" LinkRefType="320">
 					<Co K="AI" Nc="1" U="0ab16667-02f1-34fe-ffff112233445566">
 						<In Input="0ab16534-020b-1f2d-ffff112233445566"/>
 					</Co>
@@ -2403,23 +2403,23 @@
 					<Co K="AQ" U="0ab16667-02f1-3500-ffff112233445566"/>
 					<Co K="Q" U="0ab16667-02f1-3501-ffff112233445566"/>
 				</C>
-				<C Type="InputRef" V="101" U="0ab8548e-0370-1405-ffffb1bd37ae859c" Title="Hallway bottom switch" Px="1920" Py="7104" Px2="4416" Py2="4416" Cl="200,200,236" Nio="4" Ref="a3026591-a255-11e3-b9f5972a8456a1bb" LinkRefType="55">
-					<Co K="AI" Nc="1" U="0ab8548e-0370-1401-ffff112233445566">
-						<In Input="a3026590-a255-11e3-b9f6972a8456a1bb"/>
+				<C Type="InputRef" V="101" U="0dbf8e42-031f-16fe-ffffb1bd37ae859c" Title="Hallway bottom switch" Px="2976" Py="5472" Px2="5472" Py2="5664" Cl="200,200,236" Nio="4" Ref="b46d9e40-23f5-11e4-b846d665d37d0df3" LinkRefType="55">
+					<Co K="AI" Nc="1" U="0dbf8e42-031f-16fa-ffff8f1b0fd743aa">
+						<In Input="b46d9e41-23f5-11e4-b846d665d37d0df3"/>
 					</Co>
-					<Co K="I" U="0ab8548e-0370-1402-ffff112233445566"/>
-					<Co K="AQ" U="0ab8548e-0370-1403-ffff112233445566"/>
-					<Co K="Q" U="0ab8548e-0370-1404-ffff112233445566"/>
+					<Co K="I" U="0dbf8e42-031f-16fb-ffff8f1b0fd743aa"/>
+					<Co K="AQ" U="0dbf8e42-031f-16fc-ffff8f1b0fd743aa"/>
+					<Co K="Q" U="0dbf8e42-031f-16fd-ffff8f1b0fd743aa"/>
 				</C>
-				<C Type="InputRef" V="101" U="0ab85496-0124-1758-ffffb1bd37ae859c" Title="Hallway top switch" Px="2112" Py="7488" Px2="4416" Py2="4416" Cl="200,200,236" Nio="4" Ref="a3026591-a255-11e3-b9f6972a8456a1bb" LinkRefType="55">
-					<Co K="AI" Nc="1" U="0ab85496-0124-1754-ffff112233445566">
-						<In Input="a3026590-a255-11e3-b9f7972a8456a1bb"/>
+				<C Type="InputRef" V="101" U="0dbf8e42-031f-1704-ffffb1bd37ae859c" Title="Hallway top switch" Px="3168" Py="6144" Px2="5472" Py2="6336" Cl="200,200,236" Nio="4" Ref="b46d9e40-23f5-11e4-b847d665d37d0df3" LinkRefType="55">
+					<Co K="AI" Nc="1" U="0dbf8e42-031f-1700-ffff8f1b0fd743aa">
+						<In Input="b46d9e41-23f5-11e4-b847d665d37d0df3"/>
 					</Co>
-					<Co K="I" U="0ab85496-0124-1755-ffff112233445566"/>
-					<Co K="AQ" U="0ab85496-0124-1756-ffff112233445566"/>
-					<Co K="Q" U="0ab85496-0124-1757-ffff112233445566"/>
+					<Co K="I" U="0dbf8e42-031f-1701-ffff8f1b0fd743aa"/>
+					<Co K="AQ" U="0dbf8e42-031f-1702-ffff8f1b0fd743aa"/>
+					<Co K="Q" U="0dbf8e42-031f-1703-ffff8f1b0fd743aa"/>
 				</C>
-				<C Type="LightController" V="101" U="6a034c30-1b42-11e4-b4dbb1bd37ae859c" Title="Lighting controller" Px="6048" Py="4416" Px2="10272" Py2="10272" Cl="200,216,179" Nio="59" NameAI0="Pendant above door" NameAI1="Downlight" NameAI2="" NameAI3="" NameAI4="" NameAI5="" NameAI6="" NameAI7="" NameAI8="" NameAI9="" NameAI10="" NameAI11="" DoNotUseZero="true" DoNotUseAllOn="true" SpStates="0c82db71-0147-27c0-ffffb1bd37ae859c,0c82db71-0147-27c1-ffffb1bd37ae859c,0c82db71-0147-27c2-ffffb1bd37ae859c,0c82db71-0147-27c3-ffffb1bd37ae859c">
+				<C Type="LightController" V="101" U="6a034c30-1b42-11e4-b4dbb1bd37ae859c" Title="Lighting controller" Px="7104" Py="2784" Px2="11328" Py2="9120" Cl="200,216,179" Nio="59" NameAI0="Pendant above door" NameAI1="Downlight" NameAI2="" NameAI3="" NameAI4="" NameAI5="" NameAI6="" NameAI7="" NameAI8="" NameAI9="" NameAI10="" NameAI11="" DoNotUseZero="true" DoNotUseAllOn="true" SpStates="0c82db71-0147-27c0-ffffb1bd37ae859c,0c82db71-0147-27c1-ffffb1bd37ae859c,0c82db71-0147-27c2-ffffb1bd37ae859c,0c82db71-0147-27c3-ffffb1bd37ae859c">
 					<Co K="I1" U="6a034c31-1b42-11e4-b4dfb1bd37ae859c"/>
 					<Co K="I2" U="6a034c30-1b42-11e4-b4e0b1bd37ae859c"/>
 					<Co K="I3" U="6a034c31-1b42-11e4-b4e0b1bd37ae859c"/>
@@ -2433,13 +2433,13 @@
 					<Co K="I11" U="6a034c31-1b42-11e4-b4e4b1bd37ae859c"/>
 					<Co K="I12" U="6a034c30-1b42-11e4-b4e5b1bd37ae859c"/>
 					<Co K="InputTriggerUp" Nc="1" U="6a034c31-1b42-11e4-b4e5b1bd37ae859c">
-						<In Input="0ab8548e-0370-1403-ffff112233445566"/>
+						<In Input="0dbf8e42-031f-16fc-ffff8f1b0fd743aa"/>
 					</Co>
 					<Co K="InputTriggerDown" U="6a034c30-1b42-11e4-b4e6b1bd37ae859c"/>
 					<Co K="Select" U="6a034c31-1b42-11e4-b4e6b1bd37ae859c"/>
 					<Co K="Reset" Nc="2" U="6a034c30-1b42-11e4-b4e7b1bd37ae859c">
+						<In Input="0dbf8e42-031f-1702-ffff8f1b0fd743aa"/>
 						<In Input="0ab16667-02f1-3500-ffff112233445566"/>
-						<In Input="0ab85496-0124-1756-ffff112233445566"/>
 					</Co>
 					<Co K="Sel1" U="6a034c31-1b42-11e4-b4e7b1bd37ae859c"/>
 					<Co K="Sel2" U="6a034c30-1b42-11e4-b4e8b1bd37ae859c"/>
@@ -2497,7 +2497,7 @@
 					</LightscenesC>
 					<PSD As="-2" Ae="1380" Amin="1" Amax="4" Dmin="30" Dmax="180" O="1" V="20"/>
 				</C>
-				<C Type="Memory" V="101" U="0ab85f22-0387-5642-ffffb1bd37ae859c" Title="Hallway scene" Px="11232" Py="6720" Px2="12960" Py2="12960" Cl="200,200,236" Nio="3" Analog="true">
+				<C Type="Memory" V="101" U="0ab85f22-0387-5642-ffffb1bd37ae859c" Title="Hallway scene" Px="12288" Py="5088" Px2="14016" Py2="5664" Cl="200,200,236" Nio="3">
 					<Co K="Input" Nc="1" U="0ab85f22-0387-5640-ffff112233445566">
 						<In Input="6a034c30-1b42-11e4-b4fab1bd37ae859c"/>
 					</Co>
@@ -2506,17 +2506,26 @@
 					<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0019-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<Display Unit="S&lt;v&gt;"/>
 				</C>
-				<C Type="OutputRef" V="101" U="38757ca0-1b43-11e4-bd54b1bd37ae859c" Title="Front door pendant" Px="11040" Py="4800" Px2="13920" Py2="13920" Cl="200,200,236" Nio="2" Ref="a3028ca0-a255-11e3-b9fb972a8456a1bb" Analog="true" LinkRefType="60">
-					<Co K="AI" Nc="1" U="38757ca1-1b43-11e4-bd54b1bd37ae859c">
-						<In Input="6a034c30-1b42-11e4-b4f4b1bd37ae859c"/>
+				<C Type="Memory" V="101" U="0dbf907e-02f1-551e-ffffb1bd37ae859c" Title="M13" Px="5856" Py="10080" Px2="7392" Py2="10656" Cl="200,200,236" Nio="3">
+					<Co K="Input" Nc="1" U="0dbf907e-02f1-551b-fffffda69d9501f3">
+						<In Input="0dbf8e42-031f-1702-ffff8f1b0fd743aa"/>
 					</Co>
-					<Co K="AQ" U="38757ca0-1b43-11e4-bd55b1bd37ae859c"/>
+					<Co K="AQ" U="0dbf907e-02f1-551c-fffffda69d9501f3"/>
+					<Co K="Q" U="0dbf907e-02f1-551d-fffffda69d9501f3"/>
+					<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0019-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
 				</C>
-				<C Type="OutputRef" V="101" U="adc8fd70-1da4-11e4-b679bbac2bab55d3" Title="Downlight" Px="11040" Py="4992" Px2="13152" Py2="13152" Cl="200,200,236" Nio="2" Ref="c20b14c0-1d9b-11e4-a01ebbac2bab55d3" Analog="true" LinkRefType="132">
+				<C Type="OutputRef" V="101" U="adc8fd70-1da4-11e4-b679bbac2bab55d3" Title="Downlight" Px="12096" Py="3360" Px2="14208" Py2="3552" Cl="200,200,236" Nio="2" Ref="c20b14c0-1d9b-11e4-a01ebbac2bab55d3" Analog="true" LinkRefType="132">
 					<Co K="AI" Nc="1" U="adc8fd71-1da4-11e4-b679bbac2bab55d3">
 						<In Input="6a034c31-1b42-11e4-b4f4b1bd37ae859c"/>
 					</Co>
 					<Co K="AQ" U="adc8fd70-1da4-11e4-b67abbac2bab55d3"/>
+				</C>
+				<C Type="OutputRef" V="101" U="38757ca0-1b43-11e4-bd54b1bd37ae859c" Title="Front door pendant" Px="12096" Py="3168" Px2="14976" Py2="3360" Cl="200,200,236" Nio="2" Ref="a3028ca0-a255-11e3-b9fb972a8456a1bb" Analog="true" LinkRefType="60">
+					<Co K="AI" Nc="1" U="38757ca1-1b43-11e4-bd54b1bd37ae859c">
+						<In Input="6a034c30-1b42-11e4-b4f4b1bd37ae859c"/>
+					</Co>
+					<Co K="AQ" U="38757ca0-1b43-11e4-bd55b1bd37ae859c"/>
 				</C>
 			</C>
 			<C Type="Page" V="101" U="0aa99b1c-00d6-5ab8-fffffb030ef95e86" Title="Kitchen Heating">
@@ -2633,7 +2642,7 @@
 					<Co K="AQ" U="0aa9a43d-00a4-be3a-ffff112233445566"/>
 					<Co K="Q" U="0aa9a43d-00a4-be3b-ffff112233445566"/>
 				</C>
-				<C Type="InputRef" V="101" U="0aa9a440-0070-c10d-ffff95d9cdbb6d3f" Title="Kitchen top switch" Px="1728" Py="4512" Px2="4032" Py2="4032" Cl="200,200,236" Nio="4" Ref="a3026591-a255-11e3-b9f4972a8456a1bb" LinkRefType="55">
+				<C Type="InputRef" V="101" U="0aa9a440-0070-c10d-ffff95d9cdbb6d3f" Title="Kitchen top switch" Px="1728" Py="4512" Px2="4032" Py2="4704" Cl="200,200,236" Nio="4" Ref="a3026591-a255-11e3-b9f4972a8456a1bb" LinkRefType="55">
 					<Co K="AI" Nc="1" U="0aa9a440-0070-c109-ffff112233445566">
 						<In Input="a3026590-a255-11e3-b9f5972a8456a1bb"/>
 					</Co>
@@ -2641,7 +2650,7 @@
 					<Co K="AQ" U="0aa9a440-0070-c10b-ffff112233445566"/>
 					<Co K="Q" U="0aa9a440-0070-c10c-ffff112233445566"/>
 				</C>
-				<C Type="InputRef" V="101" U="0ab166aa-03dc-3e67-ffff95d9cdbb6d3f" Title="Lights all off" Px="2304" Py="4224" Px2="4032" Py2="4032" Cl="200,200,236" Nio="4" Ref="0ab16534-020b-1f2e-fffffb030ef95e86" LinkRefType="320">
+				<C Type="InputRef" V="101" U="0ab166aa-03dc-3e67-ffff95d9cdbb6d3f" Title="Lights all off" Px="2304" Py="4320" Px2="4032" Py2="4512" Cl="200,200,236" Nio="4" Ref="0ab16534-020b-1f2e-fffffb030ef95e86" LinkRefType="320">
 					<Co K="AI" Nc="1" U="0ab166aa-03dc-3e63-ffff112233445566">
 						<In Input="0ab16534-020b-1f2d-ffff112233445566"/>
 					</Co>
@@ -2649,7 +2658,7 @@
 					<Co K="AQ" U="0ab166aa-03dc-3e65-ffff112233445566"/>
 					<Co K="Q" U="0ab166aa-03dc-3e66-ffff112233445566"/>
 				</C>
-				<C Type="LightController" V="101" U="0aa79073-003f-4865-ffff95d9cdbb6d3f" Title="Lighting controller" Px="6912" Py="1152" Px2="11136" Py2="11136" Cl="200,216,179" Nio="59" NameAI0="Right of hob" NameAI1="Right of bar" NameAI2="Left of hob" NameAI3="Left of bar" NameAI4="Dishwasher" NameAI5="Sink" NameAI6="Bar 1" NameAI7="Bar 2" NameAI8="Hob" NameAI9="Right of hob" NameAI10="Fridge" NameAI11="Left of hob" DoNotUseZero="true" DoNotUseAllOn="true" SpStates="0c82db71-0149-2836-ffff95d9cdbb6d3f,0c82db71-0149-2837-ffff95d9cdbb6d3f,0c82db71-0149-2838-ffff95d9cdbb6d3f,0c82db71-0149-2839-ffff95d9cdbb6d3f">
+				<C Type="LightController" V="101" U="0aa79073-003f-4865-ffff95d9cdbb6d3f" Title="Lighting controller" Px="6912" Py="1152" Px2="11136" Py2="7488" Cl="200,216,179" Nio="59" NameAI0="Right of hob" NameAI1="Right of bar" NameAI2="Left of hob" NameAI3="Left of bar" NameAI4="Dishwasher" NameAI5="Sink" NameAI6="Bar 1" NameAI7="Bar 2" NameAI8="Hob" NameAI9="Right of hob" NameAI10="Fridge" NameAI11="Left of hob" DoNotUseZero="true" DoNotUseAllOn="true" SpStates="0c82db71-0149-2836-ffff95d9cdbb6d3f,0c82db71-0149-2837-ffff95d9cdbb6d3f,0c82db71-0149-2838-ffff95d9cdbb6d3f,0c82db71-0149-2839-ffff95d9cdbb6d3f">
 					<Co K="I1" U="0aa79073-003f-482a-ffff112233445566"/>
 					<Co K="I2" U="0aa79073-003f-482b-ffff112233445566"/>
 					<Co K="I3" U="0aa79073-003f-482c-ffff112233445566"/>
@@ -2727,7 +2736,7 @@
 					</LightscenesC>
 					<PSD As="-2" Ae="1380" Amin="1" Amax="4" Dmin="30" Dmax="180" O="1" V="20"/>
 				</C>
-				<C Type="Memory" V="101" U="0ab6c302-0334-2a52-ffff95d9cdbb6d3f" Title="Lights all off from kitchen" Px="6912" Py="8064" Px2="9600" Py2="9600" Cl="200,200,236" Nio="3">
+				<C Type="Memory" V="101" U="0ab6c302-0334-2a52-ffff95d9cdbb6d3f" Title="Lights all off from kitchen" Px="4512" Py="8448" Px2="7200" Py2="9024" Cl="200,200,236" Nio="3">
 					<Co K="Input" Nc="1" U="0ab6c302-0334-2a50-ffff112233445566">
 						<In Input="0aa9a440-0070-c10b-ffff112233445566"/>
 					</Co>
@@ -2736,73 +2745,73 @@
 					<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001c-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<Display Unit="&lt;v.1&gt;V" StateOnly="true"/>
 				</C>
-				<C Type="OutputRef" V="101" U="0aa7905c-001a-3db9-ffff95d9cdbb6d3f" Title="Right of hob" Px="12480" Py="1536" Px2="14784" Py2="14784" Cl="200,200,236" Nio="2" Ref="0aa79046-020a-3b29-ffff95d9cdbb6d3f" Analog="true" LinkRefType="132">
+				<C Type="OutputRef" V="101" U="0aa7905c-001a-3db9-ffff95d9cdbb6d3f" Title="Right of hob" Px="12480" Py="1536" Px2="14784" Py2="1728" Cl="200,200,236" Nio="2" Ref="0aa79046-020a-3b29-ffff95d9cdbb6d3f" Analog="true" LinkRefType="132">
 					<Co K="AI" Nc="1" U="0aa7905c-001a-3db7-ffff112233445566">
 						<In Input="0aa79073-003f-4856-ffff112233445566"/>
 					</Co>
 					<Co K="AQ" U="0aa7905c-001a-3db8-ffff112233445566"/>
 				</C>
-				<C Type="OutputRef" V="101" U="0aa7905c-00ee-403d-ffff95d9cdbb6d3f" Title="Right of bar" Px="12480" Py="1728" Px2="14784" Py2="14784" Cl="200,200,236" Nio="2" Ref="0aa79046-0227-3b2c-ffff95d9cdbb6d3f" Analog="true" LinkRefType="132">
+				<C Type="OutputRef" V="101" U="0aa7905c-00ee-403d-ffff95d9cdbb6d3f" Title="Right of bar" Px="12480" Py="1728" Px2="14784" Py2="1920" Cl="200,200,236" Nio="2" Ref="0aa79046-0227-3b2c-ffff95d9cdbb6d3f" Analog="true" LinkRefType="132">
 					<Co K="AI" Nc="1" U="0aa7905c-00ee-403b-ffff112233445566">
 						<In Input="0aa79073-003f-4857-ffff112233445566"/>
 					</Co>
 					<Co K="AQ" U="0aa7905c-00ee-403c-ffff112233445566"/>
 				</C>
-				<C Type="OutputRef" V="101" U="0aa7905c-01a7-42c2-ffff95d9cdbb6d3f" Title="Left of hob" Px="12480" Py="1920" Px2="14592" Py2="14592" Cl="200,200,236" Nio="2" Ref="0aa79046-0243-3b2f-ffff95d9cdbb6d3f" Analog="true" LinkRefType="132">
+				<C Type="OutputRef" V="101" U="0aa7905c-01a7-42c2-ffff95d9cdbb6d3f" Title="Left of hob" Px="12480" Py="1920" Px2="14592" Py2="2112" Cl="200,200,236" Nio="2" Ref="0aa79046-0243-3b2f-ffff95d9cdbb6d3f" Analog="true" LinkRefType="132">
 					<Co K="AI" Nc="1" U="0aa7905c-01a7-42c0-ffff112233445566">
 						<In Input="0aa79073-003f-4858-ffff112233445566"/>
 					</Co>
 					<Co K="AQ" U="0aa7905c-01a7-42c1-ffff112233445566"/>
 				</C>
-				<C Type="OutputRef" V="101" U="0aa7905c-0265-4548-ffff95d9cdbb6d3f" Title="Left of bar" Px="12480" Py="2112" Px2="14592" Py2="14592" Cl="200,200,236" Nio="2" Ref="0aa79046-0261-3b32-ffff95d9cdbb6d3f" Analog="true" LinkRefType="132">
+				<C Type="OutputRef" V="101" U="0aa7905c-0265-4548-ffff95d9cdbb6d3f" Title="Left of bar" Px="12480" Py="2112" Px2="14592" Py2="2304" Cl="200,200,236" Nio="2" Ref="0aa79046-0261-3b32-ffff95d9cdbb6d3f" Analog="true" LinkRefType="132">
 					<Co K="AI" Nc="1" U="0aa7905c-0265-4546-ffff112233445566">
 						<In Input="0aa79073-003f-4859-ffff112233445566"/>
 					</Co>
 					<Co K="AQ" U="0aa7905c-0265-4547-ffff112233445566"/>
 				</C>
-				<C Type="OutputRef" V="101" U="0aaaf125-02e1-385f-ffff95d9cdbb6d3f" Title="Dishwasher" Px="12480" Py="2304" Px2="14784" Py2="14784" Cl="200,200,236" Nio="2" Ref="0aaaf09c-0150-357d-ffff95d9cdbb6d3f" Analog="true" LinkRefType="132">
+				<C Type="OutputRef" V="101" U="0aaaf125-02e1-385f-ffff95d9cdbb6d3f" Title="Dishwasher" Px="12480" Py="2304" Px2="14784" Py2="2496" Cl="200,200,236" Nio="2" Ref="0aaaf09c-0150-357d-ffff95d9cdbb6d3f" Analog="true" LinkRefType="132">
 					<Co K="AI" Nc="1" U="0aaaf125-02e1-385d-ffff112233445566">
 						<In Input="0aa79073-003f-485a-ffff112233445566"/>
 					</Co>
 					<Co K="AQ" U="0aaaf125-02e1-385e-ffff112233445566"/>
 				</C>
-				<C Type="OutputRef" V="101" U="0aaaf126-0005-3b31-ffff95d9cdbb6d3f" Title="Sink" Px="12480" Py="2496" Px2="14208" Py2="14208" Cl="200,200,236" Nio="2" Ref="0aaaf09c-0179-3580-ffff95d9cdbb6d3f" Analog="true" LinkRefType="132">
+				<C Type="OutputRef" V="101" U="0aaaf126-0005-3b31-ffff95d9cdbb6d3f" Title="Sink" Px="12480" Py="2496" Px2="14208" Py2="2688" Cl="200,200,236" Nio="2" Ref="0aaaf09c-0179-3580-ffff95d9cdbb6d3f" Analog="true" LinkRefType="132">
 					<Co K="AI" Nc="1" U="0aaaf126-0005-3b2f-ffff112233445566">
 						<In Input="0aa79073-003f-485b-ffff112233445566"/>
 					</Co>
 					<Co K="AQ" U="0aaaf126-0005-3b30-ffff112233445566"/>
 				</C>
-				<C Type="OutputRef" V="101" U="0aaaf126-00cc-3e04-ffff95d9cdbb6d3f" Title="Bar 1" Px="12480" Py="2688" Px2="14208" Py2="14208" Cl="200,200,236" Nio="2" Ref="0aaaf09c-0196-3583-ffff95d9cdbb6d3f" Analog="true" LinkRefType="132">
+				<C Type="OutputRef" V="101" U="0aaaf126-00cc-3e04-ffff95d9cdbb6d3f" Title="Bar 1" Px="12480" Py="2688" Px2="14208" Py2="2880" Cl="200,200,236" Nio="2" Ref="0aaaf09c-0196-3583-ffff95d9cdbb6d3f" Analog="true" LinkRefType="132">
 					<Co K="AI" Nc="1" U="0aaaf126-00cc-3e02-ffff112233445566">
 						<In Input="0aa79073-003f-485c-ffff112233445566"/>
 					</Co>
 					<Co K="AQ" U="0aaaf126-00cc-3e03-ffff112233445566"/>
 				</C>
-				<C Type="OutputRef" V="101" U="0aaaf126-0197-40d8-ffff95d9cdbb6d3f" Title="Bar 2" Px="12480" Py="2880" Px2="14208" Py2="14208" Cl="200,200,236" Nio="2" Ref="0aaaf09c-01b4-3586-ffff95d9cdbb6d3f" Analog="true" LinkRefType="132">
+				<C Type="OutputRef" V="101" U="0aaaf126-0197-40d8-ffff95d9cdbb6d3f" Title="Bar 2" Px="12480" Py="2880" Px2="14208" Py2="3072" Cl="200,200,236" Nio="2" Ref="0aaaf09c-01b4-3586-ffff95d9cdbb6d3f" Analog="true" LinkRefType="132">
 					<Co K="AI" Nc="1" U="0aaaf126-0197-40d6-ffff112233445566">
 						<In Input="0aa79073-003f-485d-ffff112233445566"/>
 					</Co>
 					<Co K="AQ" U="0aaaf126-0197-40d7-ffff112233445566"/>
 				</C>
-				<C Type="OutputRef" V="101" U="0aab5c09-029c-146d-ffff95d9cdbb6d3f" Title="Hob" Px="12480" Py="3072" Px2="14016" Py2="14016" Cl="200,200,236" Nio="2" Ref="0aab5bd3-00ad-0eb0-fffffb030ef95e86" Analog="true" LinkRefType="132">
+				<C Type="OutputRef" V="101" U="0aab5c09-029c-146d-ffff95d9cdbb6d3f" Title="Hob" Px="12480" Py="3072" Px2="14016" Py2="3264" Cl="200,200,236" Nio="2" Ref="0aab5bd3-00ad-0eb0-fffffb030ef95e86" Analog="true" LinkRefType="132">
 					<Co K="AI" Nc="1" U="0aab5c09-029c-146b-ffff112233445566">
 						<In Input="0aa79073-003f-485e-ffff112233445566"/>
 					</Co>
 					<Co K="AQ" U="0aab5c09-029c-146c-ffff112233445566"/>
 				</C>
-				<C Type="OutputRef" V="101" U="0aab5c09-037e-1748-ffff95d9cdbb6d3f" Title="Right of hob" Px="12480" Py="3264" Px2="14784" Py2="14784" Cl="200,200,236" Nio="2" Ref="0aab5bd3-00d1-0eb3-fffffb030ef95e86" Analog="true" LinkRefType="132">
+				<C Type="OutputRef" V="101" U="0aab5c09-037e-1748-ffff95d9cdbb6d3f" Title="Right of hob" Px="12480" Py="3264" Px2="14784" Py2="3456" Cl="200,200,236" Nio="2" Ref="0aab5bd3-00d1-0eb3-fffffb030ef95e86" Analog="true" LinkRefType="132">
 					<Co K="AI" Nc="1" U="0aab5c09-037e-1746-ffff112233445566">
 						<In Input="0aa79073-003f-485f-ffff112233445566"/>
 					</Co>
 					<Co K="AQ" U="0aab5c09-037e-1747-ffff112233445566"/>
 				</C>
-				<C Type="OutputRef" V="101" U="0aab5c09-005b-1a24-ffff95d9cdbb6d3f" Title="Fridge" Px="12480" Py="3456" Px2="14208" Py2="14208" Cl="200,200,236" Nio="2" Ref="0aab5bd3-00e9-0eb6-fffffb030ef95e86" Analog="true" LinkRefType="132">
+				<C Type="OutputRef" V="101" U="0aab5c09-005b-1a24-ffff95d9cdbb6d3f" Title="Fridge" Px="12480" Py="3456" Px2="14208" Py2="3648" Cl="200,200,236" Nio="2" Ref="0aab5bd3-00e9-0eb6-fffffb030ef95e86" Analog="true" LinkRefType="132">
 					<Co K="AI" Nc="1" U="0aab5c09-005b-1a22-ffff112233445566">
 						<In Input="0aa79073-003f-4860-ffff112233445566"/>
 					</Co>
 					<Co K="AQ" U="0aab5c09-005b-1a23-ffff112233445566"/>
 				</C>
-				<C Type="OutputRef" V="101" U="0aab5c09-0124-1d01-ffff95d9cdbb6d3f" Title="Left of hob" Px="12480" Py="3648" Px2="14592" Py2="14592" Cl="200,200,236" Nio="2" Ref="0aab5bd3-0101-0eb9-fffffb030ef95e86" Analog="true" LinkRefType="132">
+				<C Type="OutputRef" V="101" U="0aab5c09-0124-1d01-ffff95d9cdbb6d3f" Title="Left of hob" Px="12480" Py="3648" Px2="14592" Py2="3840" Cl="200,200,236" Nio="2" Ref="0aab5bd3-0101-0eb9-fffffb030ef95e86" Analog="true" LinkRefType="132">
 					<Co K="AI" Nc="1" U="0aab5c09-0124-1cff-ffff112233445566">
 						<In Input="0aa79073-003f-4861-ffff112233445566"/>
 					</Co>
@@ -2824,7 +2833,7 @@
 			</C>
 			<C Type="Page" V="101" U="627c36b0-11e8-11e4-a06586d90d45a4ab" Title="Landing Lighting">
 				<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001a-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
-				<C Type="InputRef" V="101" U="82545fd1-11e8-11e4-a37e86d90d45a4ab" Title="Landing Top Switch" Px="2496" Py="6720" Px2="4800" Py2="4800" Cl="200,200,236" Nio="4" Ref="c347e171-9cad-11e3-9b99fb030ef95e86" LinkRefType="55">
+				<C Type="InputRef" V="101" U="82545fd1-11e8-11e4-a37e86d90d45a4ab" Title="Landing Top Switch" Px="2496" Py="6624" Px2="4800" Py2="6816" Cl="200,200,236" Nio="4" Ref="c347e171-9cad-11e3-9b99fb030ef95e86" LinkRefType="55">
 					<Co K="AI" Nc="1" U="82545fd0-11e8-11e4-a37f86d90d45a4ab">
 						<In Input="c347e170-9cad-11e3-9b9afb030ef95e86"/>
 					</Co>
@@ -2832,7 +2841,7 @@
 					<Co K="AQ" U="82545fd0-11e8-11e4-a38086d90d45a4ab"/>
 					<Co K="Q" U="82545fd1-11e8-11e4-a38086d90d45a4ab"/>
 				</C>
-				<C Type="InputRef" V="101" U="83bf3a70-11e8-11e4-a44186d90d45a4ab" Title="Landing Bottom Switch" Px="2112" Py="6144" Px2="4800" Py2="4800" Cl="200,200,236" Nio="4" Ref="c347e171-9cad-11e3-9b9afb030ef95e86" LinkRefType="55">
+				<C Type="InputRef" V="101" U="83bf3a70-11e8-11e4-a44186d90d45a4ab" Title="Landing Bottom Switch" Px="2112" Py="6048" Px2="4800" Py2="6240" Cl="200,200,236" Nio="4" Ref="c347e171-9cad-11e3-9b9afb030ef95e86" LinkRefType="55">
 					<Co K="AI" Nc="1" U="83bf3a71-11e8-11e4-a44186d90d45a4ab">
 						<In Input="c347e170-9cad-11e3-9b9bfb030ef95e86"/>
 					</Co>
@@ -2840,7 +2849,7 @@
 					<Co K="AQ" U="83bf3a71-11e8-11e4-a44286d90d45a4ab"/>
 					<Co K="Q" U="83bf3a70-11e8-11e4-a44386d90d45a4ab"/>
 				</C>
-				<C Type="LightController" V="101" U="9121bdf0-11e8-11e4-a5eb86d90d45a4ab" Title="Lighting controller" Px="7200" Py="3456" Px2="11424" Py2="11424" Cl="200,216,179" Nio="59" NameAI0="Upper landing downlight" NameAI1="Upper landing light socket" NameAI2="Stairway lights" NameAI3="" NameAI4="" NameAI5="" NameAI6="" NameAI7="" NameAI8="" NameAI9="" NameAI10="" NameAI11="" DoNotUseZero="true" DoNotUseAllOn="true" SpStates="0c82db71-0141-26d7-ffff86d90d45a4ab,0c82db71-0141-26d8-ffff86d90d45a4ab,0c82db71-0141-26d9-ffff86d90d45a4ab,0c82db71-0141-26da-ffff86d90d45a4ab">
+				<C Type="LightController" V="101" U="9121bdf0-11e8-11e4-a5eb86d90d45a4ab" Title="Lighting controller" Px="7200" Py="3456" Px2="11424" Py2="9792" Cl="200,216,179" Nio="59" NameAI0="Upper landing downlight" NameAI1="Upper landing light socket" NameAI2="Stairway lights" NameAI3="" NameAI4="" NameAI5="" NameAI6="" NameAI7="" NameAI8="" NameAI9="" NameAI10="" NameAI11="" DoNotUseZero="true" DoNotUseAllOn="true" SpStates="0c82db71-0141-26d7-ffff86d90d45a4ab,0c82db71-0141-26d8-ffff86d90d45a4ab,0c82db71-0141-26d9-ffff86d90d45a4ab,0c82db71-0141-26da-ffff86d90d45a4ab">
 					<Co K="I1" U="9121bdf1-11e8-11e4-a5ef86d90d45a4ab"/>
 					<Co K="I2" U="9121bdf0-11e8-11e4-a5f086d90d45a4ab"/>
 					<Co K="I3" U="9121bdf1-11e8-11e4-a5f086d90d45a4ab"/>
@@ -2853,13 +2862,15 @@
 					<Co K="I10" U="9121bdf0-11e8-11e4-a5f486d90d45a4ab"/>
 					<Co K="I11" U="9121bdf1-11e8-11e4-a5f486d90d45a4ab"/>
 					<Co K="I12" U="9121bdf0-11e8-11e4-a5f586d90d45a4ab"/>
-					<Co K="InputTriggerUp" Nc="1" U="9121bdf1-11e8-11e4-a5f586d90d45a4ab">
+					<Co K="InputTriggerUp" Nc="2" U="9121bdf1-11e8-11e4-a5f586d90d45a4ab">
 						<In Input="83bf3a71-11e8-11e4-a44286d90d45a4ab"/>
+						<In Input="0dbf8efe-0352-87c0-ffff0389a6b02111"/>
 					</Co>
 					<Co K="InputTriggerDown" U="9121bdf0-11e8-11e4-a5f686d90d45a4ab"/>
 					<Co K="Select" U="9121bdf1-11e8-11e4-a5f686d90d45a4ab"/>
-					<Co K="Reset" Nc="1" U="9121bdf0-11e8-11e4-a5f786d90d45a4ab">
+					<Co K="Reset" Nc="2" U="9121bdf0-11e8-11e4-a5f786d90d45a4ab">
 						<In Input="82545fd0-11e8-11e4-a38086d90d45a4ab"/>
+						<In Input="0dbf8f06-028a-920b-ffff791647c97299"/>
 					</Co>
 					<Co K="Sel1" U="9121bdf1-11e8-11e4-a5f786d90d45a4ab"/>
 					<Co K="Sel2" U="9121bdf0-11e8-11e4-a5f886d90d45a4ab"/>
@@ -2917,32 +2928,49 @@
 					</LightscenesC>
 					<PSD As="-2" Ae="1380" Amin="1" Amax="4" Dmin="30" Dmax="180" O="1" V="20"/>
 				</C>
-				<C Type="Memory" V="101" U="0ab6c791-0244-82b8-ffff86d90d45a4ab" Title="Lights all off from landing" Px="7104" Py="10368" Px2="9792" Py2="9792" Cl="200,200,236" Nio="3">
-					<Co K="Input" Nc="1" U="0ab6c791-0244-82b6-ffff112233445566">
+				<C Type="Memory" V="101" U="0ab6c791-0244-82b8-ffff86d90d45a4ab" Title="Lights all off from landing" Px="7104" Py="10368" Px2="9792" Py2="10944" Cl="200,200,236" Nio="3">
+					<Co K="Input" Nc="2" U="0ab6c791-0244-82b6-ffff112233445566">
 						<In Input="82545fd0-11e8-11e4-a38086d90d45a4ab"/>
+						<In Input="0dbf8f06-028a-920b-ffff791647c97299"/>
 					</Co>
 					<Co K="AQ" U="0ab6c791-0244-82b7-ffff112233445566"/>
 					<Co K="Q" U="0c82db71-0141-26de-ffff98bcb8fa4811"/>
 					<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001a-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<Display Unit="&lt;v.1&gt;V" StateOnly="true"/>
 				</C>
-				<C Type="OutputRef" V="101" U="760e19b1-28fd-11e4-b71286be22345f79" Title="Upper landing downlight" Px="11904" Py="3840" Px2="15168" Py2="15168" Cl="200,200,236" Nio="2" Ref="3d2a49b0-19a4-11e4-8f36c77dcecfcd84" Analog="true" LinkRefType="132">
+				<C Type="OutputRef" V="101" U="760e19b1-28fd-11e4-b71286be22345f79" Title="Upper landing downlight" Px="11904" Py="3840" Px2="15168" Py2="4032" Cl="200,200,236" Nio="2" Ref="3d2a49b0-19a4-11e4-8f36c77dcecfcd84" Analog="true" LinkRefType="132">
 					<Co K="AI" Nc="1" U="760e19b0-28fd-11e4-b71386be22345f79">
 						<In Input="9121bdf0-11e8-11e4-a60486d90d45a4ab"/>
 					</Co>
 					<Co K="AQ" U="760e19b1-28fd-11e4-b71386be22345f79"/>
 				</C>
-				<C Type="OutputRef" V="101" U="5329e460-2cb3-11e4-a4d8a5244cfb24ba" Title="Upper landing light socket" Px="11904" Py="4032" Px2="15360" Py2="15360" Cl="200,200,236" Nio="2" Ref="a3028ca0-a255-11e3-b9fd972a8456a1bb" Analog="true" LinkRefType="60">
+				<C Type="OutputRef" V="101" U="5329e460-2cb3-11e4-a4d8a5244cfb24ba" Title="Upper landing light socket" Px="11904" Py="4032" Px2="15360" Py2="4224" Cl="200,200,236" Nio="2" Ref="a3028ca0-a255-11e3-b9fd972a8456a1bb" Analog="true" LinkRefType="60">
 					<Co K="AI" Nc="1" U="5329e461-2cb3-11e4-a4d8a5244cfb24ba">
 						<In Input="9121bdf1-11e8-11e4-a60486d90d45a4ab"/>
 					</Co>
 					<Co K="AQ" U="5329e460-2cb3-11e4-a4d9a5244cfb24ba"/>
 				</C>
-				<C Type="OutputRef" V="101" U="0afa16da-0130-31db-ffff86d90d45a4ab" Title="Stairway lights" Px="11904" Py="4224" Px2="14400" Py2="14400" Cl="200,200,236" Nio="2" Ref="b46d9e40-23f5-11e4-b84ad665d37d0df3" Analog="true" LinkRefType="60">
+				<C Type="OutputRef" V="101" U="0afa16da-0130-31db-ffff86d90d45a4ab" Title="Stairway lights" Px="11904" Py="4224" Px2="14400" Py2="4416" Cl="200,200,236" Nio="2" Ref="b46d9e40-23f5-11e4-b84ad665d37d0df3" Analog="true" LinkRefType="60">
 					<Co K="AI" Nc="1" U="0afa16da-0130-31d9-ffff112233445566">
 						<In Input="9121bdf0-11e8-11e4-a60586d90d45a4ab"/>
 					</Co>
 					<Co K="AQ" U="0afa16da-0130-31da-ffff112233445566"/>
+				</C>
+				<C Type="InputRef" V="101" U="0dbf8efe-0352-87c2-ffff86d90d45a4ab" Title="Stairs bottom switch" Px="2304" Py="6240" Px2="4800" Py2="6432" Cl="200,200,236" Nio="4" Ref="a3026591-a255-11e3-b9f5972a8456a1bb" LinkRefType="55">
+					<Co K="AI" Nc="1" U="0dbf8efe-0352-87be-ffff0389a6b02111">
+						<In Input="a3026590-a255-11e3-b9f6972a8456a1bb"/>
+					</Co>
+					<Co K="I" U="0dbf8efe-0352-87bf-ffff0389a6b02111"/>
+					<Co K="AQ" U="0dbf8efe-0352-87c0-ffff0389a6b02111"/>
+					<Co K="Q" U="0dbf8efe-0352-87c1-ffff0389a6b02111"/>
+				</C>
+				<C Type="InputRef" V="101" U="0dbf8f06-028a-920d-ffff86d90d45a4ab" Title="Stairs top switch" Px="2688" Py="6816" Px2="4800" Py2="7008" Cl="200,200,236" Nio="4" Ref="a3026591-a255-11e3-b9f6972a8456a1bb" LinkRefType="55">
+					<Co K="AI" Nc="1" U="0dbf8f06-028a-9209-ffff791647c97299">
+						<In Input="a3026590-a255-11e3-b9f7972a8456a1bb"/>
+					</Co>
+					<Co K="I" U="0dbf8f06-028a-920a-ffff791647c97299"/>
+					<Co K="AQ" U="0dbf8f06-028a-920b-ffff791647c97299"/>
+					<Co K="Q" U="0dbf8f06-028a-920c-ffff791647c97299"/>
 				</C>
 			</C>
 			<C Type="Page" V="101" U="f3c65a50-a182-11e3-a188b830a73fcead" Title="Living Room Lighting">
@@ -2955,7 +2983,7 @@
 					<Co K="AQ" U="0ab166ca-00f8-44a9-ffff112233445566"/>
 					<Co K="Q" U="0ab166ca-00f8-44aa-ffff112233445566"/>
 				</C>
-				<C Type="InputRef" V="101" U="0ab85f5b-00d6-6a16-ffffb830a73fcead" Title="Hallway scene" Px="4224" Py="7008" Px2="6720" Py2="7200" Cl="200,200,236" Nio="4" Ref="0ab85f22-0387-5642-ffffb1bd37ae859c" Analog="true" LinkRefType="320">
+				<C Type="InputRef" V="101" U="0ab85f5b-00d6-6a16-ffffb830a73fcead" Title="Hallway scene" Px="4224" Py="7008" Px2="6720" Py2="7200" Cl="200,200,236" Nio="4" Ref="0ab85f22-0387-5642-ffffb1bd37ae859c" LinkRefType="320">
 					<Co K="AI" Nc="1" U="0ab85f5b-00d6-6a12-ffff112233445566">
 						<In Input="0ab85f22-0387-5641-ffff112233445566"/>
 					</Co>
