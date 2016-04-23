@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ControlList Version="106" NextObj="184" NextConst="1" NextNote="1" NextMem="14">
-	<C Type="Document" V="101" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="7030224" Font="Arial" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="2016-04-23 15:45:07" DateS="230658307" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" Currency="€" UpdTime="120" NumO="619">
+<ControlList Version="106" NextObj="186" NextConst="1" NextNote="1" NextMem="14">
+	<C Type="Document" V="101" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="7030224" Font="Arial" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="2016-04-23 15:48:42" DateS="230658522" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" Currency="€" UpdTime="120" NumO="617">
 		<C Type="IconCaptionState" V="101" U="c332d2d0-9cad-11e3-9b00fb030ef95e86" Title="Status Symbols">
 			<C Type="IconState" V="101" U="00000000-0000-0001-2200000000000000" Title="Not assigned"/>
 			<C Type="IconState" V="101" U="00000000-0000-0002-2200000000000000" Title="Fatal error" Ix="1"/>
@@ -630,18 +630,6 @@
 					<IoData Visu="true" Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001e-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<Display Unit="&lt;v.1&gt;°"/>
 				</C>
-				<C Type="VirtualIn" IName="VI2" V="101" U="0b2f6835-00e7-7f8d-fffffb030ef95e86" Title="Switch on porch light" Nio="2" WF="16" Analog="false" MaxVal="1" MinChange="0.5" MinTime="1000">
-					<Co K="Q" U="0b2f6835-00e7-7f8b-ffff112233445566"/>
-					<Co K="Qm" U="0b2f6835-00e7-7f8c-ffff112233445566"/>
-					<IoData Visu="true" Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0021-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
-					<Display Unit="&lt;v.1&gt;°"/>
-				</C>
-				<C Type="VirtualIn" IName="VI3" V="101" U="0b2f68b9-012b-abad-fffffb030ef95e86" Title="Switch off porch light" Nio="2" WF="16" Analog="false" MaxVal="1" MinChange="0.5" MinTime="1000">
-					<Co K="Q" U="0b2f68b9-012b-abab-ffff112233445566"/>
-					<Co K="Qm" U="0b2f68b9-012b-abac-ffff112233445566"/>
-					<IoData Visu="true" Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0021-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
-					<Display Unit="&lt;v.1&gt;°"/>
-				</C>
 			</C>
 			<C Type="VirtualOutCaption" V="101" U="c347ba60-9cad-11e3-9b92fb030ef95e86" Title="Virtual outputs"/>
 			<C Type="WeatherCaption" V="101" U="c347ba61-9cad-11e3-9b92fb030ef95e86" Title="Miniserver communication"/>
@@ -791,14 +779,14 @@
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0019-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v.1&gt;V"/>
 					</C>
-					<C Type="DigitalIn" IName="I7" V="101" U="b46d9e40-23f5-11e4-b848d665d37d0df3" Title="Input I7" Nio="1" WF="1" MinTime="10">
+					<C Type="DigitalIn" IName="I7" V="101" U="b46d9e40-23f5-11e4-b848d665d37d0df3" Title="Porch bottom switch" Nio="1" WF="16" MinTime="10">
 						<Co K="Q" U="b46d9e41-23f5-11e4-b848d665d37d0df3"/>
-						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0021-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v.1&gt;V"/>
 					</C>
-					<C Type="DigitalIn" IName="I8" V="101" U="b46d9e40-23f5-11e4-b849d665d37d0df3" Title="Input I8" Nio="1" WF="1" MinTime="10">
+					<C Type="DigitalIn" IName="I8" V="101" U="b46d9e40-23f5-11e4-b849d665d37d0df3" Title="Porch top switch" Nio="1" WF="16" MinTime="10">
 						<Co K="Q" U="b46d9e41-23f5-11e4-b849d665d37d0df3"/>
-						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0021-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v.1&gt;V"/>
 					</C>
 				</C>
@@ -3757,7 +3745,7 @@
 			</C>
 			<C Type="Page" V="101" U="0b2f66ca-0049-2035-fffffb030ef95e86" Title="Porch Lighting">
 				<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0021-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
-				<C Type="InputRef" V="101" U="0b2f6729-02f1-44db-fffffb030ef95e86" Title="Pulse for sunset" Px="2112" Py="9600" Px2="4224" Py2="4224" Cl="200,200,236" Nio="4" Ref="c3482f90-9cad-11e3-9bc7fb030ef95e86" LinkRefType="295">
+				<C Type="InputRef" V="101" U="0b2f6729-02f1-44db-fffffb030ef95e86" Title="Pulse for sunset" Px="2112" Py="9600" Px2="4224" Py2="9792" Cl="200,200,236" Nio="4" Ref="c3482f90-9cad-11e3-9bc7fb030ef95e86" LinkRefType="295">
 					<Co K="AI" Nc="1" U="0b2f6729-02f1-44d7-ffff112233445566">
 						<In Input="c3482f91-9cad-11e3-9bc7fb030ef95e86"/>
 					</Co>
@@ -3765,7 +3753,7 @@
 					<Co K="AQ" U="0b2f6729-02f1-44d9-ffff112233445566"/>
 					<Co K="Q" U="0b2f6729-02f1-44da-ffff112233445566"/>
 				</C>
-				<C Type="InputRef" V="101" U="0b2f678c-0096-5e7f-fffffb030ef95e86" Title="Lights all off" Px="2496" Py="7680" Px2="4224" Py2="4224" Cl="200,200,236" Nio="4" Ref="0ab16534-020b-1f2e-fffffb030ef95e86" LinkRefType="320">
+				<C Type="InputRef" V="101" U="0b2f678c-0096-5e7f-fffffb030ef95e86" Title="Lights all off" Px="2496" Py="7680" Px2="4224" Py2="7872" Cl="200,200,236" Nio="4" Ref="0ab16534-020b-1f2e-fffffb030ef95e86" LinkRefType="320">
 					<Co K="AI" Nc="1" U="0b2f678c-0096-5e7b-ffff112233445566">
 						<In Input="0ab16534-020b-1f2d-ffff112233445566"/>
 					</Co>
@@ -3773,7 +3761,7 @@
 					<Co K="AQ" U="0b2f678c-0096-5e7d-ffff112233445566"/>
 					<Co K="Q" U="0b2f678c-0096-5e7e-ffff112233445566"/>
 				</C>
-				<C Type="InputRef" V="101" U="0b2f67ef-00f0-6d2f-fffffb030ef95e86" Title="Pulse for sunrise" Px="2112" Py="7488" Px2="4224" Py2="4224" Cl="200,200,236" Nio="4" Ref="c3482f90-9cad-11e3-9bc6fb030ef95e86" LinkRefType="294">
+				<C Type="InputRef" V="101" U="0b2f67ef-00f0-6d2f-fffffb030ef95e86" Title="Pulse for sunrise" Px="2112" Py="7488" Px2="4224" Py2="7680" Cl="200,200,236" Nio="4" Ref="c3482f90-9cad-11e3-9bc6fb030ef95e86" LinkRefType="294">
 					<Co K="AI" Nc="1" U="0b2f67ef-00f0-6d2b-ffff112233445566">
 						<In Input="c3482f91-9cad-11e3-9bc6fb030ef95e86"/>
 					</Co>
@@ -3781,27 +3769,7 @@
 					<Co K="AQ" U="0b2f67ef-00f0-6d2d-ffff112233445566"/>
 					<Co K="Q" U="0b2f67ef-00f0-6d2e-ffff112233445566"/>
 				</C>
-				<C Type="InputRef" V="101" U="0b2f6883-01ad-91f5-fffffb030ef95e86" Title="Switch on porch light" Px="1728" Py="6912" Px2="4224" Py2="4224" Cl="200,200,236" Nio="4" Ref="0b2f6835-00e7-7f8d-fffffb030ef95e86" LinkRefType="71">
-					<Co K="AI" Nc="1" U="0b2f6883-01ad-91f1-ffff112233445566">
-						<In Input="0b2f6835-00e7-7f8b-ffff112233445566"/>
-					</Co>
-					<Co K="I" Nc="1" U="0b2f6883-01ad-91f2-ffff112233445566">
-						<In Input="0b2f6835-00e7-7f8c-ffff112233445566"/>
-					</Co>
-					<Co K="AQ" U="0b2f6883-01ad-91f3-ffff112233445566"/>
-					<Co K="Q" U="0b2f6883-01ad-91f4-ffff112233445566"/>
-				</C>
-				<C Type="InputRef" V="101" U="0b2f68d7-0322-b313-fffffb030ef95e86" Title="Switch off porch light" Px="1728" Py="7296" Px2="4224" Py2="4224" Cl="200,200,236" Nio="4" Ref="0b2f68b9-012b-abad-fffffb030ef95e86" LinkRefType="71">
-					<Co K="AI" Nc="1" U="0b2f68d7-0322-b30f-ffff112233445566">
-						<In Input="0b2f68b9-012b-abab-ffff112233445566"/>
-					</Co>
-					<Co K="I" Nc="1" U="0b2f68d7-0322-b310-ffff112233445566">
-						<In Input="0b2f68b9-012b-abac-ffff112233445566"/>
-					</Co>
-					<Co K="AQ" U="0b2f68d7-0322-b311-ffff112233445566"/>
-					<Co K="Q" U="0b2f68d7-0322-b312-ffff112233445566"/>
-				</C>
-				<C Type="LightController" V="101" U="0b2f66f5-0357-3613-fffffb030ef95e86" Title="Lighting controller" Px="7008" Py="4224" Px2="11232" Py2="11232" Cl="200,216,179" Nio="59" NameAI0="Front porch light" NameAI1="" NameAI2="" NameAI3="" NameAI4="" NameAI5="" NameAI6="" NameAI7="" NameAI8="" NameAI9="" NameAI10="" NameAI11="" DoNotUseZero="true" SpStates="0c82db71-0154-2aa1-fffffb030ef95e86,0c82db71-0154-2aa2-fffffb030ef95e86,0c82db71-0154-2aa3-fffffb030ef95e86,0c82db71-0154-2aa4-fffffb030ef95e86">
+				<C Type="LightController" V="101" U="0b2f66f5-0357-3613-fffffb030ef95e86" Title="Lighting controller" Px="7008" Py="4224" Px2="11232" Py2="10560" Cl="200,216,179" Nio="59" NameAI0="Front porch light" NameAI1="" NameAI2="" NameAI3="" NameAI4="" NameAI5="" NameAI6="" NameAI7="" NameAI8="" NameAI9="" NameAI10="" NameAI11="" DoNotUseZero="true" SpStates="0c82db71-0154-2aa1-fffffb030ef95e86,0c82db71-0154-2aa2-fffffb030ef95e86,0c82db71-0154-2aa3-fffffb030ef95e86,0c82db71-0154-2aa4-fffffb030ef95e86">
 					<Co K="I1" U="0b2f66f5-0357-35d8-ffff112233445566"/>
 					<Co K="I2" U="0b2f66f5-0357-35d9-ffff112233445566"/>
 					<Co K="I3" U="0b2f66f5-0357-35da-ffff112233445566"/>
@@ -3815,14 +3783,14 @@
 					<Co K="I11" U="0b2f66f5-0357-35e2-ffff112233445566"/>
 					<Co K="I12" U="0b2f66f5-0357-35e3-ffff112233445566"/>
 					<Co K="InputTriggerUp" Nc="1" U="0b2f66f5-0357-35e4-ffff112233445566">
-						<In Input="0b2f6883-01ad-91f3-ffff112233445566"/>
+						<In Input="0dbf9181-00c4-bb94-ffffa7875e28cb10"/>
 					</Co>
 					<Co K="InputTriggerDown" U="0b2f66f5-0357-35e5-ffff112233445566"/>
 					<Co K="Select" U="0b2f66f5-0357-35e6-ffff112233445566"/>
 					<Co K="Reset" Nc="3" U="0b2f66f5-0357-35e7-ffff112233445566">
 						<In Input="0b2f678c-0096-5e7d-ffff112233445566"/>
 						<In Input="0b2f67ef-00f0-6d2d-ffff112233445566"/>
-						<In Input="0b2f68d7-0322-b311-ffff112233445566"/>
+						<In Input="0dbf9181-00d4-bb9a-ffff0c179b13d291"/>
 					</Co>
 					<Co K="Sel1" U="0b2f66f5-0357-35e8-ffff112233445566"/>
 					<Co K="Sel2" U="0b2f66f5-0357-35e9-ffff112233445566"/>
@@ -3882,11 +3850,27 @@
 					</LightscenesC>
 					<PSD As="-2" Ae="1380" Amin="1" Amax="4" Dmin="30" Dmax="180" O="1" V="20"/>
 				</C>
-				<C Type="OutputRef" V="101" U="0b2f66e7-025a-2e5d-fffffb030ef95e86" Title="Front porch light" Px="12576" Py="4608" Px2="14688" Py2="14688" Cl="200,200,236" Nio="2" Ref="c347e171-9cad-11e3-9ba1fb030ef95e86" LinkRefType="63">
+				<C Type="OutputRef" V="101" U="0b2f66e7-025a-2e5d-fffffb030ef95e86" Title="Front porch light" Px="12576" Py="4608" Px2="14688" Py2="4800" Cl="200,200,236" Nio="2" Ref="c347e171-9cad-11e3-9ba1fb030ef95e86" LinkRefType="63">
 					<Co K="AI" Nc="1" U="0b2f66e7-025a-2e5b-ffff112233445566">
 						<In Input="0b2f66f5-0357-3604-ffff112233445566"/>
 					</Co>
 					<Co K="AQ" U="0b2f66e7-025a-2e5c-ffff112233445566"/>
+				</C>
+				<C Type="InputRef" V="101" U="0dbf9181-00c4-bb96-fffffb030ef95e86" Title="Porch bottom switch" Px="1728" Py="6912" Px2="4224" Py2="7104" Cl="200,200,236" Nio="4" Ref="b46d9e40-23f5-11e4-b848d665d37d0df3" LinkRefType="55">
+					<Co K="AI" Nc="1" U="0dbf9181-00c4-bb92-ffffa7875e28cb10">
+						<In Input="b46d9e41-23f5-11e4-b848d665d37d0df3"/>
+					</Co>
+					<Co K="I" U="0dbf9181-00c4-bb93-ffffa7875e28cb10"/>
+					<Co K="AQ" U="0dbf9181-00c4-bb94-ffffa7875e28cb10"/>
+					<Co K="Q" U="0dbf9181-00c4-bb95-ffffa7875e28cb10"/>
+				</C>
+				<C Type="InputRef" V="101" U="0dbf9181-00d4-bb9c-fffffb030ef95e86" Title="Porch top switch" Px="2112" Py="7296" Px2="4224" Py2="7488" Cl="200,200,236" Nio="4" Ref="b46d9e40-23f5-11e4-b849d665d37d0df3" LinkRefType="55">
+					<Co K="AI" Nc="1" U="0dbf9181-00d4-bb98-ffff0c179b13d291">
+						<In Input="b46d9e41-23f5-11e4-b849d665d37d0df3"/>
+					</Co>
+					<Co K="I" U="0dbf9181-00d4-bb99-ffff0c179b13d291"/>
+					<Co K="AQ" U="0dbf9181-00d4-bb9a-ffff0c179b13d291"/>
+					<Co K="Q" U="0dbf9181-00d4-bb9b-ffff0c179b13d291"/>
 				</C>
 			</C>
 		</C>
