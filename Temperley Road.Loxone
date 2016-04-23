@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ControlList Version="106" NextObj="186" NextConst="1" NextNote="1" NextMem="14">
-	<C Type="Document" V="101" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="7030224" Font="Arial" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="2016-04-23 15:48:42" DateS="230658522" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" Currency="€" UpdTime="120" NumO="617">
+	<C Type="Document" V="101" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="7030224" Font="Arial" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="2016-04-23 22:26:31" DateS="230682391" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" Currency="€" UpdTime="120" NumO="617">
 		<C Type="IconCaptionState" V="101" U="c332d2d0-9cad-11e3-9b00fb030ef95e86" Title="Status Symbols">
 			<C Type="IconState" V="101" U="00000000-0000-0001-2200000000000000" Title="Not assigned"/>
 			<C Type="IconState" V="101" U="00000000-0000-0002-2200000000000000" Title="Fatal error" Ix="1"/>
@@ -779,12 +779,12 @@
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0019-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v.1&gt;V"/>
 					</C>
-					<C Type="DigitalIn" IName="I7" V="101" U="b46d9e40-23f5-11e4-b848d665d37d0df3" Title="Porch bottom switch" Nio="1" WF="16" MinTime="10">
+					<C Type="DigitalIn" IName="I7" V="101" U="b46d9e40-23f5-11e4-b848d665d37d0df3" Title="Porch top switch" Nio="1" WF="16" MinTime="10">
 						<Co K="Q" U="b46d9e41-23f5-11e4-b848d665d37d0df3"/>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0021-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v.1&gt;V"/>
 					</C>
-					<C Type="DigitalIn" IName="I8" V="101" U="b46d9e40-23f5-11e4-b849d665d37d0df3" Title="Porch top switch" Nio="1" WF="16" MinTime="10">
+					<C Type="DigitalIn" IName="I8" V="101" U="b46d9e40-23f5-11e4-b849d665d37d0df3" Title="Porch bottom switch" Nio="1" WF="16" MinTime="10">
 						<Co K="Q" U="b46d9e41-23f5-11e4-b849d665d37d0df3"/>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0021-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v.1&gt;V"/>
@@ -2492,7 +2492,7 @@
 					<Co K="AQ" U="0ab85f22-0387-5641-ffff112233445566"/>
 					<Co K="Q" U="0c82db71-0147-27c7-ffff98bcb8fa4811"/>
 					<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0019-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
-					<Display Unit="S&lt;v&gt;"/>
+					<Display Unit="S&lt;v&gt;" StateOnly="true"/>
 				</C>
 				<C Type="Memory" V="101" U="0dbf907e-02f1-551e-ffffb1bd37ae859c" Title="M13" Px="5856" Py="10080" Px2="7392" Py2="10656" Cl="200,200,236" Nio="3">
 					<Co K="Input" Nc="1" U="0dbf907e-02f1-551b-fffffda69d9501f3">
@@ -3783,14 +3783,14 @@
 					<Co K="I11" U="0b2f66f5-0357-35e2-ffff112233445566"/>
 					<Co K="I12" U="0b2f66f5-0357-35e3-ffff112233445566"/>
 					<Co K="InputTriggerUp" Nc="1" U="0b2f66f5-0357-35e4-ffff112233445566">
-						<In Input="0dbf9181-00c4-bb94-ffffa7875e28cb10"/>
+						<In Input="0dbf9181-00d4-bb9a-ffff0c179b13d291"/>
 					</Co>
 					<Co K="InputTriggerDown" U="0b2f66f5-0357-35e5-ffff112233445566"/>
 					<Co K="Select" U="0b2f66f5-0357-35e6-ffff112233445566"/>
 					<Co K="Reset" Nc="3" U="0b2f66f5-0357-35e7-ffff112233445566">
 						<In Input="0b2f678c-0096-5e7d-ffff112233445566"/>
 						<In Input="0b2f67ef-00f0-6d2d-ffff112233445566"/>
-						<In Input="0dbf9181-00d4-bb9a-ffff0c179b13d291"/>
+						<In Input="0dbf9181-00c4-bb94-ffffa7875e28cb10"/>
 					</Co>
 					<Co K="Sel1" U="0b2f66f5-0357-35e8-ffff112233445566"/>
 					<Co K="Sel2" U="0b2f66f5-0357-35e9-ffff112233445566"/>
@@ -3856,7 +3856,7 @@
 					</Co>
 					<Co K="AQ" U="0b2f66e7-025a-2e5c-ffff112233445566"/>
 				</C>
-				<C Type="InputRef" V="101" U="0dbf9181-00c4-bb96-fffffb030ef95e86" Title="Porch bottom switch" Px="1728" Py="6912" Px2="4224" Py2="7104" Cl="200,200,236" Nio="4" Ref="b46d9e40-23f5-11e4-b848d665d37d0df3" LinkRefType="55">
+				<C Type="InputRef" V="101" U="0dbf9181-00c4-bb96-fffffb030ef95e86" Title="Porch top switch" Px="2112" Py="7296" Px2="4224" Py2="7488" Cl="200,200,236" Nio="4" Ref="b46d9e40-23f5-11e4-b848d665d37d0df3" LinkRefType="55">
 					<Co K="AI" Nc="1" U="0dbf9181-00c4-bb92-ffffa7875e28cb10">
 						<In Input="b46d9e41-23f5-11e4-b848d665d37d0df3"/>
 					</Co>
@@ -3864,7 +3864,7 @@
 					<Co K="AQ" U="0dbf9181-00c4-bb94-ffffa7875e28cb10"/>
 					<Co K="Q" U="0dbf9181-00c4-bb95-ffffa7875e28cb10"/>
 				</C>
-				<C Type="InputRef" V="101" U="0dbf9181-00d4-bb9c-fffffb030ef95e86" Title="Porch top switch" Px="2112" Py="7296" Px2="4224" Py2="7488" Cl="200,200,236" Nio="4" Ref="b46d9e40-23f5-11e4-b849d665d37d0df3" LinkRefType="55">
+				<C Type="InputRef" V="101" U="0dbf9181-00d4-bb9c-fffffb030ef95e86" Title="Porch bottom switch" Px="1728" Py="6912" Px2="4224" Py2="7104" Cl="200,200,236" Nio="4" Ref="b46d9e40-23f5-11e4-b849d665d37d0df3" LinkRefType="55">
 					<Co K="AI" Nc="1" U="0dbf9181-00d4-bb98-ffff0c179b13d291">
 						<In Input="b46d9e41-23f5-11e4-b849d665d37d0df3"/>
 					</Co>
