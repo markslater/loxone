@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ControlList Version="106" NextObj="191" NextConst="1" NextNote="1" NextMem="15">
-	<C Type="Document" V="101" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="7030224" Font="Arial" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="2016-04-23 22:39:31" DateS="230683171" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" Currency="€" UpdTime="120" NumO="623">
+	<C Type="Document" V="101" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="7030224" Font="Arial" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="2016-04-25 21:43:24" DateS="230852604" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" Currency="€" UpdTime="120" NumO="623">
 		<C Type="IconCaptionState" V="101" U="c332d2d0-9cad-11e3-9b00fb030ef95e86" Title="Status Symbols">
 			<C Type="IconState" V="101" U="00000000-0000-0001-2200000000000000" Title="Not assigned"/>
 			<C Type="IconState" V="101" U="00000000-0000-0002-2200000000000000" Title="Fatal error" Ix="1"/>
@@ -528,29 +528,29 @@
 				</C>
 			</C>
 			<C Type="AnalogInputCaption" V="101" U="c347ba61-9cad-11e3-9b8efb030ef95e86" Title="Analogue inputs">
-				<C Type="VoltageIn" IName="AI1" V="101" U="c347e171-9cad-11e3-9b9bfb030ef95e86" Title="Voltage AI1" Nio="2" WF="1" Analog="true" SourceValHigh="10" DestValHigh="10" MaxVal="10" MinChange="0.25" MinTime="1000" AverageTime="1">
+				<C Type="VoltageIn" IName="AI1" V="101" U="c347e171-9cad-11e3-9b9bfb030ef95e86" Title="Voltage AI1" Nio="2" WF="1" Analog="false" SourceValHigh="10" DestValHigh="10" MaxVal="10" MinChange="1" MinTime="10">
 					<Co K="AQ" U="c347e170-9cad-11e3-9b9cfb030ef95e86"/>
 					<Co K="Q" U="c347e171-9cad-11e3-9b9cfb030ef95e86"/>
 					<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
-					<Display Type="2" Unit="&lt;v.1&gt;°" StateOnly="true"/>
+					<Display Unit="&lt;v.1&gt;°" StateOnly="true"/>
 				</C>
-				<C Type="VoltageIn" IName="AI2" V="101" U="c347e170-9cad-11e3-9b9dfb030ef95e86" Title="Voltage AI2" Nio="2" WF="1" Analog="true" SourceValHigh="10" DestValHigh="10" MaxVal="10" MinChange="0.25" MinTime="1000" AverageTime="1">
+				<C Type="VoltageIn" IName="AI2" V="101" U="c347e170-9cad-11e3-9b9dfb030ef95e86" Title="Voltage AI2" Nio="2" WF="1" Analog="false" SourceValHigh="10" DestValHigh="10" MaxVal="10" MinChange="1" MinTime="10">
 					<Co K="AQ" U="c347e171-9cad-11e3-9b9dfb030ef95e86"/>
 					<Co K="Q" U="c347e170-9cad-11e3-9b9efb030ef95e86"/>
 					<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
-					<Display Type="2" Unit="&lt;v.1&gt;°" StateOnly="true"/>
+					<Display Unit="&lt;v.1&gt;°" StateOnly="true"/>
 				</C>
-				<C Type="VoltageIn" IName="AI3" V="101" U="c347e171-9cad-11e3-9b9efb030ef95e86" Title="Voltage AI3" Nio="2" WF="1" Analog="true" SourceValHigh="10" DestValHigh="10" MaxVal="10" MinChange="0.25" MinTime="1000" AverageTime="1">
+				<C Type="VoltageIn" IName="AI3" V="101" U="c347e171-9cad-11e3-9b9efb030ef95e86" Title="Voltage AI3" Nio="2" WF="1" Analog="false" SourceValHigh="10" DestValHigh="10" MaxVal="10" MinChange="1" MinTime="10">
 					<Co K="AQ" U="c347e170-9cad-11e3-9b9ffb030ef95e86"/>
 					<Co K="Q" U="c347e171-9cad-11e3-9b9ffb030ef95e86"/>
 					<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
-					<Display Type="2" Unit="&lt;v.1&gt;°" StateOnly="true"/>
+					<Display Unit="&lt;v.1&gt;°" StateOnly="true"/>
 				</C>
-				<C Type="VoltageIn" IName="AI4" V="101" U="c347e170-9cad-11e3-9ba0fb030ef95e86" Title="Voltage AI4" Nio="2" WF="1" Analog="true" SourceValHigh="10" DestValHigh="10" MaxVal="10" MinChange="0.25" MinTime="1000" AverageTime="1">
+				<C Type="VoltageIn" IName="AI4" V="101" U="c347e170-9cad-11e3-9ba0fb030ef95e86" Title="Voltage AI4" Nio="2" WF="1" Analog="false" SourceValHigh="10" DestValHigh="10" MaxVal="10" MinChange="1" MinTime="10">
 					<Co K="AQ" U="c347e171-9cad-11e3-9ba0fb030ef95e86"/>
 					<Co K="Q" U="c347e170-9cad-11e3-9ba1fb030ef95e86"/>
 					<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
-					<Display Type="2" Unit="&lt;v.1&gt;°" StateOnly="true"/>
+					<Display Unit="&lt;v.1&gt;°" StateOnly="true"/>
 				</C>
 			</C>
 			<C Type="OutputCaption" V="101" U="c347ba60-9cad-11e3-9b8ffb030ef95e86" Title="Digital outputs">
