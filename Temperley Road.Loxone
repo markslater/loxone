@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ControlList Version="106" NextObj="198" NextConst="1" NextNote="1" NextMem="17">
-	<C Type="Document" V="101" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="7030224" Font="Arial" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="2016-04-27 22:14:18" DateS="231027258" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" Currency="€" UpdTime="120" NumO="632">
+	<C Type="Document" V="101" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="7030224" Font="Arial" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="2016-04-30 18:07:13" DateS="231271633" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" Currency="€" UpdTime="120" NumO="632">
 		<C Type="IconCaptionState" V="101" U="c332d2d0-9cad-11e3-9b00fb030ef95e86" Title="Status Symbols">
 			<C Type="IconState" V="101" U="00000000-0000-0001-2200000000000000" Title="Not assigned"/>
 			<C Type="IconState" V="101" U="00000000-0000-0002-2200000000000000" Title="Fatal error" Ix="1"/>
@@ -561,32 +561,32 @@
 					<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0021-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<Display Unit="&lt;v.1&gt;V" StateOnly="true"/>
 				</C>
-				<C Type="Actor" IName="Q2" V="101" U="c347e171-9cad-11e3-9ba2fb030ef95e86" Title="UFH pump" Nio="1" WF="1">
+				<C Type="Actor" IName="Q2" V="101" U="c347e171-9cad-11e3-9ba2fb030ef95e86" Title="Actuator (relay) Q2" Nio="1" WF="1">
 					<Co K="I" U="c347e170-9cad-11e3-9ba3fb030ef95e86"/>
-					<IoData Cr="0aa18988-0254-0004-0d00000000000000" Pr="0aa18988-0254-001f-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+					<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<Display Unit="&lt;v.1&gt;V" StateOnly="true"/>
 				</C>
-				<C Type="Actor" IName="Q3" V="101" U="c347e171-9cad-11e3-9ba3fb030ef95e86" Title="UFH zone 1 actuator" Nio="1" WF="1">
+				<C Type="Actor" IName="Q3" V="101" U="c347e171-9cad-11e3-9ba3fb030ef95e86" Title="Actuator (relay) Q3" Nio="1" WF="1">
 					<Co K="I" U="c347e170-9cad-11e3-9ba4fb030ef95e86"/>
 					<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<Display Unit="&lt;v.1&gt;V" StateOnly="true"/>
 				</C>
-				<C Type="Actor" IName="Q4" V="101" U="c347e171-9cad-11e3-9ba4fb030ef95e86" Title="UFH zone 2 actuator" Nio="1" WF="1">
+				<C Type="Actor" IName="Q4" V="101" U="c347e171-9cad-11e3-9ba4fb030ef95e86" Title="Actuator (relay) Q4" Nio="1" WF="1">
 					<Co K="I" U="c347e170-9cad-11e3-9ba5fb030ef95e86"/>
-					<IoData Cr="0aa18988-0254-0004-0d00000000000000" Pr="0aa18988-0254-001f-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+					<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<Display Unit="&lt;v.1&gt;V" StateOnly="true"/>
 				</C>
-				<C Type="Actor" IName="Q5" V="101" U="c347e171-9cad-11e3-9ba5fb030ef95e86" Title="UFH zone 3 actuator" Nio="1" WF="1">
+				<C Type="Actor" IName="Q5" V="101" U="c347e171-9cad-11e3-9ba5fb030ef95e86" Title="Actuator (relay) Q5" Nio="1" WF="1">
 					<Co K="I" U="c347e170-9cad-11e3-9ba6fb030ef95e86"/>
-					<IoData Cr="0aa18988-0254-0004-0d00000000000000" Pr="0aa18988-0254-001f-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+					<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<Display Unit="&lt;v.1&gt;V" StateOnly="true"/>
 				</C>
-				<C Type="Actor" IName="Q6" V="101" U="c3480880-9cad-11e3-9ba6fb030ef95e86" Title="UFH zone 4 actuator" Nio="1" WF="1">
+				<C Type="Actor" IName="Q6" V="101" U="c3480880-9cad-11e3-9ba6fb030ef95e86" Title="Actuator (relay) Q6" Nio="1" WF="1">
 					<Co K="I" U="c3480881-9cad-11e3-9ba6fb030ef95e86"/>
 					<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<Display Unit="&lt;v.1&gt;V" StateOnly="true"/>
 				</C>
-				<C Type="Actor" IName="Q7" V="101" U="c3480880-9cad-11e3-9ba7fb030ef95e86" Title="UFH zone 5 actuator" Nio="1" WF="1">
+				<C Type="Actor" IName="Q7" V="101" U="c3480880-9cad-11e3-9ba7fb030ef95e86" Title="Actuator (relay) Q7" Nio="1" WF="1">
 					<Co K="I" U="c3480881-9cad-11e3-9ba7fb030ef95e86"/>
 					<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<Display Unit="&lt;v.1&gt;V" StateOnly="true"/>
@@ -694,7 +694,7 @@
 					<IoData Cr="0aa18988-0254-0004-0d00000000000000" Pr="0aa18988-0254-0020-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<Display Unit="&lt;v.1&gt;V" StateOnly="true"/>
 				</C>
-				<C Type="Actor" IName="Q7" V="101" U="ea25c120-23f5-11e4-bc2ed665d37d0df3" Title="Actuator (relay) Q7" Nio="1" WF="1">
+				<C Type="Actor" IName="Q7" V="101" U="ea25c120-23f5-11e4-bc2ed665d37d0df3" Title="Garden light??" Nio="1" WF="1">
 					<Co K="I" U="ea25c121-23f5-11e4-bc2ed665d37d0df3"/>
 					<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<Display Unit="&lt;v.1&gt;V" StateOnly="true"/>
@@ -1773,7 +1773,7 @@
 			</C>
 			<C Type="Page" V="101" U="db9884b0-9cbb-11e3-8b17fb030ef95e86" Title="Central Functions - Heating">
 				<IoData Cr="0aa18988-0254-0004-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
-				<C Type="InputRef" V="101" U="0aa97b05-026a-4ff9-fffffb030ef95e86" Title="Bedroom 2 heating demand" Px="2496" Py="4128" Px2="5568" Py2="5568" Cl="200,200,236" Nio="4" Ref="0aa97a73-0353-32d2-ffffb830a73fcead" LinkRefType="320">
+				<C Type="InputRef" V="101" U="0aa97b05-026a-4ff9-fffffb030ef95e86" Title="Bedroom 2 heating demand" Px="2496" Py="4128" Px2="5568" Py2="4320" Cl="200,200,236" Nio="4" Ref="0aa97a73-0353-32d2-ffffb830a73fcead" LinkRefType="320">
 					<Co K="AI" Nc="1" U="0aa97b05-026a-4ff5-ffff112233445566">
 						<In Input="0aa97a73-0353-32d1-ffff112233445566"/>
 					</Co>
@@ -1781,7 +1781,7 @@
 					<Co K="AQ" U="0aa97b05-026a-4ff7-ffff112233445566"/>
 					<Co K="Q" U="0aa97b05-026a-4ff8-ffff112233445566"/>
 				</C>
-				<C Type="InputRef" V="101" U="0aa97f89-0042-b834-fffffb030ef95e86" Title="En suite heating demand" Px="2880" Py="4320" Px2="5568" Py2="5568" Cl="200,200,236" Nio="4" Ref="0aa97f45-0135-a2a8-ffffea873ddef408" LinkRefType="320">
+				<C Type="InputRef" V="101" U="0aa97f89-0042-b834-fffffb030ef95e86" Title="En suite heating demand" Px="2880" Py="4320" Px2="5568" Py2="4512" Cl="200,200,236" Nio="4" Ref="0aa97f45-0135-a2a8-ffffea873ddef408" LinkRefType="320">
 					<Co K="AI" Nc="1" U="0aa97f89-0042-b830-ffff112233445566">
 						<In Input="0aa97f45-0135-a2a7-ffff112233445566"/>
 					</Co>
@@ -1789,7 +1789,7 @@
 					<Co K="AQ" U="0aa97f89-0042-b832-ffff112233445566"/>
 					<Co K="Q" U="0aa97f89-0042-b833-ffff112233445566"/>
 				</C>
-				<C Type="InputRef" V="101" U="0aa981a5-03de-2983-fffffb030ef95e86" Title="Master bedroom heating demand" Px="2112" Py="4512" Px2="5568" Py2="5568" Cl="200,200,236" Nio="4" Ref="0aa9810f-0249-f3a5-fffffb030ef95e86" LinkRefType="320">
+				<C Type="InputRef" V="101" U="0aa981a5-03de-2983-fffffb030ef95e86" Title="Master bedroom heating demand" Px="2112" Py="4512" Px2="5568" Py2="4704" Cl="200,200,236" Nio="4" Ref="0aa9810f-0249-f3a5-fffffb030ef95e86" LinkRefType="320">
 					<Co K="AI" Nc="1" U="0aa981a5-03de-297f-ffff112233445566">
 						<In Input="0aa9810f-0249-f3a4-ffff112233445566"/>
 					</Co>
@@ -1797,7 +1797,7 @@
 					<Co K="AQ" U="0aa981a5-03de-2981-ffff112233445566"/>
 					<Co K="Q" U="0aa981a5-03de-2982-ffff112233445566"/>
 				</C>
-				<C Type="InputRef" V="101" U="0aa98777-00f2-4fca-fffffb030ef95e86" Title="Nursery heating demand" Px="2496" Py="4704" Px2="5184" Py2="5184" Cl="200,200,236" Nio="4" Ref="0aa98217-005a-3734-ffffb830a73fcead" LinkRefType="320">
+				<C Type="InputRef" V="101" U="0aa98777-00f2-4fca-fffffb030ef95e86" Title="Nursery heating demand" Px="2496" Py="4704" Px2="5184" Py2="4896" Cl="200,200,236" Nio="4" Ref="0aa98217-005a-3734-ffffb830a73fcead" LinkRefType="320">
 					<Co K="AI" Nc="1" U="0aa98777-00f2-4fc6-ffff112233445566">
 						<In Input="0aa98217-005a-3733-ffff112233445566"/>
 					</Co>
@@ -1805,7 +1805,7 @@
 					<Co K="AQ" U="0aa98777-00f2-4fc8-ffff112233445566"/>
 					<Co K="Q" U="0aa98777-00f2-4fc9-ffff112233445566"/>
 				</C>
-				<C Type="InputRef" V="101" U="0aa99c44-00fe-b5de-fffffb030ef95e86" Title="Kitchen heating demand" Px="2880" Py="3936" Px2="5568" Py2="5568" Cl="200,200,236" Nio="4" Ref="0aa99c16-0249-9cf5-fffffb030ef95e86" LinkRefType="320">
+				<C Type="InputRef" V="101" U="0aa99c44-00fe-b5de-fffffb030ef95e86" Title="Kitchen heating demand" Px="2880" Py="3936" Px2="5568" Py2="4128" Cl="200,200,236" Nio="4" Ref="0aa99c16-0249-9cf5-fffffb030ef95e86" LinkRefType="320">
 					<Co K="AI" Nc="1" U="0aa99c44-00fe-b5da-ffff112233445566">
 						<In Input="0aa99c16-0249-9cf4-ffff112233445566"/>
 					</Co>
@@ -1813,7 +1813,7 @@
 					<Co K="AQ" U="0aa99c44-00fe-b5dc-ffff112233445566"/>
 					<Co K="Q" U="0aa99c44-00fe-b5dd-ffff112233445566"/>
 				</C>
-				<C Type="OnDelay" V="101" U="0aaaecc4-00ac-1418-fffffb030ef95e86" Title="O83" Px="7584" Py="5856" Px2="9312" Py2="9312" Cl="200,220,236" Nio="5">
+				<C Type="OnDelay" V="101" U="0aaaecc4-00ac-1418-fffffb030ef95e86" Title="O83" Px="7584" Py="5856" Px2="9312" Py2="6816" Cl="200,220,236" Nio="5">
 					<Co K="InputTrigger" Nc="4" U="0aaaecc4-00ac-1413-ffff112233445566">
 						<In Input="0aa97b05-026a-4ff7-ffff112233445566"/>
 						<In Input="0aa97f89-0042-b832-ffff112233445566"/>
@@ -1825,7 +1825,7 @@
 					<Co K="Time" Def="180" U="0aaaecc4-00ac-1416-ffff112233445566"/>
 					<Co K="Q" U="0aaaecc4-00ac-1417-ffff112233445566"/>
 				</C>
-				<C Type="OnOffDelay" V="101" U="0ac87cfb-01d4-0dbe-fffffb030ef95e86" Title="O120" Px="7680" Py="3552" Px2="10176" Py2="10176" Cl="200,220,236" Nio="6">
+				<C Type="OnOffDelay" V="101" U="0ac87cfb-01d4-0dbe-fffffb030ef95e86" Title="O120" Px="7680" Py="3552" Px2="10176" Py2="4512" Cl="200,220,236" Nio="6">
 					<Co K="InputTrigger" Nc="5" U="0ac87cfb-01d4-0db8-ffff112233445566">
 						<In Input="0aa98777-00f2-4fc8-ffff112233445566"/>
 						<In Input="0aa981a5-03de-2981-ffff112233445566"/>
@@ -1839,7 +1839,7 @@
 					<Co K="TimeOff" Def="180" U="0ac87cfb-01d4-0dbc-ffff112233445566"/>
 					<Co K="Q" U="0ac87cfb-01d4-0dbd-ffff112233445566"/>
 				</C>
-				<C Type="Radio" V="101" U="0ce6514d-007d-1686-fffffb030ef95e86" Title="Operating Mode" Px="4512" Py="7296" Px2="6432" Py2="6432" Cl="200,216,179" Nio="25" T1="Away" T2="Guests staying" T3="Day off" T9="Automatic">
+				<C Type="Radio" V="101" U="0ce6514d-007d-1686-fffffb030ef95e86" Title="Operating Mode" Px="4512" Py="7296" Px2="6432" Py2="10368" Cl="200,216,179" Nio="25" T1="Away" T2="Guests staying" T3="Day off" T9="Automatic">
 					<Co K="InputTrigger 1" U="0ce6514d-007d-166d-ffff28cedc9ec76e"/>
 					<Co K="InputTrigger 2" U="0ce6514d-007d-166e-ffff28cedc9ec76e"/>
 					<Co K="InputTrigger 3" U="0ce6514d-007d-166f-ffff28cedc9ec76e"/>
@@ -1867,31 +1867,31 @@
 					<Co K="AQ" U="0ce6514d-007d-1685-ffff28cedc9ec76e"/>
 					<IoData Visu="true" Cr="0aa18988-0254-0004-0d00000000000000" Pr="0aa18988-0254-0027-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 				</C>
-				<C Type="OutputRef" V="101" U="0aa97b4b-020a-5d45-fffffb030ef95e86" Title="Underfloor heating pump" Px="11712" Py="6240" Px2="14400" Py2="14400" Cl="200,200,236" Nio="2" Ref="ea25c120-23f5-11e4-bc29d665d37d0df3" LinkRefType="63">
+				<C Type="OutputRef" V="101" U="0aa97b4b-020a-5d45-fffffb030ef95e86" Title="Underfloor heating pump" Px="11712" Py="6240" Px2="14400" Py2="6432" Cl="200,200,236" Nio="2" Ref="ea25c120-23f5-11e4-bc29d665d37d0df3" LinkRefType="63">
 					<Co K="AI" Nc="1" U="0aa97b4b-020a-5d43-ffff112233445566">
 						<In Input="0aaaecc4-00ac-1417-ffff112233445566"/>
 					</Co>
 					<Co K="AQ" U="0aa97b4b-020a-5d44-ffff112233445566"/>
 				</C>
-				<C Type="OutputRef" V="101" U="0aa97b2a-01df-554b-fffffb030ef95e86" Title="Heating demand" Px="11712" Py="3936" Px2="13824" Py2="13824" Cl="200,200,236" Nio="2" Ref="ea25c120-23f5-11e4-bc28d665d37d0df3" LinkRefType="63">
+				<C Type="OutputRef" V="101" U="0aa97b2a-01df-554b-fffffb030ef95e86" Title="Heating demand" Px="11712" Py="3936" Px2="13824" Py2="4128" Cl="200,200,236" Nio="2" Ref="ea25c120-23f5-11e4-bc28d665d37d0df3" LinkRefType="63">
 					<Co K="AI" Nc="1" U="0aa97b2a-01df-5549-ffff112233445566">
 						<In Input="0ac87cfb-01d4-0dbd-ffff112233445566"/>
 					</Co>
 					<Co K="AQ" U="0aa97b2a-01df-554a-ffff112233445566"/>
 				</C>
-				<C Type="OutputRef" V="101" U="0cd9294c-031b-6f98-fffffb030ef95e86" Title="All absent" Px="7584" Py="7680" Px2="9120" Py2="9120" Cl="200,200,236" Nio="2" Ref="0aa18988-0254-002f-1500000000000000" LinkRefType="21">
+				<C Type="OutputRef" V="101" U="0cd9294c-031b-6f98-fffffb030ef95e86" Title="All absent" Px="7584" Py="7680" Px2="9120" Py2="7872" Cl="200,200,236" Nio="2" Ref="0aa18988-0254-002f-1500000000000000" LinkRefType="21">
 					<Co K="AI" Nc="1" U="0cd9294c-031b-6f96-ffff07372a390897">
 						<In Input="0ce6514d-007d-167d-ffff28cedc9ec76e"/>
 					</Co>
 					<Co K="AQ" U="0cd9294c-031b-6f97-ffff07372a390897"/>
 				</C>
-				<C Type="OutputRef" V="101" U="0ce65178-0297-34a9-fffffb030ef95e86" Title="Guests staying" Px="7584" Py="7872" Px2="9504" Py2="9504" Cl="200,200,236" Nio="2" Ref="0b3eb2ed-01f7-1a72-ffffb830a73fcead" LinkRefType="21">
+				<C Type="OutputRef" V="101" U="0ce65178-0297-34a9-fffffb030ef95e86" Title="Guests staying" Px="7584" Py="7872" Px2="9504" Py2="8064" Cl="200,200,236" Nio="2" Ref="0b3eb2ed-01f7-1a72-ffffb830a73fcead" LinkRefType="21">
 					<Co K="AI" Nc="1" U="0ce65178-0297-34a7-ffff05690589e741">
 						<In Input="0ce6514d-007d-167e-ffff28cedc9ec76e"/>
 					</Co>
 					<Co K="AQ" U="0ce65178-0297-34a8-ffff05690589e741"/>
 				</C>
-				<C Type="OutputRef" V="101" U="0ce652ea-02c2-8ef9-fffffb030ef95e86" Title="Day off/School holidays" Px="7584" Py="8064" Px2="10272" Py2="10272" Cl="200,200,236" Nio="2" Ref="00000000-0000-0003-1500000000000000" LinkRefType="21">
+				<C Type="OutputRef" V="101" U="0ce652ea-02c2-8ef9-fffffb030ef95e86" Title="Day off/School holidays" Px="7584" Py="8064" Px2="10272" Py2="8256" Cl="200,200,236" Nio="2" Ref="00000000-0000-0003-1500000000000000" LinkRefType="21">
 					<Co K="AI" Nc="1" U="0ce652ea-02c2-8ef7-ffffa597f27e7762">
 						<In Input="0ce6514d-007d-167f-ffff28cedc9ec76e"/>
 					</Co>
