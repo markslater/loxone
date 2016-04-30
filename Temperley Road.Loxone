@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ControlList Version="106" NextObj="198" NextConst="1" NextNote="1" NextMem="17">
-	<C Type="Document" V="101" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="7030224" Font="Arial" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="2016-04-30 18:07:13" DateS="231271633" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" Currency="€" UpdTime="120" NumO="632">
+	<C Type="Document" V="101" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="7030224" Font="Arial" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="2016-04-30 18:10:52" DateS="231271852" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" Currency="€" UpdTime="120" NumO="632">
 		<C Type="IconCaptionState" V="101" U="c332d2d0-9cad-11e3-9b00fb030ef95e86" Title="Status Symbols">
 			<C Type="IconState" V="101" U="00000000-0000-0001-2200000000000000" Title="Not assigned"/>
 			<C Type="IconState" V="101" U="00000000-0000-0002-2200000000000000" Title="Fatal error" Ix="1"/>
@@ -1348,28 +1348,28 @@
 					</C>
 				</C>
 				<C Type="LoxDMXdevice" V="101" U="0dbaa470-00fe-af1c-ffff95d9cdbb6d3f" Title="Dining room back" WF="1" Channel="57" Serial="" DevInfo="" Model="" Manu="" Software="" Pers="" PersDesc="" SlotInfo="" SlotDesc="" DefSlot="">
-					<C Type="LoxDMXactor" IName="DQ48" V="101" U="0dbaa470-011b-af1f-ffff95d9cdbb6d3f" Title="Left of picture" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="57" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="15">
+					<C Type="LoxDMXactor" IName="DQ48" V="101" U="0dbaa470-011b-af1f-ffff95d9cdbb6d3f" Title="Left of picture" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="57" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="0dbaa470-011b-af1e-fffff0d1125569c1">
 							<In Input="0dbaa4c9-0091-cd89-ffffd901b30bec03"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0025-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ49" V="101" U="0dbaa470-0120-af22-ffff95d9cdbb6d3f" Title="Back left corner" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="58" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="15">
+					<C Type="LoxDMXactor" IName="DQ49" V="101" U="0dbaa470-0120-af22-ffff95d9cdbb6d3f" Title="Back left corner" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="58" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="0dbaa470-0120-af21-fffff0d1125569c1">
 							<In Input="0dbaa4c9-009f-cd8d-ffff0dc83600956e"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0025-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ50" V="101" U="0dbaa470-0126-af25-ffff95d9cdbb6d3f" Title="Back right corner" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="59" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="15">
+					<C Type="LoxDMXactor" IName="DQ50" V="101" U="0dbaa470-0126-af25-ffff95d9cdbb6d3f" Title="Back right corner" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="59" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="0dbaa470-0126-af24-fffff0d1125569c1">
 							<In Input="0dbaa4c9-00b0-cd91-ffff725873ea9def"/>
 						</Co>
 						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0025-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
-					<C Type="LoxDMXactor" IName="DQ51" V="101" U="0dbaa470-012b-af28-ffff95d9cdbb6d3f" Title="Right of picture" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="60" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="15">
+					<C Type="LoxDMXactor" IName="DQ51" V="101" U="0dbaa470-012b-af28-ffff95d9cdbb6d3f" Title="Right of picture" Nio="1" WF="16" Dimmer="true" Percent="true" Channel="60" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="30">
 						<Co K="I" Nc="1" U="0dbaa470-012b-af27-fffff0d1125569c1">
 							<In Input="0dbaa4c9-00c4-cd95-ffffa61ff6df465b"/>
 						</Co>
