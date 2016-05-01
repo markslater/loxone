@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ControlList Version="106" NextObj="198" NextConst="1" NextNote="1" NextMem="17">
-	<C Type="Document" V="101" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="7030224" Font="Arial" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="2016-04-30 18:10:52" DateS="231271852" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" Currency="€" UpdTime="120" NumO="632">
+<ControlList Version="106" NextObj="201" NextConst="1" NextNote="1" NextMem="17">
+	<C Type="Document" V="101" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="7030224" Font="Arial" FontSize="8" SPSfreq="50" OpenIsHigh="false" Date="2016-05-01 22:06:42" DateS="231372402" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" Currency="€" UpdTime="120" NumO="676">
 		<C Type="IconCaptionState" V="101" U="c332d2d0-9cad-11e3-9b00fb030ef95e86" Title="Status Symbols">
 			<C Type="IconState" V="101" U="00000000-0000-0001-2200000000000000" Title="Not assigned"/>
 			<C Type="IconState" V="101" U="00000000-0000-0002-2200000000000000" Title="Fatal error" Ix="1"/>
@@ -185,17 +185,17 @@
 			<C Type="User" V="101" U="fa260231-9cb7-11e3-babffb030ef95e86" Title="Laura" Pwd="6D982F86FB9BC0A294D914AC6FC27B83"/>
 		</C>
 		<C Type="UserGroupCaption" V="101" U="c333e440-9cad-11e3-9b02fb030ef95e86" Title="User group">
-			<C Type="UserGroup" V="101" U="c34437f0-9cad-11e3-9b27fb030ef95e86" Title="Administrators" Rights="-1" UgType="1" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
+			<C Type="UserGroup" V="101" U="c34437f0-9cad-11e3-9b27fb030ef95e86" Title="Administrators" Rights="-1" UgType="1" UserModes="3" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
 				<C Type="RefUser" V="101" U="70190410-9cb8-11e3-bfadfb030ef95e86" Title="Mark" Cl="0,0,0" Ref="d4f98f41-9cb7-11e3-b888fb030ef95e86"/>
 				<C Type="RefUser" V="101" U="c34437f1-9cad-11e3-9b27fb030ef95e86" Title="admin" Cl="0,0,0" Ref="c34410e0-9cad-11e3-9b27fb030ef95e86"/>
 			</C>
-			<C Type="UserGroup" V="101" U="c34437f0-9cad-11e3-9b28fb030ef95e86" Title="User" Rights="1" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000"/>
-			<C Type="UserGroup" V="101" U="c34437f0-9cad-11e3-9b29fb030ef95e86" Title="All" Rights="1" UgType="2" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
+			<C Type="UserGroup" V="101" U="c34437f0-9cad-11e3-9b28fb030ef95e86" Title="User" Rights="1" UserModes="3" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000"/>
+			<C Type="UserGroup" V="101" U="c34437f0-9cad-11e3-9b29fb030ef95e86" Title="All" Rights="1" UgType="2" UserModes="3" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
 				<C Type="RefUser" V="101" U="fa260230-9cb7-11e3-bac0fb030ef95e86" Title="Laura" Cl="0,0,0" Ref="fa260231-9cb7-11e3-babffb030ef95e86"/>
 				<C Type="RefUser" V="101" U="d4f98f40-9cb7-11e3-b889fb030ef95e86" Title="Mark" Cl="0,0,0" Ref="d4f98f41-9cb7-11e3-b888fb030ef95e86"/>
 				<C Type="RefUser" V="101" U="c34437f1-9cad-11e3-9b29fb030ef95e86" Title="admin" Cl="0,0,0" Ref="c34410e0-9cad-11e3-9b27fb030ef95e86"/>
 			</C>
-			<C Type="UserGroup" V="101" U="c34437f1-9cad-11e3-9b2afb030ef95e86" Title="Nobody" UgType="3" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000"/>
+			<C Type="UserGroup" V="101" U="c34437f1-9cad-11e3-9b2afb030ef95e86" Title="Nobody" UgType="3" UserModes="3" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000"/>
 		</C>
 		<C Type="ConstantCaption" V="101" U="c332f9e0-9cad-11e3-9b02fb030ef95e86" Title="Constants">
 			<C Type="Constant" V="101" U="0ab86063-00bf-7e65-fffffb030ef95e86" Title="Long click duration" Cl="200,200,236" Nio="1" WF="16" Analog="true" AnalogConstant="2">
@@ -630,8 +630,215 @@
 					<IoData Visu="true" Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001e-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<Display Unit="&lt;v.1&gt;°"/>
 				</C>
+				<C Type="VirtualIn" IName="VI2" V="101" U="0dca7489-0228-a300-fffffb030ef95e86" Title="Pause" Nio="2" Analog="false" MinVal="-10000" MaxVal="10000" MinChange="0.25" MinTime="1000" AverageTime="1">
+					<Co K="Q" U="0dca7489-0228-a2fe-ffff4f79a93d8456"/>
+					<Co K="Qm" U="0dca7489-0228-a2ff-ffff4f79a93d8456"/>
+					<IoData Visu="true" Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+					<Display Unit="&lt;v.1&gt;"/>
+				</C>
 			</C>
-			<C Type="VirtualOutCaption" V="101" U="c347ba60-9cad-11e3-9b92fb030ef95e86" Title="Virtual outputs"/>
+			<C Type="VirtualOutCaption" V="101" U="c347ba60-9cad-11e3-9b92fb030ef95e86" Title="Virtual outputs">
+				<C Type="VirtualOut" IName="VQ1" V="101" U="0dca719e-00be-400d-fffffb030ef95e86" Title="Sonos Living Room" Address="http://192.168.0.2:1400" CloseAfterSend="true">
+					<IoData Pr="0aa18988-0254-001b-0f00000000000000"/>
+					<C Type="VirtualOutCmd" IName="VQC1" V="101" U="0dca719e-00be-4010-fffffb030ef95e86" Title="Play" Nio="1" WF="1" CmdOn="/MediaRenderer/AVTransport/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:AVTransport:1#Play&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:Play xmlns:u=&quot;urn:schemas-upnp-org:service:AVTransport:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;Speed&gt;1&lt;/Speed&gt;&lt;/u:Play&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca719e-00be-400f-ffffdc9419b4d450"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC2" V="101" U="0dca719e-00be-4013-fffffb030ef95e86" Title="Pause" Nio="1" WF="16" CmdOn="/MediaRenderer/AVTransport/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:AVTransport:1#Pause&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:Pause xmlns:u=&quot;urn:schemas-upnp-org:service:AVTransport:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;Speed&gt;1&lt;/Speed&gt;&lt;/u:Pause&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" Nc="1" U="0dca719e-00be-4012-ffffdc9419b4d450">
+							<In Input="0dca71eb-0043-4b41-ffffbc7a424db2e5"/>
+						</Co>
+						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC3" V="101" U="0dca719e-00be-4016-fffffb030ef95e86" Title="Stop" Nio="1" WF="1" CmdOn="/MediaRenderer/AVTransport/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:AVTransport:1#Stop&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:Stop xmlns:u=&quot;urn:schemas-upnp-org:service:AVTransport:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;Speed&gt;1&lt;/Speed&gt;&lt;/u:Stop&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca719e-00be-4015-ffffdc9419b4d450"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC4" V="101" U="0dca719e-00be-4019-fffffb030ef95e86" Title="Next Track" Nio="1" WF="1" CmdOn="/MediaRenderer/AVTransport/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:AVTransport:1#Next&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:Next xmlns:u=&quot;urn:schemas-upnp-org:service:AVTransport:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;/u:Next&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca719e-00be-4018-ffffdc9419b4d450"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC5" V="101" U="0dca719e-00be-401c-fffffb030ef95e86" Title="Previous Track" Nio="1" WF="1" CmdOn="/MediaRenderer/AVTransport/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:AVTransport:1#Previous&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:Previous xmlns:u=&quot;urn:schemas-upnp-org:service:AVTransport:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;/u:Previous&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca719e-00be-401b-ffffdc9419b4d450"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC6" V="101" U="0dca719e-00be-401f-fffffb030ef95e86" Title="No Shuffle No Repeat" Nio="1" WF="1" CmdOn="/MediaRenderer/AVTransport/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:AVTransport:1#SetPlayMode&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:SetPlayMode xmlns:u=&quot;urn:schemas-upnp-org:service:AVTransport:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;NewPlayMode&gt;NORMAL&lt;/NewPlayMode&gt;&lt;/u:SetPlayMode&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca719e-00be-401e-ffffdc9419b4d450"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC7" V="101" U="0dca719e-00be-4022-fffffb030ef95e86" Title="No Shuffle Repeat All" Nio="1" WF="1" CmdOn="/MediaRenderer/AVTransport/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:AVTransport:1#SetPlayMode&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:SetPlayMode xmlns:u=&quot;urn:schemas-upnp-org:service:AVTransport:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;NewPlayMode&gt;REPEAT_ALL&lt;/NewPlayMode&gt;&lt;/u:SetPlayMode&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca719e-00be-4021-ffffdc9419b4d450"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC8" V="101" U="0dca719e-00be-4025-fffffb030ef95e86" Title="Shuffle No Repeat" Nio="1" WF="1" CmdOn="/MediaRenderer/AVTransport/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:AVTransport:1#SetPlayMode&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:SetPlayMode xmlns:u=&quot;urn:schemas-upnp-org:service:AVTransport:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;NewPlayMode&gt;SHUFFLE_NOREPEAT&lt;/NewPlayMode&gt;&lt;/u:SetPlayMode&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca719e-00be-4024-ffffdc9419b4d450"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC9" V="101" U="0dca719e-00be-4028-fffffb030ef95e86" Title="Shuffle Repeat All" Nio="1" WF="1" CmdOn="/MediaRenderer/AVTransport/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:AVTransport:1#SetPlayMode&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:SetPlayMode xmlns:u=&quot;urn:schemas-upnp-org:service:AVTransport:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;NewPlayMode&gt;SHUFFLE&lt;/NewPlayMode&gt;&lt;/u:SetPlayMode&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca719e-00be-4027-ffffdc9419b4d450"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC10" V="101" U="0dca719e-00be-402b-fffffb030ef95e86" Title="Sleep Timer 15 Minutes" Nio="1" WF="1" CmdOn="/MediaRenderer/AVTransport/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:AVTransport:1#ConfigureSleepTimer&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:ConfigureSleepTimer xmlns:u=&quot;urn:schemas-upnp-org:service:AVTransport:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;NewSleepTimerDuration&gt;00:15:00&lt;/NewSleepTimerDuration&gt;&lt;/u:ConfigureSleepTimer&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca719e-00be-402a-ffffdc9419b4d450"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC11" V="101" U="0dca719e-00be-402e-fffffb030ef95e86" Title="Sleep Timer 30 Minutes" Nio="1" WF="1" CmdOn="/MediaRenderer/AVTransport/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:AVTransport:1#ConfigureSleepTimer&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:ConfigureSleepTimer xmlns:u=&quot;urn:schemas-upnp-org:service:AVTransport:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;NewSleepTimerDuration&gt;00:30:00&lt;/NewSleepTimerDuration&gt;&lt;/u:ConfigureSleepTimer&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca719e-00be-402d-ffffdc9419b4d450"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC12" V="101" U="0dca719e-00be-4031-fffffb030ef95e86" Title="Sleep Timer 1 Hour" Nio="1" WF="1" CmdOn="/MediaRenderer/AVTransport/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:AVTransport:1#ConfigureSleepTimer&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:ConfigureSleepTimer xmlns:u=&quot;urn:schemas-upnp-org:service:AVTransport:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;NewSleepTimerDuration&gt;01:00:00&lt;/NewSleepTimerDuration&gt;&lt;/u:ConfigureSleepTimer&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca719e-00be-4030-ffffdc9419b4d450"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC13" V="101" U="0dca719e-00be-4034-fffffb030ef95e86" Title="Mute" Nio="1" WF="1" CmdOn="/MediaRenderer/RenderingControl/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:RenderingControl:1#SetMute&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:SetMute xmlns:u=&quot;urn:schemas-upnp-org:service:RenderingControl:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;Channel&gt;Master&lt;/Channel&gt;&lt;DesiredMute&gt;1&lt;/DesiredMute&gt;&lt;/u:SetMute&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca719e-00be-4033-ffffdc9419b4d450"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC14" V="101" U="0dca719e-00be-4037-fffffb030ef95e86" Title="Unmute" Nio="1" WF="1" CmdOn="/MediaRenderer/RenderingControl/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:RenderingControl:1#SetMute&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:SetMute xmlns:u=&quot;urn:schemas-upnp-org:service:RenderingControl:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;Channel&gt;Master&lt;/Channel&gt;&lt;DesiredMute&gt;0&lt;/DesiredMute&gt;&lt;/u:SetMute&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca719e-00be-4036-ffffdc9419b4d450"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC15" V="101" U="0dca719e-00be-403a-fffffb030ef95e86" Title="Volume" Nio="1" WF="1" Analog="true" Comment="Value from 0 to 100" CmdOn="/MediaRenderer/RenderingControl/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:RenderingControl:1#SetVolume&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:SetVolume xmlns:u=&quot;urn:schemas-upnp-org:service:RenderingControl:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;Channel&gt;Master&lt;/Channel&gt;&lt;DesiredVolume&gt;&lt;v&gt;&lt;/DesiredVolume&gt;&lt;/u:SetVolume&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca719e-00be-4039-ffffdc9419b4d450"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC16" V="101" U="0dca719e-00be-403d-fffffb030ef95e86" Title="Bass" Nio="1" WF="1" Analog="true" Comment="Value from -10 to +10" CmdOn="/MediaRenderer/RenderingControl/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:RenderingControl:1#SetBass&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:SetBass xmlns:u=&quot;urn:schemas-upnp-org:service:RenderingControl:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;DesiredBass&gt;&lt;v&gt;&lt;/DesiredBass&gt;&lt;/u:SetBass&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca719e-00be-403c-ffffdc9419b4d450"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC17" V="101" U="0dca719e-00be-4040-fffffb030ef95e86" Title="Treble" Nio="1" WF="1" Analog="true" Comment="Value from -10 to +10" CmdOn="/MediaRenderer/RenderingControl/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:RenderingControl:1#SetTreble&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:SetTreble xmlns:u=&quot;urn:schemas-upnp-org:service:RenderingControl:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;DesiredTreble&gt;&lt;v&gt;&lt;/DesiredTreble&gt;&lt;/u:SetTreble&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca719e-00be-403f-ffffdc9419b4d450"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC18" V="101" U="0dca719e-00cd-4043-fffffb030ef95e86" Title="Volume Up" Nio="1" WF="1" Comment="Volume up by 5" CmdOn="/MediaRenderer/RenderingControl/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:RenderingControl:1#SetRelativeVolume&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:SetRelativeVolume xmlns:u=&quot;urn:schemas-upnp-org:service:RenderingControl:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;Channel&gt;Master&lt;/Channel&gt;&lt;Adjustment&gt;5&lt;/Adjustment&gt;&lt;/u:SetRelativeVolume&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca719e-00cd-4042-ffffdc9419b4d450"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC19" V="101" U="0dca719e-00cd-4046-fffffb030ef95e86" Title="Volume Down" Nio="1" WF="1" Comment="Volume down by 5" CmdOn="/MediaRenderer/RenderingControl/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:RenderingControl:1#SetRelativeVolume&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:SetRelativeVolume xmlns:u=&quot;urn:schemas-upnp-org:service:RenderingControl:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;Channel&gt;Master&lt;/Channel&gt;&lt;Adjustment&gt;-5&lt;/Adjustment&gt;&lt;/u:SetRelativeVolume&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca719e-00cd-4045-ffffdc9419b4d450"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+				</C>
+				<C Type="VirtualOut" IName="VQ2" V="101" U="0dca7520-0018-cf05-fffffb030ef95e86" Title="Sonos" Address="http://192.168.0.3:1400" CloseAfterSend="true">
+					<IoData Pr="0aa18988-0254-001c-0f00000000000000"/>
+					<C Type="VirtualOutCmd" IName="VQC20" V="101" U="0dca7520-0018-cf08-fffffb030ef95e86" Title="Play" Nio="1" WF="1" CmdOn="/MediaRenderer/AVTransport/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:AVTransport:1#Play&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:Play xmlns:u=&quot;urn:schemas-upnp-org:service:AVTransport:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;Speed&gt;1&lt;/Speed&gt;&lt;/u:Play&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca7520-0018-cf07-ffff4fb554f6c4ac"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC21" V="101" U="0dca7520-0018-cf0b-fffffb030ef95e86" Title="Pause" Nio="1" WF="16" CmdOn="/MediaRenderer/AVTransport/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:AVTransport:1#Pause&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:Pause xmlns:u=&quot;urn:schemas-upnp-org:service:AVTransport:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;Speed&gt;1&lt;/Speed&gt;&lt;/u:Pause&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" Nc="1" U="0dca7520-0018-cf0a-ffff4fb554f6c4ac">
+							<In Input="0dca755e-0356-0703-ffff294ece7348ec"/>
+						</Co>
+						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC22" V="101" U="0dca7520-0028-cf0e-fffffb030ef95e86" Title="Stop" Nio="1" WF="1" CmdOn="/MediaRenderer/AVTransport/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:AVTransport:1#Stop&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:Stop xmlns:u=&quot;urn:schemas-upnp-org:service:AVTransport:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;Speed&gt;1&lt;/Speed&gt;&lt;/u:Stop&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca7520-0028-cf0d-ffff4fb554f6c4ac"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC23" V="101" U="0dca7520-0028-cf11-fffffb030ef95e86" Title="Next Track" Nio="1" WF="1" CmdOn="/MediaRenderer/AVTransport/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:AVTransport:1#Next&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:Next xmlns:u=&quot;urn:schemas-upnp-org:service:AVTransport:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;/u:Next&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca7520-0028-cf10-ffff4fb554f6c4ac"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC24" V="101" U="0dca7520-0028-cf14-fffffb030ef95e86" Title="Previous Track" Nio="1" WF="1" CmdOn="/MediaRenderer/AVTransport/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:AVTransport:1#Previous&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:Previous xmlns:u=&quot;urn:schemas-upnp-org:service:AVTransport:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;/u:Previous&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca7520-0028-cf13-ffff4fb554f6c4ac"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC25" V="101" U="0dca7520-0028-cf17-fffffb030ef95e86" Title="No Shuffle No Repeat" Nio="1" WF="1" CmdOn="/MediaRenderer/AVTransport/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:AVTransport:1#SetPlayMode&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:SetPlayMode xmlns:u=&quot;urn:schemas-upnp-org:service:AVTransport:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;NewPlayMode&gt;NORMAL&lt;/NewPlayMode&gt;&lt;/u:SetPlayMode&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca7520-0028-cf16-ffff4fb554f6c4ac"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC26" V="101" U="0dca7520-0028-cf1a-fffffb030ef95e86" Title="No Shuffle Repeat All" Nio="1" WF="1" CmdOn="/MediaRenderer/AVTransport/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:AVTransport:1#SetPlayMode&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:SetPlayMode xmlns:u=&quot;urn:schemas-upnp-org:service:AVTransport:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;NewPlayMode&gt;REPEAT_ALL&lt;/NewPlayMode&gt;&lt;/u:SetPlayMode&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca7520-0028-cf19-ffff4fb554f6c4ac"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC27" V="101" U="0dca7520-0028-cf1d-fffffb030ef95e86" Title="Shuffle No Repeat" Nio="1" WF="1" CmdOn="/MediaRenderer/AVTransport/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:AVTransport:1#SetPlayMode&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:SetPlayMode xmlns:u=&quot;urn:schemas-upnp-org:service:AVTransport:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;NewPlayMode&gt;SHUFFLE_NOREPEAT&lt;/NewPlayMode&gt;&lt;/u:SetPlayMode&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca7520-0028-cf1c-ffff4fb554f6c4ac"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC28" V="101" U="0dca7520-0028-cf20-fffffb030ef95e86" Title="Shuffle Repeat All" Nio="1" WF="1" CmdOn="/MediaRenderer/AVTransport/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:AVTransport:1#SetPlayMode&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:SetPlayMode xmlns:u=&quot;urn:schemas-upnp-org:service:AVTransport:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;NewPlayMode&gt;SHUFFLE&lt;/NewPlayMode&gt;&lt;/u:SetPlayMode&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca7520-0028-cf1f-ffff4fb554f6c4ac"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC29" V="101" U="0dca7520-0028-cf23-fffffb030ef95e86" Title="Sleep Timer 15 Minutes" Nio="1" WF="1" CmdOn="/MediaRenderer/AVTransport/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:AVTransport:1#ConfigureSleepTimer&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:ConfigureSleepTimer xmlns:u=&quot;urn:schemas-upnp-org:service:AVTransport:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;NewSleepTimerDuration&gt;00:15:00&lt;/NewSleepTimerDuration&gt;&lt;/u:ConfigureSleepTimer&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca7520-0028-cf22-ffff4fb554f6c4ac"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC30" V="101" U="0dca7520-0028-cf26-fffffb030ef95e86" Title="Sleep Timer 30 Minutes" Nio="1" WF="1" CmdOn="/MediaRenderer/AVTransport/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:AVTransport:1#ConfigureSleepTimer&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:ConfigureSleepTimer xmlns:u=&quot;urn:schemas-upnp-org:service:AVTransport:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;NewSleepTimerDuration&gt;00:30:00&lt;/NewSleepTimerDuration&gt;&lt;/u:ConfigureSleepTimer&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca7520-0028-cf25-ffff4fb554f6c4ac"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC31" V="101" U="0dca7520-0028-cf29-fffffb030ef95e86" Title="Sleep Timer 1 Hour" Nio="1" WF="1" CmdOn="/MediaRenderer/AVTransport/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:AVTransport:1#ConfigureSleepTimer&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:ConfigureSleepTimer xmlns:u=&quot;urn:schemas-upnp-org:service:AVTransport:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;NewSleepTimerDuration&gt;01:00:00&lt;/NewSleepTimerDuration&gt;&lt;/u:ConfigureSleepTimer&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca7520-0028-cf28-ffff4fb554f6c4ac"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC32" V="101" U="0dca7520-0028-cf2c-fffffb030ef95e86" Title="Mute" Nio="1" WF="1" CmdOn="/MediaRenderer/RenderingControl/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:RenderingControl:1#SetMute&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:SetMute xmlns:u=&quot;urn:schemas-upnp-org:service:RenderingControl:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;Channel&gt;Master&lt;/Channel&gt;&lt;DesiredMute&gt;1&lt;/DesiredMute&gt;&lt;/u:SetMute&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca7520-0028-cf2b-ffff4fb554f6c4ac"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC33" V="101" U="0dca7520-0028-cf2f-fffffb030ef95e86" Title="Unmute" Nio="1" WF="1" CmdOn="/MediaRenderer/RenderingControl/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:RenderingControl:1#SetMute&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:SetMute xmlns:u=&quot;urn:schemas-upnp-org:service:RenderingControl:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;Channel&gt;Master&lt;/Channel&gt;&lt;DesiredMute&gt;0&lt;/DesiredMute&gt;&lt;/u:SetMute&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca7520-0028-cf2e-ffff4fb554f6c4ac"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC34" V="101" U="0dca7520-0038-cf32-fffffb030ef95e86" Title="Volume" Nio="1" WF="1" Analog="true" Comment="Value from 0 to 100" CmdOn="/MediaRenderer/RenderingControl/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:RenderingControl:1#SetVolume&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:SetVolume xmlns:u=&quot;urn:schemas-upnp-org:service:RenderingControl:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;Channel&gt;Master&lt;/Channel&gt;&lt;DesiredVolume&gt;&lt;v&gt;&lt;/DesiredVolume&gt;&lt;/u:SetVolume&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca7520-0038-cf31-ffff4fb554f6c4ac"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC35" V="101" U="0dca7520-0038-cf35-fffffb030ef95e86" Title="Bass" Nio="1" WF="1" Analog="true" Comment="Value from -10 to +10" CmdOn="/MediaRenderer/RenderingControl/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:RenderingControl:1#SetBass&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:SetBass xmlns:u=&quot;urn:schemas-upnp-org:service:RenderingControl:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;DesiredBass&gt;&lt;v&gt;&lt;/DesiredBass&gt;&lt;/u:SetBass&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca7520-0038-cf34-ffff4fb554f6c4ac"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC36" V="101" U="0dca7520-0038-cf38-fffffb030ef95e86" Title="Treble" Nio="1" WF="1" Analog="true" Comment="Value from -10 to +10" CmdOn="/MediaRenderer/RenderingControl/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:RenderingControl:1#SetTreble&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:SetTreble xmlns:u=&quot;urn:schemas-upnp-org:service:RenderingControl:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;DesiredTreble&gt;&lt;v&gt;&lt;/DesiredTreble&gt;&lt;/u:SetTreble&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca7520-0038-cf37-ffff4fb554f6c4ac"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC37" V="101" U="0dca7520-0038-cf3b-fffffb030ef95e86" Title="Volume Up" Nio="1" WF="1" Comment="Volume up by 5" CmdOn="/MediaRenderer/RenderingControl/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:RenderingControl:1#SetRelativeVolume&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:SetRelativeVolume xmlns:u=&quot;urn:schemas-upnp-org:service:RenderingControl:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;Channel&gt;Master&lt;/Channel&gt;&lt;Adjustment&gt;5&lt;/Adjustment&gt;&lt;/u:SetRelativeVolume&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca7520-0038-cf3a-ffff4fb554f6c4ac"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+					<C Type="VirtualOutCmd" IName="VQC38" V="101" U="0dca7520-0038-cf3e-fffffb030ef95e86" Title="Volume Down" Nio="1" WF="1" Comment="Volume down by 5" CmdOn="/MediaRenderer/RenderingControl/Control" CmdOnHTTP="SOAPACTION: &quot;urn:schemas-upnp-org:service:RenderingControl:1#SetRelativeVolume&quot;" CmdOnPost="&lt;s:Envelope xmlns:s=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; s:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;&lt;s:Body&gt;&lt;u:SetRelativeVolume xmlns:u=&quot;urn:schemas-upnp-org:service:RenderingControl:1&quot;&gt;&lt;InstanceID&gt;0&lt;/InstanceID&gt;&lt;Channel&gt;Master&lt;/Channel&gt;&lt;Adjustment&gt;-5&lt;/Adjustment&gt;&lt;/u:SetRelativeVolume&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;" CmdOnMethod="1" CmdOffMethod="1" SourceValHigh="10" DestValHigh="10" Tx="false">
+						<Co K="I" U="0dca7520-0038-cf3d-ffff4fb554f6c4ac"/>
+						<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
+					</C>
+				</C>
+			</C>
 			<C Type="WeatherCaption" V="101" U="c347ba61-9cad-11e3-9b92fb030ef95e86" Title="Miniserver communication"/>
 			<C Type="TaskCaption" V="101" U="0c82db71-0211-3498-fffffb030ef95e86" Title="Recorded Tasks" Cl="0,0,0" gT="0c82db71-0211-3497-ffff2cb26d03dcb1" pT="0c82db71-0211-3496-ffff2cb26d03dcb1"/>
 			<C Type="LoggerOutCaption" V="101" U="c347e171-9cad-11e3-9b92fb030ef95e86" Title="Messages">
@@ -1992,6 +2199,25 @@
 					<Co K="AQ" U="0dc53229-0044-e0b5-ffffc73c3bd72aec"/>
 					<Co K="Q" U="0dc53229-0044-e0b6-ffffc73c3bd72aec"/>
 				</C>
+				<C Type="OutputRef" V="101" U="0dca71eb-0043-4b42-fffffb030ef95e86" Title="Pause" Px="11520" Py="5472" Px2="12672" Py2="5664" Cl="200,200,236" Nio="2" Ref="0dca719e-00be-4013-fffffb030ef95e86" LinkRefType="74">
+					<Co K="AI" Nc="3" U="0dca71eb-0043-4b40-ffffbc7a424db2e5">
+						<In Input="0ab6c43d-00dc-4b1f-ffffeee000d80ece"/>
+						<In Input="0ab6c43d-00dc-4b20-ffffeee000d80ece"/>
+						<In Input="0ab6c43d-00dc-4b21-ffffeee000d80ece"/>
+					</Co>
+					<Co K="AQ" U="0dca71eb-0043-4b41-ffffbc7a424db2e5"/>
+				</C>
+				<C Type="OutputRef" V="101" U="0dca755e-0356-0704-fffffb030ef95e86" Title="Pause" Px="11520" Py="5664" Px2="12672" Py2="5856" Cl="200,200,236" Nio="2" Ref="0dca7520-0018-cf0b-fffffb030ef95e86" LinkRefType="74">
+					<Co K="AI" Nc="3" U="0dca755e-0356-0702-ffff294ece7348ec">
+						<In Input="0ab6c43d-00dc-4b1f-ffffeee000d80ece"/>
+						<In Input="0ab6c43d-00dc-4b20-ffffeee000d80ece"/>
+						<In Input="0ab6c43d-00dc-4b21-ffffeee000d80ece"/>
+					</Co>
+					<Co K="AQ" U="0dca755e-0356-0703-ffff294ece7348ec"/>
+				</C>
+			</C>
+			<C Type="Page" V="101" U="0dca717d-01a7-1fa4-fffffb030ef95e86" Title="Central Functions - Sound">
+				<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 			</C>
 			<C Type="Page" V="101" U="68c9bce0-19a4-11e4-90bec77dcecfcd84" Title="Dining Room Lighting">
 				<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0025-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
