@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ControlList Version="126" LxAV="5" NextObj="226" NextConst="1" NextNote="1" NextMem="21">
-	<C Type="Document" V="112" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="8011111" SPSfreq="50" OpenIsHigh="false" Date="2016-12-10 15:46:27" CDate="" BDate="" DateS="250616787" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" Currency="€" UpdTime="120" CrashL="true" NumO="712">
-		<C Type="LoxCaption" V="112" U="0ef01bc3-022d-12f8-fffffb030ef95e86" Title="Icons" Cl="0,0,0" WF="16384" CaptionType="5">
+	<C Type="Document" V="112" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="8011111" SPSfreq="50" OpenIsHigh="false" Date="2016-12-10 16:09:49" CDate="" BDate="" DateS="250618189" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" Currency="€" UpdTime="120" CrashL="true" NumO="712">
+		<C Type="LoxCaption" V="112" U="0ef01ca0-00b1-3515-fffffb030ef95e86" Title="Icons" Cl="0,0,0" WF="16384" CaptionType="5">
 			<C Type="IconCaptionPlace" V="112" U="c332f9e1-9cad-11e3-9b01fb030ef95e86" Title="Room Icons" WF="16384">
 				<C Type="IconPlace" V="112" U="00000000-0000-0001-2100000000000000" Title="Not assigned" WF="16384"/>
 				<C Type="IconPlace" V="112" U="00000000-0000-0002-2100000000000000" Title="Hall" WF="16384" Ix="1"/>
@@ -444,11 +444,11 @@
 				<Co K="Q" U="c3480881-9cad-11e3-9badfb030ef95e86"/>
 			</C>
 		</C>
-		<C Type="AutoPilot" V="112" U="0ef01bc3-022d-1308-fffffb030ef95e86" Title="Autopilots" Cl="0,0,0" Nio="2" WF="4096" SpStates="0ef01bc3-022d-1304-ffff0f999c1dadb5,0ef01bc3-022d-1305-ffff0f999c1dadb5" config="">
-			<Co K="Input" U="0ef01bc3-022d-1306-ffff0f999c1dadb5"/>
-			<Co K="output" U="0ef01bc3-022d-1307-ffff0f999c1dadb5"/>
+		<C Type="AutoPilot" V="112" U="0ef01ca0-00b1-3525-fffffb030ef95e86" Title="Autopilots" Cl="0,0,0" Nio="2" WF="4096" SpStates="0ef01ca0-00b1-3521-ffff594d17f51924,0ef01ca0-00b1-3522-ffff594d17f51924" config="">
+			<Co K="Input" U="0ef01ca0-00b1-3523-ffff594d17f51924"/>
+			<Co K="output" U="0ef01ca0-00b1-3524-ffff594d17f51924"/>
 		</C>
-		<C Type="LoxCaption" V="112" U="0ef01bc3-022d-12fc-fffffb030ef95e86" Title="Network Devices" Cl="0,0,0" CaptionType="6"/>
+		<C Type="LoxCaption" V="112" U="0ef01ca0-00b1-3519-fffffb030ef95e86" Title="Network Devices" Cl="0,0,0" CaptionType="6"/>
 		<C Type="WeatherServer" V="112" U="c3509400-9cad-11e3-9bc8fb030ef95e86" Title="Weather server UBIMET" Cl="131,184,23" WF="16384" SType="0" Address="http://weather.loxone.com:6066" VisuUUID="c3500000-9cad-11e3-9bc8fb030ef95e86" SpStates="0aac34b8-0044-0381-fffffb030ef95e86">
 			<IoData Visu="true" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 			<C Type="WeatherData" IName="WDC1" V="112" U="c3559d10-9cad-11e3-9bc8fb030ef95e86" Title="Temperature" Nio="1" WF="16384" WType="1" SL="120">
@@ -855,7 +855,7 @@
 			</C>
 			<C Type="WeatherCaption" V="112" U="c347ba61-9cad-11e3-9b92fb030ef95e86" Title="Miniserver communication" WF="16384"/>
 			<C Type="TaskCaption" V="112" U="0c82db71-0211-3498-fffffb030ef95e86" Title="Recorded Tasks" Cl="131,184,23" WF="16384" gT="0c82db71-0211-3497-ffff2cb26d03dcb1" pT="0c82db71-0211-3496-ffff2cb26d03dcb1"/>
-			<C Type="LoxCaption" V="112" U="0ef01bc3-022d-12fa-fffffb030ef95e86" Title="SD Card" Cl="0,0,0" CaptionType="4"/>
+			<C Type="LoxCaption" V="112" U="0ef01ca0-00b1-3517-fffffb030ef95e86" Title="SD Card" Cl="0,0,0" CaptionType="4"/>
 			<C Type="LoggerOutCaption" V="112" U="c347e171-9cad-11e3-9b92fb030ef95e86" Title="Messages" WF="16384">
 				<C Type="Logger" V="112" U="c347e170-9cad-11e3-9b93fb030ef95e86" Title="Logger" WF="16384" Address=""/>
 				<C Type="Notification" V="112" U="0dbfe41b-0241-c81d-ffffeee000d80ece" Title="Push Notification" WF="16384" Entries="10" Sys="true">
@@ -1683,7 +1683,7 @@
 					<Co K="On" U="0ba01a2b-033d-3d05-ffff112233445566"/>
 					<Co K="Gesture" U="0ba01a2b-033d-3d06-ffff112233445566"/>
 					<Co K="Alarm" U="0ba01a2b-033d-3d07-ffff112233445566"/>
-					<Co K="Brightness" U="0ef01bc3-020e-0a08-ffffdceb1c5e4bdc"/>
+					<Co K="Brightness" U="0ef01ca0-0092-2c25-fffff2d914400ee0"/>
 					<Co K="InputDisable" U="0ba01a2b-033d-3d08-ffff112233445566"/>
 					<Co K="Remanence" Inv="true" U="0ba01a2b-033d-3d09-ffff112233445566"/>
 					<Co K="MaxP" Def="0.35" U="0ba01a2b-033d-3d0a-ffff112233445566"/>
@@ -1694,13 +1694,13 @@
 					<Co K="Wrap" U="0ba01a2b-033d-3d0f-ffff112233445566"/>
 					<Co K="NoLast" U="0ba01a2b-033d-3d10-ffff112233445566"/>
 					<Co K="MoveOn" Def="180" U="0ba01a2b-033d-3d11-ffff112233445566"/>
-					<Co K="MoveIgnore" Def="900" U="0ef01bc3-020e-0a13-ffffdceb1c5e4bdc"/>
+					<Co K="MoveIgnore" Def="900" U="0ef01ca0-0092-2c30-fffff2d914400ee0"/>
 					<Co K="Learntime" Def="5" U="0ba01a2b-033d-3d12-ffff112233445566"/>
 					<Co K="MoveScene" U="0ba01a2b-033d-3d13-ffff112233445566"/>
 					<Co K="MoveTimeout" U="0ba01a2b-033d-3d14-ffff112233445566"/>
 					<Co K="RGBalt" U="0ba01a2b-033d-3d15-ffff112233445566"/>
 					<Co K="AlarmPeriod" Def="1.5" U="0ba01a2b-033d-3d16-ffff112233445566"/>
-					<Co K="BrightnessLimit" Def="30" U="0ef01bc3-020e-0a19-ffffdceb1c5e4bdc"/>
+					<Co K="BrightnessLimit" Def="30" U="0ef01ca0-0092-2c36-fffff2d914400ee0"/>
 					<Co K="AQ1" U="0ba01a2b-033d-3d17-ffff112233445566"/>
 					<Co K="AQ2" U="0ba01a2b-033d-3d18-ffff112233445566"/>
 					<Co K="AQ3" U="0ba01a2b-033d-3d19-ffff112233445566"/>
@@ -1800,7 +1800,7 @@
 					<IoData Cr="0aa18988-0254-0004-0d00000000000000" Pr="0aa18988-0254-0028-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<Display Unit="&lt;v.1&gt;V" StateOnly="true"/>
 				</C>
-				<C Type="IRoomcontrol" V="112" U="0aa97aa1-0086-400f-ffffb830a73fcead" Title="Intelligent room controller" Px="7488" Py="576" Px2="10176" Py2="1824" Cl="131,184,23" Nio="43" Month="10" Day="1" Month2="4" Day2="30" MonthC="5" DayC="1" Month2C="9" Day2C="30" UUIDheat="0aa97aa1-0086-3fe5-ffff112233445566" UUIDcool="0aa97aa1-0086-3fe6-ffff112233445566" UUIDheatIx="0aa97aa1-0086-3fe9-ffff112233445566" UUIDcoolIx="0aa97aa1-0086-3fea-ffff112233445566" MixerH="00000000-0000-0000-0000000000000000" MixerC="00000000-0000-0000-0000000000000000" SpStates="0ef01bc3-020e-0a8a-ffffb830a73fcead,0ef01bc3-020e-0a8b-ffffb830a73fcead,0ef01bc3-020e-0a8c-ffffb830a73fcead,0ef01bc3-020e-0a8d-ffffb830a73fcead,0ef01bc3-020e-0a8e-ffffb830a73fcead,0ef01bc3-020e-0a8f-ffffb830a73fcead">
+				<C Type="IRoomcontrol" V="112" U="0aa97aa1-0086-400f-ffffb830a73fcead" Title="Intelligent room controller" Px="7488" Py="576" Px2="10176" Py2="1824" Cl="131,184,23" Nio="43" Month="10" Day="1" Month2="4" Day2="30" MonthC="5" DayC="1" Month2C="9" Day2C="30" UUIDheat="0aa97aa1-0086-3fe5-ffff112233445566" UUIDcool="0aa97aa1-0086-3fe6-ffff112233445566" UUIDheatIx="0aa97aa1-0086-3fe9-ffff112233445566" UUIDcoolIx="0aa97aa1-0086-3fea-ffff112233445566" MixerH="00000000-0000-0000-0000000000000000" MixerC="00000000-0000-0000-0000000000000000" SpStates="0ef01ca0-0092-2ca7-ffffb830a73fcead,0ef01ca0-0092-2ca8-ffffb830a73fcead,0ef01ca0-0092-2ca9-ffffb830a73fcead,0ef01ca0-0092-2caa-ffffb830a73fcead,0ef01ca0-0092-2cab-ffffb830a73fcead,0ef01ca0-0092-2cac-ffffb830a73fcead">
 					<Co K="AMode" U="0aa97aa1-0086-3feb-ffff112233445566"/>
 					<Co K="SMode" U="0aa97aa1-0086-3fec-ffff112233445566"/>
 					<Co K="Input" U="0aa97aa1-0086-3fed-ffff112233445566"/>
@@ -1828,8 +1828,8 @@
 					<Co K="TimeC" Def="3600" U="0aa97aa1-0086-3ffd-ffff112233445566"/>
 					<Co K="TimeS" Def="3600" U="0aa97aa1-0086-3ffe-ffff112233445566"/>
 					<Co K="TimeMv" Def="1800" U="0dbaa184-00a0-2e51-ffffb5a951806f5d"/>
-					<Co K="THCelvin" U="0ef01bc3-020e-0a76-ffffdceb1c5e4bdc"/>
-					<Co K="TCCelvin" U="0ef01bc3-020e-0a77-ffffdceb1c5e4bdc"/>
+					<Co K="THCelvin" U="0ef01ca0-0092-2c93-fffff2d914400ee0"/>
+					<Co K="TCCelvin" U="0ef01ca0-0092-2c94-fffff2d914400ee0"/>
 					<Co K="AQ" U="0aa97aa1-0086-3fff-ffff112233445566"/>
 					<Co K="Q" U="0aa97aa1-0086-4000-ffff112233445566"/>
 					<Co K="AQ2" U="0aa97aa1-0086-4001-ffff112233445566"/>
@@ -1942,7 +1942,7 @@
 					<Co K="On" U="6df36700-110e-11e4-9a9c9b3f962d716d"/>
 					<Co K="Gesture" U="0aa18988-0144-05d4-ffff112233445566"/>
 					<Co K="Alarm" U="0aa18988-0144-05d5-ffff112233445566"/>
-					<Co K="Brightness" U="0ef01bc3-020e-0ad4-ffffdceb1c5e4bdc"/>
+					<Co K="Brightness" U="0ef01ca0-0092-2cf1-fffff2d914400ee0"/>
 					<Co K="InputDisable" U="6df36701-110e-11e4-9a9c9b3f962d716d"/>
 					<Co K="Remanence" U="6df36700-110e-11e4-9a9d9b3f962d716d"/>
 					<Co K="MaxP" Def="0.35" U="6df36701-110e-11e4-9a9d9b3f962d716d"/>
@@ -1953,13 +1953,13 @@
 					<Co K="Wrap" U="6df36700-110e-11e4-9aa09b3f962d716d"/>
 					<Co K="NoLast" U="6df36701-110e-11e4-9aa09b3f962d716d"/>
 					<Co K="MoveOn" Def="180" U="6df36700-110e-11e4-9aa19b3f962d716d"/>
-					<Co K="MoveIgnore" Def="900" U="0ef01bc3-020e-0adf-ffffdceb1c5e4bdc"/>
+					<Co K="MoveIgnore" Def="900" U="0ef01ca0-0092-2cfc-fffff2d914400ee0"/>
 					<Co K="Learntime" Def="5" U="6df36701-110e-11e4-9aa19b3f962d716d"/>
 					<Co K="MoveScene" U="6df36700-110e-11e4-9aa29b3f962d716d"/>
 					<Co K="MoveTimeout" U="6df36701-110e-11e4-9aa29b3f962d716d"/>
 					<Co K="RGBalt" U="6df36700-110e-11e4-9aa39b3f962d716d"/>
 					<Co K="AlarmPeriod" Def="1.5" U="0aa18988-0144-05e4-ffff112233445566"/>
-					<Co K="BrightnessLimit" Def="30" U="0ef01bc3-020e-0ae5-ffffdceb1c5e4bdc"/>
+					<Co K="BrightnessLimit" Def="30" U="0ef01ca0-0092-2d02-fffff2d914400ee0"/>
 					<Co K="AQ1" U="6df36701-110e-11e4-9aa39b3f962d716d"/>
 					<Co K="AQ2" U="6df36700-110e-11e4-9aa49b3f962d716d"/>
 					<Co K="AQ3" U="6df36701-110e-11e4-9aa49b3f962d716d"/>
@@ -2345,7 +2345,7 @@
 					<Co K="On" U="81066b51-19a4-11e4-9423c77dcecfcd84"/>
 					<Co K="Gesture" U="0aa18988-014a-0708-ffff112233445566"/>
 					<Co K="Alarm" U="0aa18988-014a-0709-ffff112233445566"/>
-					<Co K="Brightness" U="0ef01bc3-020e-0be6-ffffdceb1c5e4bdc"/>
+					<Co K="Brightness" U="0ef01ca0-00a2-2e03-fffff2d914400ee0"/>
 					<Co K="InputDisable" U="81066b50-19a4-11e4-9424c77dcecfcd84"/>
 					<Co K="Remanence" Inv="true" U="81066b51-19a4-11e4-9424c77dcecfcd84"/>
 					<Co K="MaxP" Def="0.35" U="81066b50-19a4-11e4-9425c77dcecfcd84"/>
@@ -2356,13 +2356,13 @@
 					<Co K="Wrap" U="81066b51-19a4-11e4-9427c77dcecfcd84"/>
 					<Co K="NoLast" U="81066b50-19a4-11e4-9428c77dcecfcd84"/>
 					<Co K="MoveOn" Def="180" U="81066b51-19a4-11e4-9428c77dcecfcd84"/>
-					<Co K="MoveIgnore" Def="900" U="0ef01bc3-020e-0bf1-ffffdceb1c5e4bdc"/>
+					<Co K="MoveIgnore" Def="900" U="0ef01ca0-00a2-2e0e-fffff2d914400ee0"/>
 					<Co K="Learntime" Def="5" U="81066b50-19a4-11e4-9429c77dcecfcd84"/>
 					<Co K="MoveScene" U="81066b51-19a4-11e4-9429c77dcecfcd84"/>
 					<Co K="MoveTimeout" U="81066b50-19a4-11e4-942ac77dcecfcd84"/>
 					<Co K="RGBalt" U="81066b51-19a4-11e4-942ac77dcecfcd84"/>
 					<Co K="AlarmPeriod" Def="1.5" U="0aa18988-014a-0718-ffff112233445566"/>
-					<Co K="BrightnessLimit" Def="30" U="0ef01bc3-020e-0bf7-ffffdceb1c5e4bdc"/>
+					<Co K="BrightnessLimit" Def="30" U="0ef01ca0-00a2-2e14-fffff2d914400ee0"/>
 					<Co K="AQ1" U="81066b50-19a4-11e4-942bc77dcecfcd84"/>
 					<Co K="AQ2" U="81066b51-19a4-11e4-942bc77dcecfcd84"/>
 					<Co K="AQ3" U="81066b50-19a4-11e4-942cc77dcecfcd84"/>
@@ -2502,7 +2502,7 @@
 					<Co K="AQ" U="28784a20-b442-11e3-b070ea873ddef408"/>
 					<Co K="Q" U="28784a21-b442-11e3-b070ea873ddef408"/>
 				</C>
-				<C Type="IRoomcontrol" V="112" U="0aa97f3b-02d2-9ff5-ffffea873ddef408" Title="Intelligent room controller" Px="7392" Py="576" Px2="10080" Py2="1824" Cl="131,184,23" Nio="43" Month="10" Day="1" Month2="4" Day2="30" MonthC="5" DayC="1" Month2C="9" Day2C="30" UUIDheat="0aa97f3b-02d2-9fcb-ffff112233445566" UUIDcool="0aa97f3b-02d2-9fcc-ffff112233445566" UUIDheatIx="0aa97f3b-02d2-9fcf-ffff112233445566" UUIDcoolIx="0aa97f3b-02d2-9fd0-ffff112233445566" MixerH="00000000-0000-0000-0000000000000000" MixerC="00000000-0000-0000-0000000000000000" SpStates="0ef01bc3-020e-0c81-ffffea873ddef408,0ef01bc3-020e-0c82-ffffea873ddef408,0ef01bc3-020e-0c83-ffffea873ddef408,0ef01bc3-020e-0c84-ffffea873ddef408,0ef01bc3-020e-0c85-ffffea873ddef408,0ef01bc3-020e-0c86-ffffea873ddef408">
+				<C Type="IRoomcontrol" V="112" U="0aa97f3b-02d2-9ff5-ffffea873ddef408" Title="Intelligent room controller" Px="7392" Py="576" Px2="10080" Py2="1824" Cl="131,184,23" Nio="43" Month="10" Day="1" Month2="4" Day2="30" MonthC="5" DayC="1" Month2C="9" Day2C="30" UUIDheat="0aa97f3b-02d2-9fcb-ffff112233445566" UUIDcool="0aa97f3b-02d2-9fcc-ffff112233445566" UUIDheatIx="0aa97f3b-02d2-9fcf-ffff112233445566" UUIDcoolIx="0aa97f3b-02d2-9fd0-ffff112233445566" MixerH="00000000-0000-0000-0000000000000000" MixerC="00000000-0000-0000-0000000000000000" SpStates="0ef01ca0-00a2-2e9e-ffffea873ddef408,0ef01ca0-00a2-2e9f-ffffea873ddef408,0ef01ca0-00a2-2ea0-ffffea873ddef408,0ef01ca0-00a2-2ea1-ffffea873ddef408,0ef01ca0-00a2-2ea2-ffffea873ddef408,0ef01ca0-00a2-2ea3-ffffea873ddef408">
 					<Co K="AMode" U="0aa97f3b-02d2-9fd1-ffff112233445566"/>
 					<Co K="SMode" U="0aa97f3b-02d2-9fd2-ffff112233445566"/>
 					<Co K="Input" U="0aa97f3b-02d2-9fd3-ffff112233445566"/>
@@ -2528,8 +2528,8 @@
 					<Co K="TimeC" Def="3600" U="0aa97f3b-02d2-9fe3-ffff112233445566"/>
 					<Co K="TimeS" Def="3600" U="0aa97f3b-02d2-9fe4-ffff112233445566"/>
 					<Co K="TimeMv" Def="1800" U="0dbaa184-00b0-2fe7-ffffb5a951806f5d"/>
-					<Co K="THCelvin" U="0ef01bc3-020e-0c6d-ffffdceb1c5e4bdc"/>
-					<Co K="TCCelvin" U="0ef01bc3-020e-0c6e-ffffdceb1c5e4bdc"/>
+					<Co K="THCelvin" U="0ef01ca0-00a2-2e8a-fffff2d914400ee0"/>
+					<Co K="TCCelvin" U="0ef01ca0-00a2-2e8b-fffff2d914400ee0"/>
 					<Co K="AQ" U="0aa97f3b-02d2-9fe5-ffff112233445566"/>
 					<Co K="Q" U="0aa97f3b-02d2-9fe6-ffff112233445566"/>
 					<Co K="AQ2" U="0aa97f3b-02d2-9fe7-ffff112233445566"/>
@@ -2667,7 +2667,7 @@
 					<Co K="On" U="3c517230-111a-11e4-aa479b3f962d716d"/>
 					<Co K="Gesture" U="0aa18988-0146-0642-ffff112233445566"/>
 					<Co K="Alarm" U="0aa18988-0146-0643-ffff112233445566"/>
-					<Co K="Brightness" U="0ef01bc3-020e-0cd0-ffffdceb1c5e4bdc"/>
+					<Co K="Brightness" U="0ef01ca0-00a2-2eed-fffff2d914400ee0"/>
 					<Co K="InputDisable" U="3c517231-111a-11e4-aa479b3f962d716d"/>
 					<Co K="Remanence" Inv="true" U="3c517230-111a-11e4-aa489b3f962d716d"/>
 					<Co K="MaxP" Def="0.35" U="3c517231-111a-11e4-aa489b3f962d716d"/>
@@ -2678,13 +2678,13 @@
 					<Co K="Wrap" U="3c517230-111a-11e4-aa4b9b3f962d716d"/>
 					<Co K="NoLast" U="3c517231-111a-11e4-aa4b9b3f962d716d"/>
 					<Co K="MoveOn" Def="180" U="3c517230-111a-11e4-aa4c9b3f962d716d"/>
-					<Co K="MoveIgnore" Def="900" U="0ef01bc3-020e-0cdb-ffffdceb1c5e4bdc"/>
+					<Co K="MoveIgnore" Def="900" U="0ef01ca0-00a2-2ef8-fffff2d914400ee0"/>
 					<Co K="Learntime" Def="5" U="3c517231-111a-11e4-aa4c9b3f962d716d"/>
 					<Co K="MoveScene" U="3c517230-111a-11e4-aa4d9b3f962d716d"/>
 					<Co K="MoveTimeout" U="3c517231-111a-11e4-aa4d9b3f962d716d"/>
 					<Co K="RGBalt" U="3c517230-111a-11e4-aa4e9b3f962d716d"/>
 					<Co K="AlarmPeriod" Def="1.5" U="0aa18988-0146-0652-ffff112233445566"/>
-					<Co K="BrightnessLimit" Def="30" U="0ef01bc3-020e-0ce1-ffffdceb1c5e4bdc"/>
+					<Co K="BrightnessLimit" Def="30" U="0ef01ca0-00a2-2efe-fffff2d914400ee0"/>
 					<Co K="AQ1" U="3c517231-111a-11e4-aa4e9b3f962d716d"/>
 					<Co K="AQ2" U="3c517230-111a-11e4-aa4f9b3f962d716d"/>
 					<Co K="AQ3" U="3c517231-111a-11e4-aa4f9b3f962d716d"/>
@@ -2843,7 +2843,7 @@
 					<Co K="On" U="0dc530b8-01eb-a88f-ffff7c94b44c0ddb"/>
 					<Co K="Gesture" U="0dc530b8-01eb-a890-ffff7c94b44c0ddb"/>
 					<Co K="Alarm" U="0dc530b8-01eb-a891-ffff7c94b44c0ddb"/>
-					<Co K="Brightness" U="0ef01bc3-020e-0d5f-ffffdceb1c5e4bdc"/>
+					<Co K="Brightness" U="0ef01ca0-00a2-2f7c-fffff2d914400ee0"/>
 					<Co K="InputDisable" U="0dc530b8-01eb-a892-ffff7c94b44c0ddb"/>
 					<Co K="Remanence" Inv="true" U="0dc530b8-01eb-a893-ffff7c94b44c0ddb"/>
 					<Co K="MaxP" Def="0.35" U="0dc530b8-01eb-a894-ffff7c94b44c0ddb"/>
@@ -2854,13 +2854,13 @@
 					<Co K="Wrap" U="0dc530b8-01eb-a899-ffff7c94b44c0ddb"/>
 					<Co K="NoLast" U="0dc530b8-01eb-a89a-ffff7c94b44c0ddb"/>
 					<Co K="MoveOn" Def="900" U="0dc530b8-01eb-a89b-ffff7c94b44c0ddb"/>
-					<Co K="MoveIgnore" Def="900" U="0ef01bc3-020e-0d6a-ffffdceb1c5e4bdc"/>
+					<Co K="MoveIgnore" Def="900" U="0ef01ca0-00a2-2f87-fffff2d914400ee0"/>
 					<Co K="Learntime" Def="5" U="0dc530b8-01eb-a89c-ffff7c94b44c0ddb"/>
 					<Co K="MoveScene" U="0dc530b8-01eb-a89d-ffff7c94b44c0ddb"/>
 					<Co K="MoveTimeout" Def="3600" U="0dc530b8-01eb-a89e-ffff7c94b44c0ddb"/>
 					<Co K="RGBalt" U="0dc530b8-01eb-a89f-ffff7c94b44c0ddb"/>
 					<Co K="AlarmPeriod" Def="4" U="0dc530b8-01eb-a8a0-ffff7c94b44c0ddb"/>
-					<Co K="BrightnessLimit" Def="30" U="0ef01bc3-020e-0d70-ffffdceb1c5e4bdc"/>
+					<Co K="BrightnessLimit" Def="30" U="0ef01ca0-00a2-2f8d-fffff2d914400ee0"/>
 					<Co K="AQ1" U="0dc530b8-01eb-a8a1-ffff7c94b44c0ddb"/>
 					<Co K="AQ2" U="0dc530b8-01eb-a8a2-ffff7c94b44c0ddb"/>
 					<Co K="AQ3" U="0dc530b8-01eb-a8a3-ffff7c94b44c0ddb"/>
@@ -2996,7 +2996,7 @@
 					<Co K="On" U="6a034c31-1b42-11e4-b4ecb1bd37ae859c"/>
 					<Co K="Gesture" U="0aa18988-014c-0766-ffff112233445566"/>
 					<Co K="Alarm" U="0aa18988-014c-0767-ffff112233445566"/>
-					<Co K="Brightness" U="0ef01bc3-020e-0de2-ffffdceb1c5e4bdc"/>
+					<Co K="Brightness" U="0ef01ca0-00a2-2fff-fffff2d914400ee0"/>
 					<Co K="InputDisable" U="6a034c30-1b42-11e4-b4edb1bd37ae859c"/>
 					<Co K="Remanence" Inv="true" U="6a034c31-1b42-11e4-b4edb1bd37ae859c"/>
 					<Co K="MaxP" Def="0.35" U="6a034c30-1b42-11e4-b4eeb1bd37ae859c"/>
@@ -3007,13 +3007,13 @@
 					<Co K="Wrap" U="6a034c31-1b42-11e4-b4f0b1bd37ae859c"/>
 					<Co K="NoLast" U="6a034c30-1b42-11e4-b4f1b1bd37ae859c"/>
 					<Co K="MoveOn" Def="180" U="6a034c31-1b42-11e4-b4f1b1bd37ae859c"/>
-					<Co K="MoveIgnore" Def="900" U="0ef01bc3-020e-0ded-ffffdceb1c5e4bdc"/>
+					<Co K="MoveIgnore" Def="900" U="0ef01ca0-00a2-300a-fffff2d914400ee0"/>
 					<Co K="Learntime" Def="5" U="6a034c30-1b42-11e4-b4f2b1bd37ae859c"/>
 					<Co K="MoveScene" U="6a034c31-1b42-11e4-b4f2b1bd37ae859c"/>
 					<Co K="MoveTimeout" U="6a034c30-1b42-11e4-b4f3b1bd37ae859c"/>
 					<Co K="RGBalt" U="6a034c31-1b42-11e4-b4f3b1bd37ae859c"/>
 					<Co K="AlarmPeriod" Def="1.5" U="0aa18988-014c-0776-ffff112233445566"/>
-					<Co K="BrightnessLimit" Def="30" U="0ef01bc3-020e-0df3-ffffdceb1c5e4bdc"/>
+					<Co K="BrightnessLimit" Def="30" U="0ef01ca0-00a2-3010-fffff2d914400ee0"/>
 					<Co K="AQ1" U="6a034c30-1b42-11e4-b4f4b1bd37ae859c"/>
 					<Co K="AQ2" U="6a034c31-1b42-11e4-b4f4b1bd37ae859c"/>
 					<Co K="AQ3" U="6a034c30-1b42-11e4-b4f5b1bd37ae859c"/>
@@ -3107,7 +3107,7 @@
 					<Co K="AQ" U="0aa99bd2-007a-7611-ffff112233445566"/>
 					<Co K="Q" U="0aa99bd2-007a-7612-ffff112233445566"/>
 				</C>
-				<C Type="IRoomcontrol" V="112" U="0aa99c10-0281-9765-fffffb030ef95e86" Title="Intelligent room controller" Px="7392" Py="576" Px2="10080" Py2="1824" Cl="131,184,23" Nio="43" Month="10" Day="1" Month2="4" Day2="30" MonthC="5" DayC="1" Month2C="9" Day2C="30" UUIDheat="0aa99c10-0281-973b-ffff112233445566" UUIDcool="0aa99c10-0281-973c-ffff112233445566" UUIDheatIx="0aa99c10-0281-973f-ffff112233445566" UUIDcoolIx="0aa99c10-0281-9740-ffff112233445566" MixerH="00000000-0000-0000-0000000000000000" MixerC="00000000-0000-0000-0000000000000000" SpStates="0ef01bc3-020e-0e64-fffffb030ef95e86,0ef01bc3-020e-0e65-fffffb030ef95e86,0ef01bc3-020e-0e66-fffffb030ef95e86,0ef01bc3-020e-0e67-fffffb030ef95e86,0ef01bc3-020e-0e68-fffffb030ef95e86,0ef01bc3-020e-0e69-fffffb030ef95e86">
+				<C Type="IRoomcontrol" V="112" U="0aa99c10-0281-9765-fffffb030ef95e86" Title="Intelligent room controller" Px="7392" Py="576" Px2="10080" Py2="1824" Cl="131,184,23" Nio="43" Month="10" Day="1" Month2="4" Day2="30" MonthC="5" DayC="1" Month2C="9" Day2C="30" UUIDheat="0aa99c10-0281-973b-ffff112233445566" UUIDcool="0aa99c10-0281-973c-ffff112233445566" UUIDheatIx="0aa99c10-0281-973f-ffff112233445566" UUIDcoolIx="0aa99c10-0281-9740-ffff112233445566" MixerH="00000000-0000-0000-0000000000000000" MixerC="00000000-0000-0000-0000000000000000" SpStates="0ef01ca0-00a2-3081-fffffb030ef95e86,0ef01ca0-00a2-3082-fffffb030ef95e86,0ef01ca0-00a2-3083-fffffb030ef95e86,0ef01ca0-00a2-3084-fffffb030ef95e86,0ef01ca0-00a2-3085-fffffb030ef95e86,0ef01ca0-00a2-3086-fffffb030ef95e86">
 					<Co K="AMode" U="0aa99c10-0281-9741-ffff112233445566"/>
 					<Co K="SMode" U="0aa99c10-0281-9742-ffff112233445566"/>
 					<Co K="Input" U="0aa99c10-0281-9743-ffff112233445566"/>
@@ -3133,8 +3133,8 @@
 					<Co K="TimeC" Def="3600" U="0aa99c10-0281-9753-ffff112233445566"/>
 					<Co K="TimeS" Def="3600" U="0aa99c10-0281-9754-ffff112233445566"/>
 					<Co K="TimeMv" Def="1800" U="0dbaa184-00b0-312a-ffffb5a951806f5d"/>
-					<Co K="THCelvin" U="0ef01bc3-020e-0e50-ffffdceb1c5e4bdc"/>
-					<Co K="TCCelvin" U="0ef01bc3-020e-0e51-ffffdceb1c5e4bdc"/>
+					<Co K="THCelvin" U="0ef01ca0-00a2-306d-fffff2d914400ee0"/>
+					<Co K="TCCelvin" U="0ef01ca0-00a2-306e-fffff2d914400ee0"/>
 					<Co K="AQ" U="0aa99c10-0281-9755-ffff112233445566"/>
 					<Co K="Q" U="0aa99c10-0281-9756-ffff112233445566"/>
 					<Co K="AQ2" U="0aa99c10-0281-9757-ffff112233445566"/>
@@ -3290,7 +3290,7 @@
 					<Co K="On" U="0aa79073-003f-4844-ffff112233445566"/>
 					<Co K="Gesture" U="0aa79073-003f-4845-ffff112233445566"/>
 					<Co K="Alarm" U="0aa79073-003f-4846-ffff112233445566"/>
-					<Co K="Brightness" U="0ef01bc3-020e-0ebf-ffffdceb1c5e4bdc"/>
+					<Co K="Brightness" U="0ef01ca0-00a2-30dc-fffff2d914400ee0"/>
 					<Co K="InputDisable" U="0aa79073-003f-4847-ffff112233445566"/>
 					<Co K="Remanence" Inv="true" U="0aa79073-003f-4848-ffff112233445566"/>
 					<Co K="MaxP" Def="0.35" U="0aa79073-003f-4849-ffff112233445566"/>
@@ -3301,13 +3301,13 @@
 					<Co K="Wrap" U="0aa79073-003f-484e-ffff112233445566"/>
 					<Co K="NoLast" U="0aa79073-003f-484f-ffff112233445566"/>
 					<Co K="MoveOn" Def="180" U="0aa79073-003f-4850-ffff112233445566"/>
-					<Co K="MoveIgnore" Def="900" U="0ef01bc3-020e-0eca-ffffdceb1c5e4bdc"/>
+					<Co K="MoveIgnore" Def="900" U="0ef01ca0-00a2-30e7-fffff2d914400ee0"/>
 					<Co K="Learntime" Def="5" U="0aa79073-003f-4851-ffff112233445566"/>
 					<Co K="MoveScene" U="0aa79073-003f-4852-ffff112233445566"/>
 					<Co K="MoveTimeout" U="0aa79073-003f-4853-ffff112233445566"/>
 					<Co K="RGBalt" U="0aa79073-003f-4854-ffff112233445566"/>
 					<Co K="AlarmPeriod" Def="1.5" U="0aa79073-003f-4855-ffff112233445566"/>
-					<Co K="BrightnessLimit" Def="30" U="0ef01bc3-020e-0ed0-ffffdceb1c5e4bdc"/>
+					<Co K="BrightnessLimit" Def="30" U="0ef01ca0-00a2-30ed-fffff2d914400ee0"/>
 					<Co K="AQ1" U="0aa79073-003f-4856-ffff112233445566"/>
 					<Co K="AQ2" U="0aa79073-003f-4857-ffff112233445566"/>
 					<Co K="AQ3" U="0aa79073-003f-4858-ffff112233445566"/>
@@ -3566,7 +3566,7 @@
 					<Co K="On" U="9121bdf1-11e8-11e4-a5fc86d90d45a4ab"/>
 					<Co K="Gesture" U="0aa18988-0148-06ad-ffff112233445566"/>
 					<Co K="Alarm" U="0aa18988-0148-06ae-ffff112233445566"/>
-					<Co K="Brightness" U="0ef01bc3-021d-0f84-ffffdceb1c5e4bdc"/>
+					<Co K="Brightness" U="0ef01ca0-00a2-31a1-fffff2d914400ee0"/>
 					<Co K="InputDisable" U="9121bdf0-11e8-11e4-a5fd86d90d45a4ab"/>
 					<Co K="Remanence" Inv="true" U="9121bdf1-11e8-11e4-a5fd86d90d45a4ab"/>
 					<Co K="MaxP" Def="0.35" U="9121bdf0-11e8-11e4-a5fe86d90d45a4ab"/>
@@ -3577,13 +3577,13 @@
 					<Co K="Wrap" U="9121bdf1-11e8-11e4-a60086d90d45a4ab"/>
 					<Co K="NoLast" U="9121bdf0-11e8-11e4-a60186d90d45a4ab"/>
 					<Co K="MoveOn" Def="180" U="9121bdf1-11e8-11e4-a60186d90d45a4ab"/>
-					<Co K="MoveIgnore" Def="900" U="0ef01bc3-021d-0f8f-ffffdceb1c5e4bdc"/>
+					<Co K="MoveIgnore" Def="900" U="0ef01ca0-00a2-31ac-fffff2d914400ee0"/>
 					<Co K="Learntime" Def="5" U="9121bdf0-11e8-11e4-a60286d90d45a4ab"/>
 					<Co K="MoveScene" U="9121bdf1-11e8-11e4-a60286d90d45a4ab"/>
 					<Co K="MoveTimeout" U="9121bdf0-11e8-11e4-a60386d90d45a4ab"/>
 					<Co K="RGBalt" U="9121bdf1-11e8-11e4-a60386d90d45a4ab"/>
 					<Co K="AlarmPeriod" Def="1.5" U="0aa18988-0148-06bd-ffff112233445566"/>
-					<Co K="BrightnessLimit" Def="30" U="0ef01bc3-021d-0f95-ffffdceb1c5e4bdc"/>
+					<Co K="BrightnessLimit" Def="30" U="0ef01ca0-00a2-31b2-fffff2d914400ee0"/>
 					<Co K="AQ1" U="9121bdf0-11e8-11e4-a60486d90d45a4ab"/>
 					<Co K="AQ2" U="9121bdf1-11e8-11e4-a60486d90d45a4ab"/>
 					<Co K="AQ3" U="9121bdf0-11e8-11e4-a60586d90d45a4ab"/>
@@ -3730,7 +3730,7 @@
 					<Co K="On" U="1f1c4160-a183-11e3-a4c3b830a73fcead"/>
 					<Co K="Gesture" U="0aa18988-0141-054e-ffff112233445566"/>
 					<Co K="Alarm" U="0aa18988-0141-054f-ffff112233445566"/>
-					<Co K="Brightness" U="0ef01bc3-021d-1007-ffffdceb1c5e4bdc"/>
+					<Co K="Brightness" U="0ef01ca0-00a2-3224-fffff2d914400ee0"/>
 					<Co K="InputDisable" U="1f1c4161-a183-11e3-a4c3b830a73fcead"/>
 					<Co K="Remanence" Inv="true" U="1f1c4160-a183-11e3-a4c4b830a73fcead"/>
 					<Co K="MaxP" Def="0.35" U="1f1c4161-a183-11e3-a4c4b830a73fcead"/>
@@ -3741,13 +3741,13 @@
 					<Co K="Wrap" U="1f1c4160-a183-11e3-a4c7b830a73fcead"/>
 					<Co K="NoLast" U="1f1c4161-a183-11e3-a4c7b830a73fcead"/>
 					<Co K="MoveOn" Def="180" U="1f1c4160-a183-11e3-a4c8b830a73fcead"/>
-					<Co K="MoveIgnore" Def="900" U="0ef01bc3-021d-1012-ffffdceb1c5e4bdc"/>
+					<Co K="MoveIgnore" Def="900" U="0ef01ca0-00a2-322f-fffff2d914400ee0"/>
 					<Co K="Learntime" Def="5" U="1f1c4161-a183-11e3-a4c8b830a73fcead"/>
 					<Co K="MoveScene" U="1f1c4160-a183-11e3-a4c9b830a73fcead"/>
 					<Co K="MoveTimeout" U="1f1c4161-a183-11e3-a4c9b830a73fcead"/>
 					<Co K="RGBalt" U="1f1c4160-a183-11e3-a4cab830a73fcead"/>
 					<Co K="AlarmPeriod" Def="1.5" U="0aa18988-0141-055e-ffff112233445566"/>
-					<Co K="BrightnessLimit" Def="30" U="0ef01bc3-021d-1018-ffffdceb1c5e4bdc"/>
+					<Co K="BrightnessLimit" Def="30" U="0ef01ca0-00a2-3235-fffff2d914400ee0"/>
 					<Co K="AQ1" U="1f1c4161-a183-11e3-a4cab830a73fcead"/>
 					<Co K="AQ2" U="1f1c4160-a183-11e3-a4cbb830a73fcead"/>
 					<Co K="AQ3" U="1f1c4161-a183-11e3-a4cbb830a73fcead"/>
@@ -3958,7 +3958,7 @@
 					<Co K="On" U="0b175be7-029f-1e5e-ffff112233445566"/>
 					<Co K="Gesture" U="0b175be7-029f-1e5f-ffff112233445566"/>
 					<Co K="Alarm" U="0b175be7-029f-1e60-ffff112233445566"/>
-					<Co K="Brightness" U="0ef01bc3-021d-10b5-ffffdceb1c5e4bdc"/>
+					<Co K="Brightness" U="0ef01ca0-00a2-32d2-fffff2d914400ee0"/>
 					<Co K="InputDisable" U="0b175be7-029f-1e61-ffff112233445566"/>
 					<Co K="Remanence" Inv="true" U="0b175be7-029f-1e62-ffff112233445566"/>
 					<Co K="MaxP" Def="0.35" U="0b175be7-029f-1e63-ffff112233445566"/>
@@ -3969,13 +3969,13 @@
 					<Co K="Wrap" U="0b175be7-02a0-1e68-ffff112233445566"/>
 					<Co K="NoLast" U="0b175be7-02a0-1e69-ffff112233445566"/>
 					<Co K="MoveOn" Def="180" U="0b175be7-02a0-1e6a-ffff112233445566"/>
-					<Co K="MoveIgnore" Def="900" U="0ef01bc3-021d-10c0-ffffdceb1c5e4bdc"/>
+					<Co K="MoveIgnore" Def="900" U="0ef01ca0-00a2-32dd-fffff2d914400ee0"/>
 					<Co K="Learntime" Def="5" U="0b175be7-02a0-1e6b-ffff112233445566"/>
 					<Co K="MoveScene" U="0b175be7-02a0-1e6c-ffff112233445566"/>
 					<Co K="MoveTimeout" U="0b175be7-02a0-1e6d-ffff112233445566"/>
 					<Co K="RGBalt" U="0b175be7-02a0-1e6e-ffff112233445566"/>
 					<Co K="AlarmPeriod" Def="1.5" U="0b175be7-02a0-1e6f-ffff112233445566"/>
-					<Co K="BrightnessLimit" Def="30" U="0ef01bc3-021d-10c6-ffffdceb1c5e4bdc"/>
+					<Co K="BrightnessLimit" Def="30" U="0ef01ca0-00a2-32e3-fffff2d914400ee0"/>
 					<Co K="AQ1" U="0b175be7-02a0-1e70-ffff112233445566"/>
 					<Co K="AQ2" U="0b175be7-02a0-1e71-ffff112233445566"/>
 					<Co K="AQ3" U="0b175be7-02a0-1e72-ffff112233445566"/>
@@ -4053,7 +4053,7 @@
 					<Co K="AQ" U="0ac5b332-0048-e170-ffff112233445566"/>
 					<Co K="Q" U="0ac5b332-0048-e171-ffff112233445566"/>
 				</C>
-				<C Type="IRoomcontrol" V="112" U="0aa98107-0055-f0f2-fffffb030ef95e86" Title="Intelligent room controller" Px="7488" Py="576" Px2="10176" Py2="1824" Cl="131,184,23" Nio="43" Month="10" Day="1" Month2="4" Day2="30" MonthC="5" DayC="1" Month2C="9" Day2C="30" UUIDheat="0aa98107-0054-f0c8-ffff112233445566" UUIDcool="0aa98107-0054-f0c9-ffff112233445566" UUIDheatIx="0aa98107-0054-f0cc-ffff112233445566" UUIDcoolIx="0aa98107-0054-f0cd-ffff112233445566" MixerH="00000000-0000-0000-0000000000000000" MixerC="00000000-0000-0000-0000000000000000" SpStates="0ef01bc3-021d-112d-fffffb030ef95e86,0ef01bc3-021d-112e-fffffb030ef95e86,0ef01bc3-021d-112f-fffffb030ef95e86,0ef01bc3-021d-1130-fffffb030ef95e86,0ef01bc3-021d-1131-fffffb030ef95e86,0ef01bc3-021d-1132-fffffb030ef95e86">
+				<C Type="IRoomcontrol" V="112" U="0aa98107-0055-f0f2-fffffb030ef95e86" Title="Intelligent room controller" Px="7488" Py="576" Px2="10176" Py2="1824" Cl="131,184,23" Nio="43" Month="10" Day="1" Month2="4" Day2="30" MonthC="5" DayC="1" Month2C="9" Day2C="30" UUIDheat="0aa98107-0054-f0c8-ffff112233445566" UUIDcool="0aa98107-0054-f0c9-ffff112233445566" UUIDheatIx="0aa98107-0054-f0cc-ffff112233445566" UUIDcoolIx="0aa98107-0054-f0cd-ffff112233445566" MixerH="00000000-0000-0000-0000000000000000" MixerC="00000000-0000-0000-0000000000000000" SpStates="0ef01ca0-00a2-334a-fffffb030ef95e86,0ef01ca0-00a2-334b-fffffb030ef95e86,0ef01ca0-00a2-334c-fffffb030ef95e86,0ef01ca0-00a2-334d-fffffb030ef95e86,0ef01ca0-00a2-334e-fffffb030ef95e86,0ef01ca0-00a2-334f-fffffb030ef95e86">
 					<Co K="AMode" U="0aa98107-0055-f0ce-ffff112233445566"/>
 					<Co K="SMode" U="0aa98107-0055-f0cf-ffff112233445566"/>
 					<Co K="Input" U="0aa98107-0055-f0d0-ffff112233445566"/>
@@ -4081,8 +4081,8 @@
 					<Co K="TimeC" Def="3600" U="0aa98107-0055-f0e0-ffff112233445566"/>
 					<Co K="TimeS" Def="3600" U="0aa98107-0055-f0e1-ffff112233445566"/>
 					<Co K="TimeMv" Def="1800" U="0dbaa184-00b0-3365-ffffb5a951806f5d"/>
-					<Co K="THCelvin" U="0ef01bc3-021d-1119-ffffdceb1c5e4bdc"/>
-					<Co K="TCCelvin" U="0ef01bc3-021d-111a-ffffdceb1c5e4bdc"/>
+					<Co K="THCelvin" U="0ef01ca0-00a2-3336-fffff2d914400ee0"/>
+					<Co K="TCCelvin" U="0ef01ca0-00a2-3337-fffff2d914400ee0"/>
 					<Co K="AQ" U="0aa98107-0055-f0e2-ffff112233445566"/>
 					<Co K="Q" U="0aa98107-0055-f0e3-ffff112233445566"/>
 					<Co K="AQ2" U="0aa98107-0055-f0e4-ffff112233445566"/>
@@ -4216,7 +4216,7 @@
 					<Co K="On" U="93236911-9cb2-11e3-b1befb030ef95e86"/>
 					<Co K="Gesture" U="0aa18988-013d-0499-ffff112233445566"/>
 					<Co K="Alarm" U="0aa18988-013d-049a-ffff112233445566"/>
-					<Co K="Brightness" U="0ef01bc3-021d-117b-ffffdceb1c5e4bdc"/>
+					<Co K="Brightness" U="0ef01ca0-00a2-3398-fffff2d914400ee0"/>
 					<Co K="InputDisable" U="93236910-9cb2-11e3-b1bffb030ef95e86"/>
 					<Co K="Remanence" Inv="true" U="93236911-9cb2-11e3-b1bffb030ef95e86"/>
 					<Co K="MaxP" Def="0.35" U="93236910-9cb2-11e3-b1c0fb030ef95e86"/>
@@ -4227,13 +4227,13 @@
 					<Co K="Wrap" U="93236911-9cb2-11e3-b1c2fb030ef95e86"/>
 					<Co K="NoLast" U="93236910-9cb2-11e3-b1c3fb030ef95e86"/>
 					<Co K="MoveOn" Def="180" U="93236911-9cb2-11e3-b1c3fb030ef95e86"/>
-					<Co K="MoveIgnore" Def="900" U="0ef01bc3-021d-1186-ffffdceb1c5e4bdc"/>
+					<Co K="MoveIgnore" Def="900" U="0ef01ca0-00a2-33a3-fffff2d914400ee0"/>
 					<Co K="Learntime" Def="5" U="93236910-9cb2-11e3-b1c4fb030ef95e86"/>
 					<Co K="MoveScene" U="93236911-9cb2-11e3-b1c4fb030ef95e86"/>
 					<Co K="MoveTimeout" U="93236910-9cb2-11e3-b1c5fb030ef95e86"/>
 					<Co K="RGBalt" U="93236911-9cb2-11e3-b1c5fb030ef95e86"/>
 					<Co K="AlarmPeriod" Def="1.5" U="0aa18988-013d-04a9-ffff112233445566"/>
-					<Co K="BrightnessLimit" Def="30" U="0ef01bc3-021d-118c-ffffdceb1c5e4bdc"/>
+					<Co K="BrightnessLimit" Def="30" U="0ef01ca0-00a2-33a9-fffff2d914400ee0"/>
 					<Co K="AQ1" U="93236910-9cb2-11e3-b1c6fb030ef95e86"/>
 					<Co K="AQ2" U="93236911-9cb2-11e3-b1c6fb030ef95e86"/>
 					<Co K="AQ3" U="93236910-9cb2-11e3-b1c7fb030ef95e86"/>
@@ -4323,7 +4323,7 @@
 					<Co K="AQ" U="0ac5b2bf-02fe-c024-ffff112233445566"/>
 					<Co K="Q" U="0ac5b2bf-02fe-c025-ffff112233445566"/>
 				</C>
-				<C Type="IRoomcontrol" V="112" U="0aa98211-01e3-3477-ffffb830a73fcead" Title="Intelligent room controller" Px="7488" Py="576" Px2="10176" Py2="1824" Cl="131,184,23" Nio="43" Month="10" Day="1" Month2="4" Day2="30" MonthC="5" DayC="1" Month2C="9" Day2C="30" UUIDheat="0aa98211-01e3-344d-ffff112233445566" UUIDcool="0aa98211-01e3-344e-ffff112233445566" UUIDheatIx="0aa98211-01e3-3451-ffff112233445566" UUIDcoolIx="0aa98211-01e3-3452-ffff112233445566" MixerH="00000000-0000-0000-0000000000000000" MixerC="00000000-0000-0000-0000000000000000" SpStates="0ef01bc3-021d-11f9-ffffb830a73fcead,0ef01bc3-021d-11fa-ffffb830a73fcead,0ef01bc3-021d-11fb-ffffb830a73fcead,0ef01bc3-021d-11fc-ffffb830a73fcead,0ef01bc3-021d-11fd-ffffb830a73fcead,0ef01bc3-021d-11fe-ffffb830a73fcead">
+				<C Type="IRoomcontrol" V="112" U="0aa98211-01e3-3477-ffffb830a73fcead" Title="Intelligent room controller" Px="7488" Py="576" Px2="10176" Py2="1824" Cl="131,184,23" Nio="43" Month="10" Day="1" Month2="4" Day2="30" MonthC="5" DayC="1" Month2C="9" Day2C="30" UUIDheat="0aa98211-01e3-344d-ffff112233445566" UUIDcool="0aa98211-01e3-344e-ffff112233445566" UUIDheatIx="0aa98211-01e3-3451-ffff112233445566" UUIDcoolIx="0aa98211-01e3-3452-ffff112233445566" MixerH="00000000-0000-0000-0000000000000000" MixerC="00000000-0000-0000-0000000000000000" SpStates="0ef01ca0-00b1-3416-ffffb830a73fcead,0ef01ca0-00b1-3417-ffffb830a73fcead,0ef01ca0-00b1-3418-ffffb830a73fcead,0ef01ca0-00b1-3419-ffffb830a73fcead,0ef01ca0-00b1-341a-ffffb830a73fcead,0ef01ca0-00b1-341b-ffffb830a73fcead">
 					<Co K="AMode" U="0aa98211-01e3-3453-ffff112233445566"/>
 					<Co K="SMode" U="0aa98211-01e3-3454-ffff112233445566"/>
 					<Co K="Input" U="0aa98211-01e3-3455-ffff112233445566"/>
@@ -4351,8 +4351,8 @@
 					<Co K="TimeC" Def="3600" U="0aa98211-01e3-3465-ffff112233445566"/>
 					<Co K="TimeS" Def="3600" U="0aa98211-01e3-3466-ffff112233445566"/>
 					<Co K="TimeMv" Def="1800" U="0dbaa184-00b0-342a-ffffb5a951806f5d"/>
-					<Co K="THCelvin" U="0ef01bc3-021d-11e5-ffffdceb1c5e4bdc"/>
-					<Co K="TCCelvin" U="0ef01bc3-021d-11e6-ffffdceb1c5e4bdc"/>
+					<Co K="THCelvin" U="0ef01ca0-00b1-3402-fffff2d914400ee0"/>
+					<Co K="TCCelvin" U="0ef01ca0-00b1-3403-fffff2d914400ee0"/>
 					<Co K="AQ" U="0aa98211-01e3-3467-ffff112233445566"/>
 					<Co K="Q" U="0aa98211-01e3-3468-ffff112233445566"/>
 					<Co K="AQ2" U="0aa98211-01e3-3469-ffff112233445566"/>
@@ -4471,7 +4471,7 @@
 					<Co K="On" U="0ab5b091-02e8-3307-ffff112233445566"/>
 					<Co K="Gesture" U="0ab5b091-02e8-3308-ffff112233445566"/>
 					<Co K="Alarm" U="0ab5b091-02e8-3309-ffff112233445566"/>
-					<Co K="Brightness" U="0ef01bc3-021d-1247-ffffdceb1c5e4bdc"/>
+					<Co K="Brightness" U="0ef01ca0-00b1-3464-fffff2d914400ee0"/>
 					<Co K="InputDisable" U="0ab5b091-02e8-330a-ffff112233445566"/>
 					<Co K="Remanence" Inv="true" U="0ab5b091-02e8-330b-ffff112233445566"/>
 					<Co K="MaxP" Def="0.35" U="0ab5b091-02e8-330c-ffff112233445566"/>
@@ -4482,13 +4482,13 @@
 					<Co K="Wrap" U="0ab5b091-02e8-3311-ffff112233445566"/>
 					<Co K="NoLast" U="0ab5b091-02e8-3312-ffff112233445566"/>
 					<Co K="MoveOn" Def="180" U="0ab5b091-02e8-3313-ffff112233445566"/>
-					<Co K="MoveIgnore" Def="900" U="0ef01bc3-021d-1252-ffffdceb1c5e4bdc"/>
+					<Co K="MoveIgnore" Def="900" U="0ef01ca0-00b1-346f-fffff2d914400ee0"/>
 					<Co K="Learntime" Def="5" U="0ab5b091-02e8-3314-ffff112233445566"/>
 					<Co K="MoveScene" U="0ab5b091-02e8-3315-ffff112233445566"/>
 					<Co K="MoveTimeout" U="0ab5b091-02e8-3316-ffff112233445566"/>
 					<Co K="RGBalt" U="0ab5b091-02e8-3317-ffff112233445566"/>
 					<Co K="AlarmPeriod" Def="1.5" U="0ab5b091-02e8-3318-ffff112233445566"/>
-					<Co K="BrightnessLimit" Def="30" U="0ef01bc3-021d-1258-ffffdceb1c5e4bdc"/>
+					<Co K="BrightnessLimit" Def="30" U="0ef01ca0-00b1-3475-fffff2d914400ee0"/>
 					<Co K="AQ1" U="0ab5b091-02e8-3319-ffff112233445566"/>
 					<Co K="AQ2" U="0ab5b091-02e8-331a-ffff112233445566"/>
 					<Co K="AQ3" U="0ab5b091-02e8-331b-ffff112233445566"/>
@@ -4612,7 +4612,7 @@
 					</Co>
 					<Co K="Gesture" U="0b2f66f5-0357-35f3-ffff112233445566"/>
 					<Co K="Alarm" U="0b2f66f5-0357-35f4-ffff112233445566"/>
-					<Co K="Brightness" U="0ef01bc3-021d-12c1-ffffdceb1c5e4bdc"/>
+					<Co K="Brightness" U="0ef01ca0-00b1-34de-fffff2d914400ee0"/>
 					<Co K="InputDisable" U="0b2f66f5-0357-35f5-ffff112233445566"/>
 					<Co K="Remanence" Inv="true" U="0b2f66f5-0357-35f6-ffff112233445566"/>
 					<Co K="MaxP" Def="0.35" U="0b2f66f5-0357-35f7-ffff112233445566"/>
@@ -4623,13 +4623,13 @@
 					<Co K="Wrap" U="0b2f66f5-0357-35fc-ffff112233445566"/>
 					<Co K="NoLast" U="0b2f66f5-0357-35fd-ffff112233445566"/>
 					<Co K="MoveOn" Def="180" U="0b2f66f5-0357-35fe-ffff112233445566"/>
-					<Co K="MoveIgnore" Def="900" U="0ef01bc3-021d-12cc-ffffdceb1c5e4bdc"/>
+					<Co K="MoveIgnore" Def="900" U="0ef01ca0-00b1-34e9-fffff2d914400ee0"/>
 					<Co K="Learntime" Def="5" U="0b2f66f5-0357-35ff-ffff112233445566"/>
 					<Co K="MoveScene" U="0b2f66f5-0357-3600-ffff112233445566"/>
 					<Co K="MoveTimeout" U="0b2f66f5-0357-3601-ffff112233445566"/>
 					<Co K="RGBalt" U="0b2f66f5-0357-3602-ffff112233445566"/>
 					<Co K="AlarmPeriod" Def="1.5" U="0b2f66f5-0357-3603-ffff112233445566"/>
-					<Co K="BrightnessLimit" Def="30" U="0ef01bc3-021d-12d2-ffffdceb1c5e4bdc"/>
+					<Co K="BrightnessLimit" Def="30" U="0ef01ca0-00b1-34ef-fffff2d914400ee0"/>
 					<Co K="AQ1" U="0b2f66f5-0357-3604-ffff112233445566"/>
 					<Co K="AQ2" U="0b2f66f5-0357-3605-ffff112233445566"/>
 					<Co K="AQ3" U="0b2f66f5-0357-3606-ffff112233445566"/>
