@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ControlList Version="129" LxAV="7" NextObj="240" NextConst="1" NextNote="1" NextMem="22">
-	<C Type="Document" V="115" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="8030321" SPSfreq="50" OpenIsHigh="false" Date="2017-05-18 13:55:43" CDate="2017-05-06 06:14:11" BDate="" DateS="264347743" Street="" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" uuidFavSeq="0f9f1b72-0179-0224-ffffeee000d80ece" uuidFavCol="0f9f1b72-0179-0225-ffffeee000d80ece" FC="" Currency="€" UpdTime="120" CrashL="true" NumO="735">
+	<C Type="Document" V="115" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="8030321" SPSfreq="50" OpenIsHigh="false" Date="2017-05-18 15:00:01" CDate="2017-05-06 06:14:11" BDate="" DateS="264351601" Street="" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" uuidFavSeq="0f9f1b72-0179-0224-ffffeee000d80ece" uuidFavCol="0f9f1b72-0179-0225-ffffeee000d80ece" FC="" Currency="€" UpdTime="120" CrashL="true" NumO="733">
 		<SeqConf Num="0"/>
 		<C Type="LoxCaption" V="115" U="0ef02173-009c-0dd2-ffffeee000d80ece" Title="Icons" Cl="0,0,0" WF="16384" CaptionType="5">
 			<C Type="IconCaptionPlace" V="115" U="c332f9e1-9cad-11e3-9b01fb030ef95e86" Title="Room Icons" WF="16384">
@@ -656,18 +656,6 @@
 				<C Type="EIBsensorCaption" V="115" U="c347ba61-9cad-11e3-9b90fb030ef95e86" Title="Sensors" WF="16384"/>
 			</C>
 			<C Type="VirtualInCaption" V="115" U="c347ba61-9cad-11e3-9b91fb030ef95e86" Title="Virtual inputs" WF="16384">
-				<C Type="VirtualIn" IName="VI1" V="115" U="0afa59f7-02fd-b653-ffffb830a73fcead" Title="Run bathroom extractor for an hour" Nio="2" WF="16384" Analog="false" MaxVal="1" MinChange="0.5" MinTime="1000">
-					<Co K="Q" U="0afa59f7-02fd-b651-ffff112233445566"/>
-					<Co K="Qm" U="0afa59f7-02fd-b652-ffff112233445566"/>
-					<IoData Visu="true" Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001e-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
-					<Display Unit="&lt;v.1&gt;°"/>
-				</C>
-				<C Type="VirtualIn" IName="VI2" V="115" U="0dca7489-0228-a300-fffffb030ef95e86" Title="Pause" Nio="2" WF="16384" Analog="false" MaxVal="1" MinChange="0.5" MinTime="1000">
-					<Co K="Q" U="0dca7489-0228-a2fe-ffff4f79a93d8456"/>
-					<Co K="Qm" U="0dca7489-0228-a2ff-ffff4f79a93d8456"/>
-					<IoData Visu="true" Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
-					<Display Unit="&lt;v.1&gt;"/>
-				</C>
 				<C Type="VirtualIn" IName="VI3" V="115" U="0fa5ffdb-0006-74bc-fffffb030ef95e86" Title="Watch TV" Nio="2" WF="16400" Analog="false" MaxVal="1" MinChange="0.5" MinTime="1000">
 					<Co K="Q" U="0fa5ffdb-0006-74ba-ffffd6987e39f665"/>
 					<Co K="Qm" U="0fa5ffdb-0006-74bb-ffffd6987e39f665"/>
