@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ControlList Version="144" LxAV="13" NextObj="244" NextConst="1" NextNote="1" NextMem="22">
-	<C Type="Document" V="121" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="9011030" SPSfreq="50" OpenIsHigh="false" Date="2017-11-17 16:29:45" CDate="2017-05-06 06:14:11" BDate="" DateS="280168185" Street="" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" uuidFavSeq="0f9f1b72-0179-0224-ffffeee000d80ece" uuidFavCol="0f9f1b72-0179-0225-ffffeee000d80ece" FC="hsv(25,96,50);hsv(24,95,80);hsv(337,94,50)" uuidTime="10b2a3b8-025e-0230-ffffeee000d80ece" Currency="€" UpdTime="120" CrashL="true" NumO="684">
+	<C Type="Document" V="121" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="9011030" SPSfreq="50" OpenIsHigh="false" Date="2017-11-17 16:33:29" CDate="2017-05-06 06:14:11" BDate="" DateS="280168409" Street="" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" uuidFavSeq="0f9f1b72-0179-0224-ffffeee000d80ece" uuidFavCol="0f9f1b72-0179-0225-ffffeee000d80ece" FC="hsv(25,96,50);hsv(24,95,80);hsv(337,94,50)" uuidTime="10b2a3b8-025e-0230-ffffeee000d80ece" Currency="€" UpdTime="120" CrashL="true" NumO="684">
 		<C Type="LoxCaption" V="121" U="0ef02173-009c-0dd2-ffffeee000d80ece" Title="Icons" Cl="0,0,0" WF="16384" CaptionType="5">
 			<C Type="IconCaptionPlace" V="121" U="c332f9e1-9cad-11e3-9b01fb030ef95e86" Title="Room Icons" WF="16384">
 				<C Type="IconPlace" V="121" U="00000000-0000-0001-2100000000000000" Title="Not assigned" WF="16384"/>
@@ -1459,12 +1459,12 @@
 					</C>
 				</C>
 				<C Type="LoxDMXdevice" V="121" U="10b3065d-0228-b82a-ffff95d9cdbb6d3f" Title="Garden" WF="16385" Channel="132" Serial="" DevInfo="" Model="" Manu="" Software="" Pers="" PersDesc="" SlotInfo="" SlotDesc="" DefSlot="" DevType="1">
-					<IoData Pr="0aa18988-0254-0018-0f00000000000000"/>
+					<IoData></IoData>
 					<C Type="LoxDMXactor" IName="DQ52" V="121" U="10b306e3-0189-fdce-ffff95d9cdbb6d3f" Title="Garden  DMX actuator" Nio="1" WF="16400" Dimmer="true" Percent="true" Channel="132" SourceValHigh="100" DestValHigh="100" Gamma="2.2" Slewrate="100">
 						<Co K="I" Nc="1" U="10b306e3-0189-fdcd-ffffc349e8ece9c5">
 							<In Input="10b306eb-034e-0bc0-ffff59e49e50c91d"/>
 						</Co>
-						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0024-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
+						<IoData Cr="0aa18988-0254-0002-0d00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 						<Display Unit="&lt;v&gt;%" StateOnly="true"/>
 					</C>
 				</C>
@@ -2754,7 +2754,7 @@
 					<Co K="AQ" U="0dc53152-02b5-0964-ffff2d892e85601f"/>
 					<Co K="Q" U="0dc53152-02b5-0965-ffff2d892e85601f"/>
 				</C>
-				<C Type="LightController" V="121" U="0dc530b8-01eb-a8b0-fffffb030ef95e86" Title="Lighting controller" Px="7392" Py="3360" Px2="10080" Py2="4992" Cl="131,184,23" Nio="63" NameAI0="Main light" NameAI1="Garden  DMX actuator" NameAI2="" NameAI3="" NameAI4="" NameAI5="" NameAI6="" NameAI7="" NameAI8="" NameAI9="" NameAI10="" NameAI11="" DoNotUseAllOn="true" SpStates="0f9f1b72-02fb-08c7-ffffeee000d80ece,0f9f1b72-02fb-08c8-ffffeee000d80ece,0f9f1b72-02fb-08c9-ffffeee000d80ece,0f9f1b72-02fb-08ca-ffffeee000d80ece,0f9f1b72-02fb-08cb-ffffeee000d80ece">
+				<C Type="LightController" V="121" U="0dc530b8-01eb-a8b0-fffffb030ef95e86" Title="Lighting controller" Px="7392" Py="3360" Px2="10080" Py2="4992" Cl="131,184,23" Nio="63" NameAI0="Main light" NameAI1="LED strip" NameAI2="" NameAI3="" NameAI4="" NameAI5="" NameAI6="" NameAI7="" NameAI8="" NameAI9="" NameAI10="" NameAI11="" DoNotUseAllOn="true" SpStates="0f9f1b72-02fb-08c7-ffffeee000d80ece,0f9f1b72-02fb-08c8-ffffeee000d80ece,0f9f1b72-02fb-08c9-ffffeee000d80ece,0f9f1b72-02fb-08ca-ffffeee000d80ece,0f9f1b72-02fb-08cb-ffffeee000d80ece">
 					<Co K="I1" U="0dc530b8-01eb-a875-ffff7c94b44c0ddb"/>
 					<Co K="I2" U="0dc530b8-01eb-a876-ffff7c94b44c0ddb"/>
 					<Co K="I3" U="0dc530b8-01eb-a877-ffff7c94b44c0ddb"/>
