@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ControlList Version="144" LxAV="13" NextObj="266" NextConst="1" NextNote="1" NextMem="22">
-	<C Type="Document" V="121" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="9011030" SPSfreq="50" OpenIsHigh="false" Date="2017-11-18 15:15:38" CDate="2017-05-06 06:14:11" BDate="" DateS="280250138" Street="" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" uuidFavSeq="0f9f1b72-0179-0224-ffffeee000d80ece" uuidFavCol="0f9f1b72-0179-0225-ffffeee000d80ece" FC="hsv(25,96,50);hsv(24,95,80);hsv(337,94,50)" uuidTime="10b2a3b8-025e-0230-ffffeee000d80ece" Currency="€" UpdTime="120" CrashL="true" NumO="685">
+	<C Type="Document" V="121" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="9011030" SPSfreq="50" OpenIsHigh="false" Date="2017-11-18 15:19:02" CDate="2017-05-06 06:14:11" BDate="" DateS="280250342" Street="" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" uuidFavSeq="0f9f1b72-0179-0224-ffffeee000d80ece" uuidFavCol="0f9f1b72-0179-0225-ffffeee000d80ece" FC="hsv(25,96,50);hsv(24,95,80);hsv(337,94,50)" uuidTime="10b2a3b8-025e-0230-ffffeee000d80ece" Currency="€" UpdTime="120" CrashL="true" NumO="685">
 		<C Type="LoxCaption" V="121" U="0ef02173-009c-0dd2-ffffeee000d80ece" Title="Icons" Cl="0,0,0" WF="16384" CaptionType="5">
 			<C Type="IconCaptionPlace" V="121" U="c332f9e1-9cad-11e3-9b01fb030ef95e86" Title="Room Icons" WF="16384">
 				<C Type="IconPlace" V="121" U="00000000-0000-0001-2100000000000000" Title="Not assigned" WF="16384"/>
@@ -163,7 +163,7 @@
 			<C Type="Place" V="121" U="0aa18988-0254-0024-0f00000000000000" Title="Garden" WF="16384" Icon="00000000-0000-0017-2100000000000000" Rating="1" UseFav="true" PType="2"/>
 			<C Type="Place" V="121" U="0aa18988-0254-0025-0f00000000000000" Title="Dining room" WF="16384" Icon="00000000-0000-0018-2100000000000000" Rating="5" UseFav="true" PType="2"/>
 			<C Type="Place" V="121" U="0aa18988-0254-0027-0f00000000000000" Title="Global" WF="16384" Icon="00000000-0000-0031-2100000000000000" Rating="1" UseFav="true" PType="2"/>
-			<C Type="Place" V="121" U="0aa18988-0254-0028-0f00000000000000" Title="Bedroom 2" WF="16384" Icon="00000000-0000-0008-2100000000000000" Rating="1" UseFav="true" PType="1"/>
+			<C Type="Place" V="121" U="0aa18988-0254-0028-0f00000000000000" Title="Bedroom 2" WF="16384" Icon="00000000-0000-0008-2100000000000000" Rating="1" UseFav="true" PType="1" Sqm="10.8"/>
 			<C Type="Place" V="121" U="0b175bb6-003c-1a7a-fffffb030ef95e86" Title="Loft" WF="16384" Icon="00000000-0000-0019-2100000000000000" PType="3"/>
 		</C>
 		<C Type="UserCaption" V="121" U="c333bd30-9cad-11e3-9b02fb030ef95e86" Title="Users" WF="16384">
