@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ControlList Version="144" LxAV="13" NextObj="266" NextConst="1" NextNote="1" NextMem="22">
-	<C Type="Document" V="121" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="9011030" SPSfreq="50" OpenIsHigh="false" Date="2017-11-18 15:19:02" CDate="2017-05-06 06:14:11" BDate="" DateS="280250342" Street="" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" uuidFavSeq="0f9f1b72-0179-0224-ffffeee000d80ece" uuidFavCol="0f9f1b72-0179-0225-ffffeee000d80ece" FC="hsv(25,96,50);hsv(24,95,80);hsv(337,94,50)" uuidTime="10b2a3b8-025e-0230-ffffeee000d80ece" Currency="€" UpdTime="120" CrashL="true" NumO="685">
+	<C Type="Document" V="121" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" WF="16384" ConfigVersion="9011030" SPSfreq="50" OpenIsHigh="false" Date="2017-11-18 15:23:16" CDate="2017-05-06 06:14:11" BDate="" DateS="280250596" Street="" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" SL="24" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" uuidFavSeq="0f9f1b72-0179-0224-ffffeee000d80ece" uuidFavCol="0f9f1b72-0179-0225-ffffeee000d80ece" FC="hsv(25,96,50);hsv(24,95,80);hsv(337,94,50)" uuidTime="10b2a3b8-025e-0230-ffffeee000d80ece" Currency="€" UpdTime="120" CrashL="true" NumO="685">
 		<C Type="LoxCaption" V="121" U="0ef02173-009c-0dd2-ffffeee000d80ece" Title="Icons" Cl="0,0,0" WF="16384" CaptionType="5">
 			<C Type="IconCaptionPlace" V="121" U="c332f9e1-9cad-11e3-9b01fb030ef95e86" Title="Room Icons" WF="16384">
 				<C Type="IconPlace" V="121" U="00000000-0000-0001-2100000000000000" Title="Not assigned" WF="16384"/>
@@ -698,7 +698,7 @@
 				<C Type="Notification" V="121" U="0dbfe41b-0241-c81d-ffffeee000d80ece" Title="Push Notification" WF="16384" Entries="10" Sys="true">
 					<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 				</C>
-				<C Type="Mailer" V="121" U="10b33406-013c-9283-fffffb030ef95e86" Title="Loxone Cloud Mailer" WF="16384" Cloud="true" Msg="true" SmtpReceiver="" SmtpSubject="Temperley Road"/>
+				<C Type="Mailer" V="121" U="10b33406-013c-9283-fffffb030ef95e86" Title="Loxone Cloud Mailer" WF="16384" Cloud="true" Msg="true" SmtpReceiver="mark-and-laura@googlegroups.com" SmtpSubject="Temperley Road"/>
 			</C>
 			<C Type="LoxREL" V="121" U="ea1a7681-23f5-11e4-bc28d665d37d0df3" Title="Loxone Relay Extension" WF="16384" CycleUserProt="-1" Serial="0BD811F8" Installation="" SwitchBoard="Cabinet" SwitchBoardRow="1" SwitchBoardPos="1" IntAddr="" Pause="10" RxTimeout="1000" BaseID="-1">
 				<IoData></IoData>
