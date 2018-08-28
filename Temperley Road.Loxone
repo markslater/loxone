@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ControlList Version="148" LxAV="15" NextObj="270" NextConst="1" NextNote="1" NextMem="22">
-	<C Type="Document" V="122" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="9030326" SPSfreq="50" OpenIsHigh="false" Date="2018-08-28 22:28:01" CDate="2017-05-06 06:14:11" BDate="" DateS="304727281" Street="" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" SL="24" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" uuidFavSeq="0f9f1b72-0179-0224-ffffeee000d80ece" uuidFavCol="0f9f1b72-0179-0225-ffffeee000d80ece" FC="hsv(25,96,50);hsv(24,95,80);hsv(337,94,50)" uuidTime="10b2a3b8-025e-0230-ffffeee000d80ece" Currency="€" UpdTime="120" CrashL="true" NumO="687">
+	<C Type="Document" V="122" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="9030326" SPSfreq="50" OpenIsHigh="false" Date="2018-08-28 22:36:47" CDate="2017-05-06 06:14:11" BDate="" DateS="304727807" Street="" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" SL="24" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" uuidFavSeq="0f9f1b72-0179-0224-ffffeee000d80ece" uuidFavCol="0f9f1b72-0179-0225-ffffeee000d80ece" FC="hsv(25,96,50);hsv(24,95,80);hsv(337,94,50)" uuidTime="10b2a3b8-025e-0230-ffffeee000d80ece" Currency="€" UpdTime="120" CrashL="true" NumO="689">
 		<C Type="LoxCaption" V="122" U="0ef02173-009c-0dd2-ffffeee000d80ece" Title="Icons" Cl="0,0,0" WF="16384" CaptionType="5">
 			<C Type="IconCaptionPlace" V="122" U="c332f9e1-9cad-11e3-9b01fb030ef95e86" Title="Room Icons" WF="16384">
 				<C Type="IconPlace" V="122" U="00000000-0000-0001-2100000000000000" Title="Not assigned" WF="16384"/>
@@ -197,7 +197,7 @@
 				<C Type="RefUser" V="122" U="0fa60062-010a-a590-fffffb030ef95e86" Title="HarmonyIntegration" Cl="0,0,0" Ref="0fa60062-010a-a58e-fffffb030ef95e86" WF="16384"/>
 			</C>
 			<C Type="UserGroup" V="122" U="c34437f1-9cad-11e3-9b2afb030ef95e86" Title="Nobody" WF="16384" UgType="3" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000"/>
-			<C Type="UserGroup" V="122" U="0fa600bd-0089-381a-fffffb030ef95e86" Title="Webservices" WF="16384" Rights="129" N="10" Modes="00000000-0000-0001-1500000000000000,00000000-0000-0002-1500000000000000,00000000-0000-0003-1500000000000000,00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
+			<C Type="UserGroup" V="122" U="0fa600bd-0089-381a-fffffb030ef95e86" Title="Webservices" WF="16384" Rights="129" UserModes="3" N="10" Modes="00000000-0000-0001-1500000000000000,00000000-0000-0002-1500000000000000,00000000-0000-0003-1500000000000000,00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
 				<Entry To="1440" V="1"/>
 				<Entry To="1440" Ix="1" V="1"/>
 				<Entry To="1440" Ix="2" V="1"/>
@@ -699,6 +699,8 @@
 					<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 				</C>
 				<C Type="Mailer" V="122" U="10b33406-013c-9283-fffffb030ef95e86" Title="Loxone Cloud Mailer" WF="16384" Cloud="true" Msg="true" SmtpReceiver="mark-and-laura@googlegroups.com" SmtpSubject="Temperley Road"/>
+				<C Type="Logger" V="122" U="1229c6ea-02d9-8fe3-fffffb030ef95e86" Title="Logger" WF="16384" Address="/log/user.log"/>
+				<C Type="Logger" V="122" U="1229c6ee-01ee-9d57-fffffb030ef95e86" Title="Logger" WF="16384" Address="/log/user.log"/>
 			</C>
 			<C Type="LoxREL" V="122" U="ea1a7681-23f5-11e4-bc28d665d37d0df3" Title="Loxone Relay Extension" WF="16384" CycleUserProt="-1" Serial="0BD811F8" Installation="" SwitchBoard="Cabinet" SwitchBoardRow="1" SwitchBoardPos="1" IntAddr="" Pause="10" RxTimeout="1000" BaseID="-1">
 				<IoData></IoData>
@@ -2033,7 +2035,7 @@
 			</C>
 			<C Type="Page" V="122" U="0ab164b6-0294-12ca-fffffb030ef95e86" Title="Central Functions - Lighting" WF="16384">
 				<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
-				<C Type="InputRef" V="122" U="0ab6c330-01d1-3aad-fffffb030ef95e86" Title="Lights all off from kitchen" Px="4320" Py="1248" Px2="6432" Py2="1440" Cl="238,238,238" Nio="4" Ref="0ab6c302-0334-2a52-ffff95d9cdbb6d3f" WF="16384" LinkRefType="320">
+				<C Type="InputRef" V="122" U="0ab6c330-01d1-3aad-fffffb030ef95e86" Title="Lights all off from kitchen" Px="4320" Py="1248" Px2="6432" Py2="1440" Cl="238,238,238" Nio="4" Ref="0ab6c302-0334-2a52-ffff95d9cdbb6d3f" WF="131072" LinkRefType="320">
 					<Co K="AI" Nc="1" U="0ab6c330-01d1-3aa9-ffff112233445566">
 						<In Input="0ab6c302-0334-2a51-ffff112233445566"/>
 					</Co>
@@ -2041,7 +2043,7 @@
 					<Co K="AQ" U="0ab6c330-01d1-3aab-ffff112233445566"/>
 					<Co K="Q" U="0ab6c330-01d1-3aac-ffff112233445566"/>
 				</C>
-				<C Type="InputRef" V="122" U="0ab6c7e7-016a-99ad-fffffb030ef95e86" Title="Lights all off from landing" Px="4320" Py="1440" Px2="6432" Py2="1632" Cl="238,238,238" Nio="4" Ref="0ab6c791-0244-82b8-ffff86d90d45a4ab" WF="16384" LinkRefType="320">
+				<C Type="InputRef" V="122" U="0ab6c7e7-016a-99ad-fffffb030ef95e86" Title="Lights all off from landing" Px="4320" Py="1440" Px2="6432" Py2="1632" Cl="238,238,238" Nio="4" Ref="0ab6c791-0244-82b8-ffff86d90d45a4ab" WF="131072" LinkRefType="320">
 					<Co K="AI" Nc="1" U="0ab6c7e7-016a-99a9-ffff112233445566">
 						<In Input="0ab6c791-0244-82b7-ffff112233445566"/>
 					</Co>
@@ -2049,7 +2051,7 @@
 					<Co K="AQ" U="0ab6c7e7-016a-99ab-ffff112233445566"/>
 					<Co K="Q" U="0ab6c7e7-016a-99ac-ffff112233445566"/>
 				</C>
-				<C Type="InputRef" V="122" U="0ab8607b-012c-8852-fffffb030ef95e86" Title="Long click duration" Px="4320" Py="2016" Px2="6432" Py2="2208" Cl="238,238,238" Nio="4" Ref="0ab86063-00bf-7e65-fffffb030ef95e86" WF="16384" Analog="true" LinkRefType="17">
+				<C Type="InputRef" V="122" U="0ab8607b-012c-8852-fffffb030ef95e86" Title="Long click duration" Px="4320" Py="2016" Px2="6432" Py2="2208" Cl="238,238,238" Nio="4" Ref="0ab86063-00bf-7e65-fffffb030ef95e86" WF="131072" Analog="true" LinkRefType="17">
 					<Co K="AI" Nc="1" U="0ab8607b-012c-884e-ffff112233445566">
 						<In Input="0ab86063-00bf-7e64-ffff112233445566"/>
 					</Co>
@@ -2057,7 +2059,7 @@
 					<Co K="AQ" U="0ab8607b-012c-8850-ffff112233445566"/>
 					<Co K="Q" U="0ab8607b-012c-8851-ffff112233445566"/>
 				</C>
-				<C Type="InputRef" V="122" U="0dbff184-0055-d9b6-fffffb030ef95e86" Title="Lights all off from hallway" Px="4320" Py="864" Px2="6432" Py2="1056" Cl="238,238,238" Nio="4" Ref="0dbf907e-02f1-551e-ffffb1bd37ae859c" WF="16384" LinkRefType="320">
+				<C Type="InputRef" V="122" U="0dbff184-0055-d9b6-fffffb030ef95e86" Title="Lights all off from hallway" Px="4320" Py="864" Px2="6432" Py2="1056" Cl="238,238,238" Nio="4" Ref="0dbf907e-02f1-551e-ffffb1bd37ae859c" WF="131072" LinkRefType="320">
 					<Co K="AI" Nc="1" U="0dbff184-0055-d9b2-ffff6103cc992c35">
 						<In Input="0dbf907e-02f1-551c-fffffda69d9501f3"/>
 					</Co>
@@ -2065,7 +2067,7 @@
 					<Co K="AQ" U="0dbff184-0055-d9b4-ffff6103cc992c35"/>
 					<Co K="Q" U="0dbff184-0055-d9b5-ffff6103cc992c35"/>
 				</C>
-				<C Type="InputRef" V="122" U="0dc53221-0238-d5e4-fffffb030ef95e86" Title="Lights all off from dining room" Px="4320" Py="1632" Px2="6432" Py2="1824" Cl="238,238,238" Nio="4" Ref="0dc531e2-03a0-953c-ffffc77dcecfcd84" WF="16384" LinkRefType="320">
+				<C Type="InputRef" V="122" U="0dc53221-0238-d5e4-fffffb030ef95e86" Title="Lights all off from dining room" Px="4320" Py="1632" Px2="6432" Py2="1824" Cl="238,238,238" Nio="4" Ref="0dc531e2-03a0-953c-ffffc77dcecfcd84" WF="131072" LinkRefType="320">
 					<Co K="AI" Nc="1" U="0dc53221-0238-d5e0-ffffdd7bc143adcc">
 						<In Input="0dc531e2-03a0-953a-ffffa7475bf39e73"/>
 					</Co>
@@ -2073,7 +2075,7 @@
 					<Co K="AQ" U="0dc53221-0238-d5e2-ffffdd7bc143adcc"/>
 					<Co K="Q" U="0dc53221-0238-d5e3-ffffdd7bc143adcc"/>
 				</C>
-				<C Type="InputRef" V="122" U="0dc53229-0044-e0b7-fffffb030ef95e86" Title="Lights all off from garden" Px="4320" Py="1824" Px2="6432" Py2="2016" Cl="238,238,238" Nio="4" Ref="0dc5319d-0034-49e4-fffffb030ef95e86" WF="16384" LinkRefType="320">
+				<C Type="InputRef" V="122" U="0dc53229-0044-e0b7-fffffb030ef95e86" Title="Lights all off from garden" Px="4320" Py="1824" Px2="6432" Py2="2016" Cl="238,238,238" Nio="4" Ref="0dc5319d-0034-49e4-fffffb030ef95e86" WF="131072" LinkRefType="320">
 					<Co K="AI" Nc="1" U="0dc53229-0044-e0b3-ffffc73c3bd72aec">
 						<In Input="0dc5319d-0034-49e2-ffff5127b6449799"/>
 					</Co>
@@ -2081,7 +2083,7 @@
 					<Co K="AQ" U="0dc53229-0044-e0b5-ffffc73c3bd72aec"/>
 					<Co K="Q" U="0dc53229-0044-e0b6-ffffc73c3bd72aec"/>
 				</C>
-				<C Type="InputRef" V="122" U="0dbff172-007c-c51e-fffffb030ef95e86" Title="Lights all off from living room" Px="4320" Py="1056" Px2="6432" Py2="1248" Cl="238,238,238" Nio="4" Ref="0dbff0fe-0256-878c-ffffb830a73fcead" WF="16384" LinkRefType="320">
+				<C Type="InputRef" V="122" U="0dbff172-007c-c51e-fffffb030ef95e86" Title="Lights all off from living room" Px="4320" Py="1056" Px2="6432" Py2="1248" Cl="238,238,238" Nio="4" Ref="0dbff0fe-0256-878c-ffffb830a73fcead" WF="131072" LinkRefType="320">
 					<Co K="AI" Nc="1" U="0dbff172-007c-c51a-ffffd224d4fe3ff4">
 						<In Input="0dbff0fe-0256-878a-ffff3e880624f33c"/>
 					</Co>
@@ -2089,7 +2091,7 @@
 					<Co K="AQ" U="0dbff172-007c-c51c-ffffd224d4fe3ff4"/>
 					<Co K="Q" U="0dbff172-007c-c51d-ffffd224d4fe3ff4"/>
 				</C>
-				<C Type="InputRef" V="122" U="0fa60258-03da-07f6-fffffb030ef95e86" Title="Watch TV" Px="4320" Py="2592" Px2="6432" Py2="2784" Cl="238,238,238" Nio="4" Ref="0fa5ffdb-0006-74bc-fffffb030ef95e86" WF="16384" LinkRefType="71">
+				<C Type="InputRef" V="122" U="0fa60258-03da-07f6-fffffb030ef95e86" Title="Watch TV" Px="4320" Py="2592" Px2="6432" Py2="2784" Cl="238,238,238" Nio="4" Ref="0fa5ffdb-0006-74bc-fffffb030ef95e86" LinkRefType="71">
 					<Co K="AI" Nc="1" U="0fa60258-03da-07f2-ffff0304f3fc522e">
 						<In Input="0fa5ffdb-0006-74ba-ffffd6987e39f665"/>
 					</Co>
@@ -2099,7 +2101,7 @@
 					<Co K="AQ" U="0fa60258-03da-07f4-ffff0304f3fc522e"/>
 					<Co K="Q" U="0fa60258-03da-07f5-ffff0304f3fc522e"/>
 				</C>
-				<C Type="Memory" V="122" U="0ab16534-020b-1f2e-fffffb030ef95e86" Title="Lights all off" Px="11232" Py="1152" Px2="13344" Py2="1344" Cl="238,238,238" Nio="3" WF="16384" Tp="0">
+				<C Type="Memory" V="122" U="0ab16534-020b-1f2e-fffffb030ef95e86" Title="Lights all off" Px="11232" Py="1152" Px2="13344" Py2="1344" Cl="238,238,238" Nio="3" WF="131072" Tp="0">
 					<Co K="Input" Nc="3" U="0ab16534-020b-1f2c-ffff112233445566">
 						<In Input="0ab6c43d-00dc-4b1f-ffffeee000d80ece"/>
 						<In Input="0ab6c43d-00dc-4b20-ffffeee000d80ece"/>
@@ -2110,7 +2112,7 @@
 					<IoData VisuPwd="true" Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0021-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<Display Unit="&lt;v.1&gt;V" StateOnly="true"/>
 				</C>
-				<C Type="LongClick" V="122" U="0ab6c43d-00dc-4b14-ffffeee000d80ece" Title="O97" Px="8352" Py="576" Px2="9696" Py2="2400" Cl="105,195,80" Nio="14" WF="16384">
+				<C Type="LongClick" V="122" U="0ab6c43d-00dc-4b14-ffffeee000d80ece" Title="O97" Px="8352" Py="576" Px2="9696" Py2="2400" Cl="105,195,80" Nio="14">
 					<Co K="InputTrigger" Nc="6" U="0ab6c43d-00dc-4b15-ffffeee000d80ece">
 						<In Input="0ab6c330-01d1-3aac-ffff112233445566"/>
 						<In Input="0ab6c7e7-016a-99ac-ffff112233445566"/>
@@ -2135,7 +2137,7 @@
 					<Co K="Q4" U="0ab6c43d-00dc-4b21-ffffeee000d80ece"/>
 					<Co K="AQ" U="0ab6c43d-00dc-4b22-ffffeee000d80ece"/>
 				</C>
-				<C Type="Memory" V="122" U="0fa601c5-015e-cac3-fffffb030ef95e86" Title="Scene set from Harmony" Px="7392" Py="2592" Px2="9504" Py2="2784" Cl="238,238,238" Nio="3" WF="16384" Tp="0">
+				<C Type="Memory" V="122" U="0fa601c5-015e-cac3-fffffb030ef95e86" Title="Scene set from Harmony" Px="7392" Py="2592" Px2="9504" Py2="2784" Cl="238,238,238" Nio="3" Tp="0">
 					<Co K="Input" Nc="1" U="0fa601c5-015e-cac0-ffffd154a78cf17c">
 						<In Input="0fa60258-03da-07f4-ffff0304f3fc522e"/>
 					</Co>
@@ -2144,7 +2146,7 @@
 					<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0025-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
 				</C>
-				<C Type="PushButton" V="122" U="0fc19cce-019f-cfa2-fffffb030ef95e86" Title="Harmony Hub All Off" Px="7392" Py="3840" Px2="10080" Py2="4704" Cl="105,195,80" Nio="8" WF="16384" SpStates="0fc19cce-019f-cf9a-ffff28062066c830,0fc19cce-019f-cf9b-ffff28062066c830">
+				<C Type="PushButton" V="122" U="0fc19cce-019f-cfa2-fffffb030ef95e86" Title="Harmony Hub All Off" Px="7392" Py="3840" Px2="10080" Py2="4704" Cl="105,195,80" Nio="8" SpStates="0fc19cce-019f-cf9a-ffff28062066c830,0fc19cce-019f-cf9b-ffff28062066c830">
 					<Co K="InputTrigger" U="0fc19cce-019f-cf9c-ffff28062066c830"/>
 					<Co K="Reset" U="0fc19cce-019f-cf9d-ffff28062066c830"/>
 					<Co K="On" U="0fc19cce-019f-cf9e-ffff28062066c830"/>
@@ -2157,7 +2159,7 @@
 					<PSD As="-2" Ae="1380" Amin="1" Amax="4" Dmin="30" Dmax="180" V="20"/>
 					<Display Unit="&lt;v.1&gt;"/>
 				</C>
-				<C Type="OutputRef" V="122" U="0fc19b45-000e-3907-fffffb030ef95e86" Title="Harmony Hub All Off" Px="11232" Py="1728" Px2="13344" Py2="1920" Cl="238,238,238" Nio="2" Ref="0fc182d4-0309-a6df-fffffb030ef95e86" WF="16384" LinkRefType="74">
+				<C Type="OutputRef" V="122" U="0fc19b45-000e-3907-fffffb030ef95e86" Title="Harmony Hub All Off" Px="11232" Py="1728" Px2="13344" Py2="1920" Cl="238,238,238" Nio="2" Ref="0fc182d4-0309-a6df-fffffb030ef95e86" WF="147456" LinkRefType="74">
 					<Co K="AI" Nc="4" U="0fc19b45-000e-3905-fffff4025a3f7706">
 						<In Input="0ab6c43d-00dc-4b21-ffffeee000d80ece"/>
 						<In Input="0ab6c43d-00dc-4b20-ffffeee000d80ece"/>
@@ -2166,7 +2168,7 @@
 					</Co>
 					<Co K="AQ" U="0fc19b45-000e-3906-fffff4025a3f7706"/>
 				</C>
-				<C Type="OutputRef" V="122" U="0dca71eb-0043-4b42-fffffb030ef95e86" Title="Pause" Px="11232" Py="1344" Px2="13344" Py2="1536" Cl="238,238,238" Nio="2" Ref="0dca719e-00be-4013-fffffb030ef95e86" WF="16384" LinkRefType="74">
+				<C Type="OutputRef" V="122" U="0dca71eb-0043-4b42-fffffb030ef95e86" Title="Pause" Px="11232" Py="1344" Px2="13344" Py2="1536" Cl="238,238,238" Nio="2" Ref="0dca719e-00be-4013-fffffb030ef95e86" WF="147456" LinkRefType="74">
 					<Co K="AI" Nc="3" U="0dca71eb-0043-4b40-ffffbc7a424db2e5">
 						<In Input="0ab6c43d-00dc-4b1f-ffffeee000d80ece"/>
 						<In Input="0ab6c43d-00dc-4b20-ffffeee000d80ece"/>
@@ -2174,7 +2176,7 @@
 					</Co>
 					<Co K="AQ" U="0dca71eb-0043-4b41-ffffbc7a424db2e5"/>
 				</C>
-				<C Type="OutputRef" V="122" U="0dca755e-0356-0704-fffffb030ef95e86" Title="Pause" Px="11232" Py="1536" Px2="13344" Py2="1728" Cl="238,238,238" Nio="2" Ref="0dca7520-0018-cf0b-fffffb030ef95e86" WF="16384" LinkRefType="74">
+				<C Type="OutputRef" V="122" U="0dca755e-0356-0704-fffffb030ef95e86" Title="Pause" Px="11232" Py="1536" Px2="13344" Py2="1728" Cl="238,238,238" Nio="2" Ref="0dca7520-0018-cf0b-fffffb030ef95e86" WF="147456" LinkRefType="74">
 					<Co K="AI" Nc="3" U="0dca755e-0356-0702-ffff294ece7348ec">
 						<In Input="0ab6c43d-00dc-4b1f-ffffeee000d80ece"/>
 						<In Input="0ab6c43d-00dc-4b20-ffffeee000d80ece"/>
