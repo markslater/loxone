@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ControlList Version="148" LxAV="15" NextObj="270" NextConst="1" NextNote="1" NextMem="22">
-	<C Type="Document" V="122" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="9030326" SPSfreq="50" OpenIsHigh="false" Date="2018-08-28 22:36:47" CDate="2017-05-06 06:14:11" BDate="" DateS="304727807" Street="" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" SL="24" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" uuidFavSeq="0f9f1b72-0179-0224-ffffeee000d80ece" uuidFavCol="0f9f1b72-0179-0225-ffffeee000d80ece" FC="hsv(25,96,50);hsv(24,95,80);hsv(337,94,50)" uuidTime="10b2a3b8-025e-0230-ffffeee000d80ece" Currency="€" UpdTime="120" CrashL="true" NumO="689">
+	<C Type="Document" V="122" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="9030326" SPSfreq="50" OpenIsHigh="false" Date="2018-09-24 21:51:38" CDate="2017-05-06 06:14:11" BDate="" DateS="307057898" Street="" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" SL="24" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" uuidFavSeq="0f9f1b72-0179-0224-ffffeee000d80ece" uuidFavCol="0f9f1b72-0179-0225-ffffeee000d80ece" FC="hsv(25,96,50);hsv(24,95,80);hsv(337,94,50)" uuidTime="10b2a3b8-025e-0230-ffffeee000d80ece" Currency="€" UpdTime="120" CrashL="true" NumO="687">
 		<C Type="LoxCaption" V="122" U="0ef02173-009c-0dd2-ffffeee000d80ece" Title="Icons" Cl="0,0,0" WF="16384" CaptionType="5">
 			<C Type="IconCaptionPlace" V="122" U="c332f9e1-9cad-11e3-9b01fb030ef95e86" Title="Room Icons" WF="16384">
 				<C Type="IconPlace" V="122" U="00000000-0000-0001-2100000000000000" Title="Not assigned" WF="16384"/>
@@ -197,7 +197,7 @@
 				<C Type="RefUser" V="122" U="0fa60062-010a-a590-fffffb030ef95e86" Title="HarmonyIntegration" Cl="0,0,0" Ref="0fa60062-010a-a58e-fffffb030ef95e86" WF="16384"/>
 			</C>
 			<C Type="UserGroup" V="122" U="c34437f1-9cad-11e3-9b2afb030ef95e86" Title="Nobody" WF="16384" UgType="3" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000"/>
-			<C Type="UserGroup" V="122" U="0fa600bd-0089-381a-fffffb030ef95e86" Title="Webservices" WF="16384" Rights="129" UserModes="3" N="10" Modes="00000000-0000-0001-1500000000000000,00000000-0000-0002-1500000000000000,00000000-0000-0003-1500000000000000,00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
+			<C Type="UserGroup" V="122" U="0fa600bd-0089-381a-fffffb030ef95e86" Title="Webservices" WF="16384" Rights="129" N="10" Modes="00000000-0000-0001-1500000000000000,00000000-0000-0002-1500000000000000,00000000-0000-0003-1500000000000000,00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
 				<Entry To="1440" V="1"/>
 				<Entry To="1440" Ix="1" V="1"/>
 				<Entry To="1440" Ix="2" V="1"/>
@@ -699,8 +699,6 @@
 					<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 				</C>
 				<C Type="Mailer" V="122" U="10b33406-013c-9283-fffffb030ef95e86" Title="Loxone Cloud Mailer" WF="16384" Cloud="true" Msg="true" SmtpReceiver="mark-and-laura@googlegroups.com" SmtpSubject="Temperley Road"/>
-				<C Type="Logger" V="122" U="1229c6ea-02d9-8fe3-fffffb030ef95e86" Title="Logger" WF="16384" Address="/log/user.log"/>
-				<C Type="Logger" V="122" U="1229c6ee-01ee-9d57-fffffb030ef95e86" Title="Logger" WF="16384" Address="/log/user.log"/>
 			</C>
 			<C Type="LoxREL" V="122" U="ea1a7681-23f5-11e4-bc28d665d37d0df3" Title="Loxone Relay Extension" WF="16384" CycleUserProt="-1" Serial="0BD811F8" Installation="" SwitchBoard="Cabinet" SwitchBoardRow="1" SwitchBoardPos="1" IntAddr="" Pause="10" RxTimeout="1000" BaseID="-1">
 				<IoData></IoData>
@@ -1476,7 +1474,7 @@
 		<C Type="Program" V="122" U="c34437f0-9cad-11e3-9b2bfb030ef95e86" Title="Loxone Miniserver" Ref="c346d001-9cad-11e3-9b8efb030ef95e86" WF="16384">
 			<C Type="Page" V="122" U="0af4148a-0309-26b6-ffffb830a73fcead" Title="Bathroom Lighting" WF="16384">
 				<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001e-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
-				<C Type="InputRef" V="122" U="0bc68c9b-0201-1fa6-ffffb830a73fcead" Title="Bathroom top switch" Px="1920" Py="3648" Px2="4032" Py2="3840" Cl="238,238,238" Nio="4" Ref="b46d7730-23f5-11e4-b843d665d37d0df3" WF="16384" LinkRefType="55">
+				<C Type="InputRef" V="122" U="0bc68c9b-0201-1fa6-ffffb830a73fcead" Title="Bathroom top switch" Px="1920" Py="3648" Px2="4032" Py2="3840" Cl="238,238,238" Nio="4" Ref="b46d7730-23f5-11e4-b843d665d37d0df3" WF="131072" LinkRefType="55">
 					<Co K="AI" Nc="1" U="0bc68c9b-0201-1fa2-ffff112233445566">
 						<In Input="b46d7731-23f5-11e4-b843d665d37d0df3"/>
 					</Co>
@@ -1484,7 +1482,7 @@
 					<Co K="AQ" U="0bc68c9b-0201-1fa4-ffff112233445566"/>
 					<Co K="Q" U="0bc68c9b-0201-1fa5-ffff112233445566"/>
 				</C>
-				<C Type="InputRef" V="122" U="0bc68ca6-0174-2b67-ffffb830a73fcead" Title="Bathroom bottom switch" Px="1920" Py="3456" Px2="4032" Py2="3648" Cl="238,238,238" Nio="4" Ref="b46d9e40-23f5-11e4-b843d665d37d0df3" WF="16384" LinkRefType="55">
+				<C Type="InputRef" V="122" U="0bc68ca6-0174-2b67-ffffb830a73fcead" Title="Bathroom bottom switch" Px="1920" Py="3456" Px2="4032" Py2="3648" Cl="238,238,238" Nio="4" Ref="b46d9e40-23f5-11e4-b843d665d37d0df3" WF="131072" LinkRefType="55">
 					<Co K="AI" Nc="1" U="0bc68ca6-0174-2b63-ffff112233445566">
 						<In Input="b46d9e41-23f5-11e4-b843d665d37d0df3"/>
 					</Co>
@@ -1492,7 +1490,7 @@
 					<Co K="AQ" U="0bc68ca6-0174-2b65-ffff112233445566"/>
 					<Co K="Q" U="0bc68ca6-0174-2b66-ffff112233445566"/>
 				</C>
-				<C Type="InputRef" V="122" U="0fc17998-00a6-605d-ffff30bbbb07abd4" Title="Long click duration" Px="2016" Py="5760" Px2="4128" Py2="5952" Cl="238,238,238" Nio="4" Ref="0ab86063-00bf-7e65-fffffb030ef95e86" WF="16384" Analog="true" LinkRefType="17">
+				<C Type="InputRef" V="122" U="0fc17998-00a6-605d-ffff30bbbb07abd4" Title="Long click duration" Px="2016" Py="5760" Px2="4128" Py2="5952" Cl="238,238,238" Nio="4" Ref="0ab86063-00bf-7e65-fffffb030ef95e86" WF="131072" Analog="true" LinkRefType="17">
 					<Co K="AI" Nc="1" U="0fc17998-00a6-605e-ffff30bbbb07abd4">
 						<In Input="0ab86063-00bf-7e64-ffff112233445566"/>
 					</Co>
@@ -1500,7 +1498,7 @@
 					<Co K="AQ" U="0fc17998-00a6-6061-ffff30bbbb07abd4"/>
 					<Co K="Q" U="0fc17998-00a6-6062-ffff30bbbb07abd4"/>
 				</C>
-				<C Type="LongClick" V="122" U="0fc17998-00a6-6063-ffff30bbbb07abd4" Title="O126" Px="7392" Py="5280" Px2="8736" Py2="6528" Cl="105,195,80" Nio="14" WF="16384">
+				<C Type="LongClick" V="122" U="0fc17998-00a6-6063-ffff30bbbb07abd4" Title="O126" Px="7392" Py="5280" Px2="8736" Py2="6528" Cl="105,195,80" Nio="14">
 					<Co K="InputTrigger" Nc="1" U="0fc17998-00a6-6064-ffff30bbbb07abd4">
 						<In Input="0bc68c9b-0201-1fa4-ffff112233445566"/>
 					</Co>
@@ -1520,15 +1518,15 @@
 					<Co K="Q4" U="0fc17998-00a6-6070-ffff30bbbb07abd4"/>
 					<Co K="AQ" U="0fc17998-00a6-6071-ffff30bbbb07abd4"/>
 				</C>
-				<C Type="Presence" V="122" U="0fc17998-00a6-6072-ffff30bbbb07abd4" Title="Presence" Px="10080" Py="5280" Px2="12768" Py2="6336" Cl="105,195,80" Nio="5" WF="16384">
+				<C Type="Presence" V="122" U="0fc17998-00a6-6072-ffff30bbbb07abd4" Title="Presence" Px="10080" Py="5280" Px2="12768" Py2="6336" Cl="105,195,80" Nio="5">
 					<Co K="InputTrigger" Nc="2" U="0fc17998-00a6-6073-ffff30bbbb07abd4">
-						<In Input="10b333d6-017b-7e9a-ffff90ae33fbcb50"/>
 						<In Input="10b333d6-017b-7e9b-ffff90ae33fbcb50"/>
+						<In Input="10b333d6-017b-7e9a-ffff90ae33fbcb50"/>
 					</Co>
 					<Co K="Reset" Nc="3" U="0fc17998-00a6-6074-ffff30bbbb07abd4">
-						<In Input="0fc17998-00a6-606e-ffff30bbbb07abd4"/>
-						<In Input="0fc17998-00a6-606f-ffff30bbbb07abd4"/>
 						<In Input="0fc17998-00a6-6070-ffff30bbbb07abd4"/>
+						<In Input="0fc17998-00a6-606f-ffff30bbbb07abd4"/>
+						<In Input="0fc17998-00a6-606e-ffff30bbbb07abd4"/>
 					</Co>
 					<Co K="Remanence" Inv="true" U="0fc17998-00a6-6075-ffff30bbbb07abd4"/>
 					<Co K="Time" Def="3600" U="0fc17998-00a6-6076-ffff30bbbb07abd4"/>
@@ -1536,7 +1534,7 @@
 					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
 					<IoData Visu="true" Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001e-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 				</C>
-				<C Type="LightController2" V="122" U="10b333d6-017b-7e9d-ffffb830a73fcead" Title="Lighting controller" Px="6432" Py="2976" Px2="9120" Py2="4800" Cl="105,195,80" Nio="65" WF="16384" NameAI0="DMX actuator 1" NameAI1="DMX actuator 2" CapAI1="24" NameAI2="DMX actuator 3" CapAI2="24" NameAI3="DMX actuator 4" CapAI3="24" uuidSeqencing="10b334c5-01d8-a229-ffffb830a73fcead,10b334c5-01d8-a22b-ffffb830a73fcead,10b334c5-01d8-a22d-ffffb830a73fcead,10b334c5-01d8-a22f-ffffb830a73fcead,10b334c5-01d8-a231-ffffb830a73fcead,10b334c5-01d8-a233-ffffb830a73fcead,10b334c5-01d8-a235-ffffb830a73fcead,10b334c5-01d8-a237-ffffb830a73fcead,10b334c5-01d8-a239-ffffb830a73fcead,10b334c5-01d8-a23b-ffffb830a73fcead,10b334c5-01d8-a23d-ffffb830a73fcead,10b334c5-01d8-a23f-ffffb830a73fcead,10b334c5-01d8-a241-ffffb830a73fcead,10b334c5-01d8-a243-ffffb830a73fcead,10b334c5-01d8-a245-ffffb830a73fcead,10b334c5-01d8-a247-ffffb830a73fcead,10b334c5-01d8-a249-ffffb830a73fcead,10b334c5-01d8-a24b-ffffb830a73fcead,10b334c5-01d8-a24d-ffffb830a73fcead,10b334c5-01d8-a24f-ffffb830a73fcead" uuidSeqenceIx="10b334c5-01d8-a22a-ffffb830a73fcead,10b334c5-01d8-a22c-ffffb830a73fcead,10b334c5-01d8-a22e-ffffb830a73fcead,10b334c5-01d8-a230-ffffb830a73fcead,10b334c5-01d8-a232-ffffb830a73fcead,10b334c5-01d8-a234-ffffb830a73fcead,10b334c5-01d8-a236-ffffb830a73fcead,10b334c5-01d8-a238-ffffb830a73fcead,10b334c5-01d8-a23a-ffffb830a73fcead,10b334c5-01d8-a23c-ffffb830a73fcead,10b334c5-01d8-a23e-ffffb830a73fcead,10b334c5-01d8-a240-ffffb830a73fcead,10b334c5-01d8-a242-ffffb830a73fcead,10b334c5-01d8-a244-ffffb830a73fcead,10b334c5-01d8-a246-ffffb830a73fcead,10b334c5-01d8-a248-ffffb830a73fcead,10b334c5-01d8-a24a-ffffb830a73fcead,10b334c5-01d8-a24c-ffffb830a73fcead,10b334c5-01d8-a24e-ffffb830a73fcead,10b334c5-01d8-a250-ffffb830a73fcead" SpStates="1229b630-034c-055e-ffffeee000d80ece,1229b630-034c-055f-ffffeee000d80ece,1229b630-034c-0560-ffffeee000d80ece,1229b630-034c-0561-ffffeee000d80ece,1229b630-034c-0562-ffffeee000d80ece,1229b630-034c-0563-ffffeee000d80ece,1229b630-034c-0564-ffffeee000d80ece,1229b630-034c-0565-ffffeee000d80ece,1229b630-034c-0566-ffffeee000d80ece">
+				<C Type="LightController2" V="122" U="10b333d6-017b-7e9d-ffffb830a73fcead" Title="Lighting controller" Px="6432" Py="2976" Px2="9120" Py2="4800" Cl="105,195,80" Nio="65" NameAI0="DMX actuator 1" NameAI1="DMX actuator 2" CapAI1="24" NameAI2="DMX actuator 3" CapAI2="24" NameAI3="DMX actuator 4" CapAI3="24" uuidSeqencing="10b334c5-01d8-a229-ffffb830a73fcead,10b334c5-01d8-a22b-ffffb830a73fcead,10b334c5-01d8-a22d-ffffb830a73fcead,10b334c5-01d8-a22f-ffffb830a73fcead,10b334c5-01d8-a231-ffffb830a73fcead,10b334c5-01d8-a233-ffffb830a73fcead,10b334c5-01d8-a235-ffffb830a73fcead,10b334c5-01d8-a237-ffffb830a73fcead,10b334c5-01d8-a239-ffffb830a73fcead,10b334c5-01d8-a23b-ffffb830a73fcead,10b334c5-01d8-a23d-ffffb830a73fcead,10b334c5-01d8-a23f-ffffb830a73fcead,10b334c5-01d8-a241-ffffb830a73fcead,10b334c5-01d8-a243-ffffb830a73fcead,10b334c5-01d8-a245-ffffb830a73fcead,10b334c5-01d8-a247-ffffb830a73fcead,10b334c5-01d8-a249-ffffb830a73fcead,10b334c5-01d8-a24b-ffffb830a73fcead,10b334c5-01d8-a24d-ffffb830a73fcead,10b334c5-01d8-a24f-ffffb830a73fcead" uuidSeqenceIx="10b334c5-01d8-a22a-ffffb830a73fcead,10b334c5-01d8-a22c-ffffb830a73fcead,10b334c5-01d8-a22e-ffffb830a73fcead,10b334c5-01d8-a230-ffffb830a73fcead,10b334c5-01d8-a232-ffffb830a73fcead,10b334c5-01d8-a234-ffffb830a73fcead,10b334c5-01d8-a236-ffffb830a73fcead,10b334c5-01d8-a238-ffffb830a73fcead,10b334c5-01d8-a23a-ffffb830a73fcead,10b334c5-01d8-a23c-ffffb830a73fcead,10b334c5-01d8-a23e-ffffb830a73fcead,10b334c5-01d8-a240-ffffb830a73fcead,10b334c5-01d8-a242-ffffb830a73fcead,10b334c5-01d8-a244-ffffb830a73fcead,10b334c5-01d8-a246-ffffb830a73fcead,10b334c5-01d8-a248-ffffb830a73fcead,10b334c5-01d8-a24a-ffffb830a73fcead,10b334c5-01d8-a24c-ffffb830a73fcead,10b334c5-01d8-a24e-ffffb830a73fcead,10b334c5-01d8-a250-ffffb830a73fcead" SpStates="1229b630-034c-055e-ffffeee000d80ece,1229b630-034c-055f-ffffeee000d80ece,1229b630-034c-0560-ffffeee000d80ece,1229b630-034c-0561-ffffeee000d80ece,1229b630-034c-0562-ffffeee000d80ece,1229b630-034c-0563-ffffeee000d80ece,1229b630-034c-0564-ffffeee000d80ece,1229b630-034c-0565-ffffeee000d80ece,1229b630-034c-0566-ffffeee000d80ece">
 					<Co K="I1" U="10b333d6-017b-7e5c-ffff90ae33fbcb50"/>
 					<Co K="I2" U="10b333d6-017b-7e5d-ffff90ae33fbcb50"/>
 					<Co K="I3" U="10b333d6-017b-7e5e-ffff90ae33fbcb50"/>
@@ -1615,31 +1613,31 @@
 					<LSConfig OpM="778" ScMv="777" ScAc="2"/>
 					<PSD As="-2" Ae="1380" Amin="1" Amax="4" Dmin="30" Dmax="180" O="1" V="20"/>
 				</C>
-				<C Type="OutputRef" V="122" U="0bb2c29c-0275-1002-ffffb830a73fcead" Title="Bathroom Smart Actuator 4" Px="13632" Py="4032" Px2="15744" Py2="4224" Cl="238,238,238" Nio="2" Ref="0ba017b3-021b-0f69-fffffb030ef95e86" WF="16384" Analog="true" LinkRefType="132">
+				<C Type="OutputRef" V="122" U="0bb2c29c-0275-1002-ffffb830a73fcead" Title="Bathroom Smart Actuator 4" Px="13632" Py="4032" Px2="15744" Py2="4224" Cl="238,238,238" Nio="2" Ref="0ba017b3-021b-0f69-fffffb030ef95e86" WF="147456" Analog="true" LinkRefType="132">
 					<Co K="AI" Nc="1" U="0bb2c29c-0275-1000-ffff112233445566">
 						<In Input="10b333d6-017b-7e89-ffff90ae33fbcb50"/>
 					</Co>
 					<Co K="AQ" U="0bb2c29c-0275-1001-ffff112233445566"/>
 				</C>
-				<C Type="OutputRef" V="122" U="0af414ce-0220-341a-ffffb830a73fcead" Title="Bathroom extractor" Px="13536" Py="5760" Px2="15648" Py2="5952" Cl="238,238,238" Nio="2" Ref="ea25c120-23f5-11e4-bc31d665d37d0df3" WF="16384" LinkRefType="63">
+				<C Type="OutputRef" V="122" U="0af414ce-0220-341a-ffffb830a73fcead" Title="Bathroom extractor" Px="13536" Py="5760" Px2="15648" Py2="5952" Cl="238,238,238" Nio="2" Ref="ea25c120-23f5-11e4-bc31d665d37d0df3" WF="147456" LinkRefType="63">
 					<Co K="AI" Nc="1" U="0af414ce-0220-3418-ffff112233445566">
 						<In Input="0fc17998-00a6-6077-ffff30bbbb07abd4"/>
 					</Co>
 					<Co K="AQ" U="0af414ce-0220-3419-ffff112233445566"/>
 				</C>
-				<C Type="OutputRef" V="122" U="0bb2c29c-0224-0ff6-ffffb830a73fcead" Title="Bathroom Smart Actuator 1" Px="13632" Py="3456" Px2="15744" Py2="3648" Cl="238,238,238" Nio="2" Ref="0ba017b3-01c2-0f60-fffffb030ef95e86" WF="16384" Analog="true" LinkRefType="132">
+				<C Type="OutputRef" V="122" U="0bb2c29c-0224-0ff6-ffffb830a73fcead" Title="Bathroom Smart Actuator 1" Px="13632" Py="3456" Px2="15744" Py2="3648" Cl="238,238,238" Nio="2" Ref="0ba017b3-01c2-0f60-fffffb030ef95e86" WF="147456" Analog="true" LinkRefType="132">
 					<Co K="AI" Nc="1" U="0bb2c29c-0224-0ff4-ffff112233445566">
 						<In Input="10b333d6-017b-7e86-ffff90ae33fbcb50"/>
 					</Co>
 					<Co K="AQ" U="0bb2c29c-0224-0ff5-ffff112233445566"/>
 				</C>
-				<C Type="OutputRef" V="122" U="0bb2c29c-0261-0ffa-ffffb830a73fcead" Title="Bathroom Smart Actuator 2" Px="13632" Py="3648" Px2="15744" Py2="3840" Cl="238,238,238" Nio="2" Ref="0ba017b3-01df-0f63-fffffb030ef95e86" WF="16384" Analog="true" LinkRefType="132">
+				<C Type="OutputRef" V="122" U="0bb2c29c-0261-0ffa-ffffb830a73fcead" Title="Bathroom Smart Actuator 2" Px="13632" Py="3648" Px2="15744" Py2="3840" Cl="238,238,238" Nio="2" Ref="0ba017b3-01df-0f63-fffffb030ef95e86" WF="147456" Analog="true" LinkRefType="132">
 					<Co K="AI" Nc="1" U="0bb2c29c-0261-0ff8-ffff112233445566">
 						<In Input="10b333d6-017b-7e87-ffff90ae33fbcb50"/>
 					</Co>
 					<Co K="AQ" U="0bb2c29c-0261-0ff9-ffff112233445566"/>
 				</C>
-				<C Type="OutputRef" V="122" U="0bb2c29c-026b-0ffe-ffffb830a73fcead" Title="Bathroom Smart Actuator 3" Px="13632" Py="3840" Px2="15744" Py2="4032" Cl="238,238,238" Nio="2" Ref="0ba017b3-01ff-0f66-fffffb030ef95e86" WF="16384" Analog="true" LinkRefType="132">
+				<C Type="OutputRef" V="122" U="0bb2c29c-026b-0ffe-ffffb830a73fcead" Title="Bathroom Smart Actuator 3" Px="13632" Py="3840" Px2="15744" Py2="4032" Cl="238,238,238" Nio="2" Ref="0ba017b3-01ff-0f66-fffffb030ef95e86" WF="147456" Analog="true" LinkRefType="132">
 					<Co K="AI" Nc="1" U="0bb2c29c-026b-0ffc-ffff112233445566">
 						<In Input="10b333d6-017b-7e88-ffff90ae33fbcb50"/>
 					</Co>
@@ -1950,10 +1948,10 @@
 				</C>
 				<C Type="OnDelay" V="122" U="0aaaecc4-00ac-1418-fffffb030ef95e86" Title="O83" Px="7392" Py="2880" Px2="8736" Py2="3552" Cl="105,195,80" Nio="5" WF="16384">
 					<Co K="InputTrigger" Nc="4" U="0aaaecc4-00ac-1413-ffff112233445566">
-						<In Input="0aa97b05-026a-4ff8-ffff112233445566"/>
-						<In Input="0aa97f89-0042-b833-ffff112233445566"/>
-						<In Input="0aa981a5-03de-2982-ffff112233445566"/>
 						<In Input="0aa98777-00f2-4fc9-ffff112233445566"/>
+						<In Input="0aa981a5-03de-2982-ffff112233445566"/>
+						<In Input="0aa97f89-0042-b833-ffff112233445566"/>
+						<In Input="0aa97b05-026a-4ff8-ffff112233445566"/>
 					</Co>
 					<Co K="Reset" U="0aaaecc4-00ac-1414-ffff112233445566"/>
 					<Co K="Remanence" Inv="true" U="0aaaecc4-00ac-1415-ffff112233445566"/>
@@ -1962,11 +1960,11 @@
 				</C>
 				<C Type="OnOffDelay" V="122" U="0ac87cfb-01d4-0dbe-fffffb030ef95e86" Title="O120" Px="7392" Py="576" Px2="8736" Py2="1248" Cl="105,195,80" Nio="6" WF="16384">
 					<Co K="InputTrigger" Nc="5" U="0ac87cfb-01d4-0db8-ffff112233445566">
-						<In Input="0aa98777-00f2-4fc9-ffff112233445566"/>
-						<In Input="0aa981a5-03de-2982-ffff112233445566"/>
-						<In Input="0aa97f89-0042-b833-ffff112233445566"/>
-						<In Input="0aa99c44-00fe-b5dd-ffff112233445566"/>
 						<In Input="0aa97b05-026a-4ff8-ffff112233445566"/>
+						<In Input="0aa99c44-00fe-b5dd-ffff112233445566"/>
+						<In Input="0aa97f89-0042-b833-ffff112233445566"/>
+						<In Input="0aa981a5-03de-2982-ffff112233445566"/>
+						<In Input="0aa98777-00f2-4fc9-ffff112233445566"/>
 					</Co>
 					<Co K="Reset" U="0ac87cfb-01d4-0db9-ffff112233445566"/>
 					<Co K="Remanence" Inv="true" U="0ac87cfb-01d4-0dba-ffff112233445566"/>
@@ -2035,7 +2033,7 @@
 			</C>
 			<C Type="Page" V="122" U="0ab164b6-0294-12ca-fffffb030ef95e86" Title="Central Functions - Lighting" WF="16384">
 				<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
-				<C Type="InputRef" V="122" U="0ab6c330-01d1-3aad-fffffb030ef95e86" Title="Lights all off from kitchen" Px="4320" Py="1248" Px2="6432" Py2="1440" Cl="238,238,238" Nio="4" Ref="0ab6c302-0334-2a52-ffff95d9cdbb6d3f" WF="131072" LinkRefType="320">
+				<C Type="InputRef" V="122" U="0ab6c330-01d1-3aad-fffffb030ef95e86" Title="Lights all off from kitchen" Px="4320" Py="1248" Px2="6432" Py2="1440" Cl="238,238,238" Nio="4" Ref="0ab6c302-0334-2a52-ffff95d9cdbb6d3f" WF="16384" LinkRefType="320">
 					<Co K="AI" Nc="1" U="0ab6c330-01d1-3aa9-ffff112233445566">
 						<In Input="0ab6c302-0334-2a51-ffff112233445566"/>
 					</Co>
@@ -2043,7 +2041,7 @@
 					<Co K="AQ" U="0ab6c330-01d1-3aab-ffff112233445566"/>
 					<Co K="Q" U="0ab6c330-01d1-3aac-ffff112233445566"/>
 				</C>
-				<C Type="InputRef" V="122" U="0ab6c7e7-016a-99ad-fffffb030ef95e86" Title="Lights all off from landing" Px="4320" Py="1440" Px2="6432" Py2="1632" Cl="238,238,238" Nio="4" Ref="0ab6c791-0244-82b8-ffff86d90d45a4ab" WF="131072" LinkRefType="320">
+				<C Type="InputRef" V="122" U="0ab6c7e7-016a-99ad-fffffb030ef95e86" Title="Lights all off from landing" Px="4320" Py="1440" Px2="6432" Py2="1632" Cl="238,238,238" Nio="4" Ref="0ab6c791-0244-82b8-ffff86d90d45a4ab" WF="16384" LinkRefType="320">
 					<Co K="AI" Nc="1" U="0ab6c7e7-016a-99a9-ffff112233445566">
 						<In Input="0ab6c791-0244-82b7-ffff112233445566"/>
 					</Co>
@@ -2051,7 +2049,7 @@
 					<Co K="AQ" U="0ab6c7e7-016a-99ab-ffff112233445566"/>
 					<Co K="Q" U="0ab6c7e7-016a-99ac-ffff112233445566"/>
 				</C>
-				<C Type="InputRef" V="122" U="0ab8607b-012c-8852-fffffb030ef95e86" Title="Long click duration" Px="4320" Py="2016" Px2="6432" Py2="2208" Cl="238,238,238" Nio="4" Ref="0ab86063-00bf-7e65-fffffb030ef95e86" WF="131072" Analog="true" LinkRefType="17">
+				<C Type="InputRef" V="122" U="0ab8607b-012c-8852-fffffb030ef95e86" Title="Long click duration" Px="4320" Py="2016" Px2="6432" Py2="2208" Cl="238,238,238" Nio="4" Ref="0ab86063-00bf-7e65-fffffb030ef95e86" WF="16384" Analog="true" LinkRefType="17">
 					<Co K="AI" Nc="1" U="0ab8607b-012c-884e-ffff112233445566">
 						<In Input="0ab86063-00bf-7e64-ffff112233445566"/>
 					</Co>
@@ -2059,7 +2057,7 @@
 					<Co K="AQ" U="0ab8607b-012c-8850-ffff112233445566"/>
 					<Co K="Q" U="0ab8607b-012c-8851-ffff112233445566"/>
 				</C>
-				<C Type="InputRef" V="122" U="0dbff184-0055-d9b6-fffffb030ef95e86" Title="Lights all off from hallway" Px="4320" Py="864" Px2="6432" Py2="1056" Cl="238,238,238" Nio="4" Ref="0dbf907e-02f1-551e-ffffb1bd37ae859c" WF="131072" LinkRefType="320">
+				<C Type="InputRef" V="122" U="0dbff184-0055-d9b6-fffffb030ef95e86" Title="Lights all off from hallway" Px="4320" Py="864" Px2="6432" Py2="1056" Cl="238,238,238" Nio="4" Ref="0dbf907e-02f1-551e-ffffb1bd37ae859c" WF="16384" LinkRefType="320">
 					<Co K="AI" Nc="1" U="0dbff184-0055-d9b2-ffff6103cc992c35">
 						<In Input="0dbf907e-02f1-551c-fffffda69d9501f3"/>
 					</Co>
@@ -2067,7 +2065,7 @@
 					<Co K="AQ" U="0dbff184-0055-d9b4-ffff6103cc992c35"/>
 					<Co K="Q" U="0dbff184-0055-d9b5-ffff6103cc992c35"/>
 				</C>
-				<C Type="InputRef" V="122" U="0dc53221-0238-d5e4-fffffb030ef95e86" Title="Lights all off from dining room" Px="4320" Py="1632" Px2="6432" Py2="1824" Cl="238,238,238" Nio="4" Ref="0dc531e2-03a0-953c-ffffc77dcecfcd84" WF="131072" LinkRefType="320">
+				<C Type="InputRef" V="122" U="0dc53221-0238-d5e4-fffffb030ef95e86" Title="Lights all off from dining room" Px="4320" Py="1632" Px2="6432" Py2="1824" Cl="238,238,238" Nio="4" Ref="0dc531e2-03a0-953c-ffffc77dcecfcd84" WF="16384" LinkRefType="320">
 					<Co K="AI" Nc="1" U="0dc53221-0238-d5e0-ffffdd7bc143adcc">
 						<In Input="0dc531e2-03a0-953a-ffffa7475bf39e73"/>
 					</Co>
@@ -2075,7 +2073,7 @@
 					<Co K="AQ" U="0dc53221-0238-d5e2-ffffdd7bc143adcc"/>
 					<Co K="Q" U="0dc53221-0238-d5e3-ffffdd7bc143adcc"/>
 				</C>
-				<C Type="InputRef" V="122" U="0dc53229-0044-e0b7-fffffb030ef95e86" Title="Lights all off from garden" Px="4320" Py="1824" Px2="6432" Py2="2016" Cl="238,238,238" Nio="4" Ref="0dc5319d-0034-49e4-fffffb030ef95e86" WF="131072" LinkRefType="320">
+				<C Type="InputRef" V="122" U="0dc53229-0044-e0b7-fffffb030ef95e86" Title="Lights all off from garden" Px="4320" Py="1824" Px2="6432" Py2="2016" Cl="238,238,238" Nio="4" Ref="0dc5319d-0034-49e4-fffffb030ef95e86" WF="16384" LinkRefType="320">
 					<Co K="AI" Nc="1" U="0dc53229-0044-e0b3-ffffc73c3bd72aec">
 						<In Input="0dc5319d-0034-49e2-ffff5127b6449799"/>
 					</Co>
@@ -2083,7 +2081,7 @@
 					<Co K="AQ" U="0dc53229-0044-e0b5-ffffc73c3bd72aec"/>
 					<Co K="Q" U="0dc53229-0044-e0b6-ffffc73c3bd72aec"/>
 				</C>
-				<C Type="InputRef" V="122" U="0dbff172-007c-c51e-fffffb030ef95e86" Title="Lights all off from living room" Px="4320" Py="1056" Px2="6432" Py2="1248" Cl="238,238,238" Nio="4" Ref="0dbff0fe-0256-878c-ffffb830a73fcead" WF="131072" LinkRefType="320">
+				<C Type="InputRef" V="122" U="0dbff172-007c-c51e-fffffb030ef95e86" Title="Lights all off from living room" Px="4320" Py="1056" Px2="6432" Py2="1248" Cl="238,238,238" Nio="4" Ref="0dbff0fe-0256-878c-ffffb830a73fcead" WF="16384" LinkRefType="320">
 					<Co K="AI" Nc="1" U="0dbff172-007c-c51a-ffffd224d4fe3ff4">
 						<In Input="0dbff0fe-0256-878a-ffff3e880624f33c"/>
 					</Co>
@@ -2091,7 +2089,7 @@
 					<Co K="AQ" U="0dbff172-007c-c51c-ffffd224d4fe3ff4"/>
 					<Co K="Q" U="0dbff172-007c-c51d-ffffd224d4fe3ff4"/>
 				</C>
-				<C Type="InputRef" V="122" U="0fa60258-03da-07f6-fffffb030ef95e86" Title="Watch TV" Px="4320" Py="2592" Px2="6432" Py2="2784" Cl="238,238,238" Nio="4" Ref="0fa5ffdb-0006-74bc-fffffb030ef95e86" LinkRefType="71">
+				<C Type="InputRef" V="122" U="0fa60258-03da-07f6-fffffb030ef95e86" Title="Watch TV" Px="4320" Py="2592" Px2="6432" Py2="2784" Cl="238,238,238" Nio="4" Ref="0fa5ffdb-0006-74bc-fffffb030ef95e86" WF="16384" LinkRefType="71">
 					<Co K="AI" Nc="1" U="0fa60258-03da-07f2-ffff0304f3fc522e">
 						<In Input="0fa5ffdb-0006-74ba-ffffd6987e39f665"/>
 					</Co>
@@ -2101,25 +2099,25 @@
 					<Co K="AQ" U="0fa60258-03da-07f4-ffff0304f3fc522e"/>
 					<Co K="Q" U="0fa60258-03da-07f5-ffff0304f3fc522e"/>
 				</C>
-				<C Type="Memory" V="122" U="0ab16534-020b-1f2e-fffffb030ef95e86" Title="Lights all off" Px="11232" Py="1152" Px2="13344" Py2="1344" Cl="238,238,238" Nio="3" WF="131072" Tp="0">
+				<C Type="Memory" V="122" U="0ab16534-020b-1f2e-fffffb030ef95e86" Title="Lights all off" Px="11232" Py="1152" Px2="13344" Py2="1344" Cl="238,238,238" Nio="3" WF="16384" Tp="0">
 					<Co K="Input" Nc="3" U="0ab16534-020b-1f2c-ffff112233445566">
-						<In Input="0ab6c43d-00dc-4b1f-ffffeee000d80ece"/>
-						<In Input="0ab6c43d-00dc-4b20-ffffeee000d80ece"/>
 						<In Input="0ab6c43d-00dc-4b21-ffffeee000d80ece"/>
+						<In Input="0ab6c43d-00dc-4b20-ffffeee000d80ece"/>
+						<In Input="0ab6c43d-00dc-4b1f-ffffeee000d80ece"/>
 					</Co>
 					<Co K="AQ" U="0ab16534-020b-1f2d-ffff112233445566"/>
 					<Co K="Q" U="0c82db71-014c-28b4-ffff98bcb8fa4811"/>
 					<IoData VisuPwd="true" Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0021-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<Display Unit="&lt;v.1&gt;V" StateOnly="true"/>
 				</C>
-				<C Type="LongClick" V="122" U="0ab6c43d-00dc-4b14-ffffeee000d80ece" Title="O97" Px="8352" Py="576" Px2="9696" Py2="2400" Cl="105,195,80" Nio="14">
+				<C Type="LongClick" V="122" U="0ab6c43d-00dc-4b14-ffffeee000d80ece" Title="O97" Px="8352" Py="576" Px2="9696" Py2="2400" Cl="105,195,80" Nio="14" WF="16384">
 					<Co K="InputTrigger" Nc="6" U="0ab6c43d-00dc-4b15-ffffeee000d80ece">
-						<In Input="0ab6c330-01d1-3aac-ffff112233445566"/>
-						<In Input="0ab6c7e7-016a-99ac-ffff112233445566"/>
-						<In Input="0dbff172-007c-c51d-ffffd224d4fe3ff4"/>
-						<In Input="0dbff184-0055-d9b5-ffff6103cc992c35"/>
-						<In Input="0dc53221-0238-d5e3-ffffdd7bc143adcc"/>
 						<In Input="0dc53229-0044-e0b6-ffffc73c3bd72aec"/>
+						<In Input="0dc53221-0238-d5e3-ffffdd7bc143adcc"/>
+						<In Input="0dbff184-0055-d9b5-ffff6103cc992c35"/>
+						<In Input="0dbff172-007c-c51d-ffffd224d4fe3ff4"/>
+						<In Input="0ab6c7e7-016a-99ac-ffff112233445566"/>
+						<In Input="0ab6c330-01d1-3aac-ffff112233445566"/>
 					</Co>
 					<Co K="Reset" U="0ab6c43d-00dc-4b16-ffffeee000d80ece"/>
 					<Co K="Remanence" U="0ab6c43d-00dc-4b17-ffffeee000d80ece"/>
@@ -2137,7 +2135,7 @@
 					<Co K="Q4" U="0ab6c43d-00dc-4b21-ffffeee000d80ece"/>
 					<Co K="AQ" U="0ab6c43d-00dc-4b22-ffffeee000d80ece"/>
 				</C>
-				<C Type="Memory" V="122" U="0fa601c5-015e-cac3-fffffb030ef95e86" Title="Scene set from Harmony" Px="7392" Py="2592" Px2="9504" Py2="2784" Cl="238,238,238" Nio="3" Tp="0">
+				<C Type="Memory" V="122" U="0fa601c5-015e-cac3-fffffb030ef95e86" Title="Scene set from Harmony" Px="7392" Py="2592" Px2="9504" Py2="2784" Cl="238,238,238" Nio="3" WF="16384" Tp="0">
 					<Co K="Input" Nc="1" U="0fa601c5-015e-cac0-ffffd154a78cf17c">
 						<In Input="0fa60258-03da-07f4-ffff0304f3fc522e"/>
 					</Co>
@@ -2146,7 +2144,7 @@
 					<IoData Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-0025-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
 				</C>
-				<C Type="PushButton" V="122" U="0fc19cce-019f-cfa2-fffffb030ef95e86" Title="Harmony Hub All Off" Px="7392" Py="3840" Px2="10080" Py2="4704" Cl="105,195,80" Nio="8" SpStates="0fc19cce-019f-cf9a-ffff28062066c830,0fc19cce-019f-cf9b-ffff28062066c830">
+				<C Type="PushButton" V="122" U="0fc19cce-019f-cfa2-fffffb030ef95e86" Title="Harmony Hub All Off" Px="7392" Py="3840" Px2="10080" Py2="4704" Cl="105,195,80" Nio="8" WF="16384" SpStates="0fc19cce-019f-cf9a-ffff28062066c830,0fc19cce-019f-cf9b-ffff28062066c830">
 					<Co K="InputTrigger" U="0fc19cce-019f-cf9c-ffff28062066c830"/>
 					<Co K="Reset" U="0fc19cce-019f-cf9d-ffff28062066c830"/>
 					<Co K="On" U="0fc19cce-019f-cf9e-ffff28062066c830"/>
@@ -2159,7 +2157,7 @@
 					<PSD As="-2" Ae="1380" Amin="1" Amax="4" Dmin="30" Dmax="180" V="20"/>
 					<Display Unit="&lt;v.1&gt;"/>
 				</C>
-				<C Type="OutputRef" V="122" U="0fc19b45-000e-3907-fffffb030ef95e86" Title="Harmony Hub All Off" Px="11232" Py="1728" Px2="13344" Py2="1920" Cl="238,238,238" Nio="2" Ref="0fc182d4-0309-a6df-fffffb030ef95e86" WF="147456" LinkRefType="74">
+				<C Type="OutputRef" V="122" U="0fc19b45-000e-3907-fffffb030ef95e86" Title="Harmony Hub All Off" Px="11232" Py="1728" Px2="13344" Py2="1920" Cl="238,238,238" Nio="2" Ref="0fc182d4-0309-a6df-fffffb030ef95e86" WF="16384" LinkRefType="74">
 					<Co K="AI" Nc="4" U="0fc19b45-000e-3905-fffff4025a3f7706">
 						<In Input="0ab6c43d-00dc-4b21-ffffeee000d80ece"/>
 						<In Input="0ab6c43d-00dc-4b20-ffffeee000d80ece"/>
@@ -2168,7 +2166,7 @@
 					</Co>
 					<Co K="AQ" U="0fc19b45-000e-3906-fffff4025a3f7706"/>
 				</C>
-				<C Type="OutputRef" V="122" U="0dca71eb-0043-4b42-fffffb030ef95e86" Title="Pause" Px="11232" Py="1344" Px2="13344" Py2="1536" Cl="238,238,238" Nio="2" Ref="0dca719e-00be-4013-fffffb030ef95e86" WF="147456" LinkRefType="74">
+				<C Type="OutputRef" V="122" U="0dca71eb-0043-4b42-fffffb030ef95e86" Title="Pause" Px="11232" Py="1344" Px2="13344" Py2="1536" Cl="238,238,238" Nio="2" Ref="0dca719e-00be-4013-fffffb030ef95e86" WF="16384" LinkRefType="74">
 					<Co K="AI" Nc="3" U="0dca71eb-0043-4b40-ffffbc7a424db2e5">
 						<In Input="0ab6c43d-00dc-4b1f-ffffeee000d80ece"/>
 						<In Input="0ab6c43d-00dc-4b20-ffffeee000d80ece"/>
@@ -2176,7 +2174,7 @@
 					</Co>
 					<Co K="AQ" U="0dca71eb-0043-4b41-ffffbc7a424db2e5"/>
 				</C>
-				<C Type="OutputRef" V="122" U="0dca755e-0356-0704-fffffb030ef95e86" Title="Pause" Px="11232" Py="1536" Px2="13344" Py2="1728" Cl="238,238,238" Nio="2" Ref="0dca7520-0018-cf0b-fffffb030ef95e86" WF="147456" LinkRefType="74">
+				<C Type="OutputRef" V="122" U="0dca755e-0356-0704-fffffb030ef95e86" Title="Pause" Px="11232" Py="1536" Px2="13344" Py2="1728" Cl="238,238,238" Nio="2" Ref="0dca7520-0018-cf0b-fffffb030ef95e86" WF="16384" LinkRefType="74">
 					<Co K="AI" Nc="3" U="0dca755e-0356-0702-ffff294ece7348ec">
 						<In Input="0ab6c43d-00dc-4b1f-ffffeee000d80ece"/>
 						<In Input="0ab6c43d-00dc-4b20-ffffeee000d80ece"/>
@@ -2286,9 +2284,9 @@
 				</C>
 				<C Type="Memory" V="122" U="0dcfb913-0061-a4e3-ffffc77dcecfcd84" Title="Scene set from dining room" Px="7104" Py="2784" Px2="9216" Py2="2976" Cl="238,238,238" Nio="3" WF="16384" Tp="0">
 					<Co K="Input" Nc="3" U="0dcfb913-0061-a4e0-ffff41029314e5a8">
-						<In Input="0dcfb8c3-00ad-27c5-ffff00f41002ce35"/>
-						<In Input="0dcfb8c3-00ad-27c6-ffff00f41002ce35"/>
 						<In Input="0dcfb8c3-00ad-27c7-ffff00f41002ce35"/>
+						<In Input="0dcfb8c3-00ad-27c6-ffff00f41002ce35"/>
+						<In Input="0dcfb8c3-00ad-27c5-ffff00f41002ce35"/>
 					</Co>
 					<Co K="AQ" U="0dcfb913-0061-a4e1-ffff41029314e5a8"/>
 					<Co K="Q" U="0dcfb913-0061-a4e2-ffff41029314e5a8"/>
@@ -2306,16 +2304,16 @@
 					<Co K="InputTriggerDown" U="10b333d6-017b-7f1c-ffffe84d4fe9a876"/>
 					<Co K="Select" U="10b333d6-017b-7f1d-ffffe84d4fe9a876"/>
 					<Co K="Reset" Nc="2" U="10b333d6-017b-7f1e-ffffe84d4fe9a876">
-						<In Input="0ab1656d-0356-256b-ffff112233445566"/>
 						<In Input="0dc53021-0257-3644-ffff584f256491c3"/>
+						<In Input="0ab1656d-0356-256b-ffff112233445566"/>
 					</Co>
 					<Co K="Sel1" U="10b333d6-017b-7f1f-ffffe84d4fe9a876"/>
 					<Co K="Sel2" U="10b333d6-017b-7f20-ffffe84d4fe9a876"/>
 					<Co K="Sel3" Nc="4" U="10b333d6-017b-7f21-ffffe84d4fe9a876">
-						<In Input="0fa60284-0283-2cbb-ffff19f8f3ea40c1"/>
-						<In Input="0dce59d6-019e-f244-ffff547b6305c199"/>
-						<In Input="0dcfbb1f-03d7-2b4f-ffff7e6d8c97af71"/>
 						<In Input="0dcfbc25-0052-4ef6-ffffcb4840fe078e"/>
+						<In Input="0dcfbb1f-03d7-2b4f-ffff7e6d8c97af71"/>
+						<In Input="0dce59d6-019e-f244-ffff547b6305c199"/>
+						<In Input="0fa60284-0283-2cbb-ffff19f8f3ea40c1"/>
 					</Co>
 					<Co K="Sel4" U="10b333d6-017b-7f22-ffffe84d4fe9a876"/>
 					<Co K="Sel5" U="10b333d6-017b-7f23-ffffe84d4fe9a876"/>
@@ -2598,13 +2596,13 @@
 				</C>
 				<C Type="Presence" V="122" U="0fc17771-0142-e1ca-ffff9b3f962d716d" Title="Presence" Px="8256" Py="2976" Px2="10944" Py2="4032" Cl="105,195,80" Nio="5" WF="16384">
 					<Co K="InputTrigger" Nc="2" U="0fc17771-0142-e1c5-ffff4831d501a3f7">
-						<In Input="10b333d6-017b-7fbc-ffffe84d4fe9a876"/>
 						<In Input="10b333d6-017b-7fbd-ffffe84d4fe9a876"/>
+						<In Input="10b333d6-017b-7fbc-ffffe84d4fe9a876"/>
 					</Co>
 					<Co K="Reset" Nc="3" U="0fc17771-0142-e1c6-ffff4831d501a3f7">
-						<In Input="0afa3c0c-01ce-62b3-ffff112233445566"/>
-						<In Input="0afa3c0c-01ce-62b2-ffff112233445566"/>
 						<In Input="0afa3c0c-01ce-62b1-ffff112233445566"/>
+						<In Input="0afa3c0c-01ce-62b2-ffff112233445566"/>
+						<In Input="0afa3c0c-01ce-62b3-ffff112233445566"/>
 					</Co>
 					<Co K="Remanence" Inv="true" U="0fc17771-0142-e1c7-ffff4831d501a3f7"/>
 					<Co K="Time" Def="5400" U="0fc17771-0142-e1c8-ffff4831d501a3f7"/>
@@ -2772,9 +2770,9 @@
 					<Co K="InputTriggerDown" U="10b333d6-017b-7fdd-ffffe84d4fe9a876"/>
 					<Co K="Select" U="10b333d6-017b-7fde-ffffe84d4fe9a876"/>
 					<Co K="Reset" Nc="3" U="10b333d6-017b-7fdf-ffffe84d4fe9a876">
-						<In Input="10c85573-02dd-a7d7-ffffbfecb5dc8ef8"/>
-						<In Input="0dc530c6-01fa-be49-ffffab6554a408d1"/>
 						<In Input="0dc53152-02b5-0965-ffff2d892e85601f"/>
+						<In Input="0dc530c6-01fa-be49-ffffab6554a408d1"/>
+						<In Input="10c85573-02dd-a7d7-ffffbfecb5dc8ef8"/>
 					</Co>
 					<Co K="Sel1" U="10b333d6-017b-7fe0-ffffe84d4fe9a876"/>
 					<Co K="Sel2" Nc="1" U="10b333d6-017b-7fe1-ffffe84d4fe9a876">
@@ -2971,9 +2969,9 @@
 				</C>
 				<C Type="Memory" V="122" U="0dcfbbbf-037c-e5b2-ffffb1bd37ae859c" Title="Scene set from hallway_" Px="4032" Py="5376" Px2="6144" Py2="5568" Cl="238,238,238" Nio="3" WF="16384" Tp="0">
 					<Co K="Input" Nc="3" U="0dcfbbbf-037c-e5af-ffff09b3223f9e8e">
-						<In Input="0dcfbb93-01e5-7c92-ffff960d3449de4f"/>
-						<In Input="0dcfbb93-01e5-7c93-ffff960d3449de4f"/>
 						<In Input="0dcfbb93-01e5-7c94-ffff960d3449de4f"/>
+						<In Input="0dcfbb93-01e5-7c93-ffff960d3449de4f"/>
+						<In Input="0dcfbb93-01e5-7c92-ffff960d3449de4f"/>
 					</Co>
 					<Co K="AQ" U="0dcfbbbf-037c-e5b0-ffff09b3223f9e8e"/>
 					<Co K="Q" U="0dcfbbbf-037c-e5b1-ffff09b3223f9e8e"/>
@@ -2991,15 +2989,15 @@
 					<Co K="InputTriggerDown" U="10b333d6-017b-8036-ffffe84d4fe9a876"/>
 					<Co K="Select" U="10b333d6-017b-8037-ffffe84d4fe9a876"/>
 					<Co K="Reset" Nc="2" U="10b333d6-017b-8038-ffffe84d4fe9a876">
-						<In Input="0dbf8e42-031f-1702-ffff8f1b0fd743aa"/>
 						<In Input="0ab16667-02f1-3501-ffff112233445566"/>
+						<In Input="0dbf8e42-031f-1702-ffff8f1b0fd743aa"/>
 					</Co>
 					<Co K="Sel1" U="10b333d6-017b-8039-ffffe84d4fe9a876"/>
 					<Co K="Sel2" Nc="4" U="10b333d6-017b-803a-ffffe84d4fe9a876">
-						<In Input="0fa605bb-0292-c5f5-ffffa1d870a3022b"/>
-						<In Input="0dcfb3c3-016e-d437-ffffa7e8e80fd2d3"/>
-						<In Input="0dcfb997-012f-16e7-ffff1b044e51d127"/>
 						<In Input="0dcfbb4e-005d-4e19-ffff6c22024ed56e"/>
+						<In Input="0dcfb997-012f-16e7-ffff1b044e51d127"/>
+						<In Input="0dcfb3c3-016e-d437-ffffa7e8e80fd2d3"/>
+						<In Input="0fa605bb-0292-c5f5-ffffa1d870a3022b"/>
 					</Co>
 					<Co K="Sel3" U="10b333d6-017b-803b-ffffe84d4fe9a876"/>
 					<Co K="Sel4" U="10b333d6-017b-803c-ffffe84d4fe9a876"/>
@@ -3284,9 +3282,9 @@
 				</C>
 				<C Type="Memory" V="122" U="0dcfbad1-024e-da7e-ffff95d9cdbb6d3f" Title="Scene set from kitchen" Px="4704" Py="3552" Px2="6816" Py2="3744" Cl="238,238,238" Nio="3" WF="16384" Tp="0">
 					<Co K="Input" Nc="3" U="0dcfbad1-024e-da7b-ffff86d813bce377">
-						<In Input="0dcfba8c-01d4-502b-fffff60f643447b4"/>
-						<In Input="0dcfba8c-01d4-502c-fffff60f643447b4"/>
 						<In Input="0dcfba8c-01d4-502d-fffff60f643447b4"/>
+						<In Input="0dcfba8c-01d4-502c-fffff60f643447b4"/>
+						<In Input="0dcfba8c-01d4-502b-fffff60f643447b4"/>
 					</Co>
 					<Co K="AQ" U="0dcfbad1-024e-da7c-ffff86d813bce377"/>
 					<Co K="Q" U="0dcfbad1-024e-da7d-ffff86d813bce377"/>
@@ -3304,15 +3302,15 @@
 					<Co K="InputTriggerDown" U="10b333d6-017b-8095-ffffec4918e8f3cd"/>
 					<Co K="Select" U="10b333d6-017b-8096-ffffec4918e8f3cd"/>
 					<Co K="Reset" Nc="2" U="10b333d6-017b-8097-ffffec4918e8f3cd">
-						<In Input="0aa9a440-0070-c10b-ffff112233445566"/>
 						<In Input="0ab166aa-03dc-3e66-ffff112233445566"/>
+						<In Input="0aa9a440-0070-c10b-ffff112233445566"/>
 					</Co>
 					<Co K="Sel1" U="10b333d6-017b-8098-ffffec4918e8f3cd"/>
 					<Co K="Sel2" Nc="4" U="10b333d6-017b-8099-ffffec4918e8f3cd">
-						<In Input="0fa605f3-031f-f721-ffff92fcaf2f93ad"/>
-						<In Input="0dcfb2d6-038c-57c1-ffffaa2ab69b4376"/>
-						<In Input="0dcfb9bd-0229-393a-fffffad4630ff6b0"/>
 						<In Input="0dcfbc58-03cd-7df0-fffff8e6ed91e6d8"/>
+						<In Input="0dcfb9bd-0229-393a-fffffad4630ff6b0"/>
+						<In Input="0dcfb2d6-038c-57c1-ffffaa2ab69b4376"/>
+						<In Input="0fa605f3-031f-f721-ffff92fcaf2f93ad"/>
 					</Co>
 					<Co K="Sel3" U="10b333d6-017b-809a-ffffec4918e8f3cd"/>
 					<Co K="Sel4" U="10b333d6-017b-809b-ffffec4918e8f3cd"/>
@@ -3525,8 +3523,8 @@
 				</C>
 				<C Type="Memory" V="122" U="0ab6c791-0244-82b8-ffff86d90d45a4ab" Title="Lights all off from landing" Px="6048" Py="7488" Px2="8160" Py2="7680" Cl="238,238,238" Nio="3" WF="16384" Tp="0">
 					<Co K="Input" Nc="2" U="0ab6c791-0244-82b6-ffff112233445566">
-						<In Input="82545fd0-11e8-11e4-a38086d90d45a4ab"/>
 						<In Input="0dbf8f06-028a-920b-ffff791647c97299"/>
+						<In Input="82545fd0-11e8-11e4-a38086d90d45a4ab"/>
 					</Co>
 					<Co K="AQ" U="0ab6c791-0244-82b7-ffff112233445566"/>
 					<Co K="Q" U="0c82db71-0141-26de-ffff98bcb8fa4811"/>
@@ -3557,16 +3555,16 @@
 					<Co K="I3" U="10b333d6-017b-80fb-ffffec4918e8f3cd"/>
 					<Co K="I4" U="10b333d6-017b-80fc-ffffec4918e8f3cd"/>
 					<Co K="InputTriggerUp" Nc="2" U="10b333d6-017b-80fd-ffffec4918e8f3cd">
-						<In Input="83bf3a71-11e8-11e4-a44286d90d45a4ab"/>
 						<In Input="0dbf8efe-0352-87c0-ffff0389a6b02111"/>
+						<In Input="83bf3a71-11e8-11e4-a44286d90d45a4ab"/>
 					</Co>
 					<Co K="InputTriggerDown" U="10b333d6-017b-80fe-ffffec4918e8f3cd"/>
 					<Co K="Select" U="10b333d6-017b-80ff-ffffec4918e8f3cd"/>
 					<Co K="Reset" Nc="4" U="10b333d6-017b-8100-ffffec4918e8f3cd">
-						<In Input="0ec384fa-02bb-a7dc-fffff140ae002888"/>
-						<In Input="82545fd0-11e8-11e4-a38086d90d45a4ab"/>
-						<In Input="0dbf8f06-028a-920b-ffff791647c97299"/>
 						<In Input="0dbff1ed-02f4-ee57-fffff677d73ee221"/>
+						<In Input="0dbf8f06-028a-920b-ffff791647c97299"/>
+						<In Input="82545fd0-11e8-11e4-a38086d90d45a4ab"/>
+						<In Input="0ec384fa-02bb-a7dc-fffff140ae002888"/>
 					</Co>
 					<Co K="Sel1" U="10b333d6-017b-8101-ffffec4918e8f3cd"/>
 					<Co K="Sel2" U="10b333d6-017b-8102-ffffec4918e8f3cd"/>
@@ -3738,9 +3736,9 @@
 				</C>
 				<C Type="Memory" V="122" U="0dce587d-0137-5523-ffffb830a73fcead" Title="Scene set from living room" Px="3936" Py="4032" Px2="6048" Py2="4224" Cl="238,238,238" Nio="3" WF="16384" Tp="1">
 					<Co K="Input" Nc="3" U="0dce587d-0137-5520-ffff7fcba5cd62e8">
-						<In Input="0dce58df-0234-6b7f-ffff8b912ebd89ac"/>
-						<In Input="0dce58df-0234-6b80-ffff8b912ebd89ac"/>
 						<In Input="0dce58df-0234-6b81-ffff8b912ebd89ac"/>
+						<In Input="0dce58df-0234-6b80-ffff8b912ebd89ac"/>
+						<In Input="0dce58df-0234-6b7f-ffff8b912ebd89ac"/>
 					</Co>
 					<Co K="AQ" U="0dce587d-0137-5521-ffff7fcba5cd62e8"/>
 					<Co K="Q" U="0dce587d-0137-5522-ffff7fcba5cd62e8"/>
@@ -3778,16 +3776,16 @@
 					<Co K="InputTriggerDown" U="10b333d6-017b-8161-ffffec4918e8f3cd"/>
 					<Co K="Select" U="10b333d6-017b-8162-ffffec4918e8f3cd"/>
 					<Co K="Reset" Nc="2" U="10b333d6-017b-8163-ffffec4918e8f3cd">
-						<In Input="0ab166ca-00f8-44aa-ffff112233445566"/>
 						<In Input="0dbfef9e-0159-7304-ffff20009d7a73ca"/>
+						<In Input="0ab166ca-00f8-44aa-ffff112233445566"/>
 					</Co>
 					<Co K="Sel1" U="10b333d6-017b-8164-ffffec4918e8f3cd"/>
 					<Co K="Sel2" U="10b333d6-017b-8165-ffffec4918e8f3cd"/>
 					<Co K="Sel3" Nc="4" U="10b333d6-017b-8166-ffffec4918e8f3cd">
-						<In Input="0fa6058d-010b-889a-ffff9d0551525337"/>
-						<In Input="0dcfb979-0024-f4a3-fffffd9d27ba1c96"/>
-						<In Input="0dcfbb3d-00d9-4279-ffff29041c8a0a60"/>
 						<In Input="0dcfbc3a-0052-666e-ffff7bb4d6bd1708"/>
+						<In Input="0dcfbb3d-00d9-4279-ffff29041c8a0a60"/>
+						<In Input="0dcfb979-0024-f4a3-fffffd9d27ba1c96"/>
+						<In Input="0fa6058d-010b-889a-ffff9d0551525337"/>
 					</Co>
 					<Co K="Sel4" U="10b333d6-017b-8167-ffffec4918e8f3cd"/>
 					<Co K="Sel5" U="10b333d6-017b-8168-ffffec4918e8f3cd"/>
@@ -3987,9 +3985,9 @@
 					<Co K="InputTriggerDown" U="10b333d6-017b-81c8-ffffef46e0e73d24"/>
 					<Co K="Select" U="10b333d6-017b-81c9-ffffef46e0e73d24"/>
 					<Co K="Reset" Nc="3" U="10b333d6-017b-81ca-ffffef46e0e73d24">
-						<In Input="0fc18046-0097-2a97-fffffe7b7852c712"/>
-						<In Input="0b2f6990-00f6-c1fe-ffff112233445566"/>
 						<In Input="0bc6db13-00fd-75a0-ffff112233445566"/>
+						<In Input="0b2f6990-00f6-c1fe-ffff112233445566"/>
+						<In Input="0fc18046-0097-2a97-fffffe7b7852c712"/>
 					</Co>
 					<Co K="Sel1" U="10b333d6-017b-81cb-ffffef46e0e73d24"/>
 					<Co K="Sel2" U="10b333d6-017b-81cc-ffffef46e0e73d24"/>
@@ -4664,9 +4662,9 @@
 					<Co K="InputTriggerDown" U="10b333d6-017b-82e1-ffffef46e0e73d24"/>
 					<Co K="Select" U="10b333d6-017b-82e2-ffffef46e0e73d24"/>
 					<Co K="Reset" Nc="3" U="10b333d6-017b-82e3-ffffef46e0e73d24">
-						<In Input="0b2f678c-0096-5e7e-ffff112233445566"/>
-						<In Input="0b2f67ef-00f0-6d2d-ffff112233445566"/>
 						<In Input="0dbf9181-00c4-bb94-ffffa7875e28cb10"/>
+						<In Input="0b2f67ef-00f0-6d2d-ffff112233445566"/>
+						<In Input="0b2f678c-0096-5e7e-ffff112233445566"/>
 					</Co>
 					<Co K="Sel1" U="10b333d6-017b-82e4-ffffef46e0e73d24"/>
 					<Co K="Sel2" U="10b333d6-017b-82e5-ffffef46e0e73d24"/>
