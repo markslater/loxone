@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ControlList Version="162" LxAV="25" NextObj="299" NextConst="1" NextNote="1" NextMem="22">
-	<C Type="Document" V="126" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="10020326" SPSfreq="50" OpenIsHigh="false" Date="2019-06-25 19:35:17" CDate="2018-09-13 06:16:53" BDate="" DateS="330723317" Street="" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" SL="24" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" uuidFavSeq="0f9f1b72-0179-0224-ffffeee000d80ece" uuidFavCol="0f9f1b72-0179-0225-ffffeee000d80ece" FC="hsv(25,96,50);hsv(24,95,80);hsv(337,94,50)" uuidTime="10b2a3b8-025e-0230-ffffeee000d80ece" Currency="€" UpdTime="120" CrashL="true" Geo="3" NumO="717">
+	<C Type="Document" V="126" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="10020326" SPSfreq="50" OpenIsHigh="false" Date="2019-06-25 20:00:09" CDate="2018-09-13 06:16:53" BDate="" DateS="330724809" Street="" Town="SW12 8QH" Ctry="" Latitude="51.4485" Longitude="-0.1549" SL="24" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" uuidFavSeq="0f9f1b72-0179-0224-ffffeee000d80ece" uuidFavCol="0f9f1b72-0179-0225-ffffeee000d80ece" FC="hsv(25,96,50);hsv(24,95,80);hsv(337,94,50)" uuidTime="10b2a3b8-025e-0230-ffffeee000d80ece" Currency="€" UpdTime="120" CrashL="true" Geo="3" NumO="717">
 		<C Type="LoxCaption" V="126" U="0ef02173-009c-0dd2-ffffeee000d80ece" Title="Icons" Cl="0,0,0" WF="16384" CaptionType="5">
 			<C Type="IconCaptionPlace" V="126" U="c332f9e1-9cad-11e3-9b01fb030ef95e86" Title="Room Icons" WF="16384">
 				<C Type="IconPlace" V="126" U="00000000-0000-0001-2100000000000000" Title="Not assigned" WF="16384"/>
@@ -167,8 +167,8 @@
 			<C Type="Place" V="126" U="0b175bb6-003c-1a7a-fffffb030ef95e86" Title="Loft" WF="16384" Icon="00000000-0000-0019-2100000000000000" PType="3"/>
 		</C>
 		<C Type="UserCaption" V="126" U="c333bd30-9cad-11e3-9b02fb030ef95e86" Title="Users" WF="16384">
-			<C Type="User" V="126" U="c34410e0-9cad-11e3-9b27fb030ef95e86" Title="admin" WF="16384" LastEdit="0" Main="true" AppGroup="1" UsR="2047" UsRnA="1664" iBtnArr="0" CodeArr="" NFCArr="" NFCNArr="" UnsP="true">
-				<HP H="75353000A41CA2375340656692A4CAE745EFA8ADE200E724A9924B6DF60AED6C3912F716F8A4960BB25F942497BC3684" S="31306232613362382D303238322D303265342D66666666656565303030643830656365" Sc="-2"/>
+			<C Type="User" V="126" U="c34410e0-9cad-11e3-9b27fb030ef95e86" Title="admin" WF="16384" LastEdit="0" Main="true" AppGroup="1" UsR="2047" UsRnA="1664" iBtnArr="0" CodeArr="" NFCArr="" NFCNArr="">
+				<HP H="092614E22FE9D0F12E45F0A34A97976DE95A95427541929F49F4512462889CBDF0B1673DFA14C47B79A15D1E6704D5C3" S="31336236373536392D303065392D366566362D66666666636530323838383431393265" Sc="3"/>
 				<HP H="" S="" Sc="-2"/>
 			</C>
 			<C Type="User" V="126" U="d4f98f41-9cb7-11e3-b888fb030ef95e86" Title="Mark" WF="16384" LastEdit="0" Devices="0dc6eb2e-02ec-3dd4-ffffeee000d80ece:8000007e,0f9f0b96-00ab-0dc1-ffffeee000d80ece:8000037e,0fb15422-01d7-25bc-ffffeee000d80ece:8000037e" AppGroup="1" UsR="2047" UsRnA="1664" iBtnArr="0" CodeArr="" NFCArr="" NFCNArr="">
@@ -197,7 +197,7 @@
 				<C Type="RefUser" V="126" U="0fa60062-010a-a590-fffffb030ef95e86" Title="HarmonyIntegration" Cl="0,0,0" Ref="0fa60062-010a-a58e-fffffb030ef95e86" WF="16384"/>
 			</C>
 			<C Type="UserGroup" V="126" U="c34437f1-9cad-11e3-9b2afb030ef95e86" Title="Nobody" WF="16384" UgType="3" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000"/>
-			<C Type="UserGroup" V="126" U="0fa600bd-0089-381a-fffffb030ef95e86" Title="Webservices" WF="16384" Rights="129" N="10" Modes="00000000-0000-0001-1500000000000000,00000000-0000-0002-1500000000000000,00000000-0000-0003-1500000000000000,00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
+			<C Type="UserGroup" V="126" U="0fa600bd-0089-381a-fffffb030ef95e86" Title="Webservices" WF="16384" Rights="129" UserModes="3" N="10" Modes="00000000-0000-0001-1500000000000000,00000000-0000-0002-1500000000000000,00000000-0000-0003-1500000000000000,00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000">
 				<Entry To="1440" V="1"/>
 				<Entry To="1440" Ix="1" V="1"/>
 				<Entry To="1440" Ix="2" V="1"/>
@@ -503,49 +503,49 @@
 				<Co K="AQ" U="13b66f17-02aa-201d-ffff68452b755762"/>
 				<Co K="Q" U="13b66f17-02aa-201e-ffff68452b755762"/>
 				<IoData Cr="0aa18988-0254-0005-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
-				<Display Unit="&lt;v.1&gt;°"/>
+				<Display Unit="&lt;v.1&gt;°" StateOnly="true"/>
 			</C>
 			<C Type="SysVar" IName="SYS2" V="126" U="13b66f17-02aa-2024-ffffeee000d80ece" Title="Outdoor Humidity" Cl="0,0,0" Nio="3" EU="1" WF="6307840" SubType="1" source="c3509400-9cad-11e3-9bc8fb030ef95e86" MaxVal="100" SourceValHigh="10" DestValHigh="10">
 				<Co K="AI" U="13b66f17-02aa-2021-ffff68452b755762"/>
 				<Co K="AQ" U="13b66f17-02aa-2022-ffff68452b755762"/>
 				<Co K="Q" U="13b66f17-02aa-2023-ffff68452b755762"/>
 				<IoData Cr="0aa18988-0254-0005-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
-				<Display Unit="&lt;v.1&gt;%"/>
+				<Display Unit="&lt;v.1&gt;%" StateOnly="true"/>
 			</C>
 			<C Type="SysVar" IName="SYS3" V="126" U="13b66f17-02aa-2029-ffffeee000d80ece" Title="Wind Speed" Cl="0,0,0" Nio="3" EU="1" WF="6307840" SubType="2" source="c3509400-9cad-11e3-9bc8fb030ef95e86" MinVal="-1000" MaxVal="1000" SourceValHigh="10" DestValHigh="10">
 				<Co K="AI" U="13b66f17-02aa-2026-ffff68452b755762"/>
 				<Co K="AQ" U="13b66f17-02aa-2027-ffff68452b755762"/>
 				<Co K="Q" U="13b66f17-02aa-2028-ffff68452b755762"/>
 				<IoData Cr="0aa18988-0254-0005-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
-				<Display Unit="&lt;v&gt;km/h"/>
+				<Display Unit="&lt;v&gt;km/h" StateOnly="true"/>
 			</C>
 			<C Type="SysVar" IName="SYS4" V="126" U="13b66f17-02b8-202e-ffffeee000d80ece" Title="Sunshine" Cl="0,0,0" Nio="3" EU="1" WF="6307840" SubType="3" source="c3509400-9cad-11e3-9bc8fb030ef95e86" MinVal="-1000" MaxVal="1000" SourceValHigh="10" DestValHigh="10">
 				<Co K="AI" U="13b66f17-02b8-202b-ffff68452b755762"/>
 				<Co K="AQ" U="13b66f17-02b8-202c-ffff68452b755762"/>
 				<Co K="Q" U="13b66f17-02b8-202d-ffff68452b755762"/>
 				<IoData Cr="0aa18988-0254-0005-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
-				<Display></Display>
+				<Display StateOnly="true"/>
 			</C>
 			<C Type="SysVar" IName="SYS5" V="126" U="13b66f17-02b8-2033-ffffeee000d80ece" Title="Expected Solar Energy 12h" Cl="0,0,0" Nio="3" EU="1" WF="6307840" SubType="4" source="c3509400-9cad-11e3-9bc8fb030ef95e86" MinVal="-1000" MaxVal="1000" SourceValHigh="10" DestValHigh="10">
 				<Co K="AI" U="13b66f17-02b8-2030-ffff68452b755762"/>
 				<Co K="AQ" U="13b66f17-02b8-2031-ffff68452b755762"/>
 				<Co K="Q" U="13b66f17-02b8-2032-ffff68452b755762"/>
 				<IoData Cr="0aa18988-0254-0005-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
-				<Display Unit="&lt;v&gt;W/m²"/>
+				<Display Unit="&lt;v&gt;W/m²" StateOnly="true"/>
 			</C>
 			<C Type="SysVar" IName="SYS6" V="126" U="13b66f17-02b8-2038-ffffeee000d80ece" Title="Expected Solar Energy 24h" Cl="0,0,0" Nio="3" EU="1" WF="6307840" SubType="5" source="c3509400-9cad-11e3-9bc8fb030ef95e86" MinVal="-1000" MaxVal="1000" SourceValHigh="10" DestValHigh="10">
 				<Co K="AI" U="13b66f17-02b8-2035-ffff68452b755762"/>
 				<Co K="AQ" U="13b66f17-02b8-2036-ffff68452b755762"/>
 				<Co K="Q" U="13b66f17-02b8-2037-ffff68452b755762"/>
 				<IoData Cr="0aa18988-0254-0005-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
-				<Display Unit="&lt;v&gt;W/m²"/>
+				<Display Unit="&lt;v&gt;W/m²" StateOnly="true"/>
 			</C>
 			<C Type="SysVar" IName="SYS7" V="126" U="13b66f17-02b8-203e-ffffeee000d80ece" Title="Internet Connection" Cl="0,0,0" Nio="3" EU="1" WF="6307840" SubType="6" source="13b66f17-02b8-203e-ffffeee000d80ece" MinVal="-1000" MaxVal="1000" SourceValHigh="10" DestValHigh="10" SpStates="13b66f17-02b8-203a-ffff68452b755762" OM="false">
 				<Co K="AI" U="13b66f17-02b8-203b-ffff68452b755762"/>
 				<Co K="AQ" U="13b66f17-02b8-203c-ffff68452b755762"/>
 				<Co K="Q" U="13b66f17-02b8-203d-ffff68452b755762"/>
 				<IoData Cr="0aa18988-0254-000d-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
-				<Display></Display>
+				<Display StateOnly="true"/>
 			</C>
 		</C>
 		<C Type="Devicemonitor" V="126" U="0f9f1b73-005d-0e1a-ffffeee000d80ece" Title="Device Monitor" Cl="0,0,0" WF="20480" SpStates="0f9f29c8-033c-20ee-ffffeee000d80ece">
