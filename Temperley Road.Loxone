@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ControlList Version="214" LxAV="45" NextObj="300" NextConst="1" NextNote="1" NextMem="22">
-	<C Type="Document" V="151" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="12010716" SPSfreq="50" OpenIsHigh="false" Date="2021-05-15 15:04:57" CDate="2021-05-15 15:04:57" BDate="" DateS="390319497" Street="" Town="SW12 8QH" PostCode="" Ctry="" Latitude="51.4485" Longitude="-0.1549" SL="24" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" uuidFavSeq="0f9f1b72-0179-0224-ffffeee000d80ece" uuidFavCol="0f9f1b72-0179-0225-ffffeee000d80ece" FC="hsv(25,96,50);hsv(24,95,80);hsv(337,94,50)" uuidTime="10b2a3b8-025e-0230-ffffeee000d80ece" Currency="€" UpdTime="120" AUE="true" CrashL="true" Geo="3" NumO="782">
+<ControlList Version="218" LxAV="50" NextObj="300" NextConst="1" NextNote="1" NextMem="22">
+	<C Type="Document" V="151" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="12021201" SPSfreq="50" OpenIsHigh="false" Date="2022-04-10 18:24:18" CDate="2021-05-15 15:04:57" BDate="" DateS="418843458" Street="" Town="SW12 8QH" PostCode="" Ctry="" Latitude="51.4485" Longitude="-0.1549" SL="24" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" uuidFavSeq="0f9f1b72-0179-0224-ffffeee000d80ece" uuidFavCol="0f9f1b72-0179-0225-ffffeee000d80ece" FC="hsv(25,96,50);hsv(24,95,80);hsv(337,94,50)" uuidTime="10b2a3b8-025e-0230-ffffeee000d80ece" Currency="€" UpdTime="120" AUE="true" CrashL="true" Geo="3" NumO="784">
 		<C Type="LoxCaption" V="151" U="0ef02173-009c-0dd2-ffffeee000d80ece" Title="Icons" Cl="0,0,0" WF="16384" CaptionType="5" SubType="5">
 			<C Type="IconCaptionPlace" V="151" U="c332f9e1-9cad-11e3-9b01fb030ef95e86" Title="Room Icons" WF="16384">
 				<C Type="IconPlace" V="151" U="00000000-0000-0001-2100000000000000" Title="Not assigned" WF="16384"/>
@@ -114,7 +114,7 @@
 				<C Type="IconCat" V="151" U="00000000-0000-0039-2000000000000000" Title="All Out" WF="16384" Ix="56"/>
 				<C Type="IconCat" V="151" U="00000000-0000-003a-2000000000000000" Title="Controls" WF="16384" Ix="57"/>
 			</C>
-			<C Type="IconCaptionState" V="151" U="c332d2d0-9cad-11e3-9b00fb030ef95e86" Title="Status Symbols" WF="16384">
+			<C Type="IconCaptionState" V="151" U="c332d2d0-9cad-11e3-9b00fb030ef95e86" Title="Status Icons" WF="16384">
 				<C Type="IconState" V="151" U="00000000-0000-0001-2200000000000000" Title="Not assigned" WF="16384"/>
 				<C Type="IconState" V="151" U="00000000-0000-0002-2200000000000000" Title="Fatal error" WF="16384" Ix="1"/>
 				<C Type="IconState" V="151" U="00000000-0000-0003-2200000000000000" Title="Minor error" WF="16384" Ix="2"/>
@@ -166,183 +166,6 @@
 			<C Type="Place" V="151" U="0aa18988-0254-0027-0f00000000000000" Title="Global" WF="16384" Icon="00000000-0000-0031-2100000000000000" Rating="1" UseFav="true" PType="2" RGR="15d8424e-02ee-450c-fffffb030ef95e86"/>
 			<C Type="Place" V="151" U="0aa18988-0254-0028-0f00000000000000" Title="Bedroom 2" WF="16384" Icon="00000000-0000-0008-2100000000000000" Rating="1" UseFav="true" PType="1" Sqm="10.8" RGR="15d8424e-02ee-450e-fffffb030ef95e86"/>
 			<C Type="Place" V="151" U="0b175bb6-003c-1a7a-fffffb030ef95e86" Title="Loft" WF="16384" Icon="00000000-0000-0019-2100000000000000" PType="3" RGR="15d8424e-02ee-4510-fffffb030ef95e86"/>
-		</C>
-		<C Type="UserCaption" V="151" U="c333bd30-9cad-11e3-9b02fb030ef95e86" Title="User" WF="16384">
-			<C Type="User" V="151" U="c34410e0-9cad-11e3-9b27fb030ef95e86" Title="admin" WF="16384" Main="true" IDS="" FiN="" LaN="" Ema="" Phn="" AppGroup="1" UsR="-1" UsRnA="1664" iBtnArr="0" CodeArr="" NFCArr="" NFCNArr="" LastEdit="0">
-				<HP H="092614E22FE9D0F12E45F0A34A97976DE95A95427541929F49F4512462889CBDF0B1673DFA14C47B79A15D1E6704D5C3" Sc="3" S="31336236373536392D303065392D366566362D66666666636530323838383431393265"/>
-				<HP H="" Sc="-2" S="31346638333063322D303231362D393436352D66666666376262353935663862343036"/>
-				<PH NUM="1">
-					<PRM REF="15d8424e-02df-44ec-fffffb030ef95e86" ACT="3"/>
-				</PH>
-			</C>
-			<C Type="User" V="151" U="d4f98f41-9cb7-11e3-b888fb030ef95e86" Title="Mark" WF="16384" IDS="" FiN="" LaN="" Ema="" Phn="" Devices="0dc6eb2e-02ec-3dd4-ffffeee000d80ece:8000007e,0f9f0b96-00ab-0dc1-ffffeee000d80ece:8000037e,0fb15422-01d7-25bc-ffffeee000d80ece:8000037e" AppGroup="1" UsR="-1" UsRnA="1664" iBtnArr="0" CodeArr="" NFCArr="" NFCNArr="" LastEdit="0">
-				<HP H="8E8C2DF68EB480C69D29204F8B28F51C5A1613C4A106BBB0750F47EDA605749CDE70ED2092DC88A6D6CD8DAE80D4A3E6" Sc="-2" S="31306232613362382D303238342D303265362D66666666656565303030643830656365"/>
-				<HP H="" Sc="-2" S="31346638333063322D303231362D393436372D66666666376262353935663862343036"/>
-				<PH NUM="1">
-					<PRM REF="15d8424e-02df-44ec-fffffb030ef95e86" ACT="3"/>
-				</PH>
-			</C>
-			<C Type="User" V="151" U="fa260231-9cb7-11e3-babffb030ef95e86" Title="Laura" WF="16384" IDS="" FiN="" LaN="" Ema="" Phn="" Devices="0f630f2a-00da-1970-ffffeee000d80ece:8000037e" AppGroup="3" UsR="1062" UsRnA="1024" iBtnArr="0" CodeArr="" NFCArr="" NFCNArr="" LastEdit="0">
-				<HP H="3D820DAA6F2C0ECBF537AB4D8755E73FF4EF86B450B474B292E2F8E87F98DD94927F873E6EC01B06B527B968CEC6A2F6" Sc="-2" S="31306232613362382D303239342D303265382D66666666656565303030643830656365"/>
-				<HP H="" Sc="-2" S="31346638333063322D303231362D393436392D66666666376262353935663862343036"/>
-				<PH NUM="1">
-					<PRM REF="15d8424e-02df-44ec-fffffb030ef95e86" ACT="3"/>
-				</PH>
-			</C>
-			<C Type="User" V="151" U="0fa60062-010a-a58e-fffffb030ef95e86" Title="HarmonyIntegration" WF="16384" IDS="" FiN="" LaN="" Ema="" Phn="" AppGroup="4" UsR="1030" UsRnA="1024" iBtnArr="" CodeArr="" NFCArr="" NFCNArr="" LastEdit="0">
-				<HP H="CE647E3A342AD0FB7D31B8A818A4786015C6377AF4DDD3074B5FC92282BE5C777D95EE645A863078FD62BBC999BF40FF" Sc="-2" S="31306232613362382D303261342D303265612D66666666656565303030643830656365"/>
-				<HP H="" Sc="-2" S="31346638333063322D303231362D393436622D66666666376262353935663862343036"/>
-			</C>
-		</C>
-		<C Type="LoxCaption" V="151" U="15d8424e-02df-44da-fffffb030ef95e86" Title="Rights" Cl="0,0,0" WF="16384" CaptionType="12" SubType="12">
-			<C Type="Permission" V="151" U="15d8424e-02df-44dc-fffffb030ef95e86" Title="Loxone Config" Cl="0,0,0" WF="16384" PT="1"/>
-			<C Type="Permission" V="151" U="15d8424e-02df-44de-fffffb030ef95e86" Title="FTP" Cl="0,0,0" WF="16384" PT="2"/>
-			<C Type="Permission" V="151" U="15d8424e-02df-44e0-fffffb030ef95e86" Title="Web Interface/Apps" Cl="0,0,0" WF="16384" PT="3"/>
-			<C Type="Permission" V="151" U="15d8424e-02df-44e2-fffffb030ef95e86" Title="Operating Times" Cl="0,0,0" WF="16384" PT="4"/>
-			<C Type="Permission" V="151" U="15d8424e-02df-44e4-fffffb030ef95e86" Title="Automatic Designer and Scenes" Cl="0,0,0" WF="16384" PT="5"/>
-			<C Type="Permission" V="151" U="15d8424e-02df-44e6-fffffb030ef95e86" Title="Edit User Interface" Cl="0,0,0" WF="16384" PT="6"/>
-			<C Type="Permission" V="151" U="15d8424e-02df-44e8-fffffb030ef95e86" Title="User Management" Cl="0,0,0" WF="16384" PT="7"/>
-			<C Type="Permission" V="151" U="15d8424e-02df-44ea-fffffb030ef95e86" Title="Miniserver update via App" Cl="0,0,0" WF="16384" PT="8"/>
-			<C Type="Permission" V="151" U="15d8424e-02df-44ec-fffffb030ef95e86" Title="Change own passwords" Cl="0,0,0" WF="16384" PT="9"/>
-		</C>
-		<C Type="LoxCaption" V="151" U="15d8424e-02ee-44f0-fffffb030ef95e86" Title="Permission groups" Cl="0,0,0" WF="20480" CaptionType="13" SubType="13">
-			<C Type="RightGroup" V="151" U="15d8424e-02ee-44f4-fffffb030ef95e86" Title="Not assigned" Cl="0,0,0" WF="16384" GT="1" MG=""/>
-			<C Type="RightGroup" V="151" U="15d8424e-02ee-44f6-fffffb030ef95e86" Title="Hall" Cl="0,0,0" WF="16384" GT="1" MG=""/>
-			<C Type="RightGroup" V="151" U="15d8424e-02ee-44f8-fffffb030ef95e86" Title="Landing" Cl="0,0,0" WF="16384" GT="1" MG=""/>
-			<C Type="RightGroup" V="151" U="15d8424e-02ee-44fa-fffffb030ef95e86" Title="Living room" Cl="0,0,0" WF="16384" GT="1" MG=""/>
-			<C Type="RightGroup" V="151" U="15d8424e-02ee-44fc-fffffb030ef95e86" Title="Kitchen" Cl="0,0,0" WF="16384" GT="1" MG=""/>
-			<C Type="RightGroup" V="151" U="15d8424e-02ee-44fe-fffffb030ef95e86" Title="En Suite" Cl="0,0,0" WF="16384" GT="1" MG=""/>
-			<C Type="RightGroup" V="151" U="15d8424e-02ee-4500-fffffb030ef95e86" Title="Bathroom" Cl="0,0,0" WF="16384" GT="1" MG=""/>
-			<C Type="RightGroup" V="151" U="15d8424e-02ee-4502-fffffb030ef95e86" Title="Master Bedroom" Cl="0,0,0" WF="16384" GT="1" MG=""/>
-			<C Type="RightGroup" V="151" U="15d8424e-02ee-4504-fffffb030ef95e86" Title="Nursery" Cl="0,0,0" WF="16384" GT="1" MG=""/>
-			<C Type="RightGroup" V="151" U="15d8424e-02ee-4506-fffffb030ef95e86" Title="Porch" Cl="0,0,0" WF="16384" GT="1" MG=""/>
-			<C Type="RightGroup" V="151" U="15d8424e-02ee-4508-fffffb030ef95e86" Title="Garden" Cl="0,0,0" WF="16384" GT="1" MG=""/>
-			<C Type="RightGroup" V="151" U="15d8424e-02ee-450a-fffffb030ef95e86" Title="Dining room" Cl="0,0,0" WF="16384" GT="1" MG=""/>
-			<C Type="RightGroup" V="151" U="15d8424e-02ee-450c-fffffb030ef95e86" Title="Global" Cl="0,0,0" WF="16384" GT="1" MG=""/>
-			<C Type="RightGroup" V="151" U="15d8424e-02ee-450e-fffffb030ef95e86" Title="Bedroom 2" Cl="0,0,0" WF="16384" GT="1" MG=""/>
-			<C Type="RightGroup" V="151" U="15d8424e-02ee-4510-fffffb030ef95e86" Title="Loft" Cl="0,0,0" WF="16384" GT="1" MG=""/>
-		</C>
-		<C Type="UserGroupCaption" V="151" U="c333e440-9cad-11e3-9b02fb030ef95e86" Title="User Group" WF="16384">
-			<C Type="UserGroup" V="151" U="c34437f0-9cad-11e3-9b27fb030ef95e86" Title="Administrators" WF="16384" Rights="2029" User="d4f98f41-9cb7-11e3-b888fb030ef95e86,c34410e0-9cad-11e3-9b27fb030ef95e86" UserGroups="" TMR="15d8424e-02df-44d8-fffffb030ef95e86">
-				<PH NUM="9">
-					<PRM REF="15d8424e-02df-44dc-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="15d8424e-02df-44de-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="15d8424e-02df-44e0-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="15d8424e-02df-44e2-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="15d8424e-02df-44e4-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="15d8424e-02df-44e6-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="15d8424e-02df-44e8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="15d8424e-02df-44ea-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="15d8424e-02df-44ec-fffffb030ef95e86" ACT="3"/>
-				</PH>
-			</C>
-			<C Type="UserGroup" V="151" U="c34437f0-9cad-11e3-9b28fb030ef95e86" Title="User" WF="16384" Rights="129" User="" UserGroups="" TMR="15d8424e-02df-44d8-fffffb030ef95e86">
-				<PH NUM="2">
-					<PRM REF="15d8424e-02df-44e0-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="15d8424e-02df-44e6-fffffb030ef95e86" ACT="3"/>
-				</PH>
-			</C>
-			<C Type="UserGroup" V="151" U="c34437f0-9cad-11e3-9b29fb030ef95e86" Title="All" WF="16384" Rights="129" User="fa260231-9cb7-11e3-babffb030ef95e86,d4f98f41-9cb7-11e3-b888fb030ef95e86,c34410e0-9cad-11e3-9b27fb030ef95e86,0fa60062-010a-a58e-fffffb030ef95e86" UserGroups="" TMR="15d8424e-02df-44d8-fffffb030ef95e86">
-				<PH NUM="84">
-					<PRM REF="15d8424e-02df-44e0-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="15d8424e-02df-44e6-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="15d8424e-02ee-44f6-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="15d8424e-02ee-44f8-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="15d8424e-02ee-44fa-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="15d8424e-02ee-44fc-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="15d8424e-02ee-44fe-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="15d8424e-02ee-4500-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="15d8424e-02ee-4502-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="15d8424e-02ee-4504-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="15d8424e-02ee-4506-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="15d8424e-02ee-4508-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="15d8424e-02ee-450a-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="15d8424e-02ee-450c-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="15d8424e-02ee-450e-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="15d8424e-02ee-4510-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="00000000-0000-0001-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="00000000-0000-0002-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="00000000-0000-0003-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="00000000-0000-0004-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="00000000-0000-0005-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="00000000-0000-0006-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="00000000-0000-0007-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="00000000-0000-0008-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="00000000-0000-0009-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="00000000-0000-000a-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="00000000-0000-000b-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="00000000-0000-000c-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="0aa18988-0254-002a-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="0aa18988-0254-002b-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="0aa18988-0254-002c-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="0aa18988-0254-002d-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="0aa18988-0254-002e-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="0aa18988-0254-002f-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="0b3eb2ed-01f7-1a72-ffffb830a73fcead" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="13b66f17-02aa-201f-ffffeee000d80ece" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="13b66f17-02aa-2024-ffffeee000d80ece" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="13b66f17-02aa-2029-ffffeee000d80ece" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="13b66f17-02b8-202e-ffffeee000d80ece" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="13b66f17-02b8-2033-ffffeee000d80ece" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="13b66f17-02b8-2038-ffffeee000d80ece" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="13b66f17-02b8-203e-ffffeee000d80ece" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="c3559d10-9cad-11e3-9bc8fb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="c3559d10-9cad-11e3-9bc9fb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="c3559d10-9cad-11e3-9bcafb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="c3559d10-9cad-11e3-9bcbfb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="c3559d10-9cad-11e3-9bccfb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="c355c420-9cad-11e3-9bccfb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="c355c420-9cad-11e3-9bcdfb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="c355c420-9cad-11e3-9bcefb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="c347e171-9cad-11e3-9ba2fb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="c347e171-9cad-11e3-9ba3fb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="c347e171-9cad-11e3-9ba4fb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="c347e171-9cad-11e3-9ba5fb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="c3480880-9cad-11e3-9ba6fb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="c3480880-9cad-11e3-9ba7fb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="c3480880-9cad-11e3-9ba8fb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="c3480880-9cad-11e3-9ba9fb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="c3480880-9cad-11e3-9baafb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="c3480880-9cad-11e3-9babfb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="c3480880-9cad-11e3-9bacfb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="0dca719e-00be-4013-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="0dca7520-0018-cf0b-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="0fc182d4-0309-a6df-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="ea259a10-23f5-11e4-bc28d665d37d0df3" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="0aa18988-014e-07a0-ffffd665d37d0df3" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="ea25c120-23f5-11e4-bc28d665d37d0df3" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="ea25c120-23f5-11e4-bc29d665d37d0df3" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="ea25c120-23f5-11e4-bc2ed665d37d0df3" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="ea25c120-23f5-11e4-bc2fd665d37d0df3" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="ea25c120-23f5-11e4-bc34d665d37d0df3" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="ea25c120-23f5-11e4-bc35d665d37d0df3" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="13b66f17-02b8-2041-ffffd665d37d0df3" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="b46d7730-23f5-11e4-b841d665d37d0df3" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="0aa18988-014e-079c-ffffd665d37d0df3" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="13b66f17-02b8-2044-ffffd665d37d0df3" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="a3023e80-a255-11e3-b9f2972a8456a1bb" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="0aa18988-014e-0798-ffff972a8456a1bb" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="13b66f17-02b8-2047-ffff972a8456a1bb" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="61df972c-a0c4-11e3-b3ccfb2c2de534db" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="22315450-9f38-11e3-a43895d9cdbb6d3f" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="0c82db71-0212-349b-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="0dbfe41b-0241-c81d-ffffeee000d80ece" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="1"/>
-					<PRM REF="10b306e3-0189-fdce-ffff95d9cdbb6d3f" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
-				</PH>
-			</C>
-			<C Type="UserGroup" V="151" U="c34437f1-9cad-11e3-9b2afb030ef95e86" Title="Nobody" WF="16384" UgType="3" User="" UserGroups="" TMR="15d8424e-02df-44d8-fffffb030ef95e86">
-				<PH NUM="1">
-					<PRM REF="0fa5ffdb-0006-74bc-fffffb030ef95e86" ACT="2"/>
-				</PH>
-			</C>
-			<C Type="UserGroup" V="151" U="0fa600bd-0089-381a-fffffb030ef95e86" Title="Webservices" WF="16384" Rights="129" User="0fa60062-010a-a58e-fffffb030ef95e86" UserGroups="" TMR="15d8424e-02df-44d6-fffffb030ef95e86">
-				<PH NUM="3">
-					<PRM REF="15d8424e-02df-44e0-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="15d8424e-02df-44e6-fffffb030ef95e86" ACT="3"/>
-					<PRM REF="0fa5ffdb-0006-74bc-fffffb030ef95e86" ACT="1"/>
-				</PH>
-			</C>
-			<C Type="UserGroup" V="151" U="15d8424e-02df-44d2-fffffb030ef95e86" Title="Full access" WF="16384" Rights="-1" UgType="4" User="c34410e0-9cad-11e3-9b27fb030ef95e86,d4f98f41-9cb7-11e3-b888fb030ef95e86" UserGroups=""/>
 		</C>
 		<C Type="ConstantCaption" V="151" U="c332f9e0-9cad-11e3-9b02fb030ef95e86" Title="Constants" WF="16384">
 			<C Type="Constant" V="151" U="0ab86063-00bf-7e65-fffffb030ef95e86" Title="Long click duration" Cl="105,195,80" Nio="1" WF="16400" Analog="true" AnalogConstant="2">
@@ -505,7 +328,7 @@
 			</C>
 		</C>
 		<C Type="RemoteControls" V="151" U="c3339620-9cad-11e3-9b02fb030ef95e86" Title="Remote Controls" WF="16384"/>
-		<C Type="TimeCaption" V="151" U="c347e170-9cad-11e3-9b92fb030ef95e86" Title="Times" Cl="105,195,80" WF="16384">
+		<C Type="TimeCaption" V="151" U="c347e170-9cad-11e3-9b92fb030ef95e86" Title="Time Functions" Cl="105,195,80" WF="16384">
 			<C Type="ImpulseEveningtwilight" V="151" U="c34856a0-9cad-11e3-9bc8fb030ef95e86" Title="Pulse at Dusk" Nio="1" WF="16384">
 				<Co K="Q" U="c34856a1-9cad-11e3-9bc8fb030ef95e86"/>
 				<IoData></IoData>
@@ -635,25 +458,204 @@
 				<IoData Cr="15d8424e-02ee-44ee-fffffb030ef95e86" Pr="0aa18988-0254-0018-0f00000000000000"/>
 			</C>
 		</C>
-		<C Type="LoxCaption" V="151" U="17eb4995-019f-8ffe-fffffb030ef95e86" Title="Trusts" Cl="0,0,0" CaptionType="19" SubType="19"/>
+		<C Type="LoxCaption" V="151" U="18f70abe-01d5-4c57-fffffb030ef95e86" Title="User Management" Cl="0,0,0" CaptionType="20" SubType="20">
+			<C Type="UserCaption" V="151" U="c333bd30-9cad-11e3-9b02fb030ef95e86" Title="User" WF="16384">
+				<C Type="User" V="151" U="c34410e0-9cad-11e3-9b27fb030ef95e86" Title="admin" WF="16384" Main="true" IDS="" FiN="" LaN="" Ema="" Phn="" AppGroup="1" UsR="-1" UsRnA="1664" iBtnArr="0" CodeArr="" NFCArr="" NFCNArr="" LastEdit="0">
+					<HP H="092614E22FE9D0F12E45F0A34A97976DE95A95427541929F49F4512462889CBDF0B1673DFA14C47B79A15D1E6704D5C3" Sc="3" S="31336236373536392D303065392D366566362D66666666636530323838383431393265"/>
+					<HP H="" Sc="-2" S="31346638333063322D303231362D393436352D66666666376262353935663862343036"/>
+					<PH NUM="1">
+						<PRM REF="15d8424e-02df-44ec-fffffb030ef95e86" ACT="3"/>
+					</PH>
+				</C>
+				<C Type="User" V="151" U="d4f98f41-9cb7-11e3-b888fb030ef95e86" Title="Mark" WF="16384" IDS="" FiN="" LaN="" Ema="" Phn="" Devices="0dc6eb2e-02ec-3dd4-ffffeee000d80ece:8000007e,0f9f0b96-00ab-0dc1-ffffeee000d80ece:8000037e,0fb15422-01d7-25bc-ffffeee000d80ece:8000037e" AppGroup="1" UsR="-1" UsRnA="1664" iBtnArr="0" CodeArr="" NFCArr="" NFCNArr="" LastEdit="0">
+					<HP H="8E8C2DF68EB480C69D29204F8B28F51C5A1613C4A106BBB0750F47EDA605749CDE70ED2092DC88A6D6CD8DAE80D4A3E6" Sc="-2" S="31306232613362382D303238342D303265362D66666666656565303030643830656365"/>
+					<HP H="" Sc="-2" S="31346638333063322D303231362D393436372D66666666376262353935663862343036"/>
+					<PH NUM="1">
+						<PRM REF="15d8424e-02df-44ec-fffffb030ef95e86" ACT="3"/>
+					</PH>
+				</C>
+				<C Type="User" V="151" U="fa260231-9cb7-11e3-babffb030ef95e86" Title="Laura" WF="16384" IDS="" FiN="" LaN="" Ema="" Phn="" Devices="0f630f2a-00da-1970-ffffeee000d80ece:8000037e" AppGroup="3" UsR="1062" UsRnA="1024" iBtnArr="0" CodeArr="" NFCArr="" NFCNArr="" LastEdit="0">
+					<HP H="3D820DAA6F2C0ECBF537AB4D8755E73FF4EF86B450B474B292E2F8E87F98DD94927F873E6EC01B06B527B968CEC6A2F6" Sc="-2" S="31306232613362382D303239342D303265382D66666666656565303030643830656365"/>
+					<HP H="" Sc="-2" S="31346638333063322D303231362D393436392D66666666376262353935663862343036"/>
+					<PH NUM="1">
+						<PRM REF="15d8424e-02df-44ec-fffffb030ef95e86" ACT="3"/>
+					</PH>
+				</C>
+				<C Type="User" V="151" U="0fa60062-010a-a58e-fffffb030ef95e86" Title="HarmonyIntegration" WF="16384" IDS="" FiN="" LaN="" Ema="" Phn="" AppGroup="4" UsR="1030" UsRnA="1024" iBtnArr="" CodeArr="" NFCArr="" NFCNArr="" LastEdit="0">
+					<HP H="CE647E3A342AD0FB7D31B8A818A4786015C6377AF4DDD3074B5FC92282BE5C777D95EE645A863078FD62BBC999BF40FF" Sc="-2" S="31306232613362382D303261342D303265612D66666666656565303030643830656365"/>
+					<HP H="" Sc="-2" S="31346638333063322D303231362D393436622D66666666376262353935663862343036"/>
+				</C>
+			</C>
+			<C Type="UserGroupCaption" V="151" U="c333e440-9cad-11e3-9b02fb030ef95e86" Title="User Group" WF="16384">
+				<C Type="UserGroup" V="151" U="c34437f0-9cad-11e3-9b27fb030ef95e86" Title="Administrators" WF="16384" Rights="2029" User="d4f98f41-9cb7-11e3-b888fb030ef95e86,c34410e0-9cad-11e3-9b27fb030ef95e86" UserGroups="" TMR="15d8424e-02df-44d8-fffffb030ef95e86">
+					<PH NUM="9">
+						<PRM REF="15d8424e-02df-44dc-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="15d8424e-02df-44de-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="15d8424e-02df-44e0-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="15d8424e-02df-44e2-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="15d8424e-02df-44e4-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="15d8424e-02df-44e6-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="15d8424e-02df-44e8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="15d8424e-02df-44ea-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="15d8424e-02df-44ec-fffffb030ef95e86" ACT="3"/>
+					</PH>
+				</C>
+				<C Type="UserGroup" V="151" U="c34437f0-9cad-11e3-9b28fb030ef95e86" Title="User" WF="16384" Rights="129" User="" UserGroups="" TMR="15d8424e-02df-44d8-fffffb030ef95e86">
+					<PH NUM="2">
+						<PRM REF="15d8424e-02df-44e0-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="15d8424e-02df-44e6-fffffb030ef95e86" ACT="3"/>
+					</PH>
+				</C>
+				<C Type="UserGroup" V="151" U="c34437f0-9cad-11e3-9b29fb030ef95e86" Title="All" WF="16384" Rights="129" User="fa260231-9cb7-11e3-babffb030ef95e86,d4f98f41-9cb7-11e3-b888fb030ef95e86,c34410e0-9cad-11e3-9b27fb030ef95e86,0fa60062-010a-a58e-fffffb030ef95e86" UserGroups="" TMR="15d8424e-02df-44d8-fffffb030ef95e86">
+					<PH NUM="84">
+						<PRM REF="15d8424e-02df-44e0-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="15d8424e-02df-44e6-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="15d8424e-02ee-44f6-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="15d8424e-02ee-44f8-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="15d8424e-02ee-44fa-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="15d8424e-02ee-44fc-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="15d8424e-02ee-44fe-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="15d8424e-02ee-4500-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="15d8424e-02ee-4502-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="15d8424e-02ee-4504-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="15d8424e-02ee-4506-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="15d8424e-02ee-4508-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="15d8424e-02ee-450a-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="15d8424e-02ee-450c-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="15d8424e-02ee-450e-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="15d8424e-02ee-4510-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="00000000-0000-0001-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="00000000-0000-0002-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="00000000-0000-0003-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="00000000-0000-0004-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="00000000-0000-0005-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="00000000-0000-0006-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="00000000-0000-0007-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="00000000-0000-0008-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="00000000-0000-0009-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="00000000-0000-000a-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="00000000-0000-000b-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="00000000-0000-000c-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="0aa18988-0254-002a-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="0aa18988-0254-002b-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="0aa18988-0254-002c-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="0aa18988-0254-002d-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="0aa18988-0254-002e-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="0aa18988-0254-002f-1500000000000000" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="0b3eb2ed-01f7-1a72-ffffb830a73fcead" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="13b66f17-02aa-201f-ffffeee000d80ece" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="13b66f17-02aa-2024-ffffeee000d80ece" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="13b66f17-02aa-2029-ffffeee000d80ece" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="13b66f17-02b8-202e-ffffeee000d80ece" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="13b66f17-02b8-2033-ffffeee000d80ece" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="13b66f17-02b8-2038-ffffeee000d80ece" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="13b66f17-02b8-203e-ffffeee000d80ece" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="c3559d10-9cad-11e3-9bc8fb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="c3559d10-9cad-11e3-9bc9fb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="c3559d10-9cad-11e3-9bcafb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="c3559d10-9cad-11e3-9bcbfb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="c3559d10-9cad-11e3-9bccfb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="c355c420-9cad-11e3-9bccfb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="c355c420-9cad-11e3-9bcdfb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="c355c420-9cad-11e3-9bcefb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="c347e171-9cad-11e3-9ba2fb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="c347e171-9cad-11e3-9ba3fb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="c347e171-9cad-11e3-9ba4fb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="c347e171-9cad-11e3-9ba5fb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="c3480880-9cad-11e3-9ba6fb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="c3480880-9cad-11e3-9ba7fb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="c3480880-9cad-11e3-9ba8fb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="c3480880-9cad-11e3-9ba9fb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="c3480880-9cad-11e3-9baafb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="c3480880-9cad-11e3-9babfb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="c3480880-9cad-11e3-9bacfb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="0dca719e-00be-4013-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="0dca7520-0018-cf0b-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="0fc182d4-0309-a6df-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="ea259a10-23f5-11e4-bc28d665d37d0df3" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="0aa18988-014e-07a0-ffffd665d37d0df3" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="ea25c120-23f5-11e4-bc28d665d37d0df3" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="ea25c120-23f5-11e4-bc29d665d37d0df3" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="ea25c120-23f5-11e4-bc2ed665d37d0df3" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="ea25c120-23f5-11e4-bc2fd665d37d0df3" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="ea25c120-23f5-11e4-bc34d665d37d0df3" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="ea25c120-23f5-11e4-bc35d665d37d0df3" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="13b66f17-02b8-2041-ffffd665d37d0df3" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="b46d7730-23f5-11e4-b841d665d37d0df3" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="0aa18988-014e-079c-ffffd665d37d0df3" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="13b66f17-02b8-2044-ffffd665d37d0df3" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="a3023e80-a255-11e3-b9f2972a8456a1bb" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="0aa18988-014e-0798-ffff972a8456a1bb" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="13b66f17-02b8-2047-ffff972a8456a1bb" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="61df972c-a0c4-11e3-b3ccfb2c2de534db" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="22315450-9f38-11e3-a43895d9cdbb6d3f" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="0c82db71-0212-349b-fffffb030ef95e86" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="0dbfe41b-0241-c81d-ffffeee000d80ece" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="1"/>
+						<PRM REF="10b306e3-0189-fdce-ffff95d9cdbb6d3f" TIM="15d8424e-02df-44d8-fffffb030ef95e86" ACT="3"/>
+					</PH>
+				</C>
+				<C Type="UserGroup" V="151" U="c34437f1-9cad-11e3-9b2afb030ef95e86" Title="Nobody" WF="16384" UgType="3" User="" UserGroups="" TMR="15d8424e-02df-44d8-fffffb030ef95e86">
+					<PH NUM="1">
+						<PRM REF="0fa5ffdb-0006-74bc-fffffb030ef95e86" ACT="2"/>
+					</PH>
+				</C>
+				<C Type="UserGroup" V="151" U="0fa600bd-0089-381a-fffffb030ef95e86" Title="Webservices" WF="16384" Rights="129" User="0fa60062-010a-a58e-fffffb030ef95e86" UserGroups="" TMR="15d8424e-02df-44d6-fffffb030ef95e86">
+					<PH NUM="3">
+						<PRM REF="15d8424e-02df-44e0-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="15d8424e-02df-44e6-fffffb030ef95e86" ACT="3"/>
+						<PRM REF="0fa5ffdb-0006-74bc-fffffb030ef95e86" ACT="1"/>
+					</PH>
+				</C>
+				<C Type="UserGroup" V="151" U="15d8424e-02df-44d2-fffffb030ef95e86" Title="Full access" WF="16384" Rights="-1" UgType="4" User="c34410e0-9cad-11e3-9b27fb030ef95e86,d4f98f41-9cb7-11e3-b888fb030ef95e86" UserGroups=""/>
+			</C>
+			<C Type="LoxCaption" V="151" U="15d8424e-02ee-44f0-fffffb030ef95e86" Title="Permission groups" Cl="0,0,0" WF="20480" CaptionType="13" SubType="13">
+				<C Type="RightGroup" V="151" U="15d8424e-02ee-44f4-fffffb030ef95e86" Title="Not assigned" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="151" U="15d8424e-02ee-44f6-fffffb030ef95e86" Title="Hall" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="151" U="15d8424e-02ee-44f8-fffffb030ef95e86" Title="Landing" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="151" U="15d8424e-02ee-44fa-fffffb030ef95e86" Title="Living room" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="151" U="15d8424e-02ee-44fc-fffffb030ef95e86" Title="Kitchen" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="151" U="15d8424e-02ee-44fe-fffffb030ef95e86" Title="En Suite" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="151" U="15d8424e-02ee-4500-fffffb030ef95e86" Title="Bathroom" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="151" U="15d8424e-02ee-4502-fffffb030ef95e86" Title="Master Bedroom" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="151" U="15d8424e-02ee-4504-fffffb030ef95e86" Title="Nursery" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="151" U="15d8424e-02ee-4506-fffffb030ef95e86" Title="Porch" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="151" U="15d8424e-02ee-4508-fffffb030ef95e86" Title="Garden" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="151" U="15d8424e-02ee-450a-fffffb030ef95e86" Title="Dining room" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="151" U="15d8424e-02ee-450c-fffffb030ef95e86" Title="Global" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="151" U="15d8424e-02ee-450e-fffffb030ef95e86" Title="Bedroom 2" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+				<C Type="RightGroup" V="151" U="15d8424e-02ee-4510-fffffb030ef95e86" Title="Loft" Cl="0,0,0" WF="16384" GT="1" MG=""/>
+			</C>
+			<C Type="LoxCaption" V="151" U="15d8424e-02df-44da-fffffb030ef95e86" Title="Rights" Cl="0,0,0" WF="16384" CaptionType="12" SubType="12">
+				<C Type="Permission" V="151" U="15d8424e-02df-44dc-fffffb030ef95e86" Title="Loxone Config" Cl="0,0,0" WF="16384" PT="1"/>
+				<C Type="Permission" V="151" U="15d8424e-02df-44de-fffffb030ef95e86" Title="FTP" Cl="0,0,0" WF="16384" PT="2"/>
+				<C Type="Permission" V="151" U="15d8424e-02df-44e0-fffffb030ef95e86" Title="Web Interface/Apps" Cl="0,0,0" WF="16384" PT="3"/>
+				<C Type="Permission" V="151" U="15d8424e-02df-44e2-fffffb030ef95e86" Title="Operating Times" Cl="0,0,0" WF="16384" PT="4"/>
+				<C Type="Permission" V="151" U="15d8424e-02df-44e4-fffffb030ef95e86" Title="Automatic Designer and Scenes" Cl="0,0,0" WF="16384" PT="5"/>
+				<C Type="Permission" V="151" U="15d8424e-02df-44e6-fffffb030ef95e86" Title="Edit User Interface" Cl="0,0,0" WF="16384" PT="6"/>
+				<C Type="Permission" V="151" U="15d8424e-02df-44e8-fffffb030ef95e86" Title="User Management" Cl="0,0,0" WF="16384" PT="7"/>
+				<C Type="Permission" V="151" U="15d8424e-02df-44ea-fffffb030ef95e86" Title="Miniserver Update via App" Cl="0,0,0" WF="16384" PT="8"/>
+				<C Type="Permission" V="151" U="15d8424e-02df-44ec-fffffb030ef95e86" Title="Change Own Passwords" Cl="0,0,0" WF="16384" PT="9"/>
+			</C>
+			<C Type="LoxCaption" V="151" U="15d8424e-02df-44d4-fffffb030ef95e86" Title="Access Schedules" Cl="0,0,0" WF="16384" CaptionType="11" SubType="11">
+				<C Type="SwitchingTimer" V="151" U="15d8424e-02df-44d6-fffffb030ef95e86" Title="Always" Cl="0,0,0" WF="16384" M="3" N="7" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000" FIX="1">
+					<Entry To="1440" V="1"/>
+					<Entry To="1440" Ix="1" V="1"/>
+					<Entry To="1440" Ix="2" V="1"/>
+					<Entry To="1440" Ix="3" V="1"/>
+					<Entry To="1440" Ix="4" V="1"/>
+					<Entry To="1440" Ix="5" V="1"/>
+					<Entry To="1440" Ix="6" V="1"/>
+				</C>
+				<C Type="SwitchingTimer" V="151" U="15d8424e-02df-44d8-fffffb030ef95e86" Title="Never" Cl="0,0,0" WF="16384" M="3" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000" FIX="2"/>
+			</C>
+		</C>
+		<C Type="LoxCaption" V="151" U="17eb4995-019f-8ffe-fffffb030ef95e86" Title="Trusts" Cl="0,0,0" WF="16384" CaptionType="19" SubType="19"/>
 		<C Type="LoxCaption" V="151" U="16f0e570-026e-497c-fffffb030ef95e86" Title="Monitoring and Access" Cl="0,0,0" WF="20480" CaptionType="18" SubType="18"/>
 		<C Type="LoxCaption" V="151" U="16f0e570-0268-4972-fffffb030ef95e86" Title="Audio" Cl="0,0,0" WF="16384" CaptionType="14" SubType="14"/>
-		<C Type="LoxCaption" V="151" U="15d8424e-02df-44d4-fffffb030ef95e86" Title="Schedules" Cl="0,0,0" WF="16384" CaptionType="11" SubType="11">
-			<C Type="SwitchingTimer" V="151" U="15d8424e-02df-44d6-fffffb030ef95e86" Title="Always" Cl="0,0,0" WF="16384" M="3" N="7" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000" FIX="1">
-				<Entry To="1440" V="1"/>
-				<Entry To="1440" Ix="1" V="1"/>
-				<Entry To="1440" Ix="2" V="1"/>
-				<Entry To="1440" Ix="3" V="1"/>
-				<Entry To="1440" Ix="4" V="1"/>
-				<Entry To="1440" Ix="5" V="1"/>
-				<Entry To="1440" Ix="6" V="1"/>
-			</C>
-			<C Type="SwitchingTimer" V="151" U="15d8424e-02df-44d8-fffffb030ef95e86" Title="Never" Cl="0,0,0" WF="16384" M="3" Modes="00000000-0000-0004-1500000000000000,00000000-0000-0005-1500000000000000,00000000-0000-0006-1500000000000000,00000000-0000-0007-1500000000000000,00000000-0000-0008-1500000000000000,00000000-0000-0009-1500000000000000,00000000-0000-000a-1500000000000000" FIX="2"/>
-		</C>
 		<C Type="MessageCenter" V="151" U="13b66f17-02b8-204a-fffffb030ef95e86" Title="System status" Cl="0,0,0" WF="20480" SpStates="13b66f17-02b8-2049-ffff68452b755762">
 			<IoData></IoData>
 		</C>
-		<C Type="GlobalStates" V="151" U="10b2a3b9-01ee-0e64-ffffeee000d80ece" Title="System Variables" Cl="0,0,0" WF="16384" SpStates="14f830b5-0347-8661-ffffeee000d80ece,14f830b5-0347-8662-ffffeee000d80ece,14f830b5-0347-8663-ffffeee000d80ece,14f830b5-0347-8664-ffffeee000d80ece,14f830b5-0347-8665-ffffeee000d80ece">
+		<C Type="GlobalStates" V="151" U="10b2a3b9-01ee-0e64-ffffeee000d80ece" Title="System Variables" Cl="0,0,0" WF="16384" SpStates="18f70abe-017e-3c7a-ffffeee000d80ece,18f70abe-017e-3c7b-ffffeee000d80ece,18f70abe-017e-3c7c-ffffeee000d80ece,18f70abe-017e-3c7d-ffffeee000d80ece,18f70abe-017e-3c7e-ffffeee000d80ece,18f70abe-017e-3c7f-ffffeee000d80ece">
 			<C Type="SysVar" IName="SYS1" V="151" U="13b66f17-02aa-201f-ffffeee000d80ece" Title="Outdoor Temperature" Cl="0,0,0" Nio="3" EU="1" WF="6307840" source="c3509400-9cad-11e3-9bc8fb030ef95e86" MinVal="-80" MaxVal="150" SourceValHigh="10" DestValHigh="10">
 				<Co K="AI" U="13b66f17-02aa-201c-ffff68452b755762"/>
 				<Co K="AQ" U="13b66f17-02aa-201d-ffff68452b755762"/>
@@ -987,6 +989,7 @@
 			<C Type="TaskCaption" V="151" U="0c82db71-0211-3498-fffffb030ef95e86" Title="Recorded Tasks" Cl="105,195,80" WF="16384" gT="0c82db71-0211-3497-ffff2cb26d03dcb1" pT="0c82db71-0211-3496-ffff2cb26d03dcb1"/>
 			<C Type="LoxCaption" V="151" U="0ef02173-009c-0dd4-ffffeee000d80ece" Title="SD Card" Cl="0,0,0" WF="16384" CaptionType="4" SubType="4"/>
 			<C Type="LoxCaption" V="151" U="10b2a3ef-0204-52af-fffffb030ef95e86" Title="Lighting Groups" Cl="0,0,0" WF="16384" CaptionType="7" SubType="7"/>
+			<C Type="LoxCaption" V="151" U="18f70abe-01d5-4c59-fffffb030ef95e86" Title="Intercom" Cl="0,0,0" CaptionType="21" SubType="21"/>
 			<C Type="LoggerOutCaption" V="151" U="c347e171-9cad-11e3-9b92fb030ef95e86" Title="Messages" WF="16384">
 				<C Type="Notification" V="151" U="0dbfe41b-0241-c81d-ffffeee000d80ece" Title="Push Notification" WF="16384" Entries="10" Sys="true">
 					<IoData Cr="0aa18988-0254-0001-0d00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" St="2"/>
@@ -1493,7 +1496,7 @@
 					<IoData Cr="0aa18988-0254-000d-0d00000000000000" Pr="0aa18988-0254-0018-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<Display Unit="&lt;v.1&gt;V" StateOnly="true" IxText="8"/>
 				</C>
-				<C Type="Lox1wireDevice" V="151" U="ce5d7640-a164-11e3-8403cd6f32422864" Title="Master Bedroom Temperature sensor" WF="16384" ROMID="287BDA91050000C6" Poll="60">
+				<C Type="Lox1wireDevice" V="151" U="ce5d7640-a164-11e3-8403cd6f32422864" Title="Master Bedroom Temperature sensor" WF="16384" ROMID="287BDA91050000C6" Poll="60" Inst="">
 					<C Type="Lox1wireAsensor" IName="AWI2" V="151" U="ce6369b0-a164-11e3-8403cd6f32422864" Title="Master Bedroom Temperature sensor" Cl="105,195,80" Nio="2" WF="134234128" Analog="true" EnVal="true" SourceValHigh="100" DestValHigh="100" DefVal="22" MinVal="-25" MaxVal="50" MinChange="0.25" MinTime="1000" AverageTime="1" MaxTime="120000">
 						<Co K="AQ" U="ce6369b1-a164-11e3-8403cd6f32422864"/>
 						<Co K="Q" U="ce6369b0-a164-11e3-8404cd6f32422864"/>
@@ -1501,7 +1504,7 @@
 						<Display Type="2" Unit="&lt;v.1&gt;°" StateOnly="true"/>
 					</C>
 				</C>
-				<C Type="Lox1wireDevice" V="151" U="a93de8b0-a171-11e3-9949b830a73fcead" Title="Bedroom 2 Temperature sensor" WF="16384" ROMID="28A0D291050000C4" Poll="60">
+				<C Type="Lox1wireDevice" V="151" U="a93de8b0-a171-11e3-9949b830a73fcead" Title="Bedroom 2 Temperature sensor" WF="16384" ROMID="28A0D291050000C4" Poll="60" Inst="">
 					<C Type="Lox1wireAsensor" IName="AWI1" V="151" U="a941e050-a171-11e3-9949b830a73fcead" Title="Bedroom 2 Temperature sensor" Cl="105,195,80" Nio="2" WF="134234128" Analog="true" EnVal="true" SourceValHigh="100" DestValHigh="100" DefVal="22" MinVal="-25" MaxVal="50" MinChange="0.25" MinTime="1000" AverageTime="1" MaxTime="120000">
 						<Co K="AQ" U="a941e051-a171-11e3-9949b830a73fcead"/>
 						<Co K="Q" U="a941e050-a171-11e3-994ab830a73fcead"/>
@@ -1509,7 +1512,7 @@
 						<Display Type="2" Unit="&lt;v.1&gt;°" StateOnly="true"/>
 					</C>
 				</C>
-				<C Type="Lox1wireDevice" V="151" U="63a30aa0-a172-11e3-9ea1b830a73fcead" Title="Landing Temperature sensor" WF="16384" ROMID="286605920500006E" Poll="60">
+				<C Type="Lox1wireDevice" V="151" U="63a30aa0-a172-11e3-9ea1b830a73fcead" Title="Landing Temperature sensor" WF="16384" ROMID="286605920500006E" Poll="60" Inst="">
 					<C Type="Lox1wireAsensor" IName="AWI3" V="151" U="63a63ef0-a172-11e3-9ea1b830a73fcead" Title="Landing Temperature sensor" Cl="105,195,80" Nio="2" WF="134234128" Analog="true" EnVal="true" SourceValHigh="100" DestValHigh="100" DefVal="22" MinVal="-25" MaxVal="50" MinChange="0.25" MinTime="1000" AverageTime="1" MaxTime="120000">
 						<Co K="AQ" U="63a63ef1-a172-11e3-9ea1b830a73fcead"/>
 						<Co K="Q" U="63a63ef0-a172-11e3-9ea2b830a73fcead"/>
@@ -1517,7 +1520,7 @@
 						<Display Type="2" Unit="&lt;v.1&gt;°" StateOnly="true"/>
 					</C>
 				</C>
-				<C Type="Lox1wireDevice" V="151" U="0c5bd620-a18e-11e3-b25bb830a73fcead" Title="Nursery temperature sensor" WF="16384" ROMID="2884E491050000B6" Poll="60">
+				<C Type="Lox1wireDevice" V="151" U="0c5bd620-a18e-11e3-b25bb830a73fcead" Title="Nursery temperature sensor" WF="16384" ROMID="2884E491050000B6" Poll="60" Inst="">
 					<C Type="Lox1wireAsensor" IName="AWI4" V="151" U="0c5ee360-a18e-11e3-b25bb830a73fcead" Title="Nursery temperature sensor" Cl="105,195,80" Nio="2" WF="134234128" Analog="true" EnVal="true" SourceValHigh="100" DestValHigh="100" DefVal="22" MinVal="-25" MaxVal="50" MinChange="0.25" MinTime="1000" AverageTime="1" MaxTime="120000">
 						<Co K="AQ" U="0c5ee361-a18e-11e3-b25bb830a73fcead"/>
 						<Co K="Q" U="0c5ee360-a18e-11e3-b25cb830a73fcead"/>
@@ -1525,7 +1528,7 @@
 						<Display Type="2" Unit="&lt;v.1&gt;°" StateOnly="true"/>
 					</C>
 				</C>
-				<C Type="Lox1wireDevice" V="151" U="8ea00e60-a195-11e3-b63ab830a73fcead" Title="Kitchen temperature sensor" WF="16384" ROMID="28A4F191050000AE" Poll="60">
+				<C Type="Lox1wireDevice" V="151" U="8ea00e60-a195-11e3-b63ab830a73fcead" Title="Kitchen temperature sensor" WF="16384" ROMID="28A4F191050000AE" Poll="60" Inst="">
 					<C Type="Lox1wireAsensor" IName="AWI5" V="151" U="8ea31ba0-a195-11e3-b63ab830a73fcead" Title="Kitchen temperature sensor" Cl="105,195,80" Nio="2" WF="134234128" Analog="true" EnVal="true" SourceValHigh="100" DestValHigh="100" DefVal="22" MinVal="-25" MaxVal="50" MinChange="0.25" MinTime="1000" AverageTime="1" MaxTime="120000">
 						<Co K="AQ" U="8ea31ba1-a195-11e3-b63ab830a73fcead"/>
 						<Co K="Q" U="8ea31ba0-a195-11e3-b63bb830a73fcead"/>
@@ -1533,7 +1536,7 @@
 						<Display Type="2" Unit="&lt;v.1&gt;°" StateOnly="true"/>
 					</C>
 				</C>
-				<C Type="Lox1wireDevice" V="151" U="e98cf590-b441-11e3-ace7ea873ddef408" Title="Ensuite Flush Panel temperature sensor" WF="16384" ROMID="2858F68C05000055" Poll="60">
+				<C Type="Lox1wireDevice" V="151" U="e98cf590-b441-11e3-ace7ea873ddef408" Title="Ensuite Flush Panel temperature sensor" WF="16384" ROMID="2858F68C05000055" Poll="60" Inst="">
 					<C Type="Lox1wireAsensor" IName="AWI6" V="151" U="e990c620-b441-11e3-ace7ea873ddef408" Title="Ensuite Flush Panel temperature sensor" Cl="105,195,80" Nio="2" WF="134234128" Analog="true" EnVal="true" SourceValHigh="100" DestValHigh="100" DefVal="22" MinVal="-25" MaxVal="50" MinChange="0.25" MinTime="1000" AverageTime="1" MaxTime="120000">
 						<Co K="AQ" U="e990c621-b441-11e3-ace7ea873ddef408"/>
 						<Co K="Q" U="e990c620-b441-11e3-ace8ea873ddef408"/>
@@ -1541,7 +1544,7 @@
 						<Display Type="2" Unit="&lt;v.1&gt;°" StateOnly="true"/>
 					</C>
 				</C>
-				<C Type="Lox1wireDevice" V="151" U="50610456-d398-11e3-93bee67b6262cc92" Title="Bedroom 2 Floor Temperature sensor" WF="16384" ROMID="2874078D0500007A" Poll="60">
+				<C Type="Lox1wireDevice" V="151" U="50610456-d398-11e3-93bee67b6262cc92" Title="Bedroom 2 Floor Temperature sensor" WF="16384" ROMID="2874078D0500007A" Poll="60" Inst="">
 					<C Type="Lox1wireAsensor" IName="AWI7" V="151" U="50641196-d398-11e3-93bee67b6262cc92" Title="Bedroom 2 Floor Temperature sensor" Cl="105,195,80" Nio="2" WF="134234128" Analog="true" EnVal="true" DestValLow="-3" SourceValHigh="100" DestValHigh="95" DefVal="22" MinVal="-25" MaxVal="50" MinChange="0.25" MinTime="1000" AverageTime="1" MaxTime="120000">
 						<Co K="AQ" U="50641197-d398-11e3-93bee67b6262cc92"/>
 						<Co K="Q" U="50641196-d398-11e3-93bfe67b6262cc92"/>
@@ -1549,7 +1552,7 @@
 						<Display Type="2" Unit="&lt;v.1&gt;°" StateOnly="true"/>
 					</C>
 				</C>
-				<C Type="Lox1wireDevice" V="151" U="630ac766-d39a-11e3-95e8e67b6262cc92" Title="Master Bedroom Floor Temperature sensor" WF="16384" ROMID="289AEE8C050000E6" Poll="60">
+				<C Type="Lox1wireDevice" V="151" U="630ac766-d39a-11e3-95e8e67b6262cc92" Title="Master Bedroom Floor Temperature sensor" WF="16384" ROMID="289AEE8C050000E6" Poll="60" Inst="">
 					<C Type="Lox1wireAsensor" IName="AWI8" V="151" U="630fd076-d39a-11e3-95e8e67b6262cc92" Title="Master Bedroom Floor Temperature sensor" Cl="105,195,80" Nio="2" WF="134234128" Analog="true" EnVal="true" SourceValHigh="100" DestValHigh="100" DefVal="22" MinVal="-25" MaxVal="50" MinChange="0.25" MinTime="1000" AverageTime="1" MaxTime="120000">
 						<Co K="AQ" U="630fd077-d39a-11e3-95e8e67b6262cc92"/>
 						<Co K="Q" U="630fd076-d39a-11e3-95e9e67b6262cc92"/>
@@ -1557,7 +1560,7 @@
 						<Display Type="2" Unit="&lt;v.1&gt;°" StateOnly="true"/>
 					</C>
 				</C>
-				<C Type="Lox1wireDevice" V="151" U="0ab598e1-035c-0cca-fffffb2c2de534db" Title="Nursery Floor Temperature sensor" WF="16384" ROMID="28599A8D050000DD" Poll="60">
+				<C Type="Lox1wireDevice" V="151" U="0ab598e1-035c-0cca-fffffb2c2de534db" Title="Nursery Floor Temperature sensor" WF="16384" ROMID="28599A8D050000DD" Poll="60" Inst="">
 					<C Type="Lox1wireAsensor" IName="AWI9" V="151" U="0ab598e1-0377-0cce-fffffb2c2de534db" Title="Nursery Floor Temperature sensor" Cl="105,195,80" Nio="2" WF="134234128" Analog="true" EnVal="true" SourceValHigh="100" DestValHigh="100" DefVal="22" MinVal="-25" MaxVal="50" MinChange="0.25" MinTime="1000" AverageTime="1" MaxTime="120000">
 						<Co K="AQ" U="0ab598e1-0377-0ccc-ffff112233445566"/>
 						<Co K="Q" U="0ab598e1-0377-0ccd-ffff112233445566"/>
@@ -2034,13 +2037,13 @@
 				</C>
 				<C Type="Presence" V="151" U="0fc17998-00a6-6072-ffff30bbbb07abd4" Title="Presence" Px="10080" Py="5280" Px2="12768" Py2="6336" Cl="105,195,80" Nio="5">
 					<Co K="InputTrigger" Nc="2" U="0fc17998-00a6-6073-ffff30bbbb07abd4">
-						<In Input="10b333d6-017b-7e9b-ffff90ae33fbcb50"/>
 						<In Input="10b333d6-017b-7e9a-ffff90ae33fbcb50"/>
+						<In Input="10b333d6-017b-7e9b-ffff90ae33fbcb50"/>
 					</Co>
 					<Co K="Reset" Nc="3" U="0fc17998-00a6-6074-ffff30bbbb07abd4">
-						<In Input="0fc17998-00a6-6070-ffff30bbbb07abd4"/>
-						<In Input="0fc17998-00a6-606f-ffff30bbbb07abd4"/>
 						<In Input="0fc17998-00a6-606e-ffff30bbbb07abd4"/>
+						<In Input="0fc17998-00a6-606f-ffff30bbbb07abd4"/>
+						<In Input="0fc17998-00a6-6070-ffff30bbbb07abd4"/>
 					</Co>
 					<Co K="Remanence" Inv="true" U="0fc17998-00a6-6075-ffff30bbbb07abd4"/>
 					<Co K="Time" Def="3600" U="0fc17998-00a6-6076-ffff30bbbb07abd4"/>
@@ -2464,10 +2467,10 @@
 				</C>
 				<C Type="OnDelay" V="151" U="0aaaecc4-00ac-1418-fffffb030ef95e86" Title="O83" Px="7392" Py="2496" Px2="8736" Py2="3168" Cl="105,195,80" Nio="5" WF="16384">
 					<Co K="InputTrigger" Nc="4" U="0aaaecc4-00ac-1413-ffff112233445566">
-						<In Input="0aa98777-00f2-4fc9-ffff112233445566"/>
-						<In Input="0aa981a5-03de-2982-ffff112233445566"/>
-						<In Input="0aa97f89-0042-b833-ffff112233445566"/>
 						<In Input="0aa97b05-026a-4ff8-ffff112233445566"/>
+						<In Input="0aa97f89-0042-b833-ffff112233445566"/>
+						<In Input="0aa981a5-03de-2982-ffff112233445566"/>
+						<In Input="0aa98777-00f2-4fc9-ffff112233445566"/>
 					</Co>
 					<Co K="Reset" U="0aaaecc4-00ac-1414-ffff112233445566"/>
 					<Co K="Remanence" Inv="true" U="0aaaecc4-00ac-1415-ffff112233445566"/>
@@ -2626,9 +2629,9 @@
 				</C>
 				<C Type="Memory" V="151" U="0ab16534-020b-1f2e-fffffb030ef95e86" Title="Lights all off" Px="11232" Py="1152" Px2="13344" Py2="1344" Cl="238,238,238" Nio="3" WF="16400" Tp="0">
 					<Co K="Input" Nc="3" U="0ab16534-020b-1f2c-ffff112233445566">
-						<In Input="0ab6c43d-00dc-4b21-ffffeee000d80ece"/>
-						<In Input="0ab6c43d-00dc-4b20-ffffeee000d80ece"/>
 						<In Input="0ab6c43d-00dc-4b1f-ffffeee000d80ece"/>
+						<In Input="0ab6c43d-00dc-4b20-ffffeee000d80ece"/>
+						<In Input="0ab6c43d-00dc-4b21-ffffeee000d80ece"/>
 					</Co>
 					<Co K="AQ" U="0ab16534-020b-1f2d-ffff112233445566"/>
 					<Co K="Q" U="0c82db71-014c-28b4-ffff98bcb8fa4811"/>
@@ -2637,12 +2640,12 @@
 				</C>
 				<C Type="LongClick" V="151" U="0ab6c43d-00dc-4b14-ffffeee000d80ece" Title="O97" Px="8352" Py="576" Px2="9696" Py2="2400" Cl="105,195,80" Nio="14" WF="16384">
 					<Co K="InputTrigger" Nc="6" U="0ab6c43d-00dc-4b15-ffffeee000d80ece">
-						<In Input="0dc53229-0044-e0b6-ffffc73c3bd72aec"/>
-						<In Input="0dc53221-0238-d5e3-ffffdd7bc143adcc"/>
-						<In Input="0dbff184-0055-d9b5-ffff6103cc992c35"/>
-						<In Input="0dbff172-007c-c51d-ffffd224d4fe3ff4"/>
-						<In Input="0ab6c7e7-016a-99ac-ffff112233445566"/>
 						<In Input="0ab6c330-01d1-3aac-ffff112233445566"/>
+						<In Input="0ab6c7e7-016a-99ac-ffff112233445566"/>
+						<In Input="0dbff172-007c-c51d-ffffd224d4fe3ff4"/>
+						<In Input="0dbff184-0055-d9b5-ffff6103cc992c35"/>
+						<In Input="0dc53221-0238-d5e3-ffffdd7bc143adcc"/>
+						<In Input="0dc53229-0044-e0b6-ffffc73c3bd72aec"/>
 					</Co>
 					<Co K="Reset" U="0ab6c43d-00dc-4b16-ffffeee000d80ece"/>
 					<Co K="Remanence" U="0ab6c43d-00dc-4b17-ffffeee000d80ece"/>
@@ -2817,9 +2820,9 @@
 				</C>
 				<C Type="Memory" V="151" U="0dcfb913-0061-a4e3-ffffc77dcecfcd84" Title="Scene set from dining room" Px="7104" Py="2784" Px2="9216" Py2="2976" Cl="238,238,238" Nio="3" WF="16400" Tp="0">
 					<Co K="Input" Nc="3" U="0dcfb913-0061-a4e0-ffff41029314e5a8">
-						<In Input="0dcfb8c3-00ad-27c7-ffff00f41002ce35"/>
-						<In Input="0dcfb8c3-00ad-27c6-ffff00f41002ce35"/>
 						<In Input="0dcfb8c3-00ad-27c5-ffff00f41002ce35"/>
+						<In Input="0dcfb8c3-00ad-27c6-ffff00f41002ce35"/>
+						<In Input="0dcfb8c3-00ad-27c7-ffff00f41002ce35"/>
 					</Co>
 					<Co K="AQ" U="0dcfb913-0061-a4e1-ffff41029314e5a8"/>
 					<Co K="Q" U="0dcfb913-0061-a4e2-ffff41029314e5a8"/>
@@ -2837,8 +2840,8 @@
 					<Co K="InputTriggerDown" U="10b333d6-017b-7f1c-ffffe84d4fe9a876"/>
 					<Co K="Select" U="10b333d6-017b-7f1d-ffffe84d4fe9a876"/>
 					<Co K="Reset" Nc="2" U="10b333d6-017b-7f1e-ffffe84d4fe9a876">
-						<In Input="0dc53021-0257-3644-ffff584f256491c3"/>
 						<In Input="0ab1656d-0356-256b-ffff112233445566"/>
+						<In Input="0dc53021-0257-3644-ffff584f256491c3"/>
 					</Co>
 					<Co K="Sel1" U="10b333d6-017b-7f1f-ffffe84d4fe9a876"/>
 					<Co K="Sel2" U="10b333d6-017b-7f20-ffffe84d4fe9a876"/>
@@ -2933,12 +2936,12 @@
 				</C>
 				<C Type="Or" V="151" U="124ff3c4-011e-6dc9-ffffc77dcecfcd84" Title="O280" Px="4224" Py="5280" Px2="5568" Py2="6144" Cl="105,195,80" Nio="3" WF="16384">
 					<Co K="I1" Nc="2" U="124ff3c4-011e-6dc6-ffff92667db40fad">
-						<In Input="0dcfbb1f-03d7-2b4f-ffff7e6d8c97af71"/>
 						<In Input="0dce59d6-019e-f244-ffff547b6305c199"/>
+						<In Input="0dcfbb1f-03d7-2b4f-ffff7e6d8c97af71"/>
 					</Co>
 					<Co K="I2" Nc="2" U="124ff3c4-011e-6dc7-ffff92667db40fad">
-						<In Input="0dcfbc25-0052-4ef6-ffffcb4840fe078e"/>
 						<In Input="0fa60284-0283-2cbb-ffff19f8f3ea40c1"/>
+						<In Input="0dcfbc25-0052-4ef6-ffffcb4840fe078e"/>
 					</Co>
 					<Co K="Q" U="124ff3c4-011e-6dc8-ffff92667db40fad"/>
 				</C>
@@ -3162,13 +3165,13 @@
 				</C>
 				<C Type="Presence" V="151" U="0fc17771-0142-e1ca-ffff9b3f962d716d" Title="Presence" Px="8256" Py="2976" Px2="10944" Py2="4032" Cl="105,195,80" Nio="5" WF="16384">
 					<Co K="InputTrigger" Nc="2" U="0fc17771-0142-e1c5-ffff4831d501a3f7">
-						<In Input="10b333d6-017b-7fbd-ffffe84d4fe9a876"/>
 						<In Input="10b333d6-017b-7fbc-ffffe84d4fe9a876"/>
+						<In Input="10b333d6-017b-7fbd-ffffe84d4fe9a876"/>
 					</Co>
 					<Co K="Reset" Nc="3" U="0fc17771-0142-e1c6-ffff4831d501a3f7">
-						<In Input="0afa3c0c-01ce-62b1-ffff112233445566"/>
-						<In Input="0afa3c0c-01ce-62b2-ffff112233445566"/>
 						<In Input="0afa3c0c-01ce-62b3-ffff112233445566"/>
+						<In Input="0afa3c0c-01ce-62b2-ffff112233445566"/>
+						<In Input="0afa3c0c-01ce-62b1-ffff112233445566"/>
 					</Co>
 					<Co K="Remanence" Inv="true" U="0fc17771-0142-e1c7-ffff4831d501a3f7"/>
 					<Co K="Time" Def="5400" U="0fc17771-0142-e1c8-ffff4831d501a3f7"/>
@@ -3339,9 +3342,9 @@
 					<Co K="InputTriggerDown" U="10b333d6-017b-7fdd-ffffe84d4fe9a876"/>
 					<Co K="Select" U="10b333d6-017b-7fde-ffffe84d4fe9a876"/>
 					<Co K="Reset" Nc="3" U="10b333d6-017b-7fdf-ffffe84d4fe9a876">
-						<In Input="0dc53152-02b5-0965-ffff2d892e85601f"/>
-						<In Input="0dc530c6-01fa-be49-ffffab6554a408d1"/>
 						<In Input="10c85573-02dd-a7d7-ffffbfecb5dc8ef8"/>
+						<In Input="0dc530c6-01fa-be49-ffffab6554a408d1"/>
+						<In Input="0dc53152-02b5-0965-ffff2d892e85601f"/>
 					</Co>
 					<Co K="Sel1" U="10b333d6-017b-7fe0-ffffe84d4fe9a876"/>
 					<Co K="Sel2" Nc="1" U="10b333d6-017b-7fe1-ffffe84d4fe9a876">
@@ -3545,9 +3548,9 @@
 				</C>
 				<C Type="Memory" V="151" U="0dcfbbbf-037c-e5b2-ffffb1bd37ae859c" Title="Scene set from hallway_" Px="6432" Py="3360" Px2="8544" Py2="3552" Cl="238,238,238" Nio="3" WF="16400" Tp="0">
 					<Co K="Input" Nc="3" U="0dcfbbbf-037c-e5af-ffff09b3223f9e8e">
-						<In Input="0dcfbb93-01e5-7c94-ffff960d3449de4f"/>
-						<In Input="0dcfbb93-01e5-7c93-ffff960d3449de4f"/>
 						<In Input="0dcfbb93-01e5-7c92-ffff960d3449de4f"/>
+						<In Input="0dcfbb93-01e5-7c93-ffff960d3449de4f"/>
+						<In Input="0dcfbb93-01e5-7c94-ffff960d3449de4f"/>
 					</Co>
 					<Co K="AQ" U="0dcfbbbf-037c-e5b0-ffff09b3223f9e8e"/>
 					<Co K="Q" U="0dcfbbbf-037c-e5b1-ffff09b3223f9e8e"/>
@@ -3565,8 +3568,8 @@
 					<Co K="InputTriggerDown" U="10b333d6-017b-8036-ffffe84d4fe9a876"/>
 					<Co K="Select" U="10b333d6-017b-8037-ffffe84d4fe9a876"/>
 					<Co K="Reset" Nc="2" U="10b333d6-017b-8038-ffffe84d4fe9a876">
-						<In Input="0ab16667-02f1-3501-ffff112233445566"/>
 						<In Input="0dbf8e42-031f-1702-ffff8f1b0fd743aa"/>
+						<In Input="0ab16667-02f1-3501-ffff112233445566"/>
 					</Co>
 					<Co K="Sel1" U="10b333d6-017b-8039-ffffe84d4fe9a876"/>
 					<Co K="Sel2" Nc="1" U="10b333d6-017b-803a-ffffe84d4fe9a876">
@@ -3642,12 +3645,12 @@
 				</C>
 				<C Type="Or" V="151" U="124ff7ee-0046-6bdd-ffffb1bd37ae859c" Title="O289" Px="4224" Py="5280" Px2="5568" Py2="6144" Cl="105,195,80" Nio="3" WF="16384">
 					<Co K="I1" Nc="2" U="124ff7ee-0046-6bda-ffff7340708ed8fa">
-						<In Input="0dcfb997-012f-16e7-ffff1b044e51d127"/>
 						<In Input="0dcfb3c3-016e-d437-ffffa7e8e80fd2d3"/>
+						<In Input="0dcfb997-012f-16e7-ffff1b044e51d127"/>
 					</Co>
 					<Co K="I2" Nc="2" U="124ff7ee-0046-6bdb-ffff7340708ed8fa">
-						<In Input="0fa605bb-0292-c5f5-ffffa1d870a3022b"/>
 						<In Input="0dcfbb4e-005d-4e19-ffff6c22024ed56e"/>
+						<In Input="0fa605bb-0292-c5f5-ffffa1d870a3022b"/>
 					</Co>
 					<Co K="Q" U="124ff7ee-0046-6bdc-ffff7340708ed8fa"/>
 				</C>
@@ -3890,9 +3893,9 @@
 				</C>
 				<C Type="Memory" V="151" U="0dcfbad1-024e-da7e-ffff95d9cdbb6d3f" Title="Scene set from kitchen" Px="6432" Py="1248" Px2="8544" Py2="1440" Cl="238,238,238" Nio="3" WF="16400" Tp="0">
 					<Co K="Input" Nc="3" U="0dcfbad1-024e-da7b-ffff86d813bce377">
-						<In Input="0dcfba8c-01d4-502c-fffff60f643447b4"/>
-						<In Input="0dcfba8c-01d4-502b-fffff60f643447b4"/>
 						<In Input="0dcfba8c-01d4-502d-fffff60f643447b4"/>
+						<In Input="0dcfba8c-01d4-502b-fffff60f643447b4"/>
+						<In Input="0dcfba8c-01d4-502c-fffff60f643447b4"/>
 					</Co>
 					<Co K="AQ" U="0dcfbad1-024e-da7c-ffff86d813bce377"/>
 					<Co K="Q" U="0dcfbad1-024e-da7d-ffff86d813bce377"/>
@@ -3910,8 +3913,8 @@
 					<Co K="InputTriggerDown" U="10b333d6-017b-8095-ffffec4918e8f3cd"/>
 					<Co K="Select" U="10b333d6-017b-8096-ffffec4918e8f3cd"/>
 					<Co K="Reset" Nc="2" U="10b333d6-017b-8097-ffffec4918e8f3cd">
-						<In Input="0ab166aa-03dc-3e66-ffff112233445566"/>
 						<In Input="0aa9a440-0070-c10b-ffff112233445566"/>
+						<In Input="0ab166aa-03dc-3e66-ffff112233445566"/>
 					</Co>
 					<Co K="Sel1" U="10b333d6-017b-8098-ffffec4918e8f3cd"/>
 					<Co K="Sel2" Nc="1" U="10b333d6-017b-8099-ffffec4918e8f3cd">
@@ -3987,12 +3990,12 @@
 				</C>
 				<C Type="Or" V="151" U="124ff575-02b9-87b1-ffff95d9cdbb6d3f" Title="O283" Px="4224" Py="4512" Px2="5568" Py2="5376" Cl="105,195,80" Nio="3" WF="16384">
 					<Co K="I1" Nc="2" U="124ff575-02b9-87ae-ffffd02684c0baad">
-						<In Input="0dcfb9bd-0229-393a-fffffad4630ff6b0"/>
 						<In Input="0dcfb2d6-038c-57c1-ffffaa2ab69b4376"/>
+						<In Input="0dcfb9bd-0229-393a-fffffad4630ff6b0"/>
 					</Co>
 					<Co K="I2" Nc="2" U="124ff575-02b9-87af-ffffd02684c0baad">
-						<In Input="0fa605f3-031f-f721-ffff92fcaf2f93ad"/>
 						<In Input="0dcfbc58-03cd-7df0-fffff8e6ed91e6d8"/>
+						<In Input="0fa605f3-031f-f721-ffff92fcaf2f93ad"/>
 					</Co>
 					<Co K="Q" U="124ff575-02b9-87b0-ffffd02684c0baad"/>
 				</C>
@@ -4176,8 +4179,8 @@
 				</C>
 				<C Type="Memory" V="151" U="0ab6c791-0244-82b8-ffff86d90d45a4ab" Title="Lights all off from landing" Px="6048" Py="7488" Px2="8160" Py2="7680" Cl="238,238,238" Nio="3" WF="16400" Tp="0">
 					<Co K="Input" Nc="2" U="0ab6c791-0244-82b6-ffff112233445566">
-						<In Input="0dbf8f06-028a-920b-ffff791647c97299"/>
 						<In Input="82545fd0-11e8-11e4-a38086d90d45a4ab"/>
+						<In Input="0dbf8f06-028a-920b-ffff791647c97299"/>
 					</Co>
 					<Co K="AQ" U="0ab6c791-0244-82b7-ffff112233445566"/>
 					<Co K="Q" U="0c82db71-0141-26de-ffff98bcb8fa4811"/>
@@ -4208,16 +4211,16 @@
 					<Co K="I3" U="10b333d6-017b-80fb-ffffec4918e8f3cd"/>
 					<Co K="I4" U="10b333d6-017b-80fc-ffffec4918e8f3cd"/>
 					<Co K="InputTriggerUp" Nc="2" U="10b333d6-017b-80fd-ffffec4918e8f3cd">
-						<In Input="0dbf8efe-0352-87c0-ffff0389a6b02111"/>
 						<In Input="83bf3a71-11e8-11e4-a44286d90d45a4ab"/>
+						<In Input="0dbf8efe-0352-87c0-ffff0389a6b02111"/>
 					</Co>
 					<Co K="InputTriggerDown" U="10b333d6-017b-80fe-ffffec4918e8f3cd"/>
 					<Co K="Select" U="10b333d6-017b-80ff-ffffec4918e8f3cd"/>
 					<Co K="Reset" Nc="4" U="10b333d6-017b-8100-ffffec4918e8f3cd">
-						<In Input="0dbff1ed-02f4-ee57-fffff677d73ee221"/>
-						<In Input="0dbf8f06-028a-920b-ffff791647c97299"/>
-						<In Input="82545fd0-11e8-11e4-a38086d90d45a4ab"/>
 						<In Input="0ec384fa-02bb-a7dc-fffff140ae002888"/>
+						<In Input="82545fd0-11e8-11e4-a38086d90d45a4ab"/>
+						<In Input="0dbf8f06-028a-920b-ffff791647c97299"/>
+						<In Input="0dbff1ed-02f4-ee57-fffff677d73ee221"/>
 					</Co>
 					<Co K="Sel1" U="10b333d6-017b-8101-ffffec4918e8f3cd"/>
 					<Co K="Sel2" U="10b333d6-017b-8102-ffffec4918e8f3cd"/>
@@ -4396,9 +4399,9 @@
 				</C>
 				<C Type="Memory" V="151" U="0dce587d-0137-5523-ffffb830a73fcead" Title="Scene set from living room" Px="6528" Py="1920" Px2="8640" Py2="2112" Cl="238,238,238" Nio="3" WF="16400" Tp="1">
 					<Co K="Input" Nc="3" U="0dce587d-0137-5520-ffff7fcba5cd62e8">
-						<In Input="0dce58df-0234-6b81-ffff8b912ebd89ac"/>
-						<In Input="0dce58df-0234-6b80-ffff8b912ebd89ac"/>
 						<In Input="0dce58df-0234-6b7f-ffff8b912ebd89ac"/>
+						<In Input="0dce58df-0234-6b80-ffff8b912ebd89ac"/>
+						<In Input="0dce58df-0234-6b81-ffff8b912ebd89ac"/>
 					</Co>
 					<Co K="AQ" U="0dce587d-0137-5521-ffff7fcba5cd62e8"/>
 					<Co K="Q" U="0dce587d-0137-5522-ffff7fcba5cd62e8"/>
@@ -4436,8 +4439,8 @@
 					<Co K="InputTriggerDown" U="10b333d6-017b-8161-ffffec4918e8f3cd"/>
 					<Co K="Select" U="10b333d6-017b-8162-ffffec4918e8f3cd"/>
 					<Co K="Reset" Nc="2" U="10b333d6-017b-8163-ffffec4918e8f3cd">
-						<In Input="0dbfef9e-0159-7304-ffff20009d7a73ca"/>
 						<In Input="0ab166ca-00f8-44aa-ffff112233445566"/>
+						<In Input="0dbfef9e-0159-7304-ffff20009d7a73ca"/>
 					</Co>
 					<Co K="Sel1" U="10b333d6-017b-8164-ffffec4918e8f3cd"/>
 					<Co K="Sel2" U="10b333d6-017b-8165-ffffec4918e8f3cd"/>
@@ -4514,12 +4517,12 @@
 				</C>
 				<C Type="Or" V="151" U="124ff951-0364-5b0b-ffffb830a73fcead" Title="O293" Px="4992" Py="4704" Px2="6336" Py2="5568" Cl="105,195,80" Nio="3" WF="16384">
 					<Co K="I1" Nc="2" U="124ff951-0364-5b08-fffff7d4acc8b890">
-						<In Input="0dcfbb3d-00d9-4279-ffff29041c8a0a60"/>
 						<In Input="0dcfb979-0024-f4a3-fffffd9d27ba1c96"/>
+						<In Input="0dcfbb3d-00d9-4279-ffff29041c8a0a60"/>
 					</Co>
 					<Co K="I2" Nc="2" U="124ff951-0364-5b09-fffff7d4acc8b890">
-						<In Input="0fa6058d-010b-889a-ffff9d0551525337"/>
 						<In Input="0dcfbc3a-0052-666e-ffff7bb4d6bd1708"/>
+						<In Input="0fa6058d-010b-889a-ffff9d0551525337"/>
 					</Co>
 					<Co K="Q" U="124ff951-0364-5b0a-fffff7d4acc8b890"/>
 				</C>
@@ -4656,9 +4659,9 @@
 					<Co K="InputTriggerDown" U="10b333d6-017b-81c8-ffffef46e0e73d24"/>
 					<Co K="Select" U="10b333d6-017b-81c9-ffffef46e0e73d24"/>
 					<Co K="Reset" Nc="3" U="10b333d6-017b-81ca-ffffef46e0e73d24">
-						<In Input="0bc6db13-00fd-75a0-ffff112233445566"/>
-						<In Input="0b2f6990-00f6-c1fe-ffff112233445566"/>
 						<In Input="1743c788-011d-444d-ffff640a77831a11"/>
+						<In Input="0b2f6990-00f6-c1fe-ffff112233445566"/>
+						<In Input="0bc6db13-00fd-75a0-ffff112233445566"/>
 					</Co>
 					<Co K="Sel1" U="10b333d6-017b-81cb-ffffef46e0e73d24"/>
 					<Co K="Sel2" U="10b333d6-017b-81cc-ffffef46e0e73d24"/>
@@ -5365,9 +5368,9 @@
 					<Co K="InputTriggerDown" U="10b333d6-017b-82e1-ffffef46e0e73d24"/>
 					<Co K="Select" U="10b333d6-017b-82e2-ffffef46e0e73d24"/>
 					<Co K="Reset" Nc="3" U="10b333d6-017b-82e3-ffffef46e0e73d24">
-						<In Input="0dbf9181-00c4-bb94-ffffa7875e28cb10"/>
-						<In Input="0b2f67ef-00f0-6d2d-ffff112233445566"/>
 						<In Input="0b2f678c-0096-5e7e-ffff112233445566"/>
+						<In Input="0b2f67ef-00f0-6d2d-ffff112233445566"/>
+						<In Input="0dbf9181-00c4-bb94-ffffa7875e28cb10"/>
 					</Co>
 					<Co K="Sel1" U="10b333d6-017b-82e4-ffffef46e0e73d24"/>
 					<Co K="Sel2" U="10b333d6-017b-82e5-ffffef46e0e73d24"/>
