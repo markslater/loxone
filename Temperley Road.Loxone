@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ControlList Version="231" LxAV="64" NextObj="311" NextConst="1" NextNote="1" NextMem="22">
-	<C Type="Document" V="14040925" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="14040925" SPSfreq="50" OpenIsHigh="false" Date="2023-12-11 18:14:18" CDate="2023-12-08 22:52:42" BDate="" DateS="471550458" Street="" Town="SW12 8QH" PostCode="" Ctry="" Latitude="51.4485" Longitude="-0.1549" SL="24" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" uuidFavSeq="0f9f1b72-0179-0224-ffffeee000d80ece" uuidFavCol="0f9f1b72-0179-0225-ffffeee000d80ece" FC="hsv(25,96,50);hsv(24,95,80);hsv(337,94,50)" uuidTime="10b2a3b8-025e-0230-ffffeee000d80ece" Currency="€" UpdTime="120" AUE="true" CrashL="true" Geo="3" NumO="623" APPKEY="5F650443094AFB4910516C4D77406B13" APPID="CD7F0B">
+	<C Type="Document" V="14040925" U="c332abc0-9cad-11e3-9b00fb030ef95e86" Title="Temperley Road" ConfigVersion="14040925" SPSfreq="50" OpenIsHigh="false" Date="2023-12-11 18:16:35" CDate="2023-12-08 22:52:42" BDate="" DateS="471550595" Street="" Town="SW12 8QH" PostCode="" Ctry="" Latitude="51.4485" Longitude="-0.1549" SL="24" Creator="Mark Slater" Logo="" uuidNotifications="0dbaa184-0071-2b07-ffffb5a951806f5d" uuidFavSeq="0f9f1b72-0179-0224-ffffeee000d80ece" uuidFavCol="0f9f1b72-0179-0225-ffffeee000d80ece" FC="hsv(25,96,50);hsv(24,95,80);hsv(337,94,50)" uuidTime="10b2a3b8-025e-0230-ffffeee000d80ece" Currency="€" UpdTime="120" AUE="true" CrashL="true" Geo="3" NumO="623" APPKEY="5F650443094AFB4910516C4D77406B13" APPID="CD7F0B">
 		<HP H="" Sc="-2" S="WGpiqX5LbyaIrGD1MuWTTyrxvlVqUpqf" Alg="1"/>
 		<C Type="LoxCaption" V="163" U="0ef02173-009c-0dd2-ffffeee000d80ece" Title="Icons" Cl="0,0,0" WF="16384" CaptionType="5" SubType="5"/>
 		<C Type="CategoryCaption" V="163" U="c332d2d1-9cad-11e3-9b00fb030ef95e86" Title="Categories" WF="16384">
@@ -1863,7 +1863,7 @@
 			</C>
 			<C Type="Page" V="163" U="497222c0-a171-11e3-957bb830a73fcead" Title="Bedroom 2" LtE="471550092" WF="16384">
 				<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-0028-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
-				<C Type="InputRef" V="163" U="d208b810-a171-11e3-9bb0b830a73fcead" Title="Bedroom 2 Temperature sensor" Px="4320" Py="1056" Px2="6432" Py2="1248" Cl="238,238,238" Nio="4" Ref="a941e050-a171-11e3-9949b830a73fcead" WF="147456" Analog="true" LinkRefType="103">
+				<C Type="InputRef" V="163" U="d208b810-a171-11e3-9bb0b830a73fcead" Title="Bedroom 2 Temperature sensor" Px="4320" Py="1056" Px2="6432" Py2="1248" Cl="238,238,238" Nio="4" Ref="a941e050-a171-11e3-9949b830a73fcead" WF="131072" Analog="true" LinkRefType="103">
 					<Co K="AI" Nc="1" U="d208b811-a171-11e3-9bb0b830a73fcead">
 						<In Input="a941e051-a171-11e3-9949b830a73fcead"/>
 					</Co>
@@ -1873,7 +1873,7 @@
 					<Co K="AQ" U="d208b811-a171-11e3-9bb1b830a73fcead"/>
 					<Co K="Q" U="d208b810-a171-11e3-9bb2b830a73fcead"/>
 				</C>
-				<C Type="InputRef" V="163" U="693d9c47-d398-11e3-9479e67b6262cc92" Title="Bedroom 2 Floor Temperature sensor" Px="1344" Py="1536" Px2="3456" Py2="1728" Cl="238,238,238" Nio="4" Ref="50641196-d398-11e3-93bee67b6262cc92" WF="147456" Analog="true" LinkRefType="103">
+				<C Type="InputRef" V="163" U="693d9c47-d398-11e3-9479e67b6262cc92" Title="Bedroom 2 Floor Temperature sensor" Px="1344" Py="1536" Px2="3456" Py2="1728" Cl="238,238,238" Nio="4" Ref="50641196-d398-11e3-93bee67b6262cc92" WF="131072" Analog="true" LinkRefType="103">
 					<Co K="AI" Nc="1" U="693d9c46-d398-11e3-947ae67b6262cc92">
 						<In Input="50641197-d398-11e3-93bee67b6262cc92"/>
 					</Co>
@@ -1883,7 +1883,7 @@
 					<Co K="AQ" U="693d9c46-d398-11e3-947be67b6262cc92"/>
 					<Co K="Q" U="693d9c47-d398-11e3-947be67b6262cc92"/>
 				</C>
-				<C Type="InputRef" V="163" U="0ac5b1ff-03ac-985a-ffffb830a73fcead" Title="Maximum floor temperature" Px="1344" Py="1728" Px2="3456" Py2="1920" Cl="238,238,238" Nio="4" Ref="0ac5b1ea-0364-8e5b-ffffb830a73fcead" WF="147456" Analog="true" LinkRefType="17">
+				<C Type="InputRef" V="163" U="0ac5b1ff-03ac-985a-ffffb830a73fcead" Title="Maximum floor temperature" Px="1344" Py="1728" Px2="3456" Py2="1920" Cl="238,238,238" Nio="4" Ref="0ac5b1ea-0364-8e5b-ffffb830a73fcead" WF="131072" Analog="true" LinkRefType="17">
 					<Co K="AI" Nc="1" U="0ac5b1ff-03ac-9856-ffff112233445566">
 						<In Input="0ac5b1ea-0364-8e5a-ffff112233445566"/>
 					</Co>
@@ -1891,7 +1891,7 @@
 					<Co K="AQ" U="0ac5b1ff-03ac-9858-ffff112233445566"/>
 					<Co K="Q" U="0ac5b1ff-03ac-9859-ffff112233445566"/>
 				</C>
-				<C Type="InputRef" V="163" U="cd966137-d394-11e3-8ea4e67b6262cc92" Title="Bedroom 2 Bottom Switch" Px="3072" Py="4704" Px2="5184" Py2="4896" Cl="238,238,238" Nio="4" Ref="c347e171-9cad-11e3-9b98fb030ef95e86" RefL="c347e171-9cad-11e3-9b98fb030ef95e86" WF="147456" LinkRefType="55">
+				<C Type="InputRef" V="163" U="cd966137-d394-11e3-8ea4e67b6262cc92" Title="Bedroom 2 Bottom Switch" Px="3072" Py="4704" Px2="5184" Py2="4896" Cl="238,238,238" Nio="4" Ref="c347e171-9cad-11e3-9b98fb030ef95e86" RefL="c347e171-9cad-11e3-9b98fb030ef95e86" WF="131072" LinkRefType="55">
 					<Co K="AI" Nc="1" U="cd966136-d394-11e3-8ea5e67b6262cc92">
 						<In Input="c347e170-9cad-11e3-9b99fb030ef95e86"/>
 					</Co>
@@ -1901,7 +1901,7 @@
 					<Co K="AQ" U="cd966136-d394-11e3-8ea6e67b6262cc92"/>
 					<Co K="Q" U="cd966137-d394-11e3-8ea6e67b6262cc92"/>
 				</C>
-				<C Type="InputRef" V="163" U="c90c6c46-d394-11e3-8deae67b6262cc92" Title="Bedroom 2 Top Switch" Px="3072" Py="4896" Px2="5184" Py2="5088" Cl="238,238,238" Nio="4" Ref="c347e171-9cad-11e3-9b97fb030ef95e86" RefL="c347e171-9cad-11e3-9b97fb030ef95e86" WF="147456" LinkRefType="55">
+				<C Type="InputRef" V="163" U="c90c6c46-d394-11e3-8deae67b6262cc92" Title="Bedroom 2 Top Switch" Px="3072" Py="4896" Px2="5184" Py2="5088" Cl="238,238,238" Nio="4" Ref="c347e171-9cad-11e3-9b97fb030ef95e86" RefL="c347e171-9cad-11e3-9b97fb030ef95e86" WF="131072" LinkRefType="55">
 					<Co K="AI" Nc="1" U="c90c6c47-d394-11e3-8deae67b6262cc92">
 						<In Input="c347e170-9cad-11e3-9b98fb030ef95e86"/>
 					</Co>
@@ -1911,7 +1911,7 @@
 					<Co K="AQ" U="c90c6c47-d394-11e3-8debe67b6262cc92"/>
 					<Co K="Q" U="c90c6c46-d394-11e3-8dece67b6262cc92"/>
 				</C>
-				<C Type="Memory" V="163" U="0aa97a73-0353-32d2-ffffb830a73fcead" Title="Bedroom 2 heating demand" Px="11040" Py="2880" Px2="13152" Py2="3072" Cl="238,238,238" Nio="3" WF="147472" Tp="0">
+				<C Type="Memory" V="163" U="0aa97a73-0353-32d2-ffffb830a73fcead" Title="Bedroom 2 heating demand" Px="11040" Py="2880" Px2="13152" Py2="3072" Cl="238,238,238" Nio="3" WF="131088" Tp="0">
 					<Co K="Input" Nc="1" U="0aa97a73-0353-32d0-ffff112233445566">
 						<In Input="1c11f138-030e-0ed4-11fffd5513f99ba5"/>
 					</Co>
@@ -1920,7 +1920,7 @@
 					<IoData Cr="0aa18988-0254-0004-0d00000000000000" Pr="0aa18988-0254-0028-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<Display Unit="&lt;v.1&gt;V" StateOnly="true"/>
 				</C>
-				<C Type="Greater" V="163" U="0ac5b1bf-03c7-8b0a-ffffb830a73fcead" Title="Bedroom 2 floor protection" Px="4416" Py="1248" Px2="5760" Py2="1920" Cl="105,195,80" Nio="3" WF="16384">
+				<C Type="Greater" V="163" U="0ac5b1bf-03c7-8b0a-ffffb830a73fcead" Title="Bedroom 2 floor protection" Px="4416" Py="1248" Px2="5760" Py2="1920" Cl="105,195,80" Nio="3" WF="131072">
 					<Co K="Input1" Nc="1" U="0ac5b1bf-03c7-8b07-ffff112233445566">
 						<In Input="693d9c46-d398-11e3-947be67b6262cc92"/>
 					</Co>
@@ -1929,7 +1929,7 @@
 					</Co>
 					<Co K="Q" U="0ac5b1bf-03c7-8b09-ffff112233445566"/>
 				</C>
-				<C Type="Heatmixer2" V="163" U="1c11f138-030e-0eda-ffffb830a73fcead" Title="Intelligent Temperature Controller" Px="7392" Py="2016" Px2="10080" Py2="3456" Cl="247,181,92" Nio="23" LtE="470937940" WF="16384" Cool="2" ControllerMode="1" HVAC="1c11f0f1-0058-9a40-fffffb030ef95e86" SpStates="1c11f138-030e-0ec1-fffffd5513f99ba5,1c11f138-030e-0ec2-fffffd5513f99ba5" Irr="1c11f164-039b-6305-ffffb830a73fcead">
+				<C Type="Heatmixer2" V="163" U="1c11f138-030e-0eda-ffffb830a73fcead" Title="Intelligent Temperature Controller" Px="7392" Py="2016" Px2="10080" Py2="3456" Cl="247,181,92" Nio="23" LtE="470937940" Cool="2" ControllerMode="1" HVAC="1c11f0f1-0058-9a40-fffffb030ef95e86" SpStates="1c11f138-030e-0ec1-fffffd5513f99ba5,1c11f138-030e-0ec2-fffffd5513f99ba5" Irr="1c11f164-039b-6305-ffffb830a73fcead">
 					<Co K="Outer" Def="-1000" U="1c11f138-030e-0ec3-00fffd5513f99ba5"/>
 					<Co K="Boost" U="1c11f138-030e-0ec4-01fffd5513f99ba5"/>
 					<Co K="Stop" U="1c11f138-030e-0ec5-02fffd5513f99ba5"/>
@@ -1954,7 +1954,7 @@
 					<Co K="Qe" U="1c11f138-030e-0ed8-15fffd5513f99ba5"/>
 					<Co K="OutputAPI" U="1c11f138-030e-0ed9-16fffd5513f99ba5"/>
 				</C>
-				<C Type="HeatIRoomController2" V="163" U="1c11f164-039b-6305-ffffb830a73fcead" Title="Bedroom 2" Px="7392" Py="576" Px2="10080" Py2="1824" Cl="105,195,80" Nio="48" LtE="471188453" WF="16384" UUIDTimer="1c11f164-039b-62c5-ffff4e99172d2e90" SourceCap="1" Objects="1c11f0f1-0058-9a40-fffffb030ef95e86" PrioH="0" Cap="1" SpStates="1c11f164-039b-62c6-ffff4e99172d2e90,1c11f164-039b-62c7-ffff4e99172d2e90,1c11f164-039b-62c8-ffff4e99172d2e90,1c11f164-039b-62c9-ffff4e99172d2e90,1c11f164-039b-62ca-ffff4e99172d2e90,1c11f164-039b-62cb-ffff4e99172d2e90,1c11f164-039b-62cc-ffff4e99172d2e90,1c11f164-039b-62cd-ffff4e99172d2e90,1c11f164-039b-62ce-ffff4e99172d2e90,1c11f164-039b-62cf-ffff4e99172d2e90,1c11f164-039b-62d0-ffff4e99172d2e90,1c11f164-039b-62d1-ffff4e99172d2e90,1c11f164-039b-62d2-ffff4e99172d2e90,1c11f164-039b-62d3-ffff4e99172d2e90,1c11f164-039b-62d4-ffff4e99172d2e90">
+				<C Type="HeatIRoomController2" V="163" U="1c11f164-039b-6305-ffffb830a73fcead" Title="Bedroom 2" Px="7392" Py="576" Px2="10080" Py2="1824" Cl="105,195,80" Nio="48" LtE="471550576" UUIDTimer="1c11f164-039b-62c5-ffff4e99172d2e90" SourceCap="1" Objects="1c11f0f1-0058-9a40-fffffb030ef95e86" PrioH="0" Cap="1" SpStates="1c11f164-039b-62c6-ffff4e99172d2e90,1c11f164-039b-62c7-ffff4e99172d2e90,1c11f164-039b-62c8-ffff4e99172d2e90,1c11f164-039b-62c9-ffff4e99172d2e90,1c11f164-039b-62ca-ffff4e99172d2e90,1c11f164-039b-62cb-ffff4e99172d2e90,1c11f164-039b-62cc-ffff4e99172d2e90,1c11f164-039b-62cd-ffff4e99172d2e90,1c11f164-039b-62ce-ffff4e99172d2e90,1c11f164-039b-62cf-ffff4e99172d2e90,1c11f164-039b-62d0-ffff4e99172d2e90,1c11f164-039b-62d1-ffff4e99172d2e90,1c11f164-039b-62d2-ffff4e99172d2e90,1c11f164-039b-62d3-ffff4e99172d2e90,1c11f164-039b-62d4-ffff4e99172d2e90">
 					<Co K="AMode" Def="1" U="1c11f164-039b-62d5-00ff4e99172d2e90"/>
 					<Co K="Input" U="1c11f164-039b-62d6-01ff4e99172d2e90"/>
 					<Co K="Temp" Nc="1" U="1c11f164-039b-62d7-02ff4e99172d2e90">
@@ -1971,7 +1971,7 @@
 					<Co K="DisMv" U="1c11f164-039b-62de-09ff4e99172d2e90"/>
 					<Co K="RtD" U="1c11f164-039b-62df-0aff4e99172d2e90"/>
 					<Co K="TempO" Def="-1000" U="1c11f164-039b-62e0-0bff4e99172d2e90"/>
-					<Co K="TComfort" Def="20" U="1c11f164-039b-62e1-0cff4e99172d2e90"/>
+					<Co K="TComfort" Def="19" U="1c11f164-039b-62e1-0cff4e99172d2e90"/>
 					<Co K="TComfortC" Def="20" U="1c11f164-039b-62e2-0dff4e99172d2e90"/>
 					<Co K="TDiff" Def="1.5" U="1c11f164-039b-62e3-0eff4e99172d2e90"/>
 					<Co K="TSaveL" Def="3" U="1c11f164-039b-62e4-0fff4e99172d2e90"/>
@@ -2015,7 +2015,7 @@
 					<IoData Visu="true" Cr="0aa18988-0254-0004-0d00000000000000" Pr="0aa18988-0254-0028-0f00000000000000" Rating="2" St="4"/>
 					<COHist TRK_NE="20" TRK_MAX="100"/>
 				</C>
-				<C Type="LightController2" V="163" U="10b333d6-017b-7ef9-ffffe67b6262cc92" Title="Lighting controller" Px="7392" Py="4224" Px2="10080" Py2="6240" Cl="247,222,92" Nio="71" WF="16384" NameAI0="Chimney breast" CapAI0="24" PresM0="65535" NameAI1="Right hand side of bed" CapAI1="24" PresM1="65535" NameAI2="Left hand window" CapAI2="24" PresM2="65535" NameAI3="Right hand window" CapAI3="24" PresM3="65535" NameAI4="Left hand side of bed" CapAI4="24" PresM4="65535" uuidSeqencing="10b334c5-01e8-a251-ffffe67b6262cc92,10b334c5-01e8-a253-ffffe67b6262cc92,10b334c5-01e8-a255-ffffe67b6262cc92,10b334c5-01e8-a257-ffffe67b6262cc92,10b334c5-01e8-a259-ffffe67b6262cc92,10b334c5-01e8-a25b-ffffe67b6262cc92,10b334c5-01e8-a25d-ffffe67b6262cc92,10b334c5-01e8-a25f-ffffe67b6262cc92,10b334c5-01e8-a261-ffffe67b6262cc92,10b334c5-01e8-a263-ffffe67b6262cc92,10b334c5-01e8-a265-ffffe67b6262cc92,10b334c5-01e8-a267-ffffe67b6262cc92,10b334c5-01e8-a269-ffffe67b6262cc92,10b334c5-01e8-a26b-ffffe67b6262cc92,10b334c5-01e8-a26d-ffffe67b6262cc92,10b334c5-01e8-a26f-ffffe67b6262cc92,10b334c5-01e8-a271-ffffe67b6262cc92,10b334c5-01e8-a273-ffffe67b6262cc92,10b334c5-01e8-a275-ffffe67b6262cc92,10b334c5-01e8-a277-ffffe67b6262cc92" uuidSeqenceIx="10b334c5-01e8-a252-ffffe67b6262cc92,10b334c5-01e8-a254-ffffe67b6262cc92,10b334c5-01e8-a256-ffffe67b6262cc92,10b334c5-01e8-a258-ffffe67b6262cc92,10b334c5-01e8-a25a-ffffe67b6262cc92,10b334c5-01e8-a25c-ffffe67b6262cc92,10b334c5-01e8-a25e-ffffe67b6262cc92,10b334c5-01e8-a260-ffffe67b6262cc92,10b334c5-01e8-a262-ffffe67b6262cc92,10b334c5-01e8-a264-ffffe67b6262cc92,10b334c5-01e8-a266-ffffe67b6262cc92,10b334c5-01e8-a268-ffffe67b6262cc92,10b334c5-01e8-a26a-ffffe67b6262cc92,10b334c5-01e8-a26c-ffffe67b6262cc92,10b334c5-01e8-a26e-ffffe67b6262cc92,10b334c5-01e8-a270-ffffe67b6262cc92,10b334c5-01e8-a272-ffffe67b6262cc92,10b334c5-01e8-a274-ffffe67b6262cc92,10b334c5-01e8-a276-ffffe67b6262cc92,10b334c5-01e8-a278-ffffe67b6262cc92" SpStates="1c1b4352-03d9-d045-ffffe67b6262cc92,1c1b4352-03d9-d046-ffffe67b6262cc92,1c1b4352-03d9-d047-ffffe67b6262cc92,1c1b4352-03d9-d048-ffffe67b6262cc92,1c1b4352-03d9-d049-ffffe67b6262cc92,1c1b4352-03d9-d04a-ffffe67b6262cc92,1c1b4352-03d9-d04b-ffffe67b6262cc92,1c1b4352-03d9-d04c-ffffe67b6262cc92,1c1b4352-03d9-d04d-ffffe67b6262cc92,1c1b4352-03d9-d04e-ffffe67b6262cc92,1c1b4352-03d9-d04f-ffffe67b6262cc92,1c1b4352-03d9-d050-ffffe67b6262cc92" COName="31">
+				<C Type="LightController2" V="163" U="10b333d6-017b-7ef9-ffffe67b6262cc92" Title="Lighting controller" Px="7392" Py="4224" Px2="10080" Py2="6240" Cl="247,222,92" Nio="71" NameAI0="Chimney breast" CapAI0="24" PresM0="65535" NameAI1="Right hand side of bed" CapAI1="24" PresM1="65535" NameAI2="Left hand window" CapAI2="24" PresM2="65535" NameAI3="Right hand window" CapAI3="24" PresM3="65535" NameAI4="Left hand side of bed" CapAI4="24" PresM4="65535" uuidSeqencing="10b334c5-01e8-a251-ffffe67b6262cc92,10b334c5-01e8-a253-ffffe67b6262cc92,10b334c5-01e8-a255-ffffe67b6262cc92,10b334c5-01e8-a257-ffffe67b6262cc92,10b334c5-01e8-a259-ffffe67b6262cc92,10b334c5-01e8-a25b-ffffe67b6262cc92,10b334c5-01e8-a25d-ffffe67b6262cc92,10b334c5-01e8-a25f-ffffe67b6262cc92,10b334c5-01e8-a261-ffffe67b6262cc92,10b334c5-01e8-a263-ffffe67b6262cc92,10b334c5-01e8-a265-ffffe67b6262cc92,10b334c5-01e8-a267-ffffe67b6262cc92,10b334c5-01e8-a269-ffffe67b6262cc92,10b334c5-01e8-a26b-ffffe67b6262cc92,10b334c5-01e8-a26d-ffffe67b6262cc92,10b334c5-01e8-a26f-ffffe67b6262cc92,10b334c5-01e8-a271-ffffe67b6262cc92,10b334c5-01e8-a273-ffffe67b6262cc92,10b334c5-01e8-a275-ffffe67b6262cc92,10b334c5-01e8-a277-ffffe67b6262cc92" uuidSeqenceIx="10b334c5-01e8-a252-ffffe67b6262cc92,10b334c5-01e8-a254-ffffe67b6262cc92,10b334c5-01e8-a256-ffffe67b6262cc92,10b334c5-01e8-a258-ffffe67b6262cc92,10b334c5-01e8-a25a-ffffe67b6262cc92,10b334c5-01e8-a25c-ffffe67b6262cc92,10b334c5-01e8-a25e-ffffe67b6262cc92,10b334c5-01e8-a260-ffffe67b6262cc92,10b334c5-01e8-a262-ffffe67b6262cc92,10b334c5-01e8-a264-ffffe67b6262cc92,10b334c5-01e8-a266-ffffe67b6262cc92,10b334c5-01e8-a268-ffffe67b6262cc92,10b334c5-01e8-a26a-ffffe67b6262cc92,10b334c5-01e8-a26c-ffffe67b6262cc92,10b334c5-01e8-a26e-ffffe67b6262cc92,10b334c5-01e8-a270-ffffe67b6262cc92,10b334c5-01e8-a272-ffffe67b6262cc92,10b334c5-01e8-a274-ffffe67b6262cc92,10b334c5-01e8-a276-ffffe67b6262cc92,10b334c5-01e8-a278-ffffe67b6262cc92" SpStates="1c1b4352-03d9-d045-ffffe67b6262cc92,1c1b4352-03d9-d046-ffffe67b6262cc92,1c1b4352-03d9-d047-ffffe67b6262cc92,1c1b4352-03d9-d048-ffffe67b6262cc92,1c1b4352-03d9-d049-ffffe67b6262cc92,1c1b4352-03d9-d04a-ffffe67b6262cc92,1c1b4352-03d9-d04b-ffffe67b6262cc92,1c1b4352-03d9-d04c-ffffe67b6262cc92,1c1b4352-03d9-d04d-ffffe67b6262cc92,1c1b4352-03d9-d04e-ffffe67b6262cc92,1c1b4352-03d9-d04f-ffffe67b6262cc92,1c1b4352-03d9-d050-ffffe67b6262cc92" COName="31">
 					<Co K="I1" U="10b333d6-017b-7eb8-ffffe55087ea5e1f"/>
 					<Co K="I2" U="10b333d6-017b-7eb9-ffffe55087ea5e1f"/>
 					<Co K="I3" U="10b333d6-017b-7eba-ffffe55087ea5e1f"/>
@@ -2757,7 +2757,7 @@
 			</C>
 			<C Type="Page" V="163" U="10f15720-b442-11e3-ad9fea873ddef408" Title="En Suite" LtE="471550171" WF="16384">
 				<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-001d-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
-				<C Type="InputRef" V="163" U="28784a21-b442-11e3-b06eea873ddef408" Title="Ensuite Flush Panel temperature sensor" Px="4320" Py="1056" Px2="6432" Py2="1248" Cl="238,238,238" Nio="4" Ref="e990c620-b441-11e3-ace7ea873ddef408" WF="147456" Analog="true" LinkRefType="103">
+				<C Type="InputRef" V="163" U="28784a21-b442-11e3-b06eea873ddef408" Title="Ensuite Flush Panel temperature sensor" Px="4320" Py="1056" Px2="6432" Py2="1248" Cl="238,238,238" Nio="4" Ref="e990c620-b441-11e3-ace7ea873ddef408" WF="131072" Analog="true" LinkRefType="103">
 					<Co K="AI" Nc="1" U="28784a20-b442-11e3-b06fea873ddef408">
 						<In Input="e990c621-b441-11e3-ace7ea873ddef408"/>
 					</Co>
@@ -2767,7 +2767,7 @@
 					<Co K="AQ" U="28784a20-b442-11e3-b070ea873ddef408"/>
 					<Co K="Q" U="28784a21-b442-11e3-b070ea873ddef408"/>
 				</C>
-				<C Type="InputRef" V="163" U="1eb33381-111a-11e4-a95d9b3f962d716d" Title="En suite bottom switch" Px="3744" Py="4416" Px2="5856" Py2="4608" Cl="238,238,238" Nio="4" Ref="c347e171-9cad-11e3-9b96fb030ef95e86" RefL="c347e171-9cad-11e3-9b96fb030ef95e86" Ref2="c347e171-9cad-11e3-9b96fb030ef95e86" WF="147456" LinkRefType="55">
+				<C Type="InputRef" V="163" U="1eb33381-111a-11e4-a95d9b3f962d716d" Title="En suite bottom switch" Px="3744" Py="4416" Px2="5856" Py2="4608" Cl="238,238,238" Nio="4" Ref="c347e171-9cad-11e3-9b96fb030ef95e86" RefL="c347e171-9cad-11e3-9b96fb030ef95e86" Ref2="c347e171-9cad-11e3-9b96fb030ef95e86" WF="131072" LinkRefType="55">
 					<Co K="AI" Nc="1" U="1eb33380-111a-11e4-a95e9b3f962d716d">
 						<In Input="c347e170-9cad-11e3-9b97fb030ef95e86"/>
 					</Co>
@@ -2777,7 +2777,7 @@
 					<Co K="AQ" U="1eb33380-111a-11e4-a95f9b3f962d716d"/>
 					<Co K="Q" U="1eb33381-111a-11e4-a95f9b3f962d716d"/>
 				</C>
-				<C Type="InputRef" V="163" U="0afa3c7f-0046-8fe6-ffff9b3f962d716d" Title="Long click duration" Px="3744" Py="6816" Px2="5856" Py2="7008" Cl="238,238,238" Nio="4" Ref="0ab86063-00bf-7e65-fffffb030ef95e86" RefL="0ab86063-00bf-7e65-fffffb030ef95e86" Ref2="0ab86063-00bf-7e65-fffffb030ef95e86" WF="147456" Analog="true" LinkRefType="17">
+				<C Type="InputRef" V="163" U="0afa3c7f-0046-8fe6-ffff9b3f962d716d" Title="Long click duration" Px="3744" Py="6816" Px2="5856" Py2="7008" Cl="238,238,238" Nio="4" Ref="0ab86063-00bf-7e65-fffffb030ef95e86" RefL="0ab86063-00bf-7e65-fffffb030ef95e86" Ref2="0ab86063-00bf-7e65-fffffb030ef95e86" WF="131072" Analog="true" LinkRefType="17">
 					<Co K="AI" Nc="1" U="0afa3c7f-0046-8fe2-ffff112233445566">
 						<In Input="0ab86063-00bf-7e64-ffff112233445566"/>
 					</Co>
@@ -2785,7 +2785,7 @@
 					<Co K="AQ" U="0afa3c7f-0046-8fe4-ffff112233445566"/>
 					<Co K="Q" U="0afa3c7f-0046-8fe5-ffff112233445566"/>
 				</C>
-				<C Type="InputRef" V="163" U="1c153011-111a-11e4-a8a59b3f962d716d" Title="En suite top switch" Px="3744" Py="4608" Px2="5856" Py2="4800" Cl="238,238,238" Nio="4" Ref="c347e171-9cad-11e3-9b95fb030ef95e86" RefL="c347e171-9cad-11e3-9b95fb030ef95e86" Ref2="c347e171-9cad-11e3-9b95fb030ef95e86" WF="147456" LinkRefType="55">
+				<C Type="InputRef" V="163" U="1c153011-111a-11e4-a8a59b3f962d716d" Title="En suite top switch" Px="3744" Py="4608" Px2="5856" Py2="4800" Cl="238,238,238" Nio="4" Ref="c347e171-9cad-11e3-9b95fb030ef95e86" RefL="c347e171-9cad-11e3-9b95fb030ef95e86" Ref2="c347e171-9cad-11e3-9b95fb030ef95e86" WF="131072" LinkRefType="55">
 					<Co K="AI" Nc="1" U="1c153010-111a-11e4-a8a69b3f962d716d">
 						<In Input="c347e170-9cad-11e3-9b96fb030ef95e86"/>
 					</Co>
@@ -2795,7 +2795,7 @@
 					<Co K="AQ" U="1c153010-111a-11e4-a8a79b3f962d716d"/>
 					<Co K="Q" U="1c153011-111a-11e4-a8a79b3f962d716d"/>
 				</C>
-				<C Type="Memory" V="163" U="0aa97f45-0135-a2a8-ffffea873ddef408" Title="En suite heating demand" Px="11040" Py="2976" Px2="13152" Py2="3168" Cl="238,238,238" Nio="3" WF="147472" Tp="0">
+				<C Type="Memory" V="163" U="0aa97f45-0135-a2a8-ffffea873ddef408" Title="En suite heating demand" Px="11040" Py="2976" Px2="13152" Py2="3168" Cl="238,238,238" Nio="3" WF="131088" Tp="0">
 					<Co K="Input" Nc="1" U="0aa97f45-0135-a2a6-ffff112233445566">
 						<In Input="1c11fc7f-01d7-34c0-11ff311fd36ee74d"/>
 					</Co>
@@ -2804,7 +2804,7 @@
 					<IoData Cr="0aa18988-0254-0004-0d00000000000000" Pr="0aa18988-0254-001d-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<Display Unit="&lt;v.1&gt;V" StateOnly="true"/>
 				</C>
-				<C Type="HeatIRoomController2" V="163" U="1c11fc58-00ee-de62-ffffea873ddef408" Title="En Suite" Px="7392" Py="576" Px2="10080" Py2="1824" Cl="105,195,80" Nio="48" LtE="471188827" WF="16384" UUIDTimer="1c11fc58-00ee-de22-ffffe0eb4960745e" SourceCap="1" Objects="1c11f0f1-0058-9a40-fffffb030ef95e86" PrioH="0" Cap="1" SpStates="1c11fc58-00ee-de23-ffffe0eb4960745e,1c11fc58-00ee-de24-ffffe0eb4960745e,1c11fc58-00ee-de25-ffffe0eb4960745e,1c11fc58-00ee-de26-ffffe0eb4960745e,1c11fc58-00ee-de27-ffffe0eb4960745e,1c11fc58-00ee-de28-ffffe0eb4960745e,1c11fc58-00ee-de29-ffffe0eb4960745e,1c11fc58-00ee-de2a-ffffe0eb4960745e,1c11fc58-00ee-de2b-ffffe0eb4960745e,1c11fc58-00ee-de2c-ffffe0eb4960745e,1c11fc58-00ee-de2d-ffffe0eb4960745e,1c11fc58-00ee-de2e-ffffe0eb4960745e,1c11fc58-00ee-de2f-ffffe0eb4960745e,1c11fc58-00ee-de30-ffffe0eb4960745e,1c11fc58-00ee-de31-ffffe0eb4960745e">
+				<C Type="HeatIRoomController2" V="163" U="1c11fc58-00ee-de62-ffffea873ddef408" Title="En Suite" Px="7392" Py="576" Px2="10080" Py2="1824" Cl="105,195,80" Nio="48" LtE="471550592" UUIDTimer="1c11fc58-00ee-de22-ffffe0eb4960745e" SourceCap="1" Objects="1c11f0f1-0058-9a40-fffffb030ef95e86" PrioH="0" Cap="1" SpStates="1c11fc58-00ee-de23-ffffe0eb4960745e,1c11fc58-00ee-de24-ffffe0eb4960745e,1c11fc58-00ee-de25-ffffe0eb4960745e,1c11fc58-00ee-de26-ffffe0eb4960745e,1c11fc58-00ee-de27-ffffe0eb4960745e,1c11fc58-00ee-de28-ffffe0eb4960745e,1c11fc58-00ee-de29-ffffe0eb4960745e,1c11fc58-00ee-de2a-ffffe0eb4960745e,1c11fc58-00ee-de2b-ffffe0eb4960745e,1c11fc58-00ee-de2c-ffffe0eb4960745e,1c11fc58-00ee-de2d-ffffe0eb4960745e,1c11fc58-00ee-de2e-ffffe0eb4960745e,1c11fc58-00ee-de2f-ffffe0eb4960745e,1c11fc58-00ee-de30-ffffe0eb4960745e,1c11fc58-00ee-de31-ffffe0eb4960745e">
 					<Co K="AMode" Def="1" U="1c11fc58-00ee-de32-00ffe0eb4960745e"/>
 					<Co K="Input" U="1c11fc58-00ee-de33-01ffe0eb4960745e"/>
 					<Co K="Temp" Nc="1" U="1c11fc58-00ee-de34-02ffe0eb4960745e">
@@ -2819,7 +2819,7 @@
 					<Co K="DisMv" U="1c11fc58-00ee-de3b-09ffe0eb4960745e"/>
 					<Co K="RtD" U="1c11fc58-00ee-de3c-0affe0eb4960745e"/>
 					<Co K="TempO" Def="-1000" U="1c11fc58-00ee-de3d-0bffe0eb4960745e"/>
-					<Co K="TComfort" Def="20" U="1c11fc58-00ee-de3e-0cffe0eb4960745e"/>
+					<Co K="TComfort" Def="19" U="1c11fc58-00ee-de3e-0cffe0eb4960745e"/>
 					<Co K="TComfortC" Def="24.5" U="1c11fc58-00ee-de3f-0dffe0eb4960745e"/>
 					<Co K="TDiff" Def="1.5" U="1c11fc58-00ee-de40-0effe0eb4960745e"/>
 					<Co K="TSaveL" Def="3" U="1c11fc58-00ee-de41-0fffe0eb4960745e"/>
@@ -2876,7 +2876,7 @@
 					<IoData Visu="true" Cr="0aa18988-0254-0004-0d00000000000000" Pr="0aa18988-0254-001d-0f00000000000000" Rating="2" St="4"/>
 					<COHist TRK_NE="20" TRK_MAX="100"/>
 				</C>
-				<C Type="Heatmixer2" V="163" U="1c11fc7f-01d7-34c6-ffffea873ddef408" Title="Intelligent Temperature Controller" Px="7392" Py="2112" Px2="10080" Py2="3552" Cl="247,181,92" Nio="23" WF="16384" Cool="1" ControllerMode="1" HVAC="00000000-0000-0000-0000000000000000" SpStates="1c11fc7f-01d7-34ad-ffff311fd36ee74d,1c11fc7f-01d7-34ae-ffff311fd36ee74d" Irr="1c11fc58-00ee-de62-ffffea873ddef408">
+				<C Type="Heatmixer2" V="163" U="1c11fc7f-01d7-34c6-ffffea873ddef408" Title="Intelligent Temperature Controller" Px="7392" Py="2112" Px2="10080" Py2="3552" Cl="247,181,92" Nio="23" Cool="1" ControllerMode="1" HVAC="00000000-0000-0000-0000000000000000" SpStates="1c11fc7f-01d7-34ad-ffff311fd36ee74d,1c11fc7f-01d7-34ae-ffff311fd36ee74d" Irr="1c11fc58-00ee-de62-ffffea873ddef408">
 					<Co K="Outer" Def="-1000" U="1c11fc7f-01d7-34af-00ff311fd36ee74d"/>
 					<Co K="Boost" U="1c11fc7f-01d7-34b0-01ff311fd36ee74d"/>
 					<Co K="Stop" U="1c11fc7f-01d7-34b1-02ff311fd36ee74d"/>
@@ -2901,7 +2901,7 @@
 					<Co K="Qe" U="1c11fc7f-01d7-34c4-15ff311fd36ee74d"/>
 					<Co K="OutputAPI" U="1c11fc7f-01d7-34c5-16ff311fd36ee74d"/>
 				</C>
-				<C Type="LongClick" V="163" U="0afa3c0c-01ce-62b5-ffff9b3f962d716d" Title="O126" Px="7392" Py="6336" Px2="8736" Py2="7584" Cl="105,195,80" Nio="14" WF="16384">
+				<C Type="LongClick" V="163" U="0afa3c0c-01ce-62b5-ffff9b3f962d716d" Title="O126" Px="7392" Py="6336" Px2="8736" Py2="7584" Cl="105,195,80" Nio="14">
 					<Co K="InputTrigger" Nc="1" U="0afa3c0c-01ce-62a7-ffff112233445566">
 						<In Input="1c153010-111a-11e4-a8a79b3f962d716d"/>
 					</Co>
@@ -2921,7 +2921,7 @@
 					<Co K="Q4" U="0afa3c0c-01ce-62b3-ffff112233445566"/>
 					<Co K="AQ" U="0afa3c0c-01ce-62b4-ffff112233445566"/>
 				</C>
-				<C Type="Presence" V="163" U="0fc17771-0142-e1ca-ffff9b3f962d716d" Title="Presence" Px="10656" Py="6336" Px2="13344" Py2="7392" Cl="247,222,92" Nio="6" WF="16384">
+				<C Type="Presence" V="163" U="0fc17771-0142-e1ca-ffff9b3f962d716d" Title="Presence" Px="10656" Py="6336" Px2="13344" Py2="7392" Cl="247,222,92" Nio="6">
 					<Co K="InputTrigger" Nc="2" U="0fc17771-0142-e1c5-ffff4831d501a3f7">
 						<In Input="10b333d6-017b-7fbc-ffffe84d4fe9a876"/>
 						<In Input="10b333d6-017b-7fbd-ffffe84d4fe9a876"/>
@@ -2938,7 +2938,7 @@
 					<Display Unit="&lt;v.1&gt;" StateOnly="true"/>
 					<IoData Visu="true" Cr="0aa18988-0254-0002-0d00000000000000" Pr="0aa18988-0254-001d-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 				</C>
-				<C Type="LightController2" V="163" U="10b333d6-017b-7fbf-ffff9b3f962d716d" Title="Lighting controller" Px="7392" Py="3936" Px2="10080" Py2="5952" Cl="247,222,92" Nio="71" WF="16384" NameAI0="Mirror" PresM0="65535" NameAI1="Toilet" CapAI1="24" PresM1="65535" NameAI2="Basin" CapAI2="24" PresM2="65535" NameAI3="Shower" CapAI3="24" PresM3="65535" NameAI4="Extractor" PresM4="65535" uuidSeqencing="10b334c5-01f7-a2a1-ffff9b3f962d716d,10b334c5-01f7-a2a3-ffff9b3f962d716d,10b334c5-01f7-a2a5-ffff9b3f962d716d,10b334c5-01f7-a2a7-ffff9b3f962d716d,10b334c5-01f7-a2a9-ffff9b3f962d716d,10b334c5-01f7-a2ab-ffff9b3f962d716d,10b334c5-01f7-a2ad-ffff9b3f962d716d,10b334c5-01f7-a2af-ffff9b3f962d716d,10b334c5-01f7-a2b1-ffff9b3f962d716d,10b334c5-01f7-a2b3-ffff9b3f962d716d,10b334c5-01f7-a2b5-ffff9b3f962d716d,10b334c5-01f7-a2b7-ffff9b3f962d716d,10b334c5-01f7-a2b9-ffff9b3f962d716d,10b334c5-01f7-a2bb-ffff9b3f962d716d,10b334c5-01f7-a2bd-ffff9b3f962d716d,10b334c5-01f7-a2bf-ffff9b3f962d716d,10b334c5-01f7-a2c1-ffff9b3f962d716d,10b334c5-01f7-a2c3-ffff9b3f962d716d,10b334c5-01f7-a2c5-ffff9b3f962d716d,10b334c5-01f7-a2c7-ffff9b3f962d716d" uuidSeqenceIx="10b334c5-01f7-a2a2-ffff9b3f962d716d,10b334c5-01f7-a2a4-ffff9b3f962d716d,10b334c5-01f7-a2a6-ffff9b3f962d716d,10b334c5-01f7-a2a8-ffff9b3f962d716d,10b334c5-01f7-a2aa-ffff9b3f962d716d,10b334c5-01f7-a2ac-ffff9b3f962d716d,10b334c5-01f7-a2ae-ffff9b3f962d716d,10b334c5-01f7-a2b0-ffff9b3f962d716d,10b334c5-01f7-a2b2-ffff9b3f962d716d,10b334c5-01f7-a2b4-ffff9b3f962d716d,10b334c5-01f7-a2b6-ffff9b3f962d716d,10b334c5-01f7-a2b8-ffff9b3f962d716d,10b334c5-01f7-a2ba-ffff9b3f962d716d,10b334c5-01f7-a2bc-ffff9b3f962d716d,10b334c5-01f7-a2be-ffff9b3f962d716d,10b334c5-01f7-a2c0-ffff9b3f962d716d,10b334c5-01f7-a2c2-ffff9b3f962d716d,10b334c5-01f7-a2c4-ffff9b3f962d716d,10b334c5-01f7-a2c6-ffff9b3f962d716d,10b334c5-01f7-a2c8-ffff9b3f962d716d" SpStates="1c1b48c6-03af-7cae-ffff9b3f962d716d,1c1b48c6-03af-7caf-ffff9b3f962d716d,1c1b48c6-03af-7cb0-ffff9b3f962d716d,1c1b48c6-03af-7cb1-ffff9b3f962d716d,1c1b48c6-03af-7cb2-ffff9b3f962d716d,1c1b48c6-03af-7cb3-ffff9b3f962d716d,1c1b48c6-03af-7cb4-ffff9b3f962d716d,1c1b48c6-03af-7cb5-ffff9b3f962d716d,1c1b48c6-03af-7cb6-ffff9b3f962d716d,1c1b48c6-03af-7cb7-ffff9b3f962d716d,1c1b48c6-03af-7cb8-ffff9b3f962d716d,1c1b48c6-03af-7cb9-ffff9b3f962d716d" COName="31">
+				<C Type="LightController2" V="163" U="10b333d6-017b-7fbf-ffff9b3f962d716d" Title="Lighting controller" Px="7392" Py="3936" Px2="10080" Py2="5952" Cl="247,222,92" Nio="71" NameAI0="Mirror" PresM0="65535" NameAI1="Toilet" CapAI1="24" PresM1="65535" NameAI2="Basin" CapAI2="24" PresM2="65535" NameAI3="Shower" CapAI3="24" PresM3="65535" NameAI4="Extractor" PresM4="65535" uuidSeqencing="10b334c5-01f7-a2a1-ffff9b3f962d716d,10b334c5-01f7-a2a3-ffff9b3f962d716d,10b334c5-01f7-a2a5-ffff9b3f962d716d,10b334c5-01f7-a2a7-ffff9b3f962d716d,10b334c5-01f7-a2a9-ffff9b3f962d716d,10b334c5-01f7-a2ab-ffff9b3f962d716d,10b334c5-01f7-a2ad-ffff9b3f962d716d,10b334c5-01f7-a2af-ffff9b3f962d716d,10b334c5-01f7-a2b1-ffff9b3f962d716d,10b334c5-01f7-a2b3-ffff9b3f962d716d,10b334c5-01f7-a2b5-ffff9b3f962d716d,10b334c5-01f7-a2b7-ffff9b3f962d716d,10b334c5-01f7-a2b9-ffff9b3f962d716d,10b334c5-01f7-a2bb-ffff9b3f962d716d,10b334c5-01f7-a2bd-ffff9b3f962d716d,10b334c5-01f7-a2bf-ffff9b3f962d716d,10b334c5-01f7-a2c1-ffff9b3f962d716d,10b334c5-01f7-a2c3-ffff9b3f962d716d,10b334c5-01f7-a2c5-ffff9b3f962d716d,10b334c5-01f7-a2c7-ffff9b3f962d716d" uuidSeqenceIx="10b334c5-01f7-a2a2-ffff9b3f962d716d,10b334c5-01f7-a2a4-ffff9b3f962d716d,10b334c5-01f7-a2a6-ffff9b3f962d716d,10b334c5-01f7-a2a8-ffff9b3f962d716d,10b334c5-01f7-a2aa-ffff9b3f962d716d,10b334c5-01f7-a2ac-ffff9b3f962d716d,10b334c5-01f7-a2ae-ffff9b3f962d716d,10b334c5-01f7-a2b0-ffff9b3f962d716d,10b334c5-01f7-a2b2-ffff9b3f962d716d,10b334c5-01f7-a2b4-ffff9b3f962d716d,10b334c5-01f7-a2b6-ffff9b3f962d716d,10b334c5-01f7-a2b8-ffff9b3f962d716d,10b334c5-01f7-a2ba-ffff9b3f962d716d,10b334c5-01f7-a2bc-ffff9b3f962d716d,10b334c5-01f7-a2be-ffff9b3f962d716d,10b334c5-01f7-a2c0-ffff9b3f962d716d,10b334c5-01f7-a2c2-ffff9b3f962d716d,10b334c5-01f7-a2c4-ffff9b3f962d716d,10b334c5-01f7-a2c6-ffff9b3f962d716d,10b334c5-01f7-a2c8-ffff9b3f962d716d" SpStates="1c1b48c6-03af-7cae-ffff9b3f962d716d,1c1b48c6-03af-7caf-ffff9b3f962d716d,1c1b48c6-03af-7cb0-ffff9b3f962d716d,1c1b48c6-03af-7cb1-ffff9b3f962d716d,1c1b48c6-03af-7cb2-ffff9b3f962d716d,1c1b48c6-03af-7cb3-ffff9b3f962d716d,1c1b48c6-03af-7cb4-ffff9b3f962d716d,1c1b48c6-03af-7cb5-ffff9b3f962d716d,1c1b48c6-03af-7cb6-ffff9b3f962d716d,1c1b48c6-03af-7cb7-ffff9b3f962d716d,1c1b48c6-03af-7cb8-ffff9b3f962d716d,1c1b48c6-03af-7cb9-ffff9b3f962d716d" COName="31">
 					<Co K="I1" U="10b333d6-017b-7f7e-ffffe84d4fe9a876"/>
 					<Co K="I2" U="10b333d6-017b-7f7f-ffffe84d4fe9a876"/>
 					<Co K="I3" U="10b333d6-017b-7f80-ffffe84d4fe9a876"/>
@@ -4534,7 +4534,7 @@
 			</C>
 			<C Type="Page" V="163" U="8c48b410-9cb7-11e3-b660fb030ef95e86" Title="Master Bedroom" LtE="471550394" WF="16384">
 				<IoData Cr="0aa18988-0254-0001-0d00000000000000" Pr="0aa18988-0254-001f-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
-				<C Type="InputRef" V="163" U="e01745f1-a164-11e3-851bcd6f32422864" Title="Master Bedroom Temperature sensor" Px="4320" Py="1056" Px2="6432" Py2="1248" Cl="238,238,238" Nio="4" Ref="ce6369b0-a164-11e3-8403cd6f32422864" WF="147456" Analog="true" LinkRefType="103">
+				<C Type="InputRef" V="163" U="e01745f1-a164-11e3-851bcd6f32422864" Title="Master Bedroom Temperature sensor" Px="4320" Py="1056" Px2="6432" Py2="1248" Cl="238,238,238" Nio="4" Ref="ce6369b0-a164-11e3-8403cd6f32422864" WF="131072" Analog="true" LinkRefType="103">
 					<Co K="AI" Nc="1" U="e01745f0-a164-11e3-851ccd6f32422864">
 						<In Input="ce6369b1-a164-11e3-8403cd6f32422864"/>
 					</Co>
@@ -4544,7 +4544,7 @@
 					<Co K="AQ" U="e01745f0-a164-11e3-851dcd6f32422864"/>
 					<Co K="Q" U="e01745f1-a164-11e3-851dcd6f32422864"/>
 				</C>
-				<C Type="InputRef" V="163" U="7720d696-d39a-11e3-96a5e67b6262cc92" Title="Master Bedroom Floor Temperature sensor" Px="1344" Py="1632" Px2="3456" Py2="1824" Cl="238,238,238" Nio="4" Ref="630fd076-d39a-11e3-95e8e67b6262cc92" WF="147456" Analog="true" LinkRefType="103">
+				<C Type="InputRef" V="163" U="7720d696-d39a-11e3-96a5e67b6262cc92" Title="Master Bedroom Floor Temperature sensor" Px="1344" Py="1632" Px2="3456" Py2="1824" Cl="238,238,238" Nio="4" Ref="630fd076-d39a-11e3-95e8e67b6262cc92" WF="131072" Analog="true" LinkRefType="103">
 					<Co K="AI" Nc="1" U="7720d697-d39a-11e3-96a5e67b6262cc92">
 						<In Input="630fd077-d39a-11e3-95e8e67b6262cc92"/>
 					</Co>
@@ -4554,7 +4554,7 @@
 					<Co K="AQ" U="7720d697-d39a-11e3-96a6e67b6262cc92"/>
 					<Co K="Q" U="7720d696-d39a-11e3-96a7e67b6262cc92"/>
 				</C>
-				<C Type="InputRef" V="163" U="0ac5b332-0048-e172-fffffb030ef95e86" Title="Maximum floor temperature" Px="1344" Py="1824" Px2="3456" Py2="2016" Cl="238,238,238" Nio="4" Ref="0ac5b1ea-0364-8e5b-ffffb830a73fcead" WF="147456" Analog="true" LinkRefType="17">
+				<C Type="InputRef" V="163" U="0ac5b332-0048-e172-fffffb030ef95e86" Title="Maximum floor temperature" Px="1344" Py="1824" Px2="3456" Py2="2016" Cl="238,238,238" Nio="4" Ref="0ac5b1ea-0364-8e5b-ffffb830a73fcead" WF="131072" Analog="true" LinkRefType="17">
 					<Co K="AI" Nc="1" U="0ac5b332-0048-e16e-ffff112233445566">
 						<In Input="0ac5b1ea-0364-8e5a-ffff112233445566"/>
 					</Co>
@@ -4562,7 +4562,7 @@
 					<Co K="AQ" U="0ac5b332-0048-e170-ffff112233445566"/>
 					<Co K="Q" U="0ac5b332-0048-e171-ffff112233445566"/>
 				</C>
-				<C Type="InputRef" V="163" U="d68ec021-9cb5-11e3-b540fb030ef95e86" Title="Master bedroom bottom switch" Px="4512" Py="4416" Px2="6624" Py2="4608" Cl="238,238,238" Nio="4" Ref="c347e171-9cad-11e3-9b94fb030ef95e86" RefL="c347e171-9cad-11e3-9b94fb030ef95e86" Ref2="c347e171-9cad-11e3-9b94fb030ef95e86" WF="147456" LinkRefType="55">
+				<C Type="InputRef" V="163" U="d68ec021-9cb5-11e3-b540fb030ef95e86" Title="Master bedroom bottom switch" Px="4512" Py="4416" Px2="6624" Py2="4608" Cl="238,238,238" Nio="4" Ref="c347e171-9cad-11e3-9b94fb030ef95e86" RefL="c347e171-9cad-11e3-9b94fb030ef95e86" Ref2="c347e171-9cad-11e3-9b94fb030ef95e86" WF="131072" LinkRefType="55">
 					<Co K="AI" Nc="1" U="d68ec020-9cb5-11e3-b541fb030ef95e86">
 						<In Input="c347e170-9cad-11e3-9b95fb030ef95e86"/>
 					</Co>
@@ -4572,7 +4572,7 @@
 					<Co K="AQ" U="d68ec020-9cb5-11e3-b542fb030ef95e86"/>
 					<Co K="Q" U="d68ec021-9cb5-11e3-b542fb030ef95e86"/>
 				</C>
-				<C Type="InputRef" V="163" U="a98ed290-9cb5-11e3-b380fb030ef95e86" Title="Master bedroom top switch" Px="4512" Py="4608" Px2="6624" Py2="4800" Cl="238,238,238" Nio="4" Ref="c347e171-9cad-11e3-9b93fb030ef95e86" RefL="c347e171-9cad-11e3-9b93fb030ef95e86" Ref2="c347e171-9cad-11e3-9b93fb030ef95e86" WF="147456" LinkRefType="55">
+				<C Type="InputRef" V="163" U="a98ed290-9cb5-11e3-b380fb030ef95e86" Title="Master bedroom top switch" Px="4512" Py="4608" Px2="6624" Py2="4800" Cl="238,238,238" Nio="4" Ref="c347e171-9cad-11e3-9b93fb030ef95e86" RefL="c347e171-9cad-11e3-9b93fb030ef95e86" Ref2="c347e171-9cad-11e3-9b93fb030ef95e86" WF="131072" LinkRefType="55">
 					<Co K="AI" Nc="1" U="a98ef9a0-9cb5-11e3-b380fb030ef95e86">
 						<In Input="c347e170-9cad-11e3-9b94fb030ef95e86"/>
 					</Co>
@@ -4582,7 +4582,7 @@
 					<Co K="AQ" U="a98ef9a0-9cb5-11e3-b381fb030ef95e86"/>
 					<Co K="Q" U="a98ef9a1-9cb5-11e3-b381fb030ef95e86"/>
 				</C>
-				<C Type="Memory" V="163" U="0aa9810f-0249-f3a5-fffffb030ef95e86" Title="Master bedroom heating demand" Px="11040" Py="2880" Px2="13152" Py2="3072" Cl="238,238,238" Nio="3" WF="147472" Tp="0">
+				<C Type="Memory" V="163" U="0aa9810f-0249-f3a5-fffffb030ef95e86" Title="Master bedroom heating demand" Px="11040" Py="2880" Px2="13152" Py2="3072" Cl="238,238,238" Nio="3" WF="131088" Tp="0">
 					<Co K="Input" Nc="1" U="0aa9810f-0249-f3a3-ffff112233445566">
 						<In Input="1c11f808-0265-df27-11ff1ad5a90e6e11"/>
 					</Co>
@@ -4591,7 +4591,7 @@
 					<IoData Cr="0aa18988-0254-0004-0d00000000000000" Pr="0aa18988-0254-001f-0f00000000000000" Ugr="c34437f0-9cad-11e3-9b29fb030ef95e86" Ugx="c34437f0-9cad-11e3-9b29fb030ef95e86"/>
 					<Display Unit="&lt;v.1&gt;V" StateOnly="true"/>
 				</C>
-				<C Type="Greater" V="163" U="0ac5b337-014d-e4cf-fffffb030ef95e86" Title="Master bedroom floor protection" Px="4416" Py="1344" Px2="5760" Py2="2016" Cl="105,195,80" Nio="3" WF="16384">
+				<C Type="Greater" V="163" U="0ac5b337-014d-e4cf-fffffb030ef95e86" Title="Master bedroom floor protection" Px="4416" Py="1344" Px2="5760" Py2="2016" Cl="105,195,80" Nio="3">
 					<Co K="Input1" Nc="1" U="0ac5b337-014d-e4cc-ffff112233445566">
 						<In Input="7720d697-d39a-11e3-96a6e67b6262cc92"/>
 					</Co>
@@ -4600,7 +4600,7 @@
 					</Co>
 					<Co K="Q" U="0ac5b337-014d-e4ce-ffff112233445566"/>
 				</C>
-				<C Type="HeatIRoomController2" V="163" U="1c11f7a2-0304-e1a3-fffffb030ef95e86" Title="Master Bedroom" Px="7392" Py="576" Px2="10080" Py2="1824" Cl="105,195,80" Nio="48" LtE="471189552" WF="16384" UUIDTimer="1c11f7a2-0304-e163-ffffa1884b496ed5" SourceCap="1" Objects="1c11f0f1-0058-9a40-fffffb030ef95e86" PrioH="0" Cap="1" SpStates="1c11f7a2-0304-e164-ffffa1884b496ed5,1c11f7a2-0304-e165-ffffa1884b496ed5,1c11f7a2-0304-e166-ffffa1884b496ed5,1c11f7a2-0304-e167-ffffa1884b496ed5,1c11f7a2-0304-e168-ffffa1884b496ed5,1c11f7a2-0304-e169-ffffa1884b496ed5,1c11f7a2-0304-e16a-ffffa1884b496ed5,1c11f7a2-0304-e16b-ffffa1884b496ed5,1c11f7a2-0304-e16c-ffffa1884b496ed5,1c11f7a2-0304-e16d-ffffa1884b496ed5,1c11f7a2-0304-e16e-ffffa1884b496ed5,1c11f7a2-0304-e16f-ffffa1884b496ed5,1c11f7a2-0304-e170-ffffa1884b496ed5,1c11f7a2-0304-e171-ffffa1884b496ed5,1c11f7a2-0304-e172-ffffa1884b496ed5">
+				<C Type="HeatIRoomController2" V="163" U="1c11f7a2-0304-e1a3-fffffb030ef95e86" Title="Master Bedroom" Px="7392" Py="576" Px2="10080" Py2="1824" Cl="105,195,80" Nio="48" LtE="471189552" UUIDTimer="1c11f7a2-0304-e163-ffffa1884b496ed5" SourceCap="1" Objects="1c11f0f1-0058-9a40-fffffb030ef95e86" PrioH="0" Cap="1" SpStates="1c11f7a2-0304-e164-ffffa1884b496ed5,1c11f7a2-0304-e165-ffffa1884b496ed5,1c11f7a2-0304-e166-ffffa1884b496ed5,1c11f7a2-0304-e167-ffffa1884b496ed5,1c11f7a2-0304-e168-ffffa1884b496ed5,1c11f7a2-0304-e169-ffffa1884b496ed5,1c11f7a2-0304-e16a-ffffa1884b496ed5,1c11f7a2-0304-e16b-ffffa1884b496ed5,1c11f7a2-0304-e16c-ffffa1884b496ed5,1c11f7a2-0304-e16d-ffffa1884b496ed5,1c11f7a2-0304-e16e-ffffa1884b496ed5,1c11f7a2-0304-e16f-ffffa1884b496ed5,1c11f7a2-0304-e170-ffffa1884b496ed5,1c11f7a2-0304-e171-ffffa1884b496ed5,1c11f7a2-0304-e172-ffffa1884b496ed5">
 					<Co K="AMode" Def="1" U="1c11f7a2-0304-e173-00ffa1884b496ed5"/>
 					<Co K="Input" U="1c11f7a2-0304-e174-01ffa1884b496ed5"/>
 					<Co K="Temp" Nc="1" U="1c11f7a2-0304-e175-02ffa1884b496ed5">
@@ -4674,7 +4674,7 @@
 					<IoData Visu="true" Cr="0aa18988-0254-0004-0d00000000000000" Pr="0aa18988-0254-001f-0f00000000000000" Rating="2" St="4"/>
 					<COHist TRK_NE="20" TRK_MAX="100"/>
 				</C>
-				<C Type="Heatmixer2" V="163" U="1c11f808-0265-df2d-fffffb030ef95e86" Title="Intelligent Temperature Controller" Px="7392" Py="2016" Px2="10080" Py2="3456" Cl="247,181,92" Nio="23" WF="16384" Cool="1" ControllerMode="1" HVAC="00000000-0000-0000-0000000000000000" SpStates="1c11f808-0265-df14-ffff1ad5a90e6e11,1c11f808-0265-df15-ffff1ad5a90e6e11" Irr="1c11f7a2-0304-e1a3-fffffb030ef95e86">
+				<C Type="Heatmixer2" V="163" U="1c11f808-0265-df2d-fffffb030ef95e86" Title="Intelligent Temperature Controller" Px="7392" Py="2016" Px2="10080" Py2="3456" Cl="247,181,92" Nio="23" Cool="1" ControllerMode="1" HVAC="00000000-0000-0000-0000000000000000" SpStates="1c11f808-0265-df14-ffff1ad5a90e6e11,1c11f808-0265-df15-ffff1ad5a90e6e11" Irr="1c11f7a2-0304-e1a3-fffffb030ef95e86">
 					<Co K="Outer" Def="-1000" U="1c11f808-0265-df16-00ff1ad5a90e6e11"/>
 					<Co K="Boost" U="1c11f808-0265-df17-01ff1ad5a90e6e11"/>
 					<Co K="Stop" U="1c11f808-0265-df18-02ff1ad5a90e6e11"/>
@@ -4699,7 +4699,7 @@
 					<Co K="Qe" U="1c11f808-0265-df2b-15ff1ad5a90e6e11"/>
 					<Co K="OutputAPI" U="1c11f808-0265-df2c-16ff1ad5a90e6e11"/>
 				</C>
-				<C Type="LightController2" V="163" U="10b333d6-017b-825f-fffffb030ef95e86" Title="Lighting controller" Px="7392" Py="3936" Px2="10080" Py2="5952" Cl="247,222,92" Nio="71" WF="16384" NameAI0="Left Window" CapAI0="24" PresM0="65535" NameAI1="Right hand side of bed" CapAI1="24" PresM1="65535" NameAI2="Right Window" CapAI2="24" PresM2="65535" NameAI3="Left hand side of bed" CapAI3="24" PresM3="65535" NameAI4="Between doors" CapAI4="24" PresM4="65535" uuidSeqencing="10b334c5-0207-a3b9-fffffb030ef95e86,10b334c5-0207-a3bb-fffffb030ef95e86,10b334c5-0207-a3bd-fffffb030ef95e86,10b334c5-0207-a3bf-fffffb030ef95e86,10b334c5-0207-a3c1-fffffb030ef95e86,10b334c5-0207-a3c3-fffffb030ef95e86,10b334c5-0207-a3c5-fffffb030ef95e86,10b334c5-0207-a3c7-fffffb030ef95e86,10b334c5-0207-a3c9-fffffb030ef95e86,10b334c5-0207-a3cb-fffffb030ef95e86,10b334c5-0207-a3cd-fffffb030ef95e86,10b334c5-0207-a3cf-fffffb030ef95e86,10b334c5-0207-a3d1-fffffb030ef95e86,10b334c5-0207-a3d3-fffffb030ef95e86,10b334c5-0207-a3d5-fffffb030ef95e86,10b334c5-0207-a3d7-fffffb030ef95e86,10b334c5-0207-a3d9-fffffb030ef95e86,10b334c5-0207-a3db-fffffb030ef95e86,10b334c5-0207-a3dd-fffffb030ef95e86,10b334c5-0207-a3df-fffffb030ef95e86" uuidSeqenceIx="10b334c5-0207-a3ba-fffffb030ef95e86,10b334c5-0207-a3bc-fffffb030ef95e86,10b334c5-0207-a3be-fffffb030ef95e86,10b334c5-0207-a3c0-fffffb030ef95e86,10b334c5-0207-a3c2-fffffb030ef95e86,10b334c5-0207-a3c4-fffffb030ef95e86,10b334c5-0207-a3c6-fffffb030ef95e86,10b334c5-0207-a3c8-fffffb030ef95e86,10b334c5-0207-a3ca-fffffb030ef95e86,10b334c5-0207-a3cc-fffffb030ef95e86,10b334c5-0207-a3ce-fffffb030ef95e86,10b334c5-0207-a3d0-fffffb030ef95e86,10b334c5-0207-a3d2-fffffb030ef95e86,10b334c5-0207-a3d4-fffffb030ef95e86,10b334c5-0207-a3d6-fffffb030ef95e86,10b334c5-0207-a3d8-fffffb030ef95e86,10b334c5-0207-a3da-fffffb030ef95e86,10b334c5-0207-a3dc-fffffb030ef95e86,10b334c5-0207-a3de-fffffb030ef95e86,10b334c5-0207-a3e0-fffffb030ef95e86" SpStates="1c1b49ae-013c-81ae-fffffb030ef95e86,1c1b49ae-013c-81af-fffffb030ef95e86,1c1b49ae-013c-81b0-fffffb030ef95e86,1c1b49ae-013c-81b1-fffffb030ef95e86,1c1b49ae-013c-81b2-fffffb030ef95e86,1c1b49ae-013c-81b3-fffffb030ef95e86,1c1b49ae-013c-81b4-fffffb030ef95e86,1c1b49ae-013c-81b5-fffffb030ef95e86,1c1b49ae-013c-81b6-fffffb030ef95e86,1c1b49ae-013c-81b7-fffffb030ef95e86,1c1b49ae-013c-81b8-fffffb030ef95e86,1c1b49ae-013c-81b9-fffffb030ef95e86" COName="31">
+				<C Type="LightController2" V="163" U="10b333d6-017b-825f-fffffb030ef95e86" Title="Lighting controller" Px="7392" Py="3936" Px2="10080" Py2="5952" Cl="247,222,92" Nio="71" NameAI0="Left Window" CapAI0="24" PresM0="65535" NameAI1="Right hand side of bed" CapAI1="24" PresM1="65535" NameAI2="Right Window" CapAI2="24" PresM2="65535" NameAI3="Left hand side of bed" CapAI3="24" PresM3="65535" NameAI4="Between doors" CapAI4="24" PresM4="65535" uuidSeqencing="10b334c5-0207-a3b9-fffffb030ef95e86,10b334c5-0207-a3bb-fffffb030ef95e86,10b334c5-0207-a3bd-fffffb030ef95e86,10b334c5-0207-a3bf-fffffb030ef95e86,10b334c5-0207-a3c1-fffffb030ef95e86,10b334c5-0207-a3c3-fffffb030ef95e86,10b334c5-0207-a3c5-fffffb030ef95e86,10b334c5-0207-a3c7-fffffb030ef95e86,10b334c5-0207-a3c9-fffffb030ef95e86,10b334c5-0207-a3cb-fffffb030ef95e86,10b334c5-0207-a3cd-fffffb030ef95e86,10b334c5-0207-a3cf-fffffb030ef95e86,10b334c5-0207-a3d1-fffffb030ef95e86,10b334c5-0207-a3d3-fffffb030ef95e86,10b334c5-0207-a3d5-fffffb030ef95e86,10b334c5-0207-a3d7-fffffb030ef95e86,10b334c5-0207-a3d9-fffffb030ef95e86,10b334c5-0207-a3db-fffffb030ef95e86,10b334c5-0207-a3dd-fffffb030ef95e86,10b334c5-0207-a3df-fffffb030ef95e86" uuidSeqenceIx="10b334c5-0207-a3ba-fffffb030ef95e86,10b334c5-0207-a3bc-fffffb030ef95e86,10b334c5-0207-a3be-fffffb030ef95e86,10b334c5-0207-a3c0-fffffb030ef95e86,10b334c5-0207-a3c2-fffffb030ef95e86,10b334c5-0207-a3c4-fffffb030ef95e86,10b334c5-0207-a3c6-fffffb030ef95e86,10b334c5-0207-a3c8-fffffb030ef95e86,10b334c5-0207-a3ca-fffffb030ef95e86,10b334c5-0207-a3cc-fffffb030ef95e86,10b334c5-0207-a3ce-fffffb030ef95e86,10b334c5-0207-a3d0-fffffb030ef95e86,10b334c5-0207-a3d2-fffffb030ef95e86,10b334c5-0207-a3d4-fffffb030ef95e86,10b334c5-0207-a3d6-fffffb030ef95e86,10b334c5-0207-a3d8-fffffb030ef95e86,10b334c5-0207-a3da-fffffb030ef95e86,10b334c5-0207-a3dc-fffffb030ef95e86,10b334c5-0207-a3de-fffffb030ef95e86,10b334c5-0207-a3e0-fffffb030ef95e86" SpStates="1c1b49ae-013c-81ae-fffffb030ef95e86,1c1b49ae-013c-81af-fffffb030ef95e86,1c1b49ae-013c-81b0-fffffb030ef95e86,1c1b49ae-013c-81b1-fffffb030ef95e86,1c1b49ae-013c-81b2-fffffb030ef95e86,1c1b49ae-013c-81b3-fffffb030ef95e86,1c1b49ae-013c-81b4-fffffb030ef95e86,1c1b49ae-013c-81b5-fffffb030ef95e86,1c1b49ae-013c-81b6-fffffb030ef95e86,1c1b49ae-013c-81b7-fffffb030ef95e86,1c1b49ae-013c-81b8-fffffb030ef95e86,1c1b49ae-013c-81b9-fffffb030ef95e86" COName="31">
 					<Co K="I1" U="10b333d6-017b-821e-ffffef46e0e73d24"/>
 					<Co K="I2" U="10b333d6-017b-821f-ffffef46e0e73d24"/>
 					<Co K="I3" U="10b333d6-017b-8220-ffffef46e0e73d24"/>
